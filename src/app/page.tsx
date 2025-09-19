@@ -62,12 +62,12 @@ export default function Page() {
         <section className="mx-auto mt-8 max-w-5xl">
           <div className="grid items-center gap-6 md:grid-cols-5">
             <div className="md:col-span-3">
-              <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
-                Search empty-leg private flights
-              </h1>
-              <p className="mt-2 max-w-xl text-sm text-slate-600">
-                Real-time repositioning legs from trusted operators and brokers. Save routes to get instant alerts.
-              </p>
+              <h1 className="font-display text-4xl sm:text-5xl font-semibold tracking-tight">
+  Search empty-leg private flights
+</h1>
+<p className="mt-3 max-w-xl text-base text-slate-600">
+  Real-time repositioning legs from trusted operators and brokers. Save routes to get instant alerts.
+</p>
             </div>
 
             {/* Quick search card */}

@@ -1,12 +1,15 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --brand: 14 165 233; /* sky-500 */
+  --brand: 14 165 233; /* sky-600 */
 }
 
 html, body {
-  @apply bg-gradient-to-b from-sky-50 to-white text-slate-900;
+  @apply bg-white text-slate-900;
 }
+
+/* fonts */
+.font-sans { font-family: var(--font-inter), ui-sans-serif, system-ui; }
+.font-display { font-family: var(--font-sora), ui-sans-serif, system-ui; }

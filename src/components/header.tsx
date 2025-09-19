@@ -17,11 +17,13 @@ export function Header() {
           <div className="text-lg font-semibold tracking-tight">Altidal</div>
           <Chip className="ml-2">MVP</Chip>
         </div>
-        <nav className="hidden items-center gap-6 md:flex">
-          <a className="text-sm text-slate-600 hover:text-slate-900" href="#how">How it works</a>
-          <a className="text-sm text-slate-600 hover:text-slate-900" href="#operators">For Operators</a>
-          <Button variant="outline"><Bell className="h-4 w-4" /> Get alerts</Button>
-        </nav>
+    <nav className="hidden items-center gap-6 md:flex">
+  <a className="text-sm text-slate-600 hover:text-slate-900 transition" href="#how">How it works</a>
+  <a className="text-sm text-slate-600 hover:text-slate-900 transition" href="#operators">For Operators</a>
+  <Button variant="outline">
+    <Bell className="h-4 w-4" /> Get alerts
+  </Button>
+</nav>
       </div>
     </header>
   )
