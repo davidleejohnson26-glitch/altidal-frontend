@@ -1,6 +1,7 @@
 
 'use client'
 
+import type React from "react";
 import { useEffect, useMemo, useState } from 'react'
 import { Search, Bell } from 'lucide-react'
 import { Header } from '@/components/header'
@@ -75,7 +76,37 @@ export default function Page() {
                   </div>
                   <div>
                     <label className="mb-1 block text-xs font-medium text-slate-600">Earliest</label>
-                    <Input type="date" value={query.start} onChange={(e)=>setQuery(s=>({...s, start:e.target.value}))} />
+                    <Input
+  type="date"
+  value={query.start}
+  onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
+    setQuery((s) => ({ ...s, start: e.target.value }))
+  }
+/>
+
+<Input
+  type="date"
+  value={query.end}
+  onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
+    setQuery((s) => ({ ...s, end: e.target.value }))
+  }
+/>
+
+<Input
+  type="number"
+  min={1}
+  max={16}
+  value={query.seats}
+  onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
+    setQuery((s) => ({ ...s, seats: Number(e.target.value) }))
+  }
+/>
+
+<Select
+  value={query.classPref}
+  onChange={(e: React.ChangeEvent<HTMLSelectElement>) =>
+    setQuery((s) => ({ ...s, classPref: e.target.value }))
+  }/>
                   </div>
                   <div>
                     <label className="mb-1 block text-xs font-medium text-slate-600">Latest</label>
