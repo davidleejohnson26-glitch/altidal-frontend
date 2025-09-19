@@ -1,0 +1,9 @@
+﻿# dependencies
+node_modules/
+# build
+.next/
+out/
+.vercel/
+# logs & system
+npm-debug.log*
+.DS_Store
