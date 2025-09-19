@@ -1,4 +1,5 @@
 
+import type React from 'react'
 import { cn } from '@/lib/utils'
 import { PropsWithChildren } from 'react'
 
@@ -13,8 +14,14 @@ export const Button = ({ className, children, variant = 'default', ...props }: a
   return <Cmp className={cn(base, styles[variant], className)} {...props}>{children}</Cmp>
 }
 
-export const Card = ({ className, children }: PropsWithChildren<{className?:string}>) => (
-  <div className={cn('rounded-2xl bg-white shadow-sm ring-1 ring-slate-200', className)}>{children}</div>
+export const Card = ({
+  className,
+  children,
+  ...rest
+}: React.PropsWithChildren<React.HTMLAttributes<HTMLDivElement>>) => (
+  <div {...rest} className={cn('rounded-2xl bg-white shadow-sm ring-1 ring-slate-200', className)}>
+    {children}
+  </div>
 )
 export const Input = (props: any) => (
   <input {...props} className={cn('w-full rounded-xl border border-slate-300 bg-white px-3 py-2 text-sm outline-none placeholder:text-slate-400 focus:border-sky-400 focus:ring-2 focus:ring-sky-100', props.className)} />
