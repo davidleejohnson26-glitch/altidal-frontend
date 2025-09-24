@@ -1,0 +1,4 @@
+id,from_iata,from_name,from_city,to_iata,to_name,to_city,departAt,priceUSD,aircraft_type,aircraft_class,seats,operator,notes
+EXT-1001,DAL,Dallas Love Field,Dallas,TEB,Teterboro,New York,2025-10-05T15:30:00Z,13500,Citation XLS,midsize,7,Lone Star Jet,Pets ok
+EXT-1002,ADS,Addison,Dallas,HOU,William P. Hobby,Houston,2025-10-06T09:00:00Z,3200,Phenom 300,light,6,Metro Jet Services,
+EXT-1003,DFW,Dallas/Fort Worth,Dallas–Fort Worth,SEA,Seattle–Tacoma,Seattle,2025-10-08T19:00:00Z,23500,Challenger 350,super-midsize,9,Cascade Charter,Wi-Fi
