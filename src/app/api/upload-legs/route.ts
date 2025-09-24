@@ -2,9 +2,9 @@
 import { NextResponse } from 'next/server'
 import { parse } from 'csv-parse/sync'
 import type { Leg } from '@/lib/leg-types'
-import { addUploadedLegs } from '@/lib/leg-store'
+import { prisma } from '@/lib/db'
 
-export const runtime = 'nodejs' // ensure Node APIs
+export const runtime = 'nodejs'
 
 // Normalize aircraft class to our enum
 function normClass(input: string): Leg['aircraft']['class'] | null {
@@ -24,9 +24,6 @@ function normClass(input: string): Leg['aircraft']['class'] | null {
 
 // Convert one CSV row -> Leg
 function rowToLeg(r: any): Leg | null {
-  // Expected CSV headers (case-insensitive):
-  // id, from_iata, from_name, from_city, to_iata, to_name, to_city,
-  // departAt, priceUSD, aircraft_type, aircraft_class, seats, operator, notes
   const get = (k: string) => r[k] ?? r[k.toUpperCase()] ?? r[k.toLowerCase()]
   const cls = normClass(get('aircraft_class') || '')
   const departAt = get('departAt') || get('depart_at')
@@ -47,7 +44,7 @@ function rowToLeg(r: any): Leg | null {
       name: String(get('to_name') ?? get('to_iata')).trim(),
       city: String(get('to_city') ?? '').trim() || String(get('to_name') ?? '').trim(),
     },
-    departAt: new Date(departAt).toISOString(),
+    departAt: new Date(get('departAt') || get('depart_at')).toISOString(),
     priceUSD: Number(get('priceUSD')),
     aircraft: {
       type: String(get('aircraft_type') ?? 'Unknown').trim(),
@@ -71,12 +68,7 @@ export async function POST(req: Request) {
 
   let records: any[]
   try {
-    records = parse(buf, {
-      columns: true,       // use header row
-      skip_empty_lines: true,
-      bom: true,
-      trim: true,
-    })
+    records = parse(buf, { columns: true, skip_empty_lines: true, bom: true, trim: true })
   } catch (e: any) {
     return NextResponse.json({ error: 'CSV parse failed', detail: e?.message }, { status: 400 })
   }
@@ -87,9 +79,37 @@ export async function POST(req: Request) {
   records.forEach((r, i) => {
     const leg = rowToLeg(r)
     if (leg) legs.push(leg)
-    else rejects.push(i + 2) // +2 to count header & 1-index
+    else rejects.push(i + 2) // +2: header row + 1-index
   })
 
-  const added = addUploadedLegs(legs)
+  // Build rows to insert
+  const rows = legs.map(l => ({
+    id: l.id,
+    fromIata: l.from.iata,
+    fromName: l.from.name,
+    fromCity: l.from.city,
+    toIata: l.to.iata,
+    toName: l.to.name,
+    toCity: l.to.city,
+    departAt: new Date(l.departAt),
+    priceUSD: Math.round(l.priceUSD),
+    acType: l.aircraft.type,
+    acClass: l.aircraft.class,
+    seats: l.aircraft.seats,
+    operator: l.operator,
+    notes: l.notes ?? null,
+  }))
+
+  // Upsert in a loop (simple for MVP)
+  let added = 0
+  for (const row of rows) {
+    try {
+      await prisma.leg.create({ data: row })
+      added++
+    } catch {
+      // duplicate id -> ignore
+    }
+  }
+
   return NextResponse.json({ added, rejectedRows: rejects, totalParsed: records.length })
 }

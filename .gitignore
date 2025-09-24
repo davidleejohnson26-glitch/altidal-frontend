@@ -7,3 +7,5 @@ out/
 # logs & system
 npm-debug.log*
 .DS_Store
+
+/generated/prisma
