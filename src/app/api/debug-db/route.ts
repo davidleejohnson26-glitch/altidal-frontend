@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server'
 import { PrismaClient } from '@prisma/client'
 export const runtime = 'nodejs'
+export const preferredRegion = 'iad1' // US East (try 'sfo1' if you’re West Coast)
 
 const prisma = new PrismaClient()
 
