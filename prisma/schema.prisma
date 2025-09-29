@@ -1,16 +1,17 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
-// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
-// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+// prisma/schema.prisma
+// Learn more: https://pris.ly/d/prisma-schema
 
 datasource db {
-  provider = "postgresql"
-  url      = env("DATABASE_URL")
+  provider  = "postgresql"
+  // Use the pooled connection for app/runtime (Node on Vercel)
+  url       = env("DATABASE_URL")
+  // Use the direct connection for migrations/introspection
+  directUrl = env("DIRECT_URL")
 }
 
 generator client {
   provider      = "prisma-client-js"
+  // Ensures Prisma binary works on Vercel's Linux image
   binaryTargets = ["native", "debian-openssl-3.0.x"]
 }
 
@@ -29,10 +30,12 @@ model Leg {
   seats     Int
   operator  String
   notes     String?
-  url       String?   // source URL
-  fromIcao  String?   // ICAO origin
-  toIcao    String?   // ICAO destination
+  url       String?  // source URL
+  fromIcao  String?  // ICAO origin
+  toIcao    String?  // ICAO destination
   createdAt DateTime @default(now())
 
   @@index([fromIata, toIata, departAt])
+  @@index([operator, departAt])
+  @@index([fromIcao, toIcao])
 }
