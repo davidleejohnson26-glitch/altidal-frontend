@@ -9,3 +9,8 @@ npm-debug.log*
 .DS_Store
 
 /generated/prisma
+
+.env
+.env.local
+prisma/.env
+
