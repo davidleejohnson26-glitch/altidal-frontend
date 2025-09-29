@@ -4,6 +4,9 @@ import { $, normClass, isoDate, UA, ScrapedLeg } from '../utils'
 // Example: change URL + selectors for the real site you choose
 const URL = 'https://example-operator.com/empty-legs'
 
+// Allowed classes in your Prisma schema
+type AllowedAcClass = 'ultra-long' | 'heavy' | 'super-midsize' | 'midsize' | 'light'
+
 export async function scrapeExampleOperator(): Promise<ScrapedLeg[]> {
   const res = await axios.get(URL, { headers: { 'User-Agent': UA } })
   const $d = $(res.data)
@@ -13,15 +16,19 @@ export async function scrapeExampleOperator(): Promise<ScrapedLeg[]> {
   const out: ScrapedLeg[] = []
 
   rows.each((_, el) => {
-    const fromIata = $d(el).find('.from .iata').text().trim().toUpperCase() // e.g. "DAL"
+    const fromIata = $d(el).find('.from .iata').text().trim().toUpperCase()
     const toIata   = $d(el).find('.to .iata').text().trim().toUpperCase()
-    const depart   = $d(el).find('.depart-time').text().trim()               // e.g. "2025-10-06 15:30"
+    const depart   = $d(el).find('.depart-time').text().trim()
     const priceTxt = $d(el).find('.price').text().replace(/[^\d]/g, '')
     const acType   = $d(el).find('.aircraft').text().trim()
-    const acClass  = normClass($d(el).find('.category').text().trim())
+    const rawClass = normClass($d(el).find('.category').text().trim())
     const seatsTxt = $d(el).find('.seats').text().replace(/[^\d]/g, '')
 
     if (!fromIata || !toIata || !depart) return
+
+    // Coerce to allowed values (fallback "unknown" → "light")
+    const acClass: AllowedAcClass =
+      (rawClass === 'unknown' ? 'light' : rawClass) as AllowedAcClass
 
     out.push({
       id: `EXOP-${fromIata}-${toIata}-${depart}`,     // stable dedupe key
