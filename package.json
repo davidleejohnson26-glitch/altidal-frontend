@@ -4,19 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "prisma generate && prisma migrate deploy && next build",
     "start": "next start",
     "lint": "next lint",
-
-    // Generate Prisma client and apply pending migrations in Vercel builds
-    "postinstall": "prisma generate && prisma migrate deploy",
-
-    // Local DB helpers
+    "postinstall": "prisma generate",
     "db:migrate": "prisma migrate dev",
     "db:deploy": "prisma migrate deploy",
     "db:studio": "prisma studio",
-
-    // Scrapers (run outside Vercel)
     "scrape": "tsx scripts/run.ts",
     "scrape:magellan": "tsx scripts/run.ts"
   },
@@ -29,6 +23,7 @@
     "framer-motion": "11.2.6",
     "lucide-react": "0.446.0",
     "next": "^14.2.33",
+    "prisma": "^6.16.2",
     "puppeteer": "^24.22.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -48,8 +43,7 @@
     "tailwindcss": "3.4.6",
     "ts-node": "^10.9.2",
     "tsx": "^4.20.5",
-    "typescript": "5.5.3",
-    "prisma": "^6.16.2"
+    "typescript": "5.5.3"
   },
   "engines": {
     "node": ">=18.17 <23"
