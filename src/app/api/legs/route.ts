@@ -2,15 +2,24 @@ import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
 
 export const runtime = 'nodejs'
+export const dynamic = 'force-dynamic'
 export const preferredRegion = 'iad1'
 
-const supabase = createClient(
-  process.env.SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!,
-  { auth: { persistSession: false } }
-)
-
 export async function GET(req: NextRequest) {
+  // Create the client at *runtime*, not at module load
+  const SUPABASE_URL = process.env.SUPABASE_URL
+  const SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY
+  if (!SUPABASE_URL || !SUPABASE_SERVICE_ROLE_KEY) {
+    return NextResponse.json(
+      { error: 'Missing SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY' },
+      { status: 500 }
+    )
+  }
+
+  const supabase = createClient(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, {
+    auth: { persistSession: false },
+  })
+
   const url = new URL(req.url)
   const from = url.searchParams.get('from')?.toUpperCase() ?? undefined
   const to   = url.searchParams.get('to')?.toUpperCase() ?? undefined
