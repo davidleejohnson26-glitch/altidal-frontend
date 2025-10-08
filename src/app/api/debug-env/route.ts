@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server'
 export const runtime = 'nodejs'
+export const preferredRegion = 'iad1' // US East (try 'sfo1' if you’re West Coast)
 
 export async function GET() {
   const mask = (s?: string) => s?.replace(/\/\/.*?:.*?@/, '//***:***@')

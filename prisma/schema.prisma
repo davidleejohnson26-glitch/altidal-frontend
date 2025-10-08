@@ -1,18 +1,12 @@
-// prisma/schema.prisma
-// Learn more: https://pris.ly/d/prisma-schema
+generator client {
+  provider      = "prisma-client-js"
+  binaryTargets = ["native", "debian-openssl-3.0.x"]
+}
 
 datasource db {
   provider  = "postgresql"
-  // Use the pooled connection for app/runtime (Node on Vercel)
   url       = env("DATABASE_URL")
-  // Use the direct connection for migrations/introspection
   directUrl = env("DIRECT_URL")
-}
-
-generator client {
-  provider      = "prisma-client-js"
-  // Ensures Prisma binary works on Vercel's Linux image
-  binaryTargets = ["native", "debian-openssl-3.0.x"]
 }
 
 model Leg {
@@ -26,16 +20,14 @@ model Leg {
   departAt  DateTime
   priceUSD  Int
   acType    String
-  acClass   String   // 'light' | 'midsize' | 'super-midsize' | 'heavy' | 'ultra-long'
+  acClass   String
   seats     Int
   operator  String
   notes     String?
-  url       String?  // source URL
-  fromIcao  String?  // ICAO origin
-  toIcao    String?  // ICAO destination
   createdAt DateTime @default(now())
+  fromIcao  String?
+  toIcao    String?
+  url       String?
 
   @@index([fromIata, toIata, departAt])
-  @@index([operator, departAt])
-  @@index([fromIcao, toIcao])
 }

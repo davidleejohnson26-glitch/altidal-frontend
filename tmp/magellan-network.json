@@ -1,0 +1,27 @@
+[
+  {
+    "url": "https://analytics.google.com/g/collect?v=2&tid=G-07X007W0G8&gtm=45je59n2v9100871671z89200790960za200zb9200790960zd9200790960&_p=1758840981007&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=382925186.1758840982&ecid=1994271662&ul=en-gb&sr=1280x900&ir=1&uaa=x86&uab=64&uafvl=Chromium%3B140.0.7339.186%7CNot%253DA%253FBrand%3B24.0.0.0%7CHeadlessChrome%3B140.0.7339.186&uamb=0&uam=&uap=Windows&uapv=&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EA&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527906~104528501~104684208~104684211~104948813~115480709~115834636~115834638&sid=1758840981&sct=1&seg=0&dl=https%3A%2F%2Fmagellanjets.com%2Fprivate-jet-services%2Fempty-legs%2F&dt=Empty%20Leg%20Flights%20%7C%20Discounted%20Private%20Jet%20Travel%20%7C%20Magellan%20Jets&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=4781",
+    "status": 204,
+    "json": false
+  },
+  {
+    "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/855129917/?random=1758840982130&cv=11&fst=1758840982130&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be59n2v9100321199z89200790960za200zb9200790960zd9200790960xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527906~104528500~104684208~104684211~104948813~115480710~115616985&u_w=1280&u_h=900&url=https%3A%2F%2Fmagellanjets.com%2Fprivate-jet-services%2Fempty-legs%2F&frm=0&tiba=Empty%20Leg%20Flights%20%7C%20Discounted%20Private%20Jet%20Travel%20%7C%20Magellan%20Jets&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1055142916.1758840981&uaa=x86&uab=64&uafvl=Chromium%3B140.0.7339.186%7CNot%253DA%253FBrand%3B24.0.0.0%7CHeadlessChrome%3B140.0.7339.186&uamb=0&uam=&uap=Windows&uapv=&uaw=0&data=event%3Dgtag.config&rfmt=3&fmt=4",
+    "status": 200,
+    "json": false
+  },
+  {
+    "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/855129917/?random=1758840983138&cv=11&fst=1758840983138&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be59n2v9100321199za200zb9200790960zd9200790960xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527906~104528500~104684208~104684211~104948813~115480710~115616985&u_w=1280&u_h=900&url=https%3A%2F%2Fmagellanjets.com%2Fprivate-jet-services%2Fempty-legs%2F&frm=0&tiba=Empty%20Leg%20Flights%20%7C%20Discounted%20Private%20Jet%20Travel%20%7C%20Magellan%20Jets&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1055142916.1758840981&uaa=x86&uab=64&uafvl=Chromium%3B140.0.7339.186%7CNot%253DA%253FBrand%3B24.0.0.0%7CHeadlessChrome%3B140.0.7339.186&uamb=0&uam=&uap=Windows&uapv=&uaw=0&data=event%3Dgtag.config&rfmt=3&fmt=4",
+    "status": 200,
+    "json": false
+  },
+  {
+    "url": "https://flyeasy.co/api/search",
+    "status": 200,
+    "json": true
+  },
+  {
+    "url": "https://flyeasy.co/api/search",
+    "status": 200,
+    "json": true
+  }
+]

@@ -6,11 +6,15 @@ const prisma = new PrismaClient({
   log: process.env.PRISMA_LOG === '1' ? ['query', 'info', 'warn', 'error'] : ['warn', 'error'],
 })
 
+// ---------- TYPES ----------
+
 type InLeg = {
   id: string
-  operator: 'magellan'
-  origin: string
-  destination: string
+  operator: 'Magellan' | 'Airpartner' | 'xo' | string
+  origin?: string
+  destination?: string
+  fromIata?: string
+  toIata?: string
   departureUtc?: string
   arrivalUtc?: string
   aircraft?: string
@@ -24,23 +28,32 @@ const DRY_RUN = process.env.DRY_RUN === '1'
 const DEPART_FALLBACK = process.env.DEPART_FALLBACK || 'now' // now | today | fixed:2026-01-01T00:00:00Z
 const SEATS_FALLBACK = Number.isFinite(Number(process.env.SEATS_FALLBACK))
   ? Number(process.env.SEATS_FALLBACK)
-  : 0  // Prisma requires seats → default to 0 unless provided
+  : 1  // was 0 → default to 1 so UI doesn't hide legs
 
 // DOM noise / marketing words
 const STOP_WORDS = new Set([
   'SIZE','FULL','LIKE','FLY','DATA','EIO','ONE','WAY','MENU','NAV','HOME',
   'MORE','NEXT','BACK','PAGE','CARD','READ','POST','BLOG','INFO',
   'TOP','TIER','OPT','OUT','RESERVE','VIEW','DETAILS','NOW',
-  // extra guards seen in logs
   'DAY','DAYS','OCT','CITY','CITIES'
 ])
+
+// ---------- HELPERS ----------
+
+function normalizeOperator(op: string) {
+  const k = (op || '').trim().toLowerCase()
+  if (k === 'xo' || k === 'flyxo' || k === 'fly xo') return 'xo'
+  if (k === 'airpartner' || k === 'air partner') return 'Airpartner'
+  if (k === 'magellan') return 'Magellan'
+  return op
+}
 
 function isGoodCode(s?: string) {
   if (!s) return false
   const up = s.toUpperCase()
   if (STOP_WORDS.has(up)) return false
   if (IATA_RE.test(up)) return true
-  if (ICAO_RE.test(up)) return true // relaxed: accept any A–Z ICAO
+  if (ICAO_RE.test(up)) return true
   return false
 }
 
@@ -69,7 +82,6 @@ function getFallbackDepartAt(): Date {
     const d = new Date(iso)
     if (!Number.isNaN(d.getTime())) return d
   }
-  // default
   return new Date()
 }
 
@@ -84,30 +96,6 @@ function looksLikeJunkId(id: string) {
   return junk.some(j => id.toLowerCase().includes(j))
 }
 
-type Sanitized = {
-  id: string
-  operator: 'magellan'
-  // keep origin/destination internally for parsing & display only (NOT persisted)
-  origin: string
-  destination: string
-  fromIata: string
-  toIata: string
-  fromIcao?: string
-  toIcao?: string
-  fromName: string
-  toName: string
-  fromCity: string
-  toCity: string
-  departAt?: Date        // optional here; enforced later with fallback
-  priceUSD?: number      // optional here; enforced later with fallback=0 + note
-  acType?: string
-  acClass?: string
-  seats?: number
-  url: string            // kept for logs/debug only (NOT persisted)
-  notes: string | null
-}
-
-// Convert ICAO→IATA best-effort (K*** → ***, else last 3 chars)
 function icaoToIataGuess(icao: string) {
   if (!icao || icao.length !== 4) return undefined
   return icao.startsWith('K') ? icao.slice(1) : icao.slice(-3)
@@ -127,24 +115,56 @@ function makeDisplayFields(origin: string, destination: string, fromIata?: strin
     iata || (code.length === 4 && code.startsWith('K') ? code.slice(1) : code)
   const fromName = normName(origin, fromIata)
   const toName   = normName(destination, toIata)
-  // Cities unknown → use names as safe NOT NULL placeholders
   const fromCity = fromName
   const toCity   = toName
   return { fromName, toName, fromCity, toCity }
 }
+
+function resolveRouteFields(x: InLeg): { origin?: string; destination?: string } {
+  if (x.origin && x.destination) return { origin: x.origin, destination: x.destination }
+  if (x.fromIata && x.toIata)    return { origin: x.fromIata, destination: x.toIata }
+  return { origin: x.origin, destination: x.destination }
+}
+
+// ---------- SANITIZED TYPE ----------
+
+type Sanitized = {
+  id: string
+  operator: string
+  origin: string
+  destination: string
+  fromIata: string
+  toIata: string
+  fromIcao?: string
+  toIcao?: string
+  fromName: string
+  toName: string
+  fromCity: string
+  toCity: string
+  departAt?: Date
+  priceUSD?: number
+  acType?: string
+  acClass?: string
+  seats?: number
+  url: string
+  notes: string | null
+}
+
+// ---------- SANITIZER ----------
 
 function sanitizeLeg(x: InLeg): { ok: true; value: Sanitized } | { ok: false; reason: string } {
   const id = String(x.id || '').trim()
   if (!id) return { ok: false, reason: 'missing id' }
   if (looksLikeJunkId(id)) return { ok: false, reason: `junk id (${id})` }
 
-  const origin = x.origin?.toUpperCase().trim()
-  const destination = x.destination?.toUpperCase().trim()
-  if (!isGoodCode(origin)) return { ok: false, reason: `bad origin (${x.origin})` }
-  if (!isGoodCode(destination)) return { ok: false, reason: `bad destination (${x.destination})` }
+  const { origin: o0, destination: d0 } = resolveRouteFields(x)
+  const origin = o0?.toUpperCase().trim()
+  const destination = d0?.toUpperCase().trim()
+  if (!isGoodCode(origin)) return { ok: false, reason: `bad origin (${o0})` }
+  if (!isGoodCode(destination)) return { ok: false, reason: `bad destination (${d0})` }
   if (origin === destination) return { ok: false, reason: `same origin/destination (${origin})` }
 
-  const departAt = parseDateFlexible(x.departureUtc) // may be undefined
+  const departAt = parseDateFlexible(x.departureUtc)
   const priceUSD = cleanPrice(x.price)
 
   const derived = deriveAirportColumns(origin!, destination!)
@@ -157,9 +177,9 @@ function sanitizeLeg(x: InLeg): { ok: true; value: Sanitized } | { ok: false; re
     ok: true,
     value: {
       id,
-      operator: x.operator,
-      origin: origin!,               // display-only
-      destination: destination!,     // display-only
+      operator: normalizeOperator(x.operator), // <-- normalize here
+      origin: origin!,
+      destination: destination!,
       fromIata,
       toIata,
       fromIcao: derived.fromIcao,
@@ -168,18 +188,19 @@ function sanitizeLeg(x: InLeg): { ok: true; value: Sanitized } | { ok: false; re
       toName,
       fromCity,
       toCity,
-      ...(departAt ? { departAt } : {}),          // fallback at create time
-      ...(priceUSD ? { priceUSD } : {}),          // fallback at create time (+notes)
+      ...(departAt ? { departAt } : {}),
+      ...(priceUSD ? { priceUSD } : {}),
       acType: x.aircraft || undefined,
       acClass: undefined,
       seats: undefined,
-      url: x.url,                      // logs only
+      url: x.url,
       notes: null,
     }
   }
 }
 
-// Prisma P2002 (unique violation) detector
+// ---------- PRISMA HELPERS ----------
+
 function isUniqueViolation(err: unknown): boolean {
   return Boolean(
     err && typeof err === 'object' &&
@@ -208,6 +229,8 @@ function logSeatsFallbackOnce() {
   console.log(`saveLegs: applying seats fallback → seats=${SEATS_FALLBACK} where missing.`)
 }
 
+// ---------- MAIN SAVE ----------
+
 export async function saveLegs(legs: InLeg[]) {
   const start = Date.now()
   let added = 0, updated = 0, skipped = 0
@@ -220,7 +243,7 @@ export async function saveLegs(legs: InLeg[]) {
   }
 
   const sample = legs.slice(0, 3).map(l => ({
-    id: l.id, operator: l.operator, origin: l.origin, destination: l.destination, url: l.url,
+    id: l.id, operator: l.operator, origin: l.origin ?? l.fromIata, destination: l.destination ?? l.toIata, url: l.url,
   }))
   console.log(`saveLegs: incoming=${legs.length}. Sample:`, JSON.stringify(sample, null, 2))
 
@@ -233,9 +256,7 @@ export async function saveLegs(legs: InLeg[]) {
     }
     const v = s.value
 
-    // Build data ensuring NOT NULL columns are always present
-    // NOTE: Do NOT include 'origin', 'destination', 'url', 'fromIcao', or 'toIcao' here — they are not DB columns.
-    const createData: any /* or Prisma.LegCreateInput */ = {
+    const createData: any = {
       id: v.id,
       operator: v.operator,
       notes: v.notes,
@@ -243,17 +264,15 @@ export async function saveLegs(legs: InLeg[]) {
       toIata: v.toIata,
       fromName: v.fromName,
       toName: v.toName,
-      fromCity: v.fromCity, // required → fallback already set
-      toCity: v.toCity,     // required → fallback already set
+      fromCity: v.fromCity,
+      toCity: v.toCity,
       departAt: v.departAt ?? (() => { logDepartFallbackOnce(); return getFallbackDepartAt() })(),
       priceUSD: typeof v.priceUSD === 'number' ? v.priceUSD : (() => { logPriceFallbackOnce(); return 0 })(),
-      acType: v.acType || 'Unknown',    // REQUIRED fallback
-      acClass: v.acClass || 'Unknown',  // REQUIRED fallback
+      acType: v.acType || 'Unknown',
+      acClass: v.acClass || 'Unknown',
       seats: typeof v.seats === 'number' ? v.seats : (() => { logSeatsFallbackOnce(); return SEATS_FALLBACK })(),
-      // intentionally NOT persisting fromIcao/toIcao due to schema
     }
 
-    // If price fallback used, append a user-facing note
     if (typeof v.priceUSD !== 'number') {
       createData.notes = (createData.notes ? `${createData.notes}\n` : '') + 'Contact for Price'
     }
@@ -266,8 +285,7 @@ export async function saveLegs(legs: InLeg[]) {
     } catch (e: any) {
       if (isUniqueViolation(e)) {
         try {
-          // Never include url/origin/destination/fromIcao/toIcao in update either
-          const { id, /* url, origin, destination, fromIcao, toIcao, */ ...updateData } = createData
+          const { id, ...updateData } = createData
           await prisma.leg.update({ where: { id: v.id }, data: updateData })
           updated++
         } catch (e2: any) {
@@ -287,7 +305,8 @@ export async function saveLegs(legs: InLeg[]) {
   return { added, updated, skipped, errors }
 }
 
-// entrypoint if run directly
+// ---------- ENTRYPOINT (optional direct run) ----------
+
 if (require.main === module) {
   (async () => {
     const { scrapeMagellan } = await import('./sources/magellan')

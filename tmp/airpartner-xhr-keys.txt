@@ -1,0 +1,47 @@
+URL: https://cdn.cookielaw.org/consent/018df39b-aa60-74aa-a213-a4f6739535d5/018df39b-aa60-74aa-a213-a4f6739535d5.json
+  keys: CookieSPAEnabled, CookieSameSiteNoneEnabled, CookieV2CSPEnabled, MultiVariantTestingEnabled, UseV2, MobileSDK, SkipGeolocation, ScriptType, Version, OptanonDataJSON, GeolocationUrl, BulkDomainCheckUrl, RuleSet, RuleSet.Id, RuleSet.Name, RuleSet.Countries, RuleSet.States, RuleSet.LanguageSwitcherPlaceholder, RuleSet.LanguageSwitcherPlaceholder.de, RuleSet.LanguageSwitcherPlaceholder.ar, RuleSet.LanguageSwitcherPlaceholder.default, RuleSet.LanguageSwitcherPlaceholder.it, RuleSet.LanguageSwitcherPlaceholder.fr, RuleSet.LanguageSwitcherPlaceholder.es, RuleSet.BannerPushesDown, RuleSet.Default, RuleSet.Global, RuleSet.Type, RuleSet.UseGoogleVendors, RuleSet.VariantEnabled, RuleSet.TestEndTime, RuleSet.Variants, RuleSet.TemplateName, RuleSet.Conditions, RuleSet.GCEnable, RuleSet.IsGPPEnabled, RuleSet.EnableJWTAuthForKnownUsers, RuleSet.States.us, IabData, IabData.cookieVersion
+
+URL: https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location
+  keys: country, state, stateName, continent
+
+URL: https://cdn.cookielaw.org/consent/018df39b-aa60-74aa-a213-a4f6739535d5/018df39b-aa60-74aa-a213-a4f6739535d5.json
+  keys: CookieSPAEnabled, CookieSameSiteNoneEnabled, CookieV2CSPEnabled, MultiVariantTestingEnabled, UseV2, MobileSDK, SkipGeolocation, ScriptType, Version, OptanonDataJSON, GeolocationUrl, BulkDomainCheckUrl, RuleSet, RuleSet.Id, RuleSet.Name, RuleSet.Countries, RuleSet.States, RuleSet.LanguageSwitcherPlaceholder, RuleSet.LanguageSwitcherPlaceholder.de, RuleSet.LanguageSwitcherPlaceholder.ar, RuleSet.LanguageSwitcherPlaceholder.default, RuleSet.LanguageSwitcherPlaceholder.it, RuleSet.LanguageSwitcherPlaceholder.fr, RuleSet.LanguageSwitcherPlaceholder.es, RuleSet.BannerPushesDown, RuleSet.Default, RuleSet.Global, RuleSet.Type, RuleSet.UseGoogleVendors, RuleSet.VariantEnabled, RuleSet.TestEndTime, RuleSet.Variants, RuleSet.TemplateName, RuleSet.Conditions, RuleSet.GCEnable, RuleSet.IsGPPEnabled, RuleSet.EnableJWTAuthForKnownUsers, RuleSet.States.us, IabData, IabData.cookieVersion
+
+URL: https://cdn.cookielaw.org/consent/018df39b-aa60-74aa-a213-a4f6739535d5/018e1452-d3dc-7ec2-a1c7-b937fb573c93/en.json
+  keys: DomainData, DomainData.pclifeSpanYr, DomainData.pclifeSpanYrs, DomainData.pclifeSpanSecs, DomainData.pclifeSpanWk, DomainData.pclifeSpanWks, DomainData.pccontinueWithoutAcceptText, DomainData.pccloseButtonType, DomainData.MainText, DomainData.MainInfoText, DomainData.AboutText, DomainData.AboutCookiesText, DomainData.ConfirmText, DomainData.AllowAllText, DomainData.CookiesUsedText, DomainData.CookiesDescText, DomainData.AboutLink, DomainData.ActiveText, DomainData.AlwaysActiveText, DomainData.AlwaysInactiveText, DomainData.PCShowAlwaysActiveToggle, DomainData.AlertNoticeText, DomainData.AlertCloseText, DomainData.AlertMoreInfoText, DomainData.CookieSettingButtonText, DomainData.AlertAllowCookiesText, DomainData.CloseShouldAcceptAllCookies, DomainData.LastReconsentDate, DomainData.BannerTitle, DomainData.ForceConsent, DomainData.BannerPushesDownPage, DomainData.InactiveText, DomainData.CookiesText, DomainData.CategoriesText, DomainData.IsLifespanEnabled, DomainData.LifespanText, DomainData.VendorLevelOptOut, DomainData.HasScriptArchive, DomainData.BannerPosition, DomainData.PreferenceCenterPosition
+
+URL: https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location
+  keys: country, state, stateName, continent
+
+URL: https://cdn.cookielaw.org/consent/018df39b-aa60-74aa-a213-a4f6739535d5/018e1452-d3dc-7ec2-a1c7-b937fb573c93/en.json
+  keys: DomainData, DomainData.pclifeSpanYr, DomainData.pclifeSpanYrs, DomainData.pclifeSpanSecs, DomainData.pclifeSpanWk, DomainData.pclifeSpanWks, DomainData.pccontinueWithoutAcceptText, DomainData.pccloseButtonType, DomainData.MainText, DomainData.MainInfoText, DomainData.AboutText, DomainData.AboutCookiesText, DomainData.ConfirmText, DomainData.AllowAllText, DomainData.CookiesUsedText, DomainData.CookiesDescText, DomainData.AboutLink, DomainData.ActiveText, DomainData.AlwaysActiveText, DomainData.AlwaysInactiveText, DomainData.PCShowAlwaysActiveToggle, DomainData.AlertNoticeText, DomainData.AlertCloseText, DomainData.AlertMoreInfoText, DomainData.CookieSettingButtonText, DomainData.AlertAllowCookiesText, DomainData.CloseShouldAcceptAllCookies, DomainData.LastReconsentDate, DomainData.BannerTitle, DomainData.ForceConsent, DomainData.BannerPushesDownPage, DomainData.InactiveText, DomainData.CookiesText, DomainData.CategoriesText, DomainData.IsLifespanEnabled, DomainData.LifespanText, DomainData.VendorLevelOptOut, DomainData.HasScriptArchive, DomainData.BannerPosition, DomainData.PreferenceCenterPosition
+
+URL: https://cdn.cookielaw.org/scripttemplates/202408.1.0/assets/v2/otPcCenter.json
+  keys: name, html, css
+
+URL: https://cdn.cookielaw.org/scripttemplates/202408.1.0/assets/v2/otPcCenter.json
+  keys: name, html, css
+
+URL: https://cdn.cookielaw.org/scripttemplates/202408.1.0/assets/otCookieSettingsButton.json
+  keys: name, html, css
+
+URL: https://cdn.cookielaw.org/scripttemplates/202408.1.0/assets/otFlat.json
+  keys: name, html, css
+
+URL: https://cdn.cookielaw.org/scripttemplates/202408.1.0/assets/otFlat.json
+  keys: name, html, css
+
+URL: https://cdn.cookielaw.org/scripttemplates/202408.1.0/assets/otCookieSettingsButton.json
+  keys: name, html, css
+
+URL: https://px.ads.linkedin.com/attribution_trigger?pid=4748706&time=1759264065914&url=https%3A%2F%2Fwww.airpartner.com%2Fen-us%2Fprivate-jets%2Fempty-legs%2F
+  keys: 
+
+URL: https://click.prod.mplat-ppcprotect.com/v2/recv?lpn=n&plat=&data=%7B%22href%22%3A%22https%3A%2F%2Fwww.airpartner.com%2Fen-us%2Fprivate-jets%2Fempty-legs%2F%22%2C%22token%22%3A%22eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X2lkIjoxNzA3M30.Eo-HzhTwJzgilGgd8rrhAlrRR2TySr4WPaqFooHtT_E%22%2C%22client_id%22%3A0%7D
+  keys: result
+
+URL: https://content.hotjar.io/?site_id=399536&gzip=1
+  keys: content_uuid, success
+
+URL: https://js.zi-scripts.com/unified/v1/master/getSubscriptions
+  keys: err, subscriptions, subscriptions.ws, subscriptions.ws.websiteId, _zitok, _vtok, evi, productUrls, productUrls.sch, productUrls.fc, productUrls.ws, fcForms, domainId
