@@ -14,6 +14,7 @@ import { DetailModal } from '@/components/modals/detail-modal'
 import { InquiryModal } from '@/components/modals/inquiry-modal'
 import { Input, Button, Select } from '@/components/ui'
 
+
 export default function Page() {
   const [query, setQuery] = useState<QueryState>({
     from: 'DAL',

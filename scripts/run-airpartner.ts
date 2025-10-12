@@ -6,7 +6,21 @@ import { saveLegs } from './save';
 (async () => {
   const legs = await scrapeAirPartner();
   console.log('[airpartner] scraped:', legs.length);
-  const res = await saveLegs(legs as any);
+
+  if (!legs.length) {
+    console.log('[airpartner] nothing to save.');
+    return;
+  }
+
+  // Minimal normalization: null -> undefined on optional fields
+  const normalized = legs.map((l) => ({
+    ...l,
+    arrivalUtc: l?.arrivalUtc ?? undefined,
+    aircraft: l?.aircraft ?? undefined,
+    price: l?.price ?? undefined,
+  }));
+
+  const res = await saveLegs(normalized);
   console.log('[airpartner] saved summary:', res);
 })().catch((e) => {
   console.error('run-airpartner failed:', e);

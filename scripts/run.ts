@@ -109,17 +109,25 @@ async function run() {
   }
 
   console.log(`[run] Saving ${allLegs.length} leg(s) to DB…`);
-  const result = await saveLegs(allLegs);
-  console.log(`[run] Saved. added=${result.saved}, skipped=${result.skipped}`);
 
-  // Attach save stats per source for visibility (optional)
-  // (If saveLegs returns per-source stats in the future, wire them in here.)
-  for (const k of Object.keys(summary)) {
-    if (!summary[k].error) {
-      summary[k].saved = undefined; // unknown per-source with current saveLegs signature
-      summary[k].skipped = undefined;
-    }
+  // ✅ Minimal normalization: coerce nullable fields to undefined
+  const normalized = allLegs.map((l) => ({
+    ...l,
+    arrivalUtc: l?.arrivalUtc ?? undefined,
+    aircraft: l?.aircraft ?? undefined,
+    price: l?.price ?? undefined,
+  }));
+
+const result = await saveLegs(normalized);
+console.log(`[run] Saved. added=${result.added}, updated=${result.updated}, skipped=${result.skipped}`);
+
+// Attach save stats per source for visibility (optional)
+// (We don't have per-source breakdown; leave as scraped-only or add totals)
+for (const k of Object.keys(summary)) {
+  if (!summary[k].error) {
+    // keep as-is or enrich later when saveLegs returns per-source stats
   }
+}
 
   console.table(summary);
 }

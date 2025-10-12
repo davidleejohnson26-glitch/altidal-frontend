@@ -1,36 +1,36 @@
 // scripts/cleanup-xo.ts
-import { prisma } from "../prisma";
+// @ts-check
+import { PrismaClient } from '@prisma/client';
+
+const prisma = new PrismaClient();
 
 const IATA = /^[A-Z]{3}$/;
 
 (async () => {
-  // delete legs with missing or invalid IATA, or same origin/destination
-  const bad = await prisma.leg.findMany({
-    where: {
-      operator: "xo",
-      OR: [
-        { fromIata: null }, { toIata: null },
-        { fromIata: { not: { mode: "insensitive", startsWith: "" } }, NOT: [] }, // placeholder to allow OR block
-      ],
-    },
+  // find obvious bad XO legs
+  const all = await prisma.leg.findMany({
+    where: { operator: { in: ['xo', 'FlyXO'] } },
     select: { id: true, fromIata: true, toIata: true },
   });
 
-  const extraBad = (await prisma.leg.findMany({
-    where: { operator: "xo" },
-    select: { id: true, fromIata: true, toIata: true },
-  })).filter(l =>
-    !l.fromIata || !l.toIata ||
-    !IATA.test(l.fromIata) || !IATA.test(l.toIata) ||
-    l.fromIata === l.toIata
-  );
+  const badIds = all
+    .filter(l =>
+      !l.fromIata || !l.toIata ||
+      !IATA.test(l.fromIata) || !IATA.test(l.toIata) ||
+      l.fromIata === l.toIata
+    )
+    .map(l => l.id);
 
-  const ids = Array.from(new Set([...bad, ...extraBad].map(x => x.id)));
-  if (ids.length) {
-    await prisma.leg.deleteMany({ where: { id: { in: ids } } });
-    console.log(`Deleted ${ids.length} low-quality XO legs`);
+  if (badIds.length) {
+    const res = await prisma.leg.deleteMany({ where: { id: { in: badIds } } });
+    console.log(`Deleted ${res.count} low-quality XO legs`);
   } else {
-    console.log("No low-quality XO legs found to delete");
+    console.log('No low-quality XO legs found to delete');
   }
-  process.exit(0);
-})();
+
+  await prisma.$disconnect();
+})().catch(async (e) => {
+  console.error(e);
+  await prisma.$disconnect();
+  process.exit(1);
+});
