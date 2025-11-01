@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"4771ac885edd4f97\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"SRQ\",\n                toIata: \"HOU\",\n                fromIcao: \"KSRQ\",\n                toIcao: \"KHOU\",\n                fromCity: \"Sarasota Bradenton Intl\",\n                toCity: \"William P Hobby\",\n                fromName: \"Sarasota Bradenton Intl\",\n                toName: \"William P Hobby\",\n                departAt: \"2025-10-27T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 7400,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"27-10-2025 00:00 → 27-10-2025 00:00\"\n              },\n              create: {\n                id: \"4771ac885edd4f97\",\n                operator: \"aviapages\",\n                fromIata: \"SRQ\",\n                toIata: \"HOU\",\n                fromIcao: \"KSRQ\",\n                toIcao: \"KHOU\",\n                fromCity: \"Sarasota Bradenton Intl\",\n                toCity: \"William P Hobby\",\n                fromName: \"Sarasota Bradenton Intl\",\n                toName: \"William P Hobby\",\n                departAt: \"2025-10-27T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 7400,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"27-10-2025 00:00 → 27-10-2025 00:00\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "4771ac885edd4f97",
+    "operator": "aviapages",
+    "fromIata": "SRQ",
+    "toIata": "HOU",
+    "fromIcao": "KSRQ",
+    "toIcao": "KHOU",
+    "fromCity": "Sarasota Bradenton Intl",
+    "toCity": "William P Hobby",
+    "fromName": "Sarasota Bradenton Intl",
+    "toName": "William P Hobby",
+    "departAt": "2025-10-27T00:00:00.000Z",
+    "acType": "Cessna Citation Ultra",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 7400,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "27-10-2025 00:00 → 27-10-2025 00:00"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"226e1061743c92f4\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"VNY\",\n                toIata: \"SAN\",\n                fromIcao: \"KVNY\",\n                toIcao: \"KSAN\",\n                fromCity: \"Van Nuys\",\n                toCity: \"San Diego Intl\",\n                fromName: \"Van Nuys\",\n                toName: \"San Diego Intl\",\n                departAt: \"2025-11-07T00:00:00.000Z\",\n                acType: \"Gulfstream IV\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"07-11-2025 00:00 → 22-11-2025 23:59 | Price on Request\"\n              },\n              create: {\n                id: \"226e1061743c92f4\",\n                operator: \"aviapages\",\n                fromIata: \"VNY\",\n                toIata: \"SAN\",\n                fromIcao: \"KVNY\",\n                toIcao: \"KSAN\",\n                fromCity: \"Van Nuys\",\n                toCity: \"San Diego Intl\",\n                fromName: \"Van Nuys\",\n                toName: \"San Diego Intl\",\n                departAt: \"2025-11-07T00:00:00.000Z\",\n                acType: \"Gulfstream IV\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"07-11-2025 00:00 → 22-11-2025 23:59 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "226e1061743c92f4",
+    "operator": "aviapages",
+    "fromIata": "VNY",
+    "toIata": "SAN",
+    "fromIcao": "KVNY",
+    "toIcao": "KSAN",
+    "fromCity": "Van Nuys",
+    "toCity": "San Diego Intl",
+    "fromName": "Van Nuys",
+    "toName": "San Diego Intl",
+    "departAt": "2025-11-07T00:00:00.000Z",
+    "acType": "Gulfstream IV",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "07-11-2025 00:00 → 22-11-2025 23:59 | Price on Request"
+  }
+}

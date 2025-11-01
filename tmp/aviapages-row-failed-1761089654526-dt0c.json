@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"8b454d71f3505e2b\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"LAS\",\n                toIata: \"BED\",\n                fromIcao: \"KLAS\",\n                toIcao: \"KBED\",\n                fromCity: \"McCarran Int'l Airport\",\n                toCity: \"Laurence G Hanscom Fld\",\n                fromName: \"McCarran Int'l Airport\",\n                toName: \"Laurence G Hanscom Fld\",\n                departAt: \"2025-11-05T00:00:00.000Z\",\n                acType: \"Gulfstream IV\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 33995,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"05-11-2025 00:00 → 06-11-2025 23:59\"\n              },\n              create: {\n                id: \"8b454d71f3505e2b\",\n                operator: \"aviapages\",\n                fromIata: \"LAS\",\n                toIata: \"BED\",\n                fromIcao: \"KLAS\",\n                toIcao: \"KBED\",\n                fromCity: \"McCarran Int'l Airport\",\n                toCity: \"Laurence G Hanscom Fld\",\n                fromName: \"McCarran Int'l Airport\",\n                toName: \"Laurence G Hanscom Fld\",\n                departAt: \"2025-11-05T00:00:00.000Z\",\n                acType: \"Gulfstream IV\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 33995,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"05-11-2025 00:00 → 06-11-2025 23:59\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "8b454d71f3505e2b",
+    "operator": "aviapages",
+    "fromIata": "LAS",
+    "toIata": "BED",
+    "fromIcao": "KLAS",
+    "toIcao": "KBED",
+    "fromCity": "McCarran Int'l Airport",
+    "toCity": "Laurence G Hanscom Fld",
+    "fromName": "McCarran Int'l Airport",
+    "toName": "Laurence G Hanscom Fld",
+    "departAt": "2025-11-05T00:00:00.000Z",
+    "acType": "Gulfstream IV",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 33995,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "05-11-2025 00:00 → 06-11-2025 23:59"
+  }
+}

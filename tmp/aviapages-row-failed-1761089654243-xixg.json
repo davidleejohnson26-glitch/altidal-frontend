@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"3468b9747f4288b0\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"BBU\",\n                toIata: \"BQH\",\n                fromIcao: \"LRBS\",\n                toIcao: \"EGKB\",\n                fromCity: \"Baneasa Aurel Vlaicu\",\n                toCity: \"London Biggin Hill Airport\",\n                fromName: \"Baneasa Aurel Vlaicu\",\n                toName: \"London Biggin Hill Airport\",\n                departAt: \"2025-10-20T16:40:00.000Z\",\n                acType: \"Cessna Citation XLS+\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"20-10-2025 16:40 → 23-10-2025 08:29 | Price on Request\"\n              },\n              create: {\n                id: \"3468b9747f4288b0\",\n                operator: \"aviapages\",\n                fromIata: \"BBU\",\n                toIata: \"BQH\",\n                fromIcao: \"LRBS\",\n                toIcao: \"EGKB\",\n                fromCity: \"Baneasa Aurel Vlaicu\",\n                toCity: \"London Biggin Hill Airport\",\n                fromName: \"Baneasa Aurel Vlaicu\",\n                toName: \"London Biggin Hill Airport\",\n                departAt: \"2025-10-20T16:40:00.000Z\",\n                acType: \"Cessna Citation XLS+\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"20-10-2025 16:40 → 23-10-2025 08:29 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "3468b9747f4288b0",
+    "operator": "aviapages",
+    "fromIata": "BBU",
+    "toIata": "BQH",
+    "fromIcao": "LRBS",
+    "toIcao": "EGKB",
+    "fromCity": "Baneasa Aurel Vlaicu",
+    "toCity": "London Biggin Hill Airport",
+    "fromName": "Baneasa Aurel Vlaicu",
+    "toName": "London Biggin Hill Airport",
+    "departAt": "2025-10-20T16:40:00.000Z",
+    "acType": "Cessna Citation XLS+",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "20-10-2025 16:40 → 23-10-2025 08:29 | Price on Request"
+  }
+}

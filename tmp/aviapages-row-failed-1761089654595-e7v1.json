@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"d3688405f9ece70b\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"YYC\",\n                toIata: \"BFI\",\n                fromIcao: \"CYYC\",\n                toIcao: \"KBFI\",\n                fromCity: \"Calgary International Airport\",\n                toCity: \"Boeing Field / King County Intl\",\n                fromName: \"Calgary International Airport\",\n                toName: \"Boeing Field / King County Intl\",\n                departAt: \"2025-11-25T00:00:00.000Z\",\n                acType: \"Cessna Citation Excel\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"25-11-2025 00:00 → 25-11-2025 23:59 | Price on Request\"\n              },\n              create: {\n                id: \"d3688405f9ece70b\",\n                operator: \"aviapages\",\n                fromIata: \"YYC\",\n                toIata: \"BFI\",\n                fromIcao: \"CYYC\",\n                toIcao: \"KBFI\",\n                fromCity: \"Calgary International Airport\",\n                toCity: \"Boeing Field / King County Intl\",\n                fromName: \"Calgary International Airport\",\n                toName: \"Boeing Field / King County Intl\",\n                departAt: \"2025-11-25T00:00:00.000Z\",\n                acType: \"Cessna Citation Excel\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"25-11-2025 00:00 → 25-11-2025 23:59 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "d3688405f9ece70b",
+    "operator": "aviapages",
+    "fromIata": "YYC",
+    "toIata": "BFI",
+    "fromIcao": "CYYC",
+    "toIcao": "KBFI",
+    "fromCity": "Calgary International Airport",
+    "toCity": "Boeing Field / King County Intl",
+    "fromName": "Calgary International Airport",
+    "toName": "Boeing Field / King County Intl",
+    "departAt": "2025-11-25T00:00:00.000Z",
+    "acType": "Cessna Citation Excel",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "25-11-2025 00:00 → 25-11-2025 23:59 | Price on Request"
+  }
+}

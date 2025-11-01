@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"34d7b796799963de\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"FRA\",\n                toIata: \"FRA\",\n                fromIcao: \"EDDF\",\n                toIcao: \"EDDF\",\n                fromCity: \"Frankfurt Main\",\n                toCity: \"Frankfurt Main\",\n                fromName: \"Frankfurt Main\",\n                toName: \"Frankfurt Main\",\n                departAt: \"2026-07-16T00:00:00.000Z\",\n                acType: \"Gulfstream IV-SP\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"16-07-2026 00:00 → 17-07-2026 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"34d7b796799963de\",\n                operator: \"aviapages\",\n                fromIata: \"FRA\",\n                toIata: \"FRA\",\n                fromIcao: \"EDDF\",\n                toIcao: \"EDDF\",\n                fromCity: \"Frankfurt Main\",\n                toCity: \"Frankfurt Main\",\n                fromName: \"Frankfurt Main\",\n                toName: \"Frankfurt Main\",\n                departAt: \"2026-07-16T00:00:00.000Z\",\n                acType: \"Gulfstream IV-SP\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"16-07-2026 00:00 → 17-07-2026 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "34d7b796799963de",
+    "operator": "aviapages",
+    "fromIata": "FRA",
+    "toIata": "FRA",
+    "fromIcao": "EDDF",
+    "toIcao": "EDDF",
+    "fromCity": "Frankfurt Main",
+    "toCity": "Frankfurt Main",
+    "fromName": "Frankfurt Main",
+    "toName": "Frankfurt Main",
+    "departAt": "2026-07-16T00:00:00.000Z",
+    "acType": "Gulfstream IV-SP",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "16-07-2026 00:00 → 17-07-2026 00:00 | Price on Request"
+  }
+}

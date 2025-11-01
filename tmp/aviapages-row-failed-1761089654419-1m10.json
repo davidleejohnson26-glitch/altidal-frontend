@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"e9a7a4da03b20cc1\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"YYZ\",\n                toIata: \"MMU\",\n                fromIcao: \"CYYZ\",\n                toIcao: \"KMMU\",\n                fromCity: \"Lester B.Pearson Intl\",\n                toCity: \"Morristown Mun\",\n                fromName: \"Lester B.Pearson Intl\",\n                toName: \"Morristown Mun\",\n                departAt: \"2025-10-31T00:00:00.000Z\",\n                acType: \"Challenger 604\",\n                acClass: \"Heavy Jet\",\n                seats: null,\n                priceUSD: 13230,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"31-10-2025 00:00 → 31-10-2025 00:00\"\n              },\n              create: {\n                id: \"e9a7a4da03b20cc1\",\n                operator: \"aviapages\",\n                fromIata: \"YYZ\",\n                toIata: \"MMU\",\n                fromIcao: \"CYYZ\",\n                toIcao: \"KMMU\",\n                fromCity: \"Lester B.Pearson Intl\",\n                toCity: \"Morristown Mun\",\n                fromName: \"Lester B.Pearson Intl\",\n                toName: \"Morristown Mun\",\n                departAt: \"2025-10-31T00:00:00.000Z\",\n                acType: \"Challenger 604\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 13230,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"31-10-2025 00:00 → 31-10-2025 00:00\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "e9a7a4da03b20cc1",
+    "operator": "aviapages",
+    "fromIata": "YYZ",
+    "toIata": "MMU",
+    "fromIcao": "CYYZ",
+    "toIcao": "KMMU",
+    "fromCity": "Lester B.Pearson Intl",
+    "toCity": "Morristown Mun",
+    "fromName": "Lester B.Pearson Intl",
+    "toName": "Morristown Mun",
+    "departAt": "2025-10-31T00:00:00.000Z",
+    "acType": "Challenger 604",
+    "acClass": "Heavy Jet",
+    "seats": null,
+    "priceUSD": 13230,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "31-10-2025 00:00 → 31-10-2025 00:00"
+  }
+}

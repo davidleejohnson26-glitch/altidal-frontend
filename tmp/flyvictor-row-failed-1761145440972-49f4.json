@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\flyvictor.ts:370:28\n\n  367 try {\n  368   await withConcurrency(batch, 6, async (r) => {\n  369     try {\n→ 370       await prisma.leg.upsert({\n              where: {\n                id: \"4361425c8a470b36\"\n              },\n              update: {\n                operator: \"flyvictor\",\n                fromIata: \"BCT\",\n                toIata: \"RDG\",\n                fromIcao: \"KBCT\",\n                toIcao: \"KRDG\",\n                fromCity: null,\n                toCity: null,\n                fromName: \"BCT\",\n                toName: \"RDG\",\n                departAt: null,\n                acType: null,\n                acClass: \"Unknown\",\n                seats: 0,\n                priceUSD: 14384,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n                notes: null\n              },\n              create: {\n                id: \"4361425c8a470b36\",\n                operator: \"flyvictor\",\n                fromIata: \"BCT\",\n                toIata: \"RDG\",\n                fromIcao: \"KBCT\",\n                toIcao: \"KRDG\",\n                toCity: null,\n                fromName: \"BCT\",\n                toName: \"RDG\",\n                departAt: null,\n                acType: null,\n                acClass: \"Unknown\",\n                seats: 0,\n                priceUSD: 14384,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n                notes: null,\n            +   fromCity: String\n              }\n            })\n\nArgument `fromCity` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "4361425c8a470b36",
+    "operator": "flyvictor",
+    "fromIata": "BCT",
+    "toIata": "RDG",
+    "fromIcao": "KBCT",
+    "toIcao": "KRDG",
+    "fromCity": null,
+    "toCity": null,
+    "fromName": "BCT",
+    "toName": "RDG",
+    "departAt": null,
+    "acType": null,
+    "acClass": "Unknown",
+    "seats": 0,
+    "priceUSD": 14384,
+    "url": "https://www.flyvictor.com/en-us/flights/",
+    "notes": null
+  }
+}

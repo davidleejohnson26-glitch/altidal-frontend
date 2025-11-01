@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"e7709cce46cc186b\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"TEB\",\n                toIata: \"MVY\",\n                fromIcao: \"KTEB\",\n                toIcao: \"KMVY\",\n                fromCity: \"Teterboro\",\n                toCity: \"Marthas Vineyard\",\n                fromName: \"Teterboro\",\n                toName: \"Marthas Vineyard\",\n                departAt: \"2025-10-27T00:00:00.000Z\",\n                acType: \"Hawker 400XP\",\n                acClass: \"Unknown\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"27-10-2025 00:00 → 27-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"e7709cce46cc186b\",\n                operator: \"aviapages\",\n                fromIata: \"TEB\",\n                toIata: \"MVY\",\n                fromIcao: \"KTEB\",\n                toIcao: \"KMVY\",\n                fromCity: \"Teterboro\",\n                toCity: \"Marthas Vineyard\",\n                fromName: \"Teterboro\",\n                toName: \"Marthas Vineyard\",\n                departAt: \"2025-10-27T00:00:00.000Z\",\n                acType: \"Hawker 400XP\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"27-10-2025 00:00 → 27-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "e7709cce46cc186b",
+    "operator": "aviapages",
+    "fromIata": "TEB",
+    "toIata": "MVY",
+    "fromIcao": "KTEB",
+    "toIcao": "KMVY",
+    "fromCity": "Teterboro",
+    "toCity": "Marthas Vineyard",
+    "fromName": "Teterboro",
+    "toName": "Marthas Vineyard",
+    "departAt": "2025-10-27T00:00:00.000Z",
+    "acType": "Hawker 400XP",
+    "acClass": "Unknown",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "27-10-2025 00:00 → 27-10-2025 00:00 | Price on Request"
+  }
+}

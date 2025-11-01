@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"07c94a0b8e25926e\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"BOI\",\n                toIata: \"APC\",\n                fromIcao: \"KBOI\",\n                toIcao: \"KAPC\",\n                fromCity: \"Boise Air Terminal Gowen\",\n                toCity: \"Napa County\",\n                fromName: \"Boise Air Terminal Gowen\",\n                toName: \"Napa County\",\n                departAt: \"2025-11-16T00:00:00.000Z\",\n                acType: \"Pilatus PC-12/47 NG\",\n                acClass: \"Turboprop\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"16-11-2025 00:00 → 16-11-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"07c94a0b8e25926e\",\n                operator: \"aviapages\",\n                fromIata: \"BOI\",\n                toIata: \"APC\",\n                fromIcao: \"KBOI\",\n                toIcao: \"KAPC\",\n                fromCity: \"Boise Air Terminal Gowen\",\n                toCity: \"Napa County\",\n                fromName: \"Boise Air Terminal Gowen\",\n                toName: \"Napa County\",\n                departAt: \"2025-11-16T00:00:00.000Z\",\n                acType: \"Pilatus PC-12/47 NG\",\n                acClass: \"Turboprop\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"16-11-2025 00:00 → 16-11-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "07c94a0b8e25926e",
+    "operator": "aviapages",
+    "fromIata": "BOI",
+    "toIata": "APC",
+    "fromIcao": "KBOI",
+    "toIcao": "KAPC",
+    "fromCity": "Boise Air Terminal Gowen",
+    "toCity": "Napa County",
+    "fromName": "Boise Air Terminal Gowen",
+    "toName": "Napa County",
+    "departAt": "2025-11-16T00:00:00.000Z",
+    "acType": "Pilatus PC-12/47 NG",
+    "acClass": "Turboprop",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "16-11-2025 00:00 → 16-11-2025 00:00 | Price on Request"
+  }
+}

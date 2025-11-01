@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"6c445f3c54e8557a\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"TEB\",\n                toIata: \"FXE\",\n                fromIcao: \"KTEB\",\n                toIcao: \"KFXE\",\n                fromCity: \"Teterboro\",\n                toCity: \"Fort Lauderdale Executive\",\n                fromName: \"Teterboro\",\n                toName: \"Fort Lauderdale Executive\",\n                departAt: \"2025-10-24T14:01:00.000Z\",\n                acType: \"Challenger 350\",\n                acClass: \"Super Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"24-10-2025 14:01 → 24-10-2025 16:43 | Price on Request\"\n              },\n              create: {\n                id: \"6c445f3c54e8557a\",\n                operator: \"aviapages\",\n                fromIata: \"TEB\",\n                toIata: \"FXE\",\n                fromIcao: \"KTEB\",\n                toIcao: \"KFXE\",\n                fromCity: \"Teterboro\",\n                toCity: \"Fort Lauderdale Executive\",\n                fromName: \"Teterboro\",\n                toName: \"Fort Lauderdale Executive\",\n                departAt: \"2025-10-24T14:01:00.000Z\",\n                acType: \"Challenger 350\",\n                acClass: \"Super Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"24-10-2025 14:01 → 24-10-2025 16:43 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "6c445f3c54e8557a",
+    "operator": "aviapages",
+    "fromIata": "TEB",
+    "toIata": "FXE",
+    "fromIcao": "KTEB",
+    "toIcao": "KFXE",
+    "fromCity": "Teterboro",
+    "toCity": "Fort Lauderdale Executive",
+    "fromName": "Teterboro",
+    "toName": "Fort Lauderdale Executive",
+    "departAt": "2025-10-24T14:01:00.000Z",
+    "acType": "Challenger 350",
+    "acClass": "Super Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "24-10-2025 14:01 → 24-10-2025 16:43 | Price on Request"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"161a54f5ac9a3597\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"SAT\",\n                toIata: \"MAF\",\n                fromIcao: \"KSAT\",\n                toIcao: \"KMAF\",\n                fromCity: \"San Antonio Intl\",\n                toCity: \"Midland Intl\",\n                fromName: \"San Antonio Intl\",\n                toName: \"Midland Intl\",\n                departAt: \"2025-10-20T00:00:00.000Z\",\n                acType: \"Hawker 400XP\",\n                acClass: \"Unknown\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"20-10-2025 00:00 → 22-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"161a54f5ac9a3597\",\n                operator: \"aviapages\",\n                fromIata: \"SAT\",\n                toIata: \"MAF\",\n                fromIcao: \"KSAT\",\n                toIcao: \"KMAF\",\n                fromCity: \"San Antonio Intl\",\n                toCity: \"Midland Intl\",\n                fromName: \"San Antonio Intl\",\n                toName: \"Midland Intl\",\n                departAt: \"2025-10-20T00:00:00.000Z\",\n                acType: \"Hawker 400XP\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"20-10-2025 00:00 → 22-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "161a54f5ac9a3597",
+    "operator": "aviapages",
+    "fromIata": "SAT",
+    "toIata": "MAF",
+    "fromIcao": "KSAT",
+    "toIcao": "KMAF",
+    "fromCity": "San Antonio Intl",
+    "toCity": "Midland Intl",
+    "fromName": "San Antonio Intl",
+    "toName": "Midland Intl",
+    "departAt": "2025-10-20T00:00:00.000Z",
+    "acType": "Hawker 400XP",
+    "acClass": "Unknown",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "20-10-2025 00:00 → 22-10-2025 00:00 | Price on Request"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"541b4e73dbbf86d3\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"YDT\",\n                toIata: \"YYC\",\n                fromIcao: \"CZBB\",\n                toIcao: \"CYYC\",\n                fromCity: \"Vancouver Boundary Bay\",\n                toCity: \"Calgary International Airport\",\n                fromName: \"Vancouver Boundary Bay\",\n                toName: \"Calgary International Airport\",\n                departAt: \"2025-10-22T00:00:00.000Z\",\n                acType: \"Challenger 300\",\n                acClass: \"Super Midsize Jet\",\n                seats: null,\n                priceUSD: 8500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-10-2025 00:00 → 22-10-2025 00:00\"\n              },\n              create: {\n                id: \"541b4e73dbbf86d3\",\n                operator: \"aviapages\",\n                fromIata: \"YDT\",\n                toIata: \"YYC\",\n                fromIcao: \"CZBB\",\n                toIcao: \"CYYC\",\n                fromCity: \"Vancouver Boundary Bay\",\n                toCity: \"Calgary International Airport\",\n                fromName: \"Vancouver Boundary Bay\",\n                toName: \"Calgary International Airport\",\n                departAt: \"2025-10-22T00:00:00.000Z\",\n                acType: \"Challenger 300\",\n                acClass: \"Super Midsize Jet\",\n                priceUSD: 8500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-10-2025 00:00 → 22-10-2025 00:00\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "541b4e73dbbf86d3",
+    "operator": "aviapages",
+    "fromIata": "YDT",
+    "toIata": "YYC",
+    "fromIcao": "CZBB",
+    "toIcao": "CYYC",
+    "fromCity": "Vancouver Boundary Bay",
+    "toCity": "Calgary International Airport",
+    "fromName": "Vancouver Boundary Bay",
+    "toName": "Calgary International Airport",
+    "departAt": "2025-10-22T00:00:00.000Z",
+    "acType": "Challenger 300",
+    "acClass": "Super Midsize Jet",
+    "seats": null,
+    "priceUSD": 8500,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "22-10-2025 00:00 → 22-10-2025 00:00"
+  }
+}

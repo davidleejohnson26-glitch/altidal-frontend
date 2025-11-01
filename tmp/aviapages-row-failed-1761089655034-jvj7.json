@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"a95bbfa0ec61e384\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"FAB\",\n                toIata: \"DUB\",\n                fromIcao: \"EGLF\",\n                toIcao: \"EIDW\",\n                fromCity: \"Farnborough\",\n                toCity: \"Dublin Intl\",\n                fromName: \"Farnborough\",\n                toName: \"Dublin Intl\",\n                departAt: \"2025-11-13T00:00:00.000Z\",\n                acType: \"Gulfstream IV-SP\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"13-11-2025 00:00 → 12-12-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"a95bbfa0ec61e384\",\n                operator: \"aviapages\",\n                fromIata: \"FAB\",\n                toIata: \"DUB\",\n                fromIcao: \"EGLF\",\n                toIcao: \"EIDW\",\n                fromCity: \"Farnborough\",\n                toCity: \"Dublin Intl\",\n                fromName: \"Farnborough\",\n                toName: \"Dublin Intl\",\n                departAt: \"2025-11-13T00:00:00.000Z\",\n                acType: \"Gulfstream IV-SP\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"13-11-2025 00:00 → 12-12-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "a95bbfa0ec61e384",
+    "operator": "aviapages",
+    "fromIata": "FAB",
+    "toIata": "DUB",
+    "fromIcao": "EGLF",
+    "toIcao": "EIDW",
+    "fromCity": "Farnborough",
+    "toCity": "Dublin Intl",
+    "fromName": "Farnborough",
+    "toName": "Dublin Intl",
+    "departAt": "2025-11-13T00:00:00.000Z",
+    "acType": "Gulfstream IV-SP",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "13-11-2025 00:00 → 12-12-2025 00:00 | Price on Request"
+  }
+}

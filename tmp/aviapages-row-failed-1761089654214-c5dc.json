@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"5bee18f2d04000be\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"LTN\",\n                toIata: \"VIE\",\n                fromIcao: \"EGGW\",\n                toIcao: \"LOWW\",\n                fromCity: \"London Luton Airport\",\n                toCity: \"Schwechat\",\n                fromName: \"London Luton Airport\",\n                toName: \"Schwechat\",\n                departAt: \"2025-10-20T10:05:00.000Z\",\n                acType: \"Challenger 350\",\n                acClass: \"Super Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"20-10-2025 10:05 → 21-10-2025 08:14 | Price on Request\"\n              },\n              create: {\n                id: \"5bee18f2d04000be\",\n                operator: \"aviapages\",\n                fromIata: \"LTN\",\n                toIata: \"VIE\",\n                fromIcao: \"EGGW\",\n                toIcao: \"LOWW\",\n                fromCity: \"London Luton Airport\",\n                toCity: \"Schwechat\",\n                fromName: \"London Luton Airport\",\n                toName: \"Schwechat\",\n                departAt: \"2025-10-20T10:05:00.000Z\",\n                acType: \"Challenger 350\",\n                acClass: \"Super Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"20-10-2025 10:05 → 21-10-2025 08:14 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "5bee18f2d04000be",
+    "operator": "aviapages",
+    "fromIata": "LTN",
+    "toIata": "VIE",
+    "fromIcao": "EGGW",
+    "toIcao": "LOWW",
+    "fromCity": "London Luton Airport",
+    "toCity": "Schwechat",
+    "fromName": "London Luton Airport",
+    "toName": "Schwechat",
+    "departAt": "2025-10-20T10:05:00.000Z",
+    "acType": "Challenger 350",
+    "acClass": "Super Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "20-10-2025 10:05 → 21-10-2025 08:14 | Price on Request"
+  }
+}

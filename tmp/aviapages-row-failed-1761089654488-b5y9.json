@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"d41d5abc81135f40\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"LJU\",\n                toIata: \"NCE\",\n                fromIcao: \"LJLJ\",\n                toIcao: \"LFMN\",\n                fromCity: \"Brnik\",\n                toCity: \"Nice Cote D Azur\",\n                fromName: \"Brnik\",\n                toName: \"Nice Cote D Azur\",\n                departAt: \"2025-10-29T13:46:00.000Z\",\n                acType: \"Gulfstream G200\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"29-10-2025 13:46 → 29-10-2025 15:11 | Price on Request\"\n              },\n              create: {\n                id: \"d41d5abc81135f40\",\n                operator: \"aviapages\",\n                fromIata: \"LJU\",\n                toIata: \"NCE\",\n                fromIcao: \"LJLJ\",\n                toIcao: \"LFMN\",\n                fromCity: \"Brnik\",\n                toCity: \"Nice Cote D Azur\",\n                fromName: \"Brnik\",\n                toName: \"Nice Cote D Azur\",\n                departAt: \"2025-10-29T13:46:00.000Z\",\n                acType: \"Gulfstream G200\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"29-10-2025 13:46 → 29-10-2025 15:11 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "d41d5abc81135f40",
+    "operator": "aviapages",
+    "fromIata": "LJU",
+    "toIata": "NCE",
+    "fromIcao": "LJLJ",
+    "toIcao": "LFMN",
+    "fromCity": "Brnik",
+    "toCity": "Nice Cote D Azur",
+    "fromName": "Brnik",
+    "toName": "Nice Cote D Azur",
+    "departAt": "2025-10-29T13:46:00.000Z",
+    "acType": "Gulfstream G200",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "29-10-2025 13:46 → 29-10-2025 15:11 | Price on Request"
+  }
+}

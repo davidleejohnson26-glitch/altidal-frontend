@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"749fa11fa9f695bc\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"HKG\",\n                toIata: \"MNL\",\n                fromIcao: \"VHHH\",\n                toIcao: \"RPLL\",\n                fromCity: \"Hong Kong Intl\",\n                toCity: \"Ninoy Aquino Intl\",\n                fromName: \"Hong Kong Intl\",\n                toName: \"Ninoy Aquino Intl\",\n                departAt: \"2025-10-23T10:00:00.000Z\",\n                acType: \"Airbus ACJ319\",\n                acClass: \"Unknown\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-10-2025 10:00 → 23-10-2025 11:45 | Price on Request\"\n              },\n              create: {\n                id: \"749fa11fa9f695bc\",\n                operator: \"aviapages\",\n                fromIata: \"HKG\",\n                toIata: \"MNL\",\n                fromIcao: \"VHHH\",\n                toIcao: \"RPLL\",\n                fromCity: \"Hong Kong Intl\",\n                toCity: \"Ninoy Aquino Intl\",\n                fromName: \"Hong Kong Intl\",\n                toName: \"Ninoy Aquino Intl\",\n                departAt: \"2025-10-23T10:00:00.000Z\",\n                acType: \"Airbus ACJ319\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-10-2025 10:00 → 23-10-2025 11:45 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "749fa11fa9f695bc",
+    "operator": "aviapages",
+    "fromIata": "HKG",
+    "toIata": "MNL",
+    "fromIcao": "VHHH",
+    "toIcao": "RPLL",
+    "fromCity": "Hong Kong Intl",
+    "toCity": "Ninoy Aquino Intl",
+    "fromName": "Hong Kong Intl",
+    "toName": "Ninoy Aquino Intl",
+    "departAt": "2025-10-23T10:00:00.000Z",
+    "acType": "Airbus ACJ319",
+    "acClass": "Unknown",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "23-10-2025 10:00 → 23-10-2025 11:45 | Price on Request"
+  }
+}

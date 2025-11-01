@@ -1,5 +1,19 @@
 [
   {
+    "id": "magellan_textsweep_TWO_TIME_0",
+    "operator": "magellan",
+    "origin": "TWO",
+    "destination": "TIME",
+    "url": "https://magellanjets.com/private-jet-services/empty-legs/"
+  },
+  {
+    "id": "magellan_textsweep_DEBT_FREE_1",
+    "operator": "magellan",
+    "origin": "DEBT",
+    "destination": "FREE",
+    "url": "https://magellanjets.com/private-jet-services/empty-legs/"
+  },
+  {
     "id": "magellan_textsweep_DAY_DAYS_0",
     "operator": "magellan",
     "origin": "DAY",
@@ -14,1410 +28,1256 @@
     "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
   },
   {
-    "id": "magellan_textsweep_SEP_OCT_2",
-    "operator": "magellan",
-    "origin": "SEP",
-    "destination": "OCT",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KMDW_KSAF_3",
-    "operator": "magellan",
-    "origin": "KMDW",
-    "destination": "KSAF",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_OCT_OCT_4",
+    "id": "magellan_textsweep_OCT_OCT_2",
     "operator": "magellan",
     "origin": "OCT",
     "destination": "OCT",
     "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
   },
   {
-    "id": "magellan_textsweep_KDTS_KTUL_5",
+    "id": "magellan_textsweep_KAPF_KTTN_3",
     "operator": "magellan",
-    "origin": "KDTS",
-    "destination": "KTUL",
+    "origin": "KAPF",
+    "destination": "KTTN",
     "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
   },
   {
-    "id": "magellan_textsweep_KBCT_KBED_6",
+    "id": "magellan_textsweep_KFLL_KTEB_4",
     "operator": "magellan",
-    "origin": "KBCT",
+    "origin": "KFLL",
+    "destination": "KTEB",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_NOV_NOV_5",
+    "operator": "magellan",
+    "origin": "NOV",
+    "destination": "NOV",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KOPF_KBED_6",
+    "operator": "magellan",
+    "origin": "KOPF",
     "destination": "KBED",
     "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
   },
   {
-    "id": "magellan_textsweep_KTEB_KPBI_7",
+    "id": "magellan_textsweep_KSLC_LEIB_7",
+    "operator": "magellan",
+    "origin": "KSLC",
+    "destination": "LEIB",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KVNY_KTEB_8",
+    "operator": "magellan",
+    "origin": "KVNY",
+    "destination": "KTEB",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KROC_KSYR_9",
+    "operator": "magellan",
+    "origin": "KROC",
+    "destination": "KSYR",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_PHNL_KVNY_10",
+    "operator": "magellan",
+    "origin": "PHNL",
+    "destination": "KVNY",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KABE_KTEB_11",
+    "operator": "magellan",
+    "origin": "KABE",
+    "destination": "KTEB",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KTEB_KPTK_12",
     "operator": "magellan",
     "origin": "KTEB",
-    "destination": "KPBI",
+    "destination": "KPTK",
     "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
   },
   {
-    "id": "magellan_textsweep_KSUA_KSJC_8",
+    "id": "magellan_textsweep_KRVS_KRSW_13",
     "operator": "magellan",
-    "origin": "KSUA",
-    "destination": "KSJC",
+    "origin": "KRVS",
+    "destination": "KRSW",
     "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
   },
   {
-    "id": "magellan_textsweep_KMKE_KTEB_9",
+    "id": "magellan_textsweep_KMRY_KLAS_14",
     "operator": "magellan",
-    "origin": "KMKE",
-    "destination": "KTEB",
+    "origin": "KMRY",
+    "destination": "KLAS",
     "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
   },
   {
-    "id": "magellan_textsweep_CYYZ_CYUL_10",
-    "operator": "magellan",
-    "origin": "CYYZ",
-    "destination": "CYUL",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KCHS_KBTA_11",
-    "operator": "magellan",
-    "origin": "KCHS",
-    "destination": "KBTA",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KDAL_KPWA_12",
-    "operator": "magellan",
-    "origin": "KDAL",
-    "destination": "KPWA",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KPWA_KASE_13",
-    "operator": "magellan",
-    "origin": "KPWA",
-    "destination": "KASE",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KCLE_KHOU_14",
-    "operator": "magellan",
-    "origin": "KCLE",
-    "destination": "KHOU",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KSLC_KPSO_15",
-    "operator": "magellan",
-    "origin": "KSLC",
-    "destination": "KPSO",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KSLC_KHND_16",
-    "operator": "magellan",
-    "origin": "KSLC",
-    "destination": "KHND",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KUDD_KHND_17",
-    "operator": "magellan",
-    "origin": "KUDD",
-    "destination": "KHND",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KJAN_KIAD_18",
-    "operator": "magellan",
-    "origin": "KJAN",
-    "destination": "KIAD",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KFRG_KEWB_19",
-    "operator": "magellan",
-    "origin": "KFRG",
-    "destination": "KEWB",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KFLL_KORL_20",
-    "operator": "magellan",
-    "origin": "KFLL",
-    "destination": "KORL",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KMGM_KSAV_21",
-    "operator": "magellan",
-    "origin": "KMGM",
-    "destination": "KSAV",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KMDW_KSAT_22",
-    "operator": "magellan",
-    "origin": "KMDW",
-    "destination": "KSAT",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KBOI_KEEO_23",
-    "operator": "magellan",
-    "origin": "KBOI",
-    "destination": "KEEO",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KDAL_KHOU_24",
-    "operator": "magellan",
-    "origin": "KDAL",
-    "destination": "KHOU",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KPHL_KCLE_25",
+    "id": "magellan_textsweep_KPHL_KJAX_15",
     "operator": "magellan",
     "origin": "KPHL",
-    "destination": "KCLE",
+    "destination": "KJAX",
     "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
   },
   {
-    "id": "magellan_textsweep_KPIT_KHPN_26",
+    "id": "magellan_textsweep_KMRF_KDWH_16",
     "operator": "magellan",
-    "origin": "KPIT",
-    "destination": "KHPN",
+    "origin": "KMRF",
+    "destination": "KDWH",
     "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
   },
   {
-    "id": "magellan_textsweep_KLAS_KCOE_27",
+    "id": "magellan_textsweep_KMCO_KMTH_17",
     "operator": "magellan",
-    "origin": "KLAS",
-    "destination": "KCOE",
+    "origin": "KMCO",
+    "destination": "KMTH",
     "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
   },
   {
-    "id": "magellan_textsweep_KCDS_KDRO_28",
+    "id": "magellan_textsweep_KAPF_KGYY_18",
     "operator": "magellan",
-    "origin": "KCDS",
-    "destination": "KDRO",
+    "origin": "KAPF",
+    "destination": "KGYY",
     "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
   },
   {
-    "id": "magellan_textsweep_CYYZ_KTEB_29",
+    "id": "magellan_textsweep_KIAH_KAUS_19",
     "operator": "magellan",
-    "origin": "CYYZ",
-    "destination": "KTEB",
+    "origin": "KIAH",
+    "destination": "KAUS",
     "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
   },
   {
-    "id": "magellan_textsweep_KLXT_KFRG_30",
+    "id": "magellan_textsweep_KLAX_KBOI_20",
     "operator": "magellan",
-    "origin": "KLXT",
-    "destination": "KFRG",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KAPA_KMTJ_31",
-    "operator": "magellan",
-    "origin": "KAPA",
-    "destination": "KMTJ",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_CYQG_KFTW_32",
-    "operator": "magellan",
-    "origin": "CYQG",
-    "destination": "KFTW",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KDSM_KBWI_33",
-    "operator": "magellan",
-    "origin": "KDSM",
-    "destination": "KBWI",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KGEG_KBOI_34",
-    "operator": "magellan",
-    "origin": "KGEG",
+    "origin": "KLAX",
     "destination": "KBOI",
     "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
   },
   {
-    "id": "magellan_textsweep_KLAX_KSDL_35",
+    "id": "magellan_textsweep_KBHM_KNEW_21",
     "operator": "magellan",
-    "origin": "KLAX",
-    "destination": "KSDL",
+    "origin": "KBHM",
+    "destination": "KNEW",
     "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
   },
   {
-    "id": "magellan_textsweep_KXNX_KLVM_36",
-    "operator": "magellan",
-    "origin": "KXNX",
-    "destination": "KLVM",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KTUS_KLAS_37",
-    "operator": "magellan",
-    "origin": "KTUS",
-    "destination": "KLAS",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KGYY_KPLN_38",
-    "operator": "magellan",
-    "origin": "KGYY",
-    "destination": "KPLN",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KBOI_KONP_39",
-    "operator": "magellan",
-    "origin": "KBOI",
-    "destination": "KONP",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_TGPY_MYGF_40",
-    "operator": "magellan",
-    "origin": "TGPY",
-    "destination": "MYGF",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KLAF_KSDF_41",
-    "operator": "magellan",
-    "origin": "KLAF",
-    "destination": "KSDF",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KPBI_KCLE_42",
-    "operator": "magellan",
-    "origin": "KPBI",
-    "destination": "KCLE",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KSDL_KVNY_43",
-    "operator": "magellan",
-    "origin": "KSDL",
-    "destination": "KVNY",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KLAS_KVNY_44",
-    "operator": "magellan",
-    "origin": "KLAS",
-    "destination": "KVNY",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KADS_KHUF_45",
-    "operator": "magellan",
-    "origin": "KADS",
-    "destination": "KHUF",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_CYXC_CYYC_46",
-    "operator": "magellan",
-    "origin": "CYXC",
-    "destination": "CYYC",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KCRQ_KLAS_47",
-    "operator": "magellan",
-    "origin": "KCRQ",
-    "destination": "KLAS",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KLGA_KLNS_48",
-    "operator": "magellan",
-    "origin": "KLGA",
-    "destination": "KLNS",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KPCW_KTYS_49",
-    "operator": "magellan",
-    "origin": "KPCW",
-    "destination": "KTYS",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KSNA_KSDL_50",
+    "id": "magellan_textsweep_KSNA_KSDL_22",
     "operator": "magellan",
     "origin": "KSNA",
     "destination": "KSDL",
     "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
   },
   {
-    "id": "magellan_textsweep_KMKC_KXNA_51",
+    "id": "magellan_textsweep_KCMH_KMQY_23",
     "operator": "magellan",
-    "origin": "KMKC",
-    "destination": "KXNA",
+    "origin": "KCMH",
+    "destination": "KMQY",
     "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
   },
   {
-    "id": "magellan_textsweep_KMKC_KAPA_52",
+    "id": "magellan_textsweep_KAVL_KIAD_24",
     "operator": "magellan",
-    "origin": "KMKC",
-    "destination": "KAPA",
+    "origin": "KAVL",
+    "destination": "KIAD",
     "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
   },
   {
-    "id": "magellan_textsweep_KJZI_KELM_53",
+    "id": "magellan_textsweep_KTEB_CYHU_25",
     "operator": "magellan",
-    "origin": "KJZI",
-    "destination": "KELM",
+    "origin": "KTEB",
+    "destination": "CYHU",
     "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
   },
   {
-    "id": "magellan_textsweep_KMAE_KBZN_54",
+    "id": "magellan_textsweep_KMIA_KGSO_26",
     "operator": "magellan",
-    "origin": "KMAE",
-    "destination": "KBZN",
+    "origin": "KMIA",
+    "destination": "KGSO",
     "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
   },
   {
-    "id": "magellan_textsweep_KIAH_KSAT_55",
+    "id": "magellan_textsweep_KVNY_KMRY_27",
     "operator": "magellan",
-    "origin": "KIAH",
-    "destination": "KSAT",
+    "origin": "KVNY",
+    "destination": "KMRY",
     "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
   },
   {
-    "id": "magellan_textsweep_KLEB_KCLE_56",
+    "id": "magellan_textsweep_KORF_KPVD_28",
     "operator": "magellan",
-    "origin": "KLEB",
-    "destination": "KCLE",
+    "origin": "KORF",
+    "destination": "KPVD",
     "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
   },
   {
-    "id": "magellan_textsweep_KSDF_KYIP_57",
+    "id": "magellan_textsweep_LZKZ_LFSB_29",
     "operator": "magellan",
-    "origin": "KSDF",
-    "destination": "KYIP",
+    "origin": "LZKZ",
+    "destination": "LFSB",
     "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
   },
   {
-    "id": "magellan_textsweep_KBED_KTEB_58",
+    "id": "magellan_textsweep_KPVU_KBOI_30",
     "operator": "magellan",
-    "origin": "KBED",
+    "origin": "KPVU",
+    "destination": "KBOI",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KSDL_KENW_31",
+    "operator": "magellan",
+    "origin": "KSDL",
+    "destination": "KENW",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KSTL_KPBI_32",
+    "operator": "magellan",
+    "origin": "KSTL",
+    "destination": "KPBI",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KIAD_KSTL_33",
+    "operator": "magellan",
+    "origin": "KIAD",
+    "destination": "KSTL",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KBCT_KTEB_34",
+    "operator": "magellan",
+    "origin": "KBCT",
     "destination": "KTEB",
     "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
   },
   {
-    "id": "magellan_textsweep_KHOU_KAUS_59",
+    "id": "magellan_textsweep_KBFI_KRDM_35",
+    "operator": "magellan",
+    "origin": "KBFI",
+    "destination": "KRDM",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KSFO_KAPA_36",
+    "operator": "magellan",
+    "origin": "KSFO",
+    "destination": "KAPA",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KPWA_KLNC_37",
+    "operator": "magellan",
+    "origin": "KPWA",
+    "destination": "KLNC",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KFLL_KFTY_38",
+    "operator": "magellan",
+    "origin": "KFLL",
+    "destination": "KFTY",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KLAS_KVNY_39",
+    "operator": "magellan",
+    "origin": "KLAS",
+    "destination": "KVNY",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KLAS_KSLC_40",
+    "operator": "magellan",
+    "origin": "KLAS",
+    "destination": "KSLC",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KORL_KHKY_41",
+    "operator": "magellan",
+    "origin": "KORL",
+    "destination": "KHKY",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KOMA_KDSM_42",
+    "operator": "magellan",
+    "origin": "KOMA",
+    "destination": "KDSM",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KVRB_KAVL_43",
+    "operator": "magellan",
+    "origin": "KVRB",
+    "destination": "KAVL",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KHPN_KEFK_44",
+    "operator": "magellan",
+    "origin": "KHPN",
+    "destination": "KEFK",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KORL_CYEG_45",
+    "operator": "magellan",
+    "origin": "KORL",
+    "destination": "CYEG",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KAUS_KAAO_46",
+    "operator": "magellan",
+    "origin": "KAUS",
+    "destination": "KAAO",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KFLL_KCHS_47",
+    "operator": "magellan",
+    "origin": "KFLL",
+    "destination": "KCHS",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KSGR_KSAT_48",
+    "operator": "magellan",
+    "origin": "KSGR",
+    "destination": "KSAT",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_CYOW_CYQR_49",
+    "operator": "magellan",
+    "origin": "CYOW",
+    "destination": "CYQR",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KSTL_BBG_50",
+    "operator": "magellan",
+    "origin": "KSTL",
+    "destination": "BBG",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KBBG_KFCM_51",
+    "operator": "magellan",
+    "origin": "KBBG",
+    "destination": "KFCM",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KLVK_KVEL_52",
+    "operator": "magellan",
+    "origin": "KLVK",
+    "destination": "KVEL",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KLAS_KVEL_53",
+    "operator": "magellan",
+    "origin": "KLAS",
+    "destination": "KVEL",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KTEB_CYYZ_54",
+    "operator": "magellan",
+    "origin": "KTEB",
+    "destination": "CYYZ",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KSDL_KLAS_55",
+    "operator": "magellan",
+    "origin": "KSDL",
+    "destination": "KLAS",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KROC_KSTP_56",
+    "operator": "magellan",
+    "origin": "KROC",
+    "destination": "KSTP",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KSZT_KMSO_57",
+    "operator": "magellan",
+    "origin": "KSZT",
+    "destination": "KMSO",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KGON_KTOL_58",
+    "operator": "magellan",
+    "origin": "KGON",
+    "destination": "KTOL",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KORL_KACK_59",
+    "operator": "magellan",
+    "origin": "KORL",
+    "destination": "KACK",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KCLE_KIAD_60",
+    "operator": "magellan",
+    "origin": "KCLE",
+    "destination": "KIAD",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KSDM_CYYC_61",
+    "operator": "magellan",
+    "origin": "KSDM",
+    "destination": "CYYC",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KCLE_KOCF_62",
+    "operator": "magellan",
+    "origin": "KCLE",
+    "destination": "KOCF",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KAUS_MMMY_63",
+    "operator": "magellan",
+    "origin": "KAUS",
+    "destination": "MMMY",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KOAK_CYYJ_64",
+    "operator": "magellan",
+    "origin": "KOAK",
+    "destination": "CYYJ",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KFCM_KMEM_65",
+    "operator": "magellan",
+    "origin": "KFCM",
+    "destination": "KMEM",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KPBI_KPWM_66",
+    "operator": "magellan",
+    "origin": "KPBI",
+    "destination": "KPWM",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KOAK_KAPA_67",
+    "operator": "magellan",
+    "origin": "KOAK",
+    "destination": "KAPA",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KSJC_KLAS_68",
+    "operator": "magellan",
+    "origin": "KSJC",
+    "destination": "KLAS",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KSRQ_KLNS_69",
+    "operator": "magellan",
+    "origin": "KSRQ",
+    "destination": "KLNS",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KCLE_KBCT_70",
+    "operator": "magellan",
+    "origin": "KCLE",
+    "destination": "KBCT",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KIAD_KFRG_71",
+    "operator": "magellan",
+    "origin": "KIAD",
+    "destination": "KFRG",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KPBI_KTPA_72",
+    "operator": "magellan",
+    "origin": "KPBI",
+    "destination": "KTPA",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KOPF_KBNA_73",
+    "operator": "magellan",
+    "origin": "KOPF",
+    "destination": "KBNA",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KSBA_KSTS_74",
+    "operator": "magellan",
+    "origin": "KSBA",
+    "destination": "KSTS",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KLGA_MYNN_75",
+    "operator": "magellan",
+    "origin": "KLGA",
+    "destination": "MYNN",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KSEF_KBNA_76",
+    "operator": "magellan",
+    "origin": "KSEF",
+    "destination": "KBNA",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KTOL_KOMA_77",
+    "operator": "magellan",
+    "origin": "KTOL",
+    "destination": "KOMA",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KPBI_KJAX_78",
+    "operator": "magellan",
+    "origin": "KPBI",
+    "destination": "KJAX",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KPGV_KBCT_79",
+    "operator": "magellan",
+    "origin": "KPGV",
+    "destination": "KBCT",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KTUL_KSTL_80",
+    "operator": "magellan",
+    "origin": "KTUL",
+    "destination": "KSTL",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KVNY_KLAS_81",
+    "operator": "magellan",
+    "origin": "KVNY",
+    "destination": "KLAS",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KOCH_KDAL_82",
+    "operator": "magellan",
+    "origin": "KOCH",
+    "destination": "KDAL",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KHOU_KAUS_83",
     "operator": "magellan",
     "origin": "KHOU",
     "destination": "KAUS",
     "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
   },
   {
-    "id": "magellan_textsweep_KSJC_KVNY_60",
+    "id": "magellan_textsweep_KDTW_KORD_84",
     "operator": "magellan",
-    "origin": "KSJC",
-    "destination": "KVNY",
+    "origin": "KDTW",
+    "destination": "KORD",
     "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
   },
   {
-    "id": "magellan_textsweep_KFHR_KBOI_61",
-    "operator": "magellan",
-    "origin": "KFHR",
-    "destination": "KBOI",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KALN_KHPN_62",
-    "operator": "magellan",
-    "origin": "KALN",
-    "destination": "KHPN",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KMDW_CYYZ_63",
-    "operator": "magellan",
-    "origin": "KMDW",
-    "destination": "CYYZ",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KMAF_KXNA_64",
-    "operator": "magellan",
-    "origin": "KMAF",
-    "destination": "KXNA",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KPSM_KHPN_65",
-    "operator": "magellan",
-    "origin": "KPSM",
-    "destination": "KHPN",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KCMH_KCGF_66",
-    "operator": "magellan",
-    "origin": "KCMH",
-    "destination": "KCGF",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KBTV_KIAD_67",
-    "operator": "magellan",
-    "origin": "KBTV",
-    "destination": "KIAD",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KTEB_KVNY_68",
-    "operator": "magellan",
-    "origin": "KTEB",
-    "destination": "KVNY",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KLFT_KVCT_69",
-    "operator": "magellan",
-    "origin": "KLFT",
-    "destination": "KVCT",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KPBI_KTEB_70",
-    "operator": "magellan",
-    "origin": "KPBI",
-    "destination": "KTEB",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KPWK_KMDW_71",
-    "operator": "magellan",
-    "origin": "KPWK",
-    "destination": "KMDW",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_LFPB_LSZH_72",
-    "operator": "magellan",
-    "origin": "LFPB",
-    "destination": "LSZH",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_CYYZ_CYHZ_73",
-    "operator": "magellan",
-    "origin": "CYYZ",
-    "destination": "CYHZ",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KMCC_KMAE_74",
-    "operator": "magellan",
-    "origin": "KMCC",
-    "destination": "KMAE",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KAPF_KENW_75",
-    "operator": "magellan",
-    "origin": "KAPF",
-    "destination": "KENW",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KTUL_KPWA_76",
-    "operator": "magellan",
-    "origin": "KTUL",
-    "destination": "KPWA",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KAPF_KMDW_77",
-    "operator": "magellan",
-    "origin": "KAPF",
-    "destination": "KMDW",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KHOU_KSAT_78",
-    "operator": "magellan",
-    "origin": "KHOU",
-    "destination": "KSAT",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KFAT_KSNA_79",
-    "operator": "magellan",
-    "origin": "KFAT",
-    "destination": "KSNA",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KHOU_KCRQ_80",
-    "operator": "magellan",
-    "origin": "KHOU",
-    "destination": "KCRQ",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KGLE_KPSM_81",
-    "operator": "magellan",
-    "origin": "KGLE",
-    "destination": "KPSM",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KORD_KSAN_82",
-    "operator": "magellan",
-    "origin": "KORD",
-    "destination": "KSAN",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_CYWG_CYVR_83",
-    "operator": "magellan",
-    "origin": "CYWG",
-    "destination": "CYVR",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KHND_KRDM_84",
-    "operator": "magellan",
-    "origin": "KHND",
-    "destination": "KRDM",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KSDL_KHND_85",
-    "operator": "magellan",
-    "origin": "KSDL",
-    "destination": "KHND",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KMEM_KMKE_86",
-    "operator": "magellan",
-    "origin": "KMEM",
-    "destination": "KMKE",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KIND_KTUL_87",
-    "operator": "magellan",
-    "origin": "KIND",
-    "destination": "KTUL",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KPGD_KART_88",
-    "operator": "magellan",
-    "origin": "KPGD",
-    "destination": "KART",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KHPN_KPVD_89",
-    "operator": "magellan",
-    "origin": "KHPN",
-    "destination": "KPVD",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KPWK_KBMG_90",
-    "operator": "magellan",
-    "origin": "KPWK",
-    "destination": "KBMG",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KAUS_KHOU_91",
-    "operator": "magellan",
-    "origin": "KAUS",
-    "destination": "KHOU",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KVNY_KSFO_92",
-    "operator": "magellan",
-    "origin": "KVNY",
-    "destination": "KSFO",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KLAS_KSFO_93",
-    "operator": "magellan",
-    "origin": "KLAS",
-    "destination": "KSFO",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KLAS_KSJC_94",
-    "operator": "magellan",
-    "origin": "KLAS",
-    "destination": "KSJC",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KSLC_KJAC_95",
-    "operator": "magellan",
-    "origin": "KSLC",
-    "destination": "KJAC",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KISO_KBWI_96",
-    "operator": "magellan",
-    "origin": "KISO",
-    "destination": "KBWI",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KTUL_KHOU_97",
-    "operator": "magellan",
-    "origin": "KTUL",
-    "destination": "KHOU",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KLAS_KBOS_98",
-    "operator": "magellan",
-    "origin": "KLAS",
-    "destination": "KBOS",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KHOU_KGTU_99",
-    "operator": "magellan",
-    "origin": "KHOU",
-    "destination": "KGTU",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KLAS_KRIL_100",
-    "operator": "magellan",
-    "origin": "KLAS",
-    "destination": "KRIL",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KERV_KDAL_101",
-    "operator": "magellan",
-    "origin": "KERV",
-    "destination": "KDAL",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KLAS_KASE_102",
-    "operator": "magellan",
-    "origin": "KLAS",
-    "destination": "KASE",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KTEB_KBOS_103",
-    "operator": "magellan",
-    "origin": "KTEB",
-    "destination": "KBOS",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KHCR_KJAC_104",
-    "operator": "magellan",
-    "origin": "KHCR",
-    "destination": "KJAC",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KIAD_KBNA_105",
-    "operator": "magellan",
-    "origin": "KIAD",
-    "destination": "KBNA",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KBNA_KSTL_106",
-    "operator": "magellan",
-    "origin": "KBNA",
-    "destination": "KSTL",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KSHR_KLVM_107",
-    "operator": "magellan",
-    "origin": "KSHR",
-    "destination": "KLVM",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KPSP_KVNY_108",
-    "operator": "magellan",
-    "origin": "KPSP",
-    "destination": "KVNY",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KAPA_KFLL_109",
-    "operator": "magellan",
-    "origin": "KAPA",
-    "destination": "KFLL",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KELP_KTOL_110",
-    "operator": "magellan",
-    "origin": "KELP",
-    "destination": "KTOL",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KPDK_KBOS_111",
-    "operator": "magellan",
-    "origin": "KPDK",
-    "destination": "KBOS",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KMSY_KDAL_112",
-    "operator": "magellan",
-    "origin": "KMSY",
-    "destination": "KDAL",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KMLI_KPWK_113",
-    "operator": "magellan",
-    "origin": "KMLI",
-    "destination": "KPWK",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KJAX_KCLT_114",
-    "operator": "magellan",
-    "origin": "KJAX",
-    "destination": "KCLT",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KTEB_KIAD_115",
-    "operator": "magellan",
-    "origin": "KTEB",
-    "destination": "KIAD",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KSLC_KBFI_116",
-    "operator": "magellan",
-    "origin": "KSLC",
-    "destination": "KBFI",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KLYH_KIAD_117",
-    "operator": "magellan",
-    "origin": "KLYH",
-    "destination": "KIAD",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_CYLW_CYYC_118",
-    "operator": "magellan",
-    "origin": "CYLW",
-    "destination": "CYYC",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KFQD_KRDU_119",
-    "operator": "magellan",
-    "origin": "KFQD",
-    "destination": "KRDU",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KOPF_KPIE_120",
-    "operator": "magellan",
-    "origin": "KOPF",
-    "destination": "KPIE",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KSAV_KEDC_121",
-    "operator": "magellan",
-    "origin": "KSAV",
-    "destination": "KEDC",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KBCT_KDWH_122",
-    "operator": "magellan",
-    "origin": "KBCT",
-    "destination": "KDWH",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KLLN_KERV_123",
-    "operator": "magellan",
-    "origin": "KLLN",
-    "destination": "KERV",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KLGB_KBOI_124",
-    "operator": "magellan",
-    "origin": "KLGB",
-    "destination": "KBOI",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KTEB_KACK_125",
-    "operator": "magellan",
-    "origin": "KTEB",
-    "destination": "KACK",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KLVK_KJAC_126",
-    "operator": "magellan",
-    "origin": "KLVK",
-    "destination": "KJAC",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KAPC_KVNY_127",
-    "operator": "magellan",
-    "origin": "KAPC",
-    "destination": "KVNY",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KOMA_KSDF_128",
-    "operator": "magellan",
-    "origin": "KOMA",
-    "destination": "KSDF",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KOAK_KSDL_129",
-    "operator": "magellan",
-    "origin": "KOAK",
-    "destination": "KSDL",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KAUS_KGYY_130",
-    "operator": "magellan",
-    "origin": "KAUS",
-    "destination": "KGYY",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KMCO_KMTN_131",
-    "operator": "magellan",
-    "origin": "KMCO",
-    "destination": "KMTN",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_MYNN_KAPF_132",
-    "operator": "magellan",
-    "origin": "MYNN",
-    "destination": "KAPF",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KTEB_KMDW_133",
-    "operator": "magellan",
-    "origin": "KTEB",
-    "destination": "KMDW",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_LEPA_LSZH_134",
-    "operator": "magellan",
-    "origin": "LEPA",
-    "destination": "LSZH",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KMDW_KMPO_135",
-    "operator": "magellan",
-    "origin": "KMDW",
-    "destination": "KMPO",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KDSM_KTEB_136",
-    "operator": "magellan",
-    "origin": "KDSM",
-    "destination": "KTEB",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KOAK_KLAX_137",
-    "operator": "magellan",
-    "origin": "KOAK",
-    "destination": "KLAX",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_MDSD_KCRQ_138",
-    "operator": "magellan",
-    "origin": "MDSD",
-    "destination": "KCRQ",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KSIY_KCIC_139",
-    "operator": "magellan",
-    "origin": "KSIY",
-    "destination": "KCIC",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_MMSD_KSDM_140",
-    "operator": "magellan",
-    "origin": "MMSD",
-    "destination": "KSDM",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KHOU_KFTW_141",
-    "operator": "magellan",
-    "origin": "KHOU",
-    "destination": "KFTW",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_CYYZ_CYOW_142",
-    "operator": "magellan",
-    "origin": "CYYZ",
-    "destination": "CYOW",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_LPPT_EGGW_143",
-    "operator": "magellan",
-    "origin": "LPPT",
-    "destination": "EGGW",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KENW_KIND_144",
-    "operator": "magellan",
-    "origin": "KENW",
-    "destination": "KIND",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KSDM_KVNY_145",
-    "operator": "magellan",
-    "origin": "KSDM",
-    "destination": "KVNY",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KVNY_KJAC_146",
-    "operator": "magellan",
-    "origin": "KVNY",
-    "destination": "KJAC",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_CYYZ_KOPF_147",
-    "operator": "magellan",
-    "origin": "CYYZ",
-    "destination": "KOPF",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KRAP_KMDW_148",
-    "operator": "magellan",
-    "origin": "KRAP",
-    "destination": "KMDW",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KJAX_KHEF_149",
-    "operator": "magellan",
-    "origin": "KJAX",
-    "destination": "KHEF",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KFRG_CYQG_150",
-    "operator": "magellan",
-    "origin": "KFRG",
-    "destination": "CYQG",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KPWA_KPUB_151",
-    "operator": "magellan",
-    "origin": "KPWA",
-    "destination": "KPUB",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KVNY_MMCU_152",
-    "operator": "magellan",
-    "origin": "KVNY",
-    "destination": "MMCU",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KHOU_KBNA_153",
-    "operator": "magellan",
-    "origin": "KHOU",
-    "destination": "KBNA",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KLAS_KLVK_154",
-    "operator": "magellan",
-    "origin": "KLAS",
-    "destination": "KLVK",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_CYKF_CYOW_155",
-    "operator": "magellan",
-    "origin": "CYKF",
-    "destination": "CYOW",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KTRI_KBNA_156",
-    "operator": "magellan",
-    "origin": "KTRI",
-    "destination": "KBNA",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KFLL_KOCF_157",
-    "operator": "magellan",
-    "origin": "KFLL",
-    "destination": "KOCF",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KDAL_KTUL_158",
-    "operator": "magellan",
-    "origin": "KDAL",
-    "destination": "KTUL",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KPIE_KARR_159",
-    "operator": "magellan",
-    "origin": "KPIE",
-    "destination": "KARR",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KAVL_KTEB_160",
-    "operator": "magellan",
-    "origin": "KAVL",
-    "destination": "KTEB",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KCLE_KBED_161",
+    "id": "magellan_textsweep_KCLE_KRST_85",
     "operator": "magellan",
     "origin": "KCLE",
-    "destination": "KBED",
+    "destination": "KRST",
     "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
   },
   {
-    "id": "magellan_textsweep_KRDU_KFOK_162",
-    "operator": "magellan",
-    "origin": "KRDU",
-    "destination": "KFOK",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KSTL_KLOT_163",
-    "operator": "magellan",
-    "origin": "KSTL",
-    "destination": "KLOT",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KHOU_KFST_164",
-    "operator": "magellan",
-    "origin": "KHOU",
-    "destination": "KFST",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KSLC_KSJC_165",
-    "operator": "magellan",
-    "origin": "KSLC",
-    "destination": "KSJC",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KIAH_KDAL_166",
-    "operator": "magellan",
-    "origin": "KIAH",
-    "destination": "KDAL",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KBOI_KGPI_167",
-    "operator": "magellan",
-    "origin": "KBOI",
-    "destination": "KGPI",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KTME_KADS_168",
-    "operator": "magellan",
-    "origin": "KTME",
-    "destination": "KADS",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KLEB_KIAD_169",
-    "operator": "magellan",
-    "origin": "KLEB",
-    "destination": "KIAD",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KTEB_KDFW_170",
-    "operator": "magellan",
-    "origin": "KTEB",
-    "destination": "KDFW",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KHUF_KDTS_171",
-    "operator": "magellan",
-    "origin": "KHUF",
-    "destination": "KDTS",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KLAS_KTRM_172",
-    "operator": "magellan",
-    "origin": "KLAS",
-    "destination": "KTRM",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KRIC_KBNA_173",
-    "operator": "magellan",
-    "origin": "KRIC",
-    "destination": "KBNA",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KJAC_KGPI_174",
-    "operator": "magellan",
-    "origin": "KJAC",
-    "destination": "KGPI",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KLAS_KSNA_175",
-    "operator": "magellan",
-    "origin": "KLAS",
-    "destination": "KSNA",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KMVY_KTEB_176",
-    "operator": "magellan",
-    "origin": "KMVY",
-    "destination": "KTEB",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KFTY_KRDU_177",
-    "operator": "magellan",
-    "origin": "KFTY",
-    "destination": "KRDU",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KLAS_KPWA_178",
-    "operator": "magellan",
-    "origin": "KLAS",
-    "destination": "KPWA",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KVNY_KHOU_179",
-    "operator": "magellan",
-    "origin": "KVNY",
-    "destination": "KHOU",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KSAT_KMAF_180",
-    "operator": "magellan",
-    "origin": "KSAT",
-    "destination": "KMAF",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KTYQ_KBNA_181",
-    "operator": "magellan",
-    "origin": "KTYQ",
-    "destination": "KBNA",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KASE_KBZN_182",
-    "operator": "magellan",
-    "origin": "KASE",
-    "destination": "KBZN",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_CYAM_CYYZ_183",
-    "operator": "magellan",
-    "origin": "CYAM",
-    "destination": "CYYZ",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KCLE_KPHL_184",
-    "operator": "magellan",
-    "origin": "KCLE",
-    "destination": "KPHL",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KTEB_KPIT_185",
-    "operator": "magellan",
-    "origin": "KTEB",
-    "destination": "KPIT",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KHOU_KDAL_186",
-    "operator": "magellan",
-    "origin": "KHOU",
-    "destination": "KDAL",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KHOU_MMZO_187",
-    "operator": "magellan",
-    "origin": "KHOU",
-    "destination": "MMZO",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KBOI_KSTS_188",
-    "operator": "magellan",
-    "origin": "KBOI",
-    "destination": "KSTS",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KBTV_KFRG_189",
-    "operator": "magellan",
-    "origin": "KBTV",
-    "destination": "KFRG",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KCHS_KRDU_190",
-    "operator": "magellan",
-    "origin": "KCHS",
-    "destination": "KRDU",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KSNA_KLAS_191",
-    "operator": "magellan",
-    "origin": "KSNA",
-    "destination": "KLAS",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KHOU_KHDC_192",
-    "operator": "magellan",
-    "origin": "KHOU",
-    "destination": "KHDC",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KOTH_KBOI_193",
-    "operator": "magellan",
-    "origin": "KOTH",
-    "destination": "KBOI",
-    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
-  },
-  {
-    "id": "magellan_textsweep_KDRO_KLAS_194",
+    "id": "magellan_textsweep_KDRO_KLAS_86",
     "operator": "magellan",
     "origin": "KDRO",
     "destination": "KLAS",
     "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
   },
   {
-    "id": "magellan_textsweep_KBNA_KHPN_195",
+    "id": "magellan_textsweep_KTEB_KJWN_87",
     "operator": "magellan",
-    "origin": "KBNA",
-    "destination": "KHPN",
+    "origin": "KTEB",
+    "destination": "KJWN",
     "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
   },
   {
-    "id": "magellan_textsweep_KSDL_KEGE_196",
+    "id": "magellan_textsweep_KLUK_KBWI_88",
     "operator": "magellan",
-    "origin": "KSDL",
-    "destination": "KEGE",
+    "origin": "KLUK",
+    "destination": "KBWI",
     "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
   },
   {
-    "id": "magellan_textsweep_KAUS_KFTW_197",
+    "id": "magellan_textsweep_KAPA_KTUL_89",
+    "operator": "magellan",
+    "origin": "KAPA",
+    "destination": "KTUL",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KORF_KIAD_90",
+    "operator": "magellan",
+    "origin": "KORF",
+    "destination": "KIAD",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KSRQ_KCHA_91",
+    "operator": "magellan",
+    "origin": "KSRQ",
+    "destination": "KCHA",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KFRG_KUNV_92",
+    "operator": "magellan",
+    "origin": "KFRG",
+    "destination": "KUNV",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_MBPV_KOPF_93",
+    "operator": "magellan",
+    "origin": "MBPV",
+    "destination": "KOPF",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KAUS_KMAF_94",
     "operator": "magellan",
     "origin": "KAUS",
-    "destination": "KFTW",
+    "destination": "KMAF",
     "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
   },
   {
-    "id": "magellan_textsweep_KUES_KCGF_198",
+    "id": "magellan_textsweep_LIPZ_LSZH_95",
     "operator": "magellan",
-    "origin": "KUES",
-    "destination": "KCGF",
+    "origin": "LIPZ",
+    "destination": "LSZH",
     "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
   },
   {
-    "id": "magellan_textsweep_KHOU_KSAN_199",
+    "id": "magellan_textsweep_KJVY_KTEB_96",
     "operator": "magellan",
-    "origin": "KHOU",
-    "destination": "KSAN",
+    "origin": "KJVY",
+    "destination": "KTEB",
     "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
   },
   {
-    "id": "magellan_textsweep_KVNY_KSDL_200",
+    "id": "magellan_textsweep_KBUR_KLAS_97",
     "operator": "magellan",
-    "origin": "KVNY",
-    "destination": "KSDL",
+    "origin": "KBUR",
+    "destination": "KLAS",
     "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
   },
   {
-    "id": "magellan_textsweep_KPLN_KGYY_201",
+    "id": "magellan_textsweep_KDAL_KAIK_98",
     "operator": "magellan",
-    "origin": "KPLN",
+    "origin": "KDAL",
+    "destination": "KAIK",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KAPF_KLEE_99",
+    "operator": "magellan",
+    "origin": "KAPF",
+    "destination": "KLEE",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KAUS_KLXT_100",
+    "operator": "magellan",
+    "origin": "KAUS",
+    "destination": "KLXT",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KRYY_KCMI_101",
+    "operator": "magellan",
+    "origin": "KRYY",
+    "destination": "KCMI",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KLUK_KTEB_102",
+    "operator": "magellan",
+    "origin": "KLUK",
+    "destination": "KTEB",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KFMY_KGYY_103",
+    "operator": "magellan",
+    "origin": "KFMY",
     "destination": "KGYY",
     "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
   },
   {
-    "id": "magellan_textsweep_KHND_KPGA_202",
+    "id": "magellan_textsweep_KTWF_KSLC_104",
     "operator": "magellan",
-    "origin": "KHND",
-    "destination": "KPGA",
+    "origin": "KTWF",
+    "destination": "KSLC",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KLAS_KSFO_105",
+    "operator": "magellan",
+    "origin": "KLAS",
+    "destination": "KSFO",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KAPA_KLWT_106",
+    "operator": "magellan",
+    "origin": "KAPA",
+    "destination": "KLWT",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KSBP_KFAT_107",
+    "operator": "magellan",
+    "origin": "KSBP",
+    "destination": "KFAT",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KMRY_KSDL_108",
+    "operator": "magellan",
+    "origin": "KMRY",
+    "destination": "KSDL",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KSAV_KCLE_109",
+    "operator": "magellan",
+    "origin": "KSAV",
+    "destination": "KCLE",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KSJT_KAUS_110",
+    "operator": "magellan",
+    "origin": "KSJT",
+    "destination": "KAUS",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KAUS_KDAL_111",
+    "operator": "magellan",
+    "origin": "KAUS",
+    "destination": "KDAL",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KSDL_KCOE_112",
+    "operator": "magellan",
+    "origin": "KSDL",
+    "destination": "KCOE",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KGYY_KMGY_113",
+    "operator": "magellan",
+    "origin": "KGYY",
+    "destination": "KMGY",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KLRU_KLAS_114",
+    "operator": "magellan",
+    "origin": "KLRU",
+    "destination": "KLAS",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KSUN_KOAK_115",
+    "operator": "magellan",
+    "origin": "KSUN",
+    "destination": "KOAK",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KRSW_KCLE_116",
+    "operator": "magellan",
+    "origin": "KRSW",
+    "destination": "KCLE",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KMQY_KHPN_117",
+    "operator": "magellan",
+    "origin": "KMQY",
+    "destination": "KHPN",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KSUS_KGYY_118",
+    "operator": "magellan",
+    "origin": "KSUS",
+    "destination": "KGYY",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KJFK_KIAD_119",
+    "operator": "magellan",
+    "origin": "KJFK",
+    "destination": "KIAD",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KDSM_KHOU_120",
+    "operator": "magellan",
+    "origin": "KDSM",
+    "destination": "KHOU",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KTEB_KVNY_121",
+    "operator": "magellan",
+    "origin": "KTEB",
+    "destination": "KVNY",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KECP_KTYS_122",
+    "operator": "magellan",
+    "origin": "KECP",
+    "destination": "KTYS",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KDZB_KDAL_123",
+    "operator": "magellan",
+    "origin": "KDZB",
+    "destination": "KDAL",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KSAT_KSTP_124",
+    "operator": "magellan",
+    "origin": "KSAT",
+    "destination": "KSTP",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_TXKF_KPBI_125",
+    "operator": "magellan",
+    "origin": "TXKF",
+    "destination": "KPBI",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KSMF_KBUR_126",
+    "operator": "magellan",
+    "origin": "KSMF",
+    "destination": "KBUR",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KPHX_KVGT_127",
+    "operator": "magellan",
+    "origin": "KPHX",
+    "destination": "KVGT",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KSBN_KSTP_128",
+    "operator": "magellan",
+    "origin": "KSBN",
+    "destination": "KSTP",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KSBN_KCLE_129",
+    "operator": "magellan",
+    "origin": "KSBN",
+    "destination": "KCLE",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KBNA_KCGI_130",
+    "operator": "magellan",
+    "origin": "KBNA",
+    "destination": "KCGI",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KENW_KAPF_131",
+    "operator": "magellan",
+    "origin": "KENW",
+    "destination": "KAPF",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KJVL_KRAP_132",
+    "operator": "magellan",
+    "origin": "KJVL",
+    "destination": "KRAP",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KAPF_KCLE_133",
+    "operator": "magellan",
+    "origin": "KAPF",
+    "destination": "KCLE",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KSTL_KIAH_134",
+    "operator": "magellan",
+    "origin": "KSTL",
+    "destination": "KIAH",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KLAS_KSAA_135",
+    "operator": "magellan",
+    "origin": "KLAS",
+    "destination": "KSAA",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KDAL_KJQF_136",
+    "operator": "magellan",
+    "origin": "KDAL",
+    "destination": "KJQF",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KVGT_KSDL_137",
+    "operator": "magellan",
+    "origin": "KVGT",
+    "destination": "KSDL",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KCRQ_KMCE_138",
+    "operator": "magellan",
+    "origin": "KCRQ",
+    "destination": "KMCE",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KOPF_MBPV_139",
+    "operator": "magellan",
+    "origin": "KOPF",
+    "destination": "MBPV",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KPGD_KPSM_140",
+    "operator": "magellan",
+    "origin": "KPGD",
+    "destination": "KPSM",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KBNA_KHXD_141",
+    "operator": "magellan",
+    "origin": "KBNA",
+    "destination": "KHXD",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KDRO_KASE_142",
+    "operator": "magellan",
+    "origin": "KDRO",
+    "destination": "KASE",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_LIRQ_EIDW_143",
+    "operator": "magellan",
+    "origin": "LIRQ",
+    "destination": "EIDW",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_CYYZ_CYHU_144",
+    "operator": "magellan",
+    "origin": "CYYZ",
+    "destination": "CYHU",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KMQJ_KBZN_145",
+    "operator": "magellan",
+    "origin": "KMQJ",
+    "destination": "KBZN",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KSRQ_KBHM_146",
+    "operator": "magellan",
+    "origin": "KSRQ",
+    "destination": "KBHM",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KOPF_KLUK_147",
+    "operator": "magellan",
+    "origin": "KOPF",
+    "destination": "KLUK",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KMSP_KDFW_148",
+    "operator": "magellan",
+    "origin": "KMSP",
+    "destination": "KDFW",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KSTS_KEUG_149",
+    "operator": "magellan",
+    "origin": "KSTS",
+    "destination": "KEUG",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KSPA_KLUK_150",
+    "operator": "magellan",
+    "origin": "KSPA",
+    "destination": "KLUK",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KMTN_KTEB_151",
+    "operator": "magellan",
+    "origin": "KMTN",
+    "destination": "KTEB",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KAUO_KSAV_152",
+    "operator": "magellan",
+    "origin": "KAUO",
+    "destination": "KSAV",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KARV_KPWK_153",
+    "operator": "magellan",
+    "origin": "KARV",
+    "destination": "KPWK",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KBHM_KTYS_154",
+    "operator": "magellan",
+    "origin": "KBHM",
+    "destination": "KTYS",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KMRY_KVNY_155",
+    "operator": "magellan",
+    "origin": "KMRY",
+    "destination": "KVNY",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_CYYC_CYVR_156",
+    "operator": "magellan",
+    "origin": "CYYC",
+    "destination": "CYVR",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KAPF_KMSY_157",
+    "operator": "magellan",
+    "origin": "KAPF",
+    "destination": "KMSY",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KOPF_KECP_158",
+    "operator": "magellan",
+    "origin": "KOPF",
+    "destination": "KECP",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KPIT_KROC_159",
+    "operator": "magellan",
+    "origin": "KPIT",
+    "destination": "KROC",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KDEN_KLAS_160",
+    "operator": "magellan",
+    "origin": "KDEN",
+    "destination": "KLAS",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KBHM_KRYY_161",
+    "operator": "magellan",
+    "origin": "KBHM",
+    "destination": "KRYY",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KADS_KMCI_162",
+    "operator": "magellan",
+    "origin": "KADS",
+    "destination": "KMCI",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KOPF_KORL_163",
+    "operator": "magellan",
+    "origin": "KOPF",
+    "destination": "KORL",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KSDF_KBNA_164",
+    "operator": "magellan",
+    "origin": "KSDF",
+    "destination": "KBNA",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KSGR_KAUS_165",
+    "operator": "magellan",
+    "origin": "KSGR",
+    "destination": "KAUS",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_MBPV_CYYZ_166",
+    "operator": "magellan",
+    "origin": "MBPV",
+    "destination": "CYYZ",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KBOI_KCMA_167",
+    "operator": "magellan",
+    "origin": "KBOI",
+    "destination": "KCMA",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KJYO_KFRG_168",
+    "operator": "magellan",
+    "origin": "KJYO",
+    "destination": "KFRG",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KSAT_KHOU_169",
+    "operator": "magellan",
+    "origin": "KSAT",
+    "destination": "KHOU",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KHOU_KSDL_170",
+    "operator": "magellan",
+    "origin": "KHOU",
+    "destination": "KSDL",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KSGR_KPBF_171",
+    "operator": "magellan",
+    "origin": "KSGR",
+    "destination": "KPBF",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KBOS_KTEB_172",
+    "operator": "magellan",
+    "origin": "KBOS",
+    "destination": "KTEB",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KSDL_CYYZ_173",
+    "operator": "magellan",
+    "origin": "KSDL",
+    "destination": "CYYZ",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KBOI_KTIW_174",
+    "operator": "magellan",
+    "origin": "KBOI",
+    "destination": "KTIW",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KSRQ_KMTN_175",
+    "operator": "magellan",
+    "origin": "KSRQ",
+    "destination": "KMTN",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KPWM_KTEB_176",
+    "operator": "magellan",
+    "origin": "KPWM",
+    "destination": "KTEB",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KOAK_KBZN_177",
+    "operator": "magellan",
+    "origin": "KOAK",
+    "destination": "KBZN",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KUIN_KXNX_178",
+    "operator": "magellan",
+    "origin": "KUIN",
+    "destination": "KXNX",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KLWB_KCGF_179",
+    "operator": "magellan",
+    "origin": "KLWB",
+    "destination": "KCGF",
+    "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
+  },
+  {
+    "id": "magellan_textsweep_KIND_KSTL_180",
+    "operator": "magellan",
+    "origin": "KIND",
+    "destination": "KSTL",
     "url": "https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_list__:-/578526bdf6c494c11477ab06/"
   }
 ]

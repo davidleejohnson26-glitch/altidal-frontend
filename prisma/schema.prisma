@@ -1,3 +1,5 @@
+// prisma/schema.prisma
+
 generator client {
   provider      = "prisma-client-js"
   binaryTargets = ["native", "debian-openssl-3.0.x"]
@@ -11,18 +13,22 @@ datasource db {
 
 model Leg {
   id        String   @id
+  operator  String
+
   fromIata  String
   fromName  String
-  fromCity  String
+  fromCity  String?      // optional
+
   toIata    String
   toName    String
-  toCity    String
-  departAt  DateTime
-  priceUSD  Int
-  acType    String
-  acClass   String
-  seats     Int
-  operator  String
+  toCity    String?      // optional
+
+  departAt  DateTime?    // optional
+  priceUSD  Int          @default(0)   // default 0
+  acType    String?      // optional
+  acClass   String?      // optional
+  seats     Int?         // optional
+
   notes     String?
   createdAt DateTime @default(now())
   fromIcao  String?

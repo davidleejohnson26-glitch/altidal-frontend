@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"99122f75fdaa1948\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"OVD\",\n                toIata: \"SDR\",\n                fromIcao: \"LEAS\",\n                toIcao: \"LEXJ\",\n                fromCity: \"Asturias\",\n                toCity: \"Seve Ballesteros Santander\",\n                fromName: \"Asturias\",\n                toName: \"Seve Ballesteros Santander\",\n                departAt: \"2025-10-23T09:30:00.000Z\",\n                acType: \"Pilatus PC-24\",\n                acClass: \"Unknown\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-10-2025 09:30 → 23-10-2025 10:05 | Price on Request\"\n              },\n              create: {\n                id: \"99122f75fdaa1948\",\n                operator: \"aviapages\",\n                fromIata: \"OVD\",\n                toIata: \"SDR\",\n                fromIcao: \"LEAS\",\n                toIcao: \"LEXJ\",\n                fromCity: \"Asturias\",\n                toCity: \"Seve Ballesteros Santander\",\n                fromName: \"Asturias\",\n                toName: \"Seve Ballesteros Santander\",\n                departAt: \"2025-10-23T09:30:00.000Z\",\n                acType: \"Pilatus PC-24\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-10-2025 09:30 → 23-10-2025 10:05 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "99122f75fdaa1948",
+    "operator": "aviapages",
+    "fromIata": "OVD",
+    "toIata": "SDR",
+    "fromIcao": "LEAS",
+    "toIcao": "LEXJ",
+    "fromCity": "Asturias",
+    "toCity": "Seve Ballesteros Santander",
+    "fromName": "Asturias",
+    "toName": "Seve Ballesteros Santander",
+    "departAt": "2025-10-23T09:30:00.000Z",
+    "acType": "Pilatus PC-24",
+    "acClass": "Unknown",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "23-10-2025 09:30 → 23-10-2025 10:05 | Price on Request"
+  }
+}

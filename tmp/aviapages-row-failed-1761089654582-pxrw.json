@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"e0e44b06997503b7\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"BBU\",\n                toIata: \"GVA\",\n                fromIcao: \"LRBS\",\n                toIcao: \"LSGG\",\n                fromCity: \"Baneasa Aurel Vlaicu\",\n                toCity: \"Geneva\",\n                fromName: \"Baneasa Aurel Vlaicu\",\n                toName: \"Geneva\",\n                departAt: \"2025-11-06T22:22:00.000Z\",\n                acType: \"HondaJet\",\n                acClass: \"Unknown\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"06-11-2025 22:22 → 08-11-2025 12:59 | Price on Request\"\n              },\n              create: {\n                id: \"e0e44b06997503b7\",\n                operator: \"aviapages\",\n                fromIata: \"BBU\",\n                toIata: \"GVA\",\n                fromIcao: \"LRBS\",\n                toIcao: \"LSGG\",\n                fromCity: \"Baneasa Aurel Vlaicu\",\n                toCity: \"Geneva\",\n                fromName: \"Baneasa Aurel Vlaicu\",\n                toName: \"Geneva\",\n                departAt: \"2025-11-06T22:22:00.000Z\",\n                acType: \"HondaJet\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"06-11-2025 22:22 → 08-11-2025 12:59 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "e0e44b06997503b7",
+    "operator": "aviapages",
+    "fromIata": "BBU",
+    "toIata": "GVA",
+    "fromIcao": "LRBS",
+    "toIcao": "LSGG",
+    "fromCity": "Baneasa Aurel Vlaicu",
+    "toCity": "Geneva",
+    "fromName": "Baneasa Aurel Vlaicu",
+    "toName": "Geneva",
+    "departAt": "2025-11-06T22:22:00.000Z",
+    "acType": "HondaJet",
+    "acClass": "Unknown",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "06-11-2025 22:22 → 08-11-2025 12:59 | Price on Request"
+  }
+}

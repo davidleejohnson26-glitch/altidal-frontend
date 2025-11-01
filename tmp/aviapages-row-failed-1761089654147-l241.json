@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"08247120cc47b46a\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"PMI\",\n                toIata: \"AVN\",\n                fromIcao: \"LEPA\",\n                toIcao: \"LFMV\",\n                fromCity: \"Palma De Mallorca\",\n                toCity: \"Caumont\",\n                fromName: \"Palma De Mallorca\",\n                toName: \"Caumont\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Cessna Citation CJ3\",\n                acClass: \"Light Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 21-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"08247120cc47b46a\",\n                operator: \"aviapages\",\n                fromIata: \"PMI\",\n                toIata: \"AVN\",\n                fromIcao: \"LEPA\",\n                toIcao: \"LFMV\",\n                fromCity: \"Palma De Mallorca\",\n                toCity: \"Caumont\",\n                fromName: \"Palma De Mallorca\",\n                toName: \"Caumont\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Cessna Citation CJ3\",\n                acClass: \"Light Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 21-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "08247120cc47b46a",
+    "operator": "aviapages",
+    "fromIata": "PMI",
+    "toIata": "AVN",
+    "fromIcao": "LEPA",
+    "toIcao": "LFMV",
+    "fromCity": "Palma De Mallorca",
+    "toCity": "Caumont",
+    "fromName": "Palma De Mallorca",
+    "toName": "Caumont",
+    "departAt": "2025-10-21T00:00:00.000Z",
+    "acType": "Cessna Citation CJ3",
+    "acClass": "Light Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "21-10-2025 00:00 → 21-10-2025 00:00 | Price on Request"
+  }
+}

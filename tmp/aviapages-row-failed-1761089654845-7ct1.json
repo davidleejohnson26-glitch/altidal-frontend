@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"b08c61d3d81f0168\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"SCF\",\n                toIata: \"YYC\",\n                fromIcao: \"KSDL\",\n                toIcao: \"CYYC\",\n                fromCity: \"Scottsdale\",\n                toCity: \"Calgary International Airport\",\n                fromName: \"Scottsdale\",\n                toName: \"Calgary International Airport\",\n                departAt: \"2025-10-27T00:00:00.000Z\",\n                acType: \"Gulfstream G150\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 15500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"27-10-2025 00:00 → 27-10-2025 23:59\"\n              },\n              create: {\n                id: \"b08c61d3d81f0168\",\n                operator: \"aviapages\",\n                fromIata: \"SCF\",\n                toIata: \"YYC\",\n                fromIcao: \"KSDL\",\n                toIcao: \"CYYC\",\n                fromCity: \"Scottsdale\",\n                toCity: \"Calgary International Airport\",\n                fromName: \"Scottsdale\",\n                toName: \"Calgary International Airport\",\n                departAt: \"2025-10-27T00:00:00.000Z\",\n                acType: \"Gulfstream G150\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 15500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"27-10-2025 00:00 → 27-10-2025 23:59\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "b08c61d3d81f0168",
+    "operator": "aviapages",
+    "fromIata": "SCF",
+    "toIata": "YYC",
+    "fromIcao": "KSDL",
+    "toIcao": "CYYC",
+    "fromCity": "Scottsdale",
+    "toCity": "Calgary International Airport",
+    "fromName": "Scottsdale",
+    "toName": "Calgary International Airport",
+    "departAt": "2025-10-27T00:00:00.000Z",
+    "acType": "Gulfstream G150",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 15500,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "27-10-2025 00:00 → 27-10-2025 23:59"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"6f4980275f32bc9a\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"INL\",\n                toIata: \"LNK\",\n                fromIcao: \"KINL\",\n                toIcao: \"KLNK\",\n                fromCity: \"Falls Intl-Einarson Field\",\n                toCity: \"Lincoln\",\n                fromName: \"Falls Intl-Einarson Field\",\n                toName: \"Lincoln\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Cessna Citation XLS\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 5000,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 21-10-2025 01:36\"\n              },\n              create: {\n                id: \"6f4980275f32bc9a\",\n                operator: \"aviapages\",\n                fromIata: \"INL\",\n                toIata: \"LNK\",\n                fromIcao: \"KINL\",\n                toIcao: \"KLNK\",\n                fromCity: \"Falls Intl-Einarson Field\",\n                toCity: \"Lincoln\",\n                fromName: \"Falls Intl-Einarson Field\",\n                toName: \"Lincoln\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Cessna Citation XLS\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 5000,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 21-10-2025 01:36\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "6f4980275f32bc9a",
+    "operator": "aviapages",
+    "fromIata": "INL",
+    "toIata": "LNK",
+    "fromIcao": "KINL",
+    "toIcao": "KLNK",
+    "fromCity": "Falls Intl-Einarson Field",
+    "toCity": "Lincoln",
+    "fromName": "Falls Intl-Einarson Field",
+    "toName": "Lincoln",
+    "departAt": "2025-10-21T00:00:00.000Z",
+    "acType": "Cessna Citation XLS",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 5000,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "21-10-2025 00:00 → 21-10-2025 01:36"
+  }
+}

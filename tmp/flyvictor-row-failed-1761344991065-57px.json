@@ -1,0 +1,18 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\flyvictor.ts:527:28\n\n  524 try {\n  525   await withConcurrency(batch, 6, async (r) => {\n  526     try {\n→ 527       await prisma.leg.upsert({\n              where: {\n                id: \"5b4a904dbac4eb80\"\n              },\n              update: {\n                operator: \"flyvictor\",\n                fromIata: \"PIE\",\n                toIata: \"CRW\",\n                fromName: \"PIE\",\n                toName: \"CRW\",\n                departAt: \"2025-11-20T00:00:00.000Z\",\n                priceUSD: 11687,\n                url: \"https://www.flyvictor.com/en-us/flights/\"\n              },\n              create: {\n                id: \"5b4a904dbac4eb80\",\n                operator: \"flyvictor\",\n                fromIata: \"PIE\",\n                toIata: \"CRW\",\n                fromName: \"PIE\",\n                toName: \"CRW\",\n                departAt: \"2025-11-20T00:00:00.000Z\",\n                priceUSD: 11687,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n            +   fromCity: String\n              }\n            })\n\nArgument `fromCity` is missing.",
+    "meta": null
+  },
+  "row": {
+    "id": "5b4a904dbac4eb80",
+    "operator": "flyvictor",
+    "fromIata": "PIE",
+    "toIata": "CRW",
+    "fromName": "PIE",
+    "toName": "CRW",
+    "departAt": "2025-11-20T00:00:00.000Z",
+    "priceUSD": 11687,
+    "url": "https://www.flyvictor.com/en-us/flights/"
+  }
+}

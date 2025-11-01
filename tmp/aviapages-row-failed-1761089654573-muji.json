@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"63863584f4479e7e\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"SAT\",\n                toIata: \"LBB\",\n                fromIcao: \"KSAT\",\n                toIcao: \"KLBB\",\n                fromCity: \"San Antonio Intl\",\n                toCity: \"Lubbock Preston Smith Intl\",\n                fromName: \"San Antonio Intl\",\n                toName: \"Lubbock Preston Smith Intl\",\n                departAt: \"2025-10-19T00:00:00.000Z\",\n                acType: \"Beechjet 400A\",\n                acClass: \"Unknown\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"19-10-2025 00:00 → 21-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"63863584f4479e7e\",\n                operator: \"aviapages\",\n                fromIata: \"SAT\",\n                toIata: \"LBB\",\n                fromIcao: \"KSAT\",\n                toIcao: \"KLBB\",\n                fromCity: \"San Antonio Intl\",\n                toCity: \"Lubbock Preston Smith Intl\",\n                fromName: \"San Antonio Intl\",\n                toName: \"Lubbock Preston Smith Intl\",\n                departAt: \"2025-10-19T00:00:00.000Z\",\n                acType: \"Beechjet 400A\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"19-10-2025 00:00 → 21-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "63863584f4479e7e",
+    "operator": "aviapages",
+    "fromIata": "SAT",
+    "toIata": "LBB",
+    "fromIcao": "KSAT",
+    "toIcao": "KLBB",
+    "fromCity": "San Antonio Intl",
+    "toCity": "Lubbock Preston Smith Intl",
+    "fromName": "San Antonio Intl",
+    "toName": "Lubbock Preston Smith Intl",
+    "departAt": "2025-10-19T00:00:00.000Z",
+    "acType": "Beechjet 400A",
+    "acClass": "Unknown",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "19-10-2025 00:00 → 21-10-2025 00:00 | Price on Request"
+  }
+}

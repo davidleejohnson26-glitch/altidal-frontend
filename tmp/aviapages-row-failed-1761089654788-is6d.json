@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"c1da98eb9fb77d86\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"OMA\",\n                toIata: \"CSV\",\n                fromIcao: \"KOMA\",\n                toIcao: \"KCSV\",\n                fromCity: \"Eppley Airfield\",\n                toCity: \"Crossville Memorial Airport-Whitson Field\",\n                fromName: \"Eppley Airfield\",\n                toName: \"Crossville Memorial Airport-Whitson Field\",\n                departAt: \"2025-10-26T00:00:00.000Z\",\n                acType: \"Cessna Citation Excel\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 5000,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-10-2025 00:00 → 26-10-2025 16:36\"\n              },\n              create: {\n                id: \"c1da98eb9fb77d86\",\n                operator: \"aviapages\",\n                fromIata: \"OMA\",\n                toIata: \"CSV\",\n                fromIcao: \"KOMA\",\n                toIcao: \"KCSV\",\n                fromCity: \"Eppley Airfield\",\n                toCity: \"Crossville Memorial Airport-Whitson Field\",\n                fromName: \"Eppley Airfield\",\n                toName: \"Crossville Memorial Airport-Whitson Field\",\n                departAt: \"2025-10-26T00:00:00.000Z\",\n                acType: \"Cessna Citation Excel\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 5000,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-10-2025 00:00 → 26-10-2025 16:36\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "c1da98eb9fb77d86",
+    "operator": "aviapages",
+    "fromIata": "OMA",
+    "toIata": "CSV",
+    "fromIcao": "KOMA",
+    "toIcao": "KCSV",
+    "fromCity": "Eppley Airfield",
+    "toCity": "Crossville Memorial Airport-Whitson Field",
+    "fromName": "Eppley Airfield",
+    "toName": "Crossville Memorial Airport-Whitson Field",
+    "departAt": "2025-10-26T00:00:00.000Z",
+    "acType": "Cessna Citation Excel",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 5000,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "26-10-2025 00:00 → 26-10-2025 16:36"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"8c2ad389ec7ebf1d\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"AUS\",\n                toIata: \"LAS\",\n                fromIcao: \"KAUS\",\n                toIcao: \"KLAS\",\n                fromCity: \"Austin-Bergstrom Intl\",\n                toCity: \"McCarran Int'l Airport\",\n                fromName: \"Austin-Bergstrom Intl\",\n                toName: \"McCarran Int'l Airport\",\n                departAt: \"2025-11-06T00:00:00.000Z\",\n                acType: \"Challenger 850\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"06-11-2025 00:00 → 06-11-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"8c2ad389ec7ebf1d\",\n                operator: \"aviapages\",\n                fromIata: \"AUS\",\n                toIata: \"LAS\",\n                fromIcao: \"KAUS\",\n                toIcao: \"KLAS\",\n                fromCity: \"Austin-Bergstrom Intl\",\n                toCity: \"McCarran Int'l Airport\",\n                fromName: \"Austin-Bergstrom Intl\",\n                toName: \"McCarran Int'l Airport\",\n                departAt: \"2025-11-06T00:00:00.000Z\",\n                acType: \"Challenger 850\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"06-11-2025 00:00 → 06-11-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "8c2ad389ec7ebf1d",
+    "operator": "aviapages",
+    "fromIata": "AUS",
+    "toIata": "LAS",
+    "fromIcao": "KAUS",
+    "toIcao": "KLAS",
+    "fromCity": "Austin-Bergstrom Intl",
+    "toCity": "McCarran Int'l Airport",
+    "fromName": "Austin-Bergstrom Intl",
+    "toName": "McCarran Int'l Airport",
+    "departAt": "2025-11-06T00:00:00.000Z",
+    "acType": "Challenger 850",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "06-11-2025 00:00 → 06-11-2025 00:00 | Price on Request"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"3ef4de140944b824\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"BUD\",\n                toIata: \"OXC\",\n                fromIcao: \"LHBP\",\n                toIcao: \"KOXC\",\n                fromCity: \"Liszt Ferenc Intl\",\n                toCity: \"Waterbury-Oxford\",\n                fromName: \"Liszt Ferenc Intl\",\n                toName: \"Waterbury-Oxford\",\n                departAt: \"2026-01-04T00:00:00.000Z\",\n                acType: \"Global 5000\",\n                acClass: \"Heavy Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"04-01-2026 00:00 → 04-01-2026 23:59 | Price on Request\"\n              },\n              create: {\n                id: \"3ef4de140944b824\",\n                operator: \"aviapages\",\n                fromIata: \"BUD\",\n                toIata: \"OXC\",\n                fromIcao: \"LHBP\",\n                toIcao: \"KOXC\",\n                fromCity: \"Liszt Ferenc Intl\",\n                toCity: \"Waterbury-Oxford\",\n                fromName: \"Liszt Ferenc Intl\",\n                toName: \"Waterbury-Oxford\",\n                departAt: \"2026-01-04T00:00:00.000Z\",\n                acType: \"Global 5000\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"04-01-2026 00:00 → 04-01-2026 23:59 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "3ef4de140944b824",
+    "operator": "aviapages",
+    "fromIata": "BUD",
+    "toIata": "OXC",
+    "fromIcao": "LHBP",
+    "toIcao": "KOXC",
+    "fromCity": "Liszt Ferenc Intl",
+    "toCity": "Waterbury-Oxford",
+    "fromName": "Liszt Ferenc Intl",
+    "toName": "Waterbury-Oxford",
+    "departAt": "2026-01-04T00:00:00.000Z",
+    "acType": "Global 5000",
+    "acClass": "Heavy Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "04-01-2026 00:00 → 04-01-2026 23:59 | Price on Request"
+  }
+}

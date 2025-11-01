@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"3ae4813f66b09892\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"MKC\",\n                toIata: \"LNK\",\n                fromIcao: \"KMKC\",\n                toIcao: \"KLNK\",\n                fromCity: \"Wheeler Downtown\",\n                toCity: \"Lincoln\",\n                fromName: \"Wheeler Downtown\",\n                toName: \"Lincoln\",\n                departAt: \"2025-11-30T00:00:00.000Z\",\n                acType: \"Cessna Citation Encore\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 1500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"30-11-2025 00:00 → 15-12-2025 00:59\"\n              },\n              create: {\n                id: \"3ae4813f66b09892\",\n                operator: \"aviapages\",\n                fromIata: \"MKC\",\n                toIata: \"LNK\",\n                fromIcao: \"KMKC\",\n                toIcao: \"KLNK\",\n                fromCity: \"Wheeler Downtown\",\n                toCity: \"Lincoln\",\n                fromName: \"Wheeler Downtown\",\n                toName: \"Lincoln\",\n                departAt: \"2025-11-30T00:00:00.000Z\",\n                acType: \"Cessna Citation Encore\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 1500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"30-11-2025 00:00 → 15-12-2025 00:59\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "3ae4813f66b09892",
+    "operator": "aviapages",
+    "fromIata": "MKC",
+    "toIata": "LNK",
+    "fromIcao": "KMKC",
+    "toIcao": "KLNK",
+    "fromCity": "Wheeler Downtown",
+    "toCity": "Lincoln",
+    "fromName": "Wheeler Downtown",
+    "toName": "Lincoln",
+    "departAt": "2025-11-30T00:00:00.000Z",
+    "acType": "Cessna Citation Encore",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 1500,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "30-11-2025 00:00 → 15-12-2025 00:59"
+  }
+}

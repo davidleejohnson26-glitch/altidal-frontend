@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"e6a8a29a43188b35\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"PTN\",\n                toIata: \"MAF\",\n                fromIcao: \"KPTN\",\n                toIcao: \"KMAF\",\n                fromCity: \"Harry P Williams Memorial\",\n                toCity: \"Midland Intl\",\n                fromName: \"Harry P Williams Memorial\",\n                toName: \"Midland Intl\",\n                departAt: \"2025-10-31T00:00:00.000Z\",\n                acType: \"Challenger 300\",\n                acClass: \"Super Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"31-10-2025 00:00 → 05-11-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"e6a8a29a43188b35\",\n                operator: \"aviapages\",\n                fromIata: \"PTN\",\n                toIata: \"MAF\",\n                fromIcao: \"KPTN\",\n                toIcao: \"KMAF\",\n                fromCity: \"Harry P Williams Memorial\",\n                toCity: \"Midland Intl\",\n                fromName: \"Harry P Williams Memorial\",\n                toName: \"Midland Intl\",\n                departAt: \"2025-10-31T00:00:00.000Z\",\n                acType: \"Challenger 300\",\n                acClass: \"Super Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"31-10-2025 00:00 → 05-11-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "e6a8a29a43188b35",
+    "operator": "aviapages",
+    "fromIata": "PTN",
+    "toIata": "MAF",
+    "fromIcao": "KPTN",
+    "toIcao": "KMAF",
+    "fromCity": "Harry P Williams Memorial",
+    "toCity": "Midland Intl",
+    "fromName": "Harry P Williams Memorial",
+    "toName": "Midland Intl",
+    "departAt": "2025-10-31T00:00:00.000Z",
+    "acType": "Challenger 300",
+    "acClass": "Super Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "31-10-2025 00:00 → 05-11-2025 00:00 | Price on Request"
+  }
+}

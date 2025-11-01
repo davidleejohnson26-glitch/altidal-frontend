@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"8ecb02c678906f30\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"BRD\",\n                toIata: \"LNK\",\n                fromIcao: \"KBRD\",\n                toIcao: \"KLNK\",\n                fromCity: \"Brainerd Lakes Regl\",\n                toCity: \"Lincoln\",\n                fromName: \"Brainerd Lakes Regl\",\n                toName: \"Lincoln\",\n                departAt: \"2025-12-19T00:00:00.000Z\",\n                acType: \"Cessna Citation Excel\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 5000,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"19-12-2025 00:00 → 19-12-2025 01:24\"\n              },\n              create: {\n                id: \"8ecb02c678906f30\",\n                operator: \"aviapages\",\n                fromIata: \"BRD\",\n                toIata: \"LNK\",\n                fromIcao: \"KBRD\",\n                toIcao: \"KLNK\",\n                fromCity: \"Brainerd Lakes Regl\",\n                toCity: \"Lincoln\",\n                fromName: \"Brainerd Lakes Regl\",\n                toName: \"Lincoln\",\n                departAt: \"2025-12-19T00:00:00.000Z\",\n                acType: \"Cessna Citation Excel\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 5000,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"19-12-2025 00:00 → 19-12-2025 01:24\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "8ecb02c678906f30",
+    "operator": "aviapages",
+    "fromIata": "BRD",
+    "toIata": "LNK",
+    "fromIcao": "KBRD",
+    "toIcao": "KLNK",
+    "fromCity": "Brainerd Lakes Regl",
+    "toCity": "Lincoln",
+    "fromName": "Brainerd Lakes Regl",
+    "toName": "Lincoln",
+    "departAt": "2025-12-19T00:00:00.000Z",
+    "acType": "Cessna Citation Excel",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 5000,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "19-12-2025 00:00 → 19-12-2025 01:24"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\flyvictor.ts:370:28\n\n  367 try {\n  368   await withConcurrency(batch, 6, async (r) => {\n  369     try {\n→ 370       await prisma.leg.upsert({\n              where: {\n                id: \"87bf348845b48434\"\n              },\n              update: {\n                operator: \"flyvictor\",\n                fromIata: \"MLE\",\n                toIata: \"DWC\",\n                fromIcao: \"KMLE\",\n                toIcao: \"KDWC\",\n                fromCity: null,\n                toCity: null,\n                fromName: \"MLE\",\n                toName: \"DWC\",\n                departAt: null,\n                acType: \"Gulfstream\",\n                acClass: \"Midsize Jet\",\n                seats: 0,\n                priceUSD: 27875,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n                notes: null\n              },\n              create: {\n                id: \"87bf348845b48434\",\n                operator: \"flyvictor\",\n                fromIata: \"MLE\",\n                toIata: \"DWC\",\n                fromIcao: \"KMLE\",\n                toIcao: \"KDWC\",\n                toCity: null,\n                fromName: \"MLE\",\n                toName: \"DWC\",\n                departAt: null,\n                acType: \"Gulfstream\",\n                acClass: \"Midsize Jet\",\n                seats: 0,\n                priceUSD: 27875,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n                notes: null,\n            +   fromCity: String\n              }\n            })\n\nArgument `fromCity` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "87bf348845b48434",
+    "operator": "flyvictor",
+    "fromIata": "MLE",
+    "toIata": "DWC",
+    "fromIcao": "KMLE",
+    "toIcao": "KDWC",
+    "fromCity": null,
+    "toCity": null,
+    "fromName": "MLE",
+    "toName": "DWC",
+    "departAt": null,
+    "acType": "Gulfstream",
+    "acClass": "Midsize Jet",
+    "seats": 0,
+    "priceUSD": 27875,
+    "url": "https://www.flyvictor.com/en-us/flights/",
+    "notes": null
+  }
+}

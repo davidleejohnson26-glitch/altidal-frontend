@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"8e5a5257c4b3baa5\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"BED\",\n                toIata: \"FRG\",\n                fromIcao: \"KBED\",\n                toIcao: \"KFRG\",\n                fromCity: \"Laurence G Hanscom Fld\",\n                toCity: \"Republic\",\n                fromName: \"Laurence G Hanscom Fld\",\n                toName: \"Republic\",\n                departAt: \"2026-04-03T00:00:00.000Z\",\n                acType: \"Hawker 800XP\",\n                acClass: \"Unknown\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"03-04-2026 00:00 → 03-04-2026 23:59 | Price on Request\"\n              },\n              create: {\n                id: \"8e5a5257c4b3baa5\",\n                operator: \"aviapages\",\n                fromIata: \"BED\",\n                toIata: \"FRG\",\n                fromIcao: \"KBED\",\n                toIcao: \"KFRG\",\n                fromCity: \"Laurence G Hanscom Fld\",\n                toCity: \"Republic\",\n                fromName: \"Laurence G Hanscom Fld\",\n                toName: \"Republic\",\n                departAt: \"2026-04-03T00:00:00.000Z\",\n                acType: \"Hawker 800XP\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"03-04-2026 00:00 → 03-04-2026 23:59 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "8e5a5257c4b3baa5",
+    "operator": "aviapages",
+    "fromIata": "BED",
+    "toIata": "FRG",
+    "fromIcao": "KBED",
+    "toIcao": "KFRG",
+    "fromCity": "Laurence G Hanscom Fld",
+    "toCity": "Republic",
+    "fromName": "Laurence G Hanscom Fld",
+    "toName": "Republic",
+    "departAt": "2026-04-03T00:00:00.000Z",
+    "acType": "Hawker 800XP",
+    "acClass": "Unknown",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "03-04-2026 00:00 → 03-04-2026 23:59 | Price on Request"
+  }
+}

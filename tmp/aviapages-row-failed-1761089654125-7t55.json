@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"63b5a6281432a0f6\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"OPF\",\n                toIata: \"TEB\",\n                fromIcao: \"KOPF\",\n                toIcao: \"KTEB\",\n                fromCity: \"Miami-Opa Locka Executive\",\n                toCity: \"Teterboro\",\n                fromName: \"Miami-Opa Locka Executive\",\n                toName: \"Teterboro\",\n                departAt: \"2025-10-20T00:00:00.000Z\",\n                acType: \"Challenger 601-3A\",\n                acClass: \"Heavy Jet\",\n                seats: null,\n                priceUSD: 23541,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"20-10-2025 00:00 → 21-10-2025 23:59\"\n              },\n              create: {\n                id: \"63b5a6281432a0f6\",\n                operator: \"aviapages\",\n                fromIata: \"OPF\",\n                toIata: \"TEB\",\n                fromIcao: \"KOPF\",\n                toIcao: \"KTEB\",\n                fromCity: \"Miami-Opa Locka Executive\",\n                toCity: \"Teterboro\",\n                fromName: \"Miami-Opa Locka Executive\",\n                toName: \"Teterboro\",\n                departAt: \"2025-10-20T00:00:00.000Z\",\n                acType: \"Challenger 601-3A\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 23541,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"20-10-2025 00:00 → 21-10-2025 23:59\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "63b5a6281432a0f6",
+    "operator": "aviapages",
+    "fromIata": "OPF",
+    "toIata": "TEB",
+    "fromIcao": "KOPF",
+    "toIcao": "KTEB",
+    "fromCity": "Miami-Opa Locka Executive",
+    "toCity": "Teterboro",
+    "fromName": "Miami-Opa Locka Executive",
+    "toName": "Teterboro",
+    "departAt": "2025-10-20T00:00:00.000Z",
+    "acType": "Challenger 601-3A",
+    "acClass": "Heavy Jet",
+    "seats": null,
+    "priceUSD": 23541,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "20-10-2025 00:00 → 21-10-2025 23:59"
+  }
+}

@@ -1,22 +1,43 @@
 === https://magellanjets.com/private-jet-services/empty-legs/
 SOLUTIONS
-Jet Card
+Solutions
+Magellan offers a full suite of private aviation solutions. Every journey is designed for unmatched safety, comfort, and personalized service.
+JET CARD
+FRACTIONAL OWNERSHIP
+ON-DEMAND CHARTER
+MAGELLAN JETS BUSINESS
+SALES & MANAGEMENT
+
 Fractional Ownership
-On-Demand Charter
-Magellan Jets Business
-Sales & Management
-THE MAGELLAN EXPERIENCE
-Safety
-Your Team
-Aircraft
-Amenities
-Partnerships
+
+Introducing Magellan Jets Fractional Ownership, in partnership with Slate Aviation. Discover the most flexible fractional ownership solution in the industry.
+Learn More
+MAGELLAN EXPERIENCE
+Magellan Experience
+Discover a personalized, safety-first approach to private aviation. From your dedicated team to curated amenities and trusted partnerships, we redefine how private travel feels.
+SAFETY
+YOUR TEAM
+AIRCRAFT
+AMENITIES
+PARTNERSHIPS
+
+Jesse Rodriguez, Magellan Jets Sommelier
+
+Two-time James Beard semifinalist and former Head Sommelier of The French Laundry, Jesse Rodriguez serves as Magellan Jets resident Sommelier spearheading bespoke wine experiences for Private Clients.
+Learn More
 ABOUT MAGELLAN
-Leadership
+About Magellan
+Magellan Jets is a trusted leader in private aviation, built on safety, financial strength, and service excellence.
+LEADERSHIP
+FINANCIAL STABILITY
+SUSTAINABILITY
+COMMUNITY IMPACT
+CAREERS
+
 Financial Stability
-Sustainability
-Community Impact
-Careers
+
+Magellan Jets is privately owned, asset-light, and completely debt-free. We never use Client funds for operational expenses, ensuring your investment is only ever used for your individual travel.
+Learn More
 TALK TO AN ADVISOR
 LOGIN
 Empty Leg
@@ -49,6 +70,9 @@ Email*
 © Copyright Magellan Jets 2025
 OPT-OUT PREFERENCES
 Download The App
+
+Magellan Jets coordinates travel on behalf of our clients using approved FAA 14 CFR Part 135 vendors for our charter and Jet Card programs and approved FAA 14 CFR Part 91K vendors for our Fractional program. Magellan Jets does not own or operate aircraft.
+
 Manage consent
 
 === fyEQAFrame
@@ -64,2335 +88,2125 @@ Date(optional)
 Reset/show all
    LIGHT JET  ( 7 SEATS )
    FEATURED (EMPTY LEG)
-(KMDW) Chicago, United States    (KSAF) Santa Fe, United States
+(KAPF) Naples, United States    (KTTN) Trenton, United States
 	
  Light Jet
- Available on: Sep 29 - Oct 01, 2025
+ Available on: Oct 17 - Oct 18, 2025
  Features and details
  Time in the air:
-KMDW - KSAF: 03:00
-18,500.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   LIGHT JET  ( 7 SEATS )
-   FEATURED (EMPTY LEG)
-(KDTS) Destin, United States    (KTUL) Tulsa, United States
-	
- Light Jet
- Available on: Oct 01 - Oct 02, 2025
- Features and details
- Time in the air:
-KDTS - KTUL: 02:00
-9,500.00 USD
+KAPF - KTTN: 02:54
+13,000.00 USD
 CLICK TO INQUIRE  
  Final price, tax not included
    MID SIZE JET  ( 7 SEATS )
    FEATURED (EMPTY LEG)
-(KBCT) Boca Raton, United States    (KBED) Bedford, United States
+(KFLL) Fort Lauderdale, United States    (KTEB) Teterboro, United States
 	
  Mid Size Jet
- Available on: Oct 02 - Oct 03, 2025
+ Available on: Oct 22 - Oct 23, 2025
  Features and details
  Time in the air:
-KBCT - KBED: 02:48
-17,000.00 USD
+KFLL - KTEB: 02:30
+16,000.00 USD
 CLICK TO INQUIRE  
  Final price, tax not included
-   SUPER MID SIZE JET  ( 8 SEATS )
+   MID SIZE JET  ( 7 SEATS )
    FEATURED (EMPTY LEG)
-(KTEB) Teterboro, United States    (KPBI) West Palm Beach, United States
+(KOPF) Miami, United States    (KBED) Bedford, United States
 	
- Super Mid Size Jet
- Available on: Oct 08 - Oct 09, 2025
+ Mid Size Jet
+ Available on: Nov 03 - Nov 06, 2025
  Features and details
  Time in the air:
-KTEB - KPBI: 02:24
-22,000.00 USD
+KOPF - KBED: 02:54
+16,000.00 USD
 CLICK TO INQUIRE  
  Final price, tax not included
-   SUPER MID SIZE JET  ( 8 SEATS )
+   HEAVY JET  ( 10 SEATS )
    FEATURED (EMPTY LEG)
-(KSUA) Stuart, United States    (KSJC) San Jose, United States
+(KSLC) Salt Lake City, United States    (LEIB) Ibiza, Spain
 	
- Super Mid Size Jet
- Available on: Oct 09 - Oct 12, 2025
+ Heavy Jet
+ Available on: Nov 12 - Nov 16, 2025
  Features and details
  Time in the air:
-KSUA - KSJC: 05:18
-41,000.00 USD
+KSLC - LEIB: 10:48
+195,000.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   HEAVY JET  ( 12 SEATS )
+(KVNY) Van Nuys, United States    (KTEB) Teterboro, United States
+	
+ Gulfstream G IV SP
+ Available on: Oct 13 - Oct 15, 2025
+ Features and details
+ Time in the air:
+KVNY - KTEB: 05:00
+43,231.50 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   MID SIZE JET  ( 8 SEATS )
+(KROC) Rochester, United States    (KSYR) Syracuse, United States
+	
+ Cessna Citation XLS
+ Available on: Oct 14 - Oct 15, 2025
+ Features and details
+ Time in the air:
+KROC - KSYR: 00:24
+2,925.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   ULTRA LONG RANGE JET  ( 13 SEATS )
+(PHNL) Honolulu, United States    (KVNY) Van Nuys, United States
+	
+ Bombardier Global Express
+ Available on: Oct 14, 2025
+ Features and details
+ Time in the air:
+PHNL - KVNY: 05:06
+35,041.50 USD
 CLICK TO INQUIRE  
  Final price, tax not included
    ULTRA LONG RANGE JET  ( 16 SEATS )
-(KMKE) Milwaukee, United States    (KTEB) Teterboro, United States
+(KABE) Allentown, United States    (KTEB) Teterboro, United States
 	
  Gulfstream G V
- Available on: Sep 29 - Oct 02, 2025
+ Available on: Oct 15, 2025
  Features and details
  Time in the air:
-KMKE - KTEB: 01:36
+KABE - KTEB: 00:24
 Ask for pricing
 CLICK TO INQUIRE  
-   LIGHT JET  ( 5 SEATS )
-(CYYZ) Toronto, Canada    (CYUL) Montréal, Canada
+   HEAVY JET  ( 12 SEATS )
+(KTEB) Teterboro, United States    (KPTK) Pontiac, United States
 	
- Cessna Citation CJ1+
- Available on: Sep 30 - Oct 01, 2025
+ Gulfstream GIV-SP
+ Available on: Oct 15, 2025
  Features and details
  Time in the air:
-CYYZ - CYUL: 01:06
+KTEB - KPTK: 01:18
 Ask for pricing
 CLICK TO INQUIRE  
-   LIGHT JET  ( 6 SEATS )
-(KCHS) Charleston, United States    (KBTA) Blair, United States
+   LIGHT JET  ( 7 SEATS )
+(KRVS) Tulsa, United States    (KRSW) Fort Myers, United States
 	
- Cessna Citation I/ISP
- Available on: Sep 30 - Oct 01, 2025
+ Embraer Phenom 300
+ Available on: Oct 14, 2025
  Features and details
  Time in the air:
-KCHS - KBTA: 02:54
-8,775.00 USD
+KRVS - KRSW: 02:36
+13,572.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   MID SIZE JET  ( 7 SEATS )
+(KMRY) Monterey, United States    (KLAS) Las Vegas, United States
+	
+ Bombardier Learjet 60
+ Available on: Oct 14, 2025
+ Features and details
+ Time in the air:
+KMRY - KLAS: 01:00
+7,020.00 USD
 CLICK TO INQUIRE  
  Final price, tax not included
    LIGHT JET  ( 8 SEATS )
-(KDAL) Dallas, United States    (KPWA) Oklahoma City, United States
+(KPHL) Philadelphia, United States    (KJAX) Jacksonville, United States
 	
- Cessna Citation Encore
- Available on: Sep 30, 2025
+ Cessna Citation CJ3
+ Available on: Oct 14, 2025
  Features and details
  Time in the air:
-KDAL - KPWA: 00:48
-5,616.00 USD
+KPHL - KJAX: 02:06
+Ask for pricing
 CLICK TO INQUIRE  
- Final price, tax not included
-   LIGHT JET  ( 8 SEATS )
-(KPWA) Oklahoma City, United States    (KASE) Aspen, United States
+   LIGHT JET  ( 7 SEATS )
+(KMRF) Marfa, United States    (KDWH) Houston, United States
 	
- Cessna Citation Encore
- Available on: Sep 30, 2025
+ Cessna Citation V
+ Available on: Oct 14, 2025
  Features and details
  Time in the air:
-KPWA - KASE: 01:42
-9,360.00 USD
+KMRF - KDWH: 01:30
+5,499.00 USD
 CLICK TO INQUIRE  
  Final price, tax not included
    LIGHT JET  ( 6 SEATS )
-(KCLE) Cleveland, United States    (KHOU) Houston, United States
+(KMCO) Orlando, United States    (KMTH) Marathon, United States
 	
- Embraer Phenom 100
- Available on: Sep 30 - Oct 02, 2025
+ Cessna Citation CJ4
+ Available on: Oct 14, 2025
  Features and details
  Time in the air:
-KCLE - KHOU: 03:12
+KMCO - KMTH: 00:48
+Ask for pricing
+CLICK TO INQUIRE  
+   MID SIZE JET  ( 9 SEATS )
+(KAPF) Naples, United States    (KGYY) Gary, United States
+	
+ CE-560-XLS (CITATION XLS)
+ Available on: Oct 14, 2025
+ Features and details
+ Time in the air:
+KAPF - KGYY: 02:54
+Ask for pricing
+CLICK TO INQUIRE  
+   LIGHT JET  ( 8 SEATS )
+(KIAH) Houston, United States    (KAUS) Austin, United States
+	
+ Beechcraft Hawker 400XP
+ Available on: Oct 14, 2025
+ Features and details
+ Time in the air:
+KIAH - KAUS: 00:36
+Ask for pricing
+CLICK TO INQUIRE  
+   VERY LIGHT JET  ( 4 SEATS )
+(KLAX) Los Angeles, United States    (KBOI) Boise, United States
+	
+ Cessna Citation Mustang
+ Available on: Oct 14 - Oct 15, 2025
+ Features and details
+ Time in the air:
+KLAX - KBOI: 02:06
+Ask for pricing
+CLICK TO INQUIRE  
+   LIGHT JET  ( 6 SEATS )
+(KBHM) Birmingham, United States    (KNEW) New Orleans, United States
+	
+ Cessna Citation Jet
+ Available on: Oct 14, 2025
+ Features and details
+ Time in the air:
+KBHM - KNEW: 01:12
+Ask for pricing
+CLICK TO INQUIRE  
+   SUPER MID SIZE JET  ( 9 SEATS )
+(KSNA) Santa Ana, United States    (KSDL) Scottsdale, United States
+	
+ Bombardier Challenger 300
+ Available on: Oct 14, 2025
+ Features and details
+ Time in the air:
+KSNA - KSDL: 00:54
+6,552.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   LIGHT JET  ( 8 SEATS )
+(KCMH) Columbus, United States    (KMQY) Smyrna, United States
+	
+ Cessna Citation Bravo
+ Available on: Oct 14 - Oct 15, 2025
+ Features and details
+ Time in the air:
+KCMH - KMQY: 01:12
+Ask for pricing
+CLICK TO INQUIRE  
+   MID SIZE JET  ( 8 SEATS )
+(KAVL) Asheville, United States    (KIAD) Washington, United States
+	
+ Cessna Citation XLS
+ Available on: Oct 15 - Oct 16, 2025
+ Features and details
+ Time in the air:
+KAVL - KIAD: 01:06
+5,148.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   TURBO PROP  ( 8 SEATS )
+(KTEB) Teterboro, United States    (CYHU) Montréal, Canada
+	
+ Pilatus PC 12 NG
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KTEB - CYHU: 01:30
+3,510.00 CAD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   MID SIZE JET  ( 9 SEATS )
+(KMIA) Miami, United States    (KGSO) Greensboro, United States
+	
+ Cessna Citation III
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KMIA - KGSO: 01:42
+Ask for pricing
+CLICK TO INQUIRE  
+   MID SIZE JET  ( 9 SEATS )
+(KVNY) Van Nuys, United States    (KMRY) Monterey, United States
+	
+ Cessna Citation VII
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KVNY - KMRY: 00:54
+Ask for pricing
+CLICK TO INQUIRE  
+   MID SIZE JET  ( 8 SEATS )
+(KORF) Norfolk, United States    (KPVD) Providence, United States
+	
+ Cessna Citation XLS+
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KORF - KPVD: 01:12
+3,510.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   SUPER MID SIZE JET  ( 9 SEATS )
+(LZKZ) Košice, Slovakia    (LFSB) Bâle/Mulhouse, France
+	
+ Bombardier Challenger 300
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+LZKZ - LFSB: 01:36
+Ask for pricing
+CLICK TO INQUIRE  
+   TURBO PROP  ( 8 SEATS )
+(KPVU) Provo, United States    (KBOI) Boise, United States
+	
+ Pilatus PC 12
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KPVU - KBOI: 01:30
+Ask for pricing
+CLICK TO INQUIRE  
+   SUPER MID SIZE JET  ( 8 SEATS )
+(KSDL) Scottsdale, United States    (KENW) Kenosha, United States
+	
+ Bombardier Challenger 300
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KSDL - KENW: 03:00
+Ask for pricing
+CLICK TO INQUIRE  
+   HEAVY JET  ( 13 SEATS )
+(KSTL) St Louis, United States    (KPBI) West Palm Beach, United States
+	
+ Embraer Legacy 600
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KSTL - KPBI: 02:24
+22,838.40 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   MID SIZE JET  ( 9 SEATS )
+(KIAD) Washington, United States    (KSTL) St Louis, United States
+	
+ Cessna Citation XLS+
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KIAD - KSTL: 02:00
+11,921.13 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   HEAVY JET  ( 12 SEATS )
+(KBCT) Boca Raton, United States    (KTEB) Teterboro, United States
+	
+ Bombardier Challenger 650
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KBCT - KTEB: 02:06
+Ask for pricing
+CLICK TO INQUIRE  
+   MID SIZE JET  ( 8 SEATS )
+(KBFI) Seattle, United States    (KRDM) Redmond, United States
+	
+ Beechcraft Hawker 900XP
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KBFI - KRDM: 00:48
+Ask for pricing
+CLICK TO INQUIRE  
+   SUPER MID SIZE JET  ( 8 SEATS )
+(KSFO) San Francisco, United States    (KAPA) Denver, United States
+	
+ Cessna Citation X
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KSFO - KAPA: 02:00
+15,591.42 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   LIGHT JET  ( 8 SEATS )
+(KPWA) Oklahoma City, United States    (KLNC) Lancaster, United States
+	
+ Bombardier Learjet 45
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KPWA - KLNC: 00:42
+Ask for pricing
+CLICK TO INQUIRE  
+   TURBO PROP  ( 6 SEATS )
+(KCRG) Jacksonville, United States    (K2G4) Oakland, United States
+	
+ Pilatus PC 12
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KCRG - K2G4: 03:00
+Ask for pricing
+CLICK TO INQUIRE  
+   MID SIZE JET  ( 7 SEATS )
+(KFLL) Fort Lauderdale, United States    (KFTY) Atlanta, United States
+	
+ Bombardier Learjet 60
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KFLL - KFTY: 01:36
+9,234.81 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   HEAVY JET  ( 13 SEATS )
+(KSTL) St Louis, United States    (KPBI) West Palm Beach, United States
+	
+ Embraer Legacy 600
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KSTL - KPBI: 02:24
+32,752.51 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   MID SIZE JET  ( 9 SEATS )
+(KIAD) Washington, United States    (KSTL) St Louis, United States
+	
+ Cessna Citation XLS+
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KIAD - KSTL: 02:00
+9,225.45 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   MID SIZE JET  ( 8 SEATS )
+(KLAS) Las Vegas, United States    (KVNY) Van Nuys, United States
+	
+ Beechcraft Hawker 900XP
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KLAS - KVNY: 00:48
+2,925.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   ULTRA LONG RANGE JET  ( 18 SEATS )
+(KLAS) Las Vegas, United States    (KSLC) Salt Lake City, United States
+	
+ Gulfstream G550
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KLAS - KSLC: 00:54
+14,040.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   ULTRA LONG RANGE JET  ( 18 SEATS )
+(KORL) Orlando, United States    (KHKY) Hickory, United States
+	
+ Gulfstream G V
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KORL - KHKY: 01:18
+Ask for pricing
+CLICK TO INQUIRE  
+   LIGHT JET  ( 8 SEATS )
+(KOMA) Omaha, United States    (KDSM) Des Moines, United States
+	
+ Beechcraft Beechjet 400A
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KOMA - KDSM: 00:30
+1,101.56 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   MID SIZE JET  ( 8 SEATS )
+(KVRB) Vero Beach, United States    (KAVL) Asheville, United States
+	
+ Cessna Citation XLS+
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KVRB - KAVL: 01:36
+9,969.57 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   HEAVY JET  ( 14 SEATS )
+(KHPN) White Plains, United States    (KEFK) Newport, United States
+	
+ Gulfstream GIV-SP
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KHPN - KEFK: 00:48
+Ask for pricing
+CLICK TO INQUIRE  
+   MID SIZE JET  ( 9 SEATS )
+(KORL) Orlando, United States    (CYEG) Edmonton, Canada
+	
+ Beechcraft Hawker 800XP
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KORL - CYEG: 04:54
+Ask for pricing
+CLICK TO INQUIRE  
+   SUPER MID SIZE JET  ( 9 SEATS )
+(KAUS) Austin, United States    (KAAO) Wichita, United States
+	
+ Cessna Citation Sovereign+
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KAUS - KAAO: 01:12
+Ask for pricing
+CLICK TO INQUIRE  
+   LIGHT JET  ( 7 SEATS )
+(KFLL) Fort Lauderdale, United States    (KCHS) Charleston, United States
+	
+ Embraer Phenom 300
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KFLL - KCHS: 01:12
+10,881.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   LIGHT JET  ( 6 SEATS )
+(KSGR) Houston, United States    (KSAT) San Antonio, United States
+	
+ Cessna Citation CJ3+
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KSGR - KSAT: 00:42
+Ask for pricing
+CLICK TO INQUIRE  
+   ULTRA LONG RANGE JET  ( 14 SEATS )
+(CYOW) Ottawa, Canada    (CYQR) Regina, Canada
+	
+ Bombardier Global 5000
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+CYOW - CYQR: 02:54
+46,215.00 CAD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   MID SIZE JET  ( 9 SEATS )
+(KSTL) St Louis, United States    (BBG) Branson, United States
+	
+ Cessna Citation XLS+
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KSTL - BBG: 00:54
+1,925.47 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   SUPER MID SIZE JET  ( 9 SEATS )
+(KBBG) Branson, United States    (KFCM) Minneapolis, United States
+	
+ Cessna Citation Sovereign
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KBBG - KFCM: 01:24
 11,817.00 USD
 CLICK TO INQUIRE  
  Final price, tax not included
    MID SIZE JET  ( 8 SEATS )
-(KSLC) Salt Lake City, United States    (KPSO) Pagosa Springs, United States
+(KLVK) Livermore, United States    (KVEL) Vernal, United States
 	
- Cessna Citation Excel
- Available on: Sep 30 - Oct 01, 2025
+ Beechcraft Hawker 900XP
+ Available on: Oct 15, 2025
  Features and details
  Time in the air:
-KSLC - KPSO: 01:06
-Ask for pricing
-CLICK TO INQUIRE  
-   SUPER MID SIZE JET  ( 8 SEATS )
-(KSLC) Salt Lake City, United States    (KHND) Las Vegas, United States
-	
- Gulfstream G200
- Available on: Sep 30 - Oct 01, 2025
- Features and details
- Time in the air:
-KSLC - KHND: 01:06
-Ask for pricing
-CLICK TO INQUIRE  
-   LIGHT JET  ( 6 SEATS )
-(KUDD) Palm Springs, United States    (KHND) Las Vegas, United States
-	
- Beechcraft Premier I
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KUDD - KHND: 00:36
-4,680.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   MID SIZE JET  ( 8 SEATS )
-(KJAN) Jackson, United States    (KIAD) Washington, United States
-	
- Bombardier Learjet 60
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KJAN - KIAD: 02:00
-13,689.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   MID SIZE JET  ( 7 SEATS )
-(KJAN) Jackson, United States    (KIAD) Washington, United States
-	
- Bombardier Learjet 60
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KJAN - KIAD: 02:00
-12,636.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   SUPER MID SIZE JET  ( 9 SEATS )
-(KFRG) Farmingdale, United States    (KEWB) New Bedford, United States
-	
- Dassault Falcon 50
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KFRG - KEWB: 00:36
-Ask for pricing
-CLICK TO INQUIRE  
-   LIGHT JET  ( 7 SEATS )
-(KFLL) Fort Lauderdale, United States    (KORL) Orlando, United States
-	
- Embraer Phenom 300
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KFLL - KORL: 00:42
-10,413.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   MID SIZE JET  ( 7 SEATS )
-(KMGM) Montgomery, United States    (KSAV) Savannah, United States
-	
- Bombardier Learjet 60
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KMGM - KSAV: 00:54
-5,616.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   HEAVY JET  ( 15 SEATS )
-(KMDW) Chicago, United States    (KSAT) San Antonio, United States
-	
- Bombardier Challenger 850
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KMDW - KSAT: 02:30
-Ask for pricing
-CLICK TO INQUIRE  
-   TURBO PROP  ( 8 SEATS )
-(KBOI) Boise, United States    (KEEO) Meeker, United States
-	
- Pilatus PC 12
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KBOI - KEEO: 02:00
-Ask for pricing
-CLICK TO INQUIRE  
-   SUPER MID SIZE JET  ( 9 SEATS )
-(KDAL) Dallas, United States    (KHOU) Houston, United States
-	
- Bombardier Challenger 300
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KDAL - KHOU: 00:42
-5,265.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   MID SIZE JET  ( 9 SEATS )
-(KPHL) Philadelphia, United States    (KCLE) Cleveland, United States
-	
- Beechcraft Hawker 800XP
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KPHL - KCLE: 01:06
-Ask for pricing
-CLICK TO INQUIRE  
-   LIGHT JET  ( 6 SEATS )
-(KPIT) Pittsburgh, United States    (KHPN) White Plains, United States
-	
- Cessna Citation CJ3
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KPIT - KHPN: 00:54
-4,914.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   MID SIZE JET  ( 7 SEATS )
-(KLAS) Las Vegas, United States    (KCOE) Coeur d'Alene, United States
-	
- Bombardier Learjet 60
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KLAS - KCOE: 02:00
-14,040.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   MID SIZE JET  ( 8 SEATS )
-(KLAS) Las Vegas, United States    (KCOE) Coeur d'Alene, United States
-	
- Bombardier Learjet 60
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KLAS - KCOE: 02:00
-15,210.00 USD
+KLVK - KVEL: 01:42
+5,850.00 USD
 CLICK TO INQUIRE  
  Final price, tax not included
    LIGHT JET  ( 8 SEATS )
-(KCDS) Childress, United States    (KDRO) Durango, United States
-	
- Beechcraft Hawker 400XP
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KCDS - KDRO: 01:18
-Ask for pricing
-CLICK TO INQUIRE  
-   ULTRA LONG RANGE JET  ( 16 SEATS )
-(CYYZ) Toronto, Canada    (KTEB) Teterboro, United States
-	
- Gulfstream G V
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-CYYZ - KTEB: 00:54
-Ask for pricing
-CLICK TO INQUIRE  
-   LIGHT JET  ( 7 SEATS )
-(CYYZ) Toronto, Canada    (CYUL) Montréal, Canada
-	
- Cessna Citation Ultra
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-CYYZ - CYUL: 01:00
-5,265.00 CAD
-CLICK TO INQUIRE  
- Final price, tax not included
-   ULTRA LONG RANGE JET  ( 16 SEATS )
-(KLXT) Lee's Summit, United States    (KFRG) Farmingdale, United States
-	
- Gulfstream G550
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KLXT - KFRG: 02:24
-Ask for pricing
-CLICK TO INQUIRE  
-   LIGHT JET  ( 7 SEATS )
-(KAPA) Denver, United States    (KMTJ) Montrose, United States
-	
- Cessna Citation CJ3+
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KAPA - KMTJ: 00:42
-Ask for pricing
-CLICK TO INQUIRE  
-   HEAVY JET  ( 14 SEATS )
-(CYQG) Windsor, Canada    (KFTW) Fort Worth, United States
-	
- Gulfstream G450
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-CYQG - KFTW: 02:18
-Ask for pricing
-CLICK TO INQUIRE  
-   MID SIZE JET  ( 7 SEATS )
-(KDSM) Des Moines, United States    (KBWI) Baltimore, United States
-	
- Bombardier Learjet 60
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KDSM - KBWI: 02:06
-12,636.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   MID SIZE JET  ( 8 SEATS )
-(KDSM) Des Moines, United States    (KBWI) Baltimore, United States
-	
- Bombardier Learjet 60
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KDSM - KBWI: 02:06
-13,689.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   TURBO PROP  ( 9 SEATS )
-(KGEG) Spokane, United States    (KBOI) Boise, United States
-	
- Pilatus PC 12
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KGEG - KBOI: 01:24
-Ask for pricing
-CLICK TO INQUIRE  
-   SUPER MID SIZE JET  ( 9 SEATS )
-(KLAX) Los Angeles, United States    (KSDL) Scottsdale, United States
-	
- Bombardier Challenger 300
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KLAX - KSDL: 01:00
-6,552.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   SUPER MID SIZE JET  ( 8 SEATS )
-(KXNX) Gallatin, United States    (KLVM) Livingston, United States
-	
- Cessna Citation Latitude
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KXNX - KLVM: 02:54
-Ask for pricing
-CLICK TO INQUIRE  
-   LIGHT JET  ( 6 SEATS )
-(KTUS) Tucson, United States    (KLAS) Las Vegas, United States
-	
- Cessna Citation CJ3+
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KTUS - KLAS: 01:06
-Ask for pricing
-CLICK TO INQUIRE  
-   MID SIZE JET  ( 9 SEATS )
-(KGYY) Gary, United States    (KPLN) Pellston, United States
-	
- Beechcraft Hawker 900XP
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KGYY - KPLN: 00:54
-Ask for pricing
-CLICK TO INQUIRE  
-   LIGHT JET  ( 5 SEATS )
-(KBOI) Boise, United States    (KONP) Newport, United States
-	
- Honda Aircraft HA-420 HondaJet
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KBOI - KONP: 01:18
-Ask for pricing
-CLICK TO INQUIRE  
-   LIGHT JET  ( 7 SEATS )
-(TGPY) Saint George's, Grenada    (MYGF) Freeport, Bahamas
-	
- Embraer Phenom 300
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-TGPY - MYGF: 03:36
-20,358.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   LIGHT JET  ( 7 SEATS )
-(KLAF) Lafayette, United States    (KSDF) Louisville, United States
-	
- Cessna Citation CJ3
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KLAF - KSDF: 00:42
-Ask for pricing
-CLICK TO INQUIRE  
-   LIGHT JET  ( 9 SEATS )
-(KPBI) West Palm Beach, United States    (KCLE) Cleveland, United States
+(KLAS) Las Vegas, United States    (KVEL) Vernal, United States
 	
  Bombardier Learjet 45XR
- Available on: Sep 30, 2025
+ Available on: Oct 15, 2025
  Features and details
  Time in the air:
-KPBI - KCLE: 02:24
-6,903.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   MID SIZE JET  ( 8 SEATS )
-(KSDL) Scottsdale, United States    (KVNY) Van Nuys, United States
-	
- Cessna Citation XLS
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KSDL - KVNY: 01:06
-6,552.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   HEAVY JET  ( 16 SEATS )
-(KLAS) Las Vegas, United States    (KVNY) Van Nuys, United States
-	
- Gulfstream G450
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KLAS - KVNY: 00:48
-Ask for pricing
-CLICK TO INQUIRE  
-   SUPER MID SIZE JET  ( 9 SEATS )
-(KADS) Dallas, United States    (KHUF) Terre Haute, United States
-	
- Bombardier Challenger 350
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KADS - KHUF: 01:36
-Ask for pricing
-CLICK TO INQUIRE  
-   MID SIZE JET  ( 8 SEATS )
-(CYXC) Cranbrook, Canada    (CYYC) Calgary, Canada
-	
- Cessna Citation Excel
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-CYXC - CYYC: 00:30
-Ask for pricing
-CLICK TO INQUIRE  
-   MID SIZE JET  ( 8 SEATS )
-(KCRQ) Carlsbad, United States    (KLAS) Las Vegas, United States
-	
- Beechcraft Hawker 900XP
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KCRQ - KLAS: 00:48
-Ask for pricing
-CLICK TO INQUIRE  
-   LIGHT JET  ( 8 SEATS )
-(KLGA) New York, United States    (KLNS) Lancaster, United States
-	
- Bombardier Learjet 31A
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KLGA - KLNS: 00:36
-2,457.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   LIGHT JET  ( 7 SEATS )
-(KPCW) Port Clinton, United States    (KTYS) Knoxville, United States
-	
- Cessna Citation V
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KPCW - KTYS: 01:18
-5,265.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   HEAVY JET  ( 10 SEATS )
-(KSNA) Santa Ana, United States    (KSDL) Scottsdale, United States
-	
- Bombardier Challenger 605
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KSNA - KSDL: 00:54
-7,137.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   MID SIZE JET  ( 7 SEATS )
-(KMKC) Kansas City, United States    (KXNA) Fayetteville/Springdale/Rogers, United States
-	
- Bombardier Learjet 60
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KMKC - KXNA: 00:42
-4,914.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   MID SIZE JET  ( 8 SEATS )
-(KMKC) Kansas City, United States    (KAPA) Denver, United States
-	
- Beechcraft Hawker 800XP
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KMKC - KAPA: 01:30
-Ask for pricing
-CLICK TO INQUIRE  
-   LIGHT JET  ( 6 SEATS )
-(KJZI) Charleston, United States    (KELM) Elmira/Corning, United States
-	
- Cessna Citation CJ3
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KJZI - KELM: 01:42
-9,477.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   MID SIZE JET  ( 9 SEATS )
-(KMAE) Madera, United States    (KBZN) Bozeman, United States
-	
- Gulfstream G150
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KMAE - KBZN: 01:48
-Ask for pricing
-CLICK TO INQUIRE  
-   LIGHT JET  ( 8 SEATS )
-(KIAH) Houston, United States    (KSAT) San Antonio, United States
-	
- Beechcraft Hawker 400XP
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KIAH - KSAT: 00:48
-Ask for pricing
-CLICK TO INQUIRE  
-   LIGHT JET  ( 8 SEATS )
-(KLEB) Lebanon, United States    (KCLE) Cleveland, United States
-	
- Cessna Citation Bravo
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KLEB - KCLE: 01:42
-Ask for pricing
-CLICK TO INQUIRE  
-   LIGHT JET  ( 8 SEATS )
-(KSDF) Louisville, United States    (KYIP) Detroit, United States
-	
- Cessna Citation Bravo
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KSDF - KYIP: 01:00
-Ask for pricing
-CLICK TO INQUIRE  
-   HEAVY JET  ( 9 SEATS )
-(KBED) Bedford, United States    (KTEB) Teterboro, United States
-	
- Bombardier Challenger 601-3A
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KBED - KTEB: 00:42
-6,961.50 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   LIGHT JET  ( 8 SEATS )
-(KHOU) Houston, United States    (KAUS) Austin, United States
-	
- Bombardier Learjet 75
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KHOU - KAUS: 00:36
-Ask for pricing
-CLICK TO INQUIRE  
-   HEAVY JET  ( 14 SEATS )
-(KSJC) San Jose, United States    (KVNY) Van Nuys, United States
-	
- Gulfstream G450
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KSJC - KVNY: 00:48
-Ask for pricing
-CLICK TO INQUIRE  
-   TURBO PROP  ( 8 SEATS )
-(KFHR) Friday Harbor, United States    (KBOI) Boise, United States
-	
- Pilatus PC 12
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KFHR - KBOI: 01:54
-Ask for pricing
-CLICK TO INQUIRE  
-   HEAVY JET  ( 13 SEATS )
-(KALN) Alton/St Louis, United States    (KHPN) White Plains, United States
-	
- Embraer Legacy 600
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KALN - KHPN: 02:00
-Ask for pricing
-CLICK TO INQUIRE  
-   SUPER MID SIZE JET  ( 8 SEATS )
-(KMDW) Chicago, United States    (CYYZ) Toronto, Canada
-	
- Cessna Citation X
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KMDW - CYYZ: 01:00
-Ask for pricing
-CLICK TO INQUIRE  
-   MID SIZE JET  ( 7 SEATS )
-(KMAF) Midland, United States    (KXNA) Fayetteville/Springdale/Rogers, United States
-	
- Bombardier Learjet 60
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KMAF - KXNA: 01:24
-9,126.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   MID SIZE JET  ( 8 SEATS )
-(KMAF) Midland, United States    (KXNA) Fayetteville/Springdale/Rogers, United States
-	
- Bombardier Learjet 60
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KMAF - KXNA: 01:24
-9,945.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   HEAVY JET  ( 13 SEATS )
-(KPSM) Portsmouth, United States    (KHPN) White Plains, United States
-	
- Embraer Legacy 600
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KPSM - KHPN: 00:42
-Ask for pricing
-CLICK TO INQUIRE  
-   SUPER MID SIZE JET  ( 10 SEATS )
-(KCMH) Columbus, United States    (KCGF) Cleveland, United States
-	
- Bombardier Challenger 300
- Available on: Sep 30, 2025
- Features and details
- Time in the air:
-KCMH - KCGF: 00:30
-5,253.30 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   LIGHT JET  ( 6 SEATS )
-(KBTV) Burlington, United States    (KIAD) Washington, United States
-	
- Cessna Citation CJ3
- Available on: Sep 30 - Oct 01, 2025
- Features and details
- Time in the air:
-KBTV - KIAD: 01:30
-Ask for pricing
-CLICK TO INQUIRE  
-   HEAVY JET  ( 12 SEATS )
-(KTEB) Teterboro, United States    (KVNY) Van Nuys, United States
-	
- Bombardier Challenger 601-3A
- Available on: Oct 01 - Oct 03, 2025
- Features and details
- Time in the air:
-KTEB - KVNY: 05:24
-43,231.50 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   MID SIZE JET  ( 9 SEATS )
-(KLFT) Lafayette, United States    (KVCT) Victoria, United States
-	
- Cessna Citation VI
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KLFT - KVCT: 01:00
-Ask for pricing
-CLICK TO INQUIRE  
-   HEAVY JET  ( 12 SEATS )
-(KPBI) West Palm Beach, United States    (KTEB) Teterboro, United States
-	
- Gulfstream G IV SP
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KPBI - KTEB: 02:18
-17,491.50 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   MID SIZE JET  ( 8 SEATS )
-(KPWK) Chicago/Prospect Heights/Wheeling, United States    (KMDW) Chicago, United States
-	
- Cessna Citation Excel
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KPWK - KMDW: 00:18
-1,755.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   SUPER MID SIZE JET  ( 9 SEATS )
-(LFPB) Paris, France    (LSZH) Zurich, Switzerland
-	
- Bombardier Challenger 300
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-LFPB - LSZH: 00:48
-Ask for pricing
-CLICK TO INQUIRE  
-   SUPER MID SIZE JET  ( 9 SEATS )
-(CYYZ) Toronto, Canada    (CYHZ) Halifax, Canada
-	
- Gulfstream G200
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-CYYZ - CYHZ: 01:54
-Ask for pricing
-CLICK TO INQUIRE  
-   MID SIZE JET  ( 9 SEATS )
-(KMCC) Sacramento, United States    (KMAE) Madera, United States
-	
- Gulfstream G150
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KMCC - KMAE: 00:30
-Ask for pricing
-CLICK TO INQUIRE  
-   LIGHT JET  ( 7 SEATS )
-(KAPF) Naples, United States    (KENW) Kenosha, United States
-	
- Cessna Citation CJ4
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KAPF - KENW: 03:06
-Ask for pricing
-CLICK TO INQUIRE  
-   LIGHT JET  ( 8 SEATS )
-(KTUL) Tulsa, United States    (KPWA) Oklahoma City, United States
-	
- Cessna Citation CJ4
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KTUL - KPWA: 00:36
-Ask for pricing
-CLICK TO INQUIRE  
-   LIGHT JET  ( 8 SEATS )
-(KAPF) Naples, United States    (KMDW) Chicago, United States
-	
- Beechcraft Hawker 400XP
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KAPF - KMDW: 02:48
-14,040.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   MID SIZE JET  ( 8 SEATS )
-(KHOU) Houston, United States    (KSAT) San Antonio, United States
-	
- Cessna Citation XLS
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KHOU - KSAT: 00:48
+KLAS - KVEL: 01:06
 5,850.00 USD
 CLICK TO INQUIRE  
  Final price, tax not included
-   TURBO PROP  ( 6 SEATS )
-(KFAT) Fresno, United States    (KSNA) Santa Ana, United States
-	
- Beechcraft King Air B200GT
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KFAT - KSNA: 01:12
-Ask for pricing
-CLICK TO INQUIRE  
-   LIGHT JET  ( 5 SEATS )
-(KHOU) Houston, United States    (KCRQ) Carlsbad, United States
-	
- Embraer Phenom 100E
- Available on: Oct 01 - Oct 03, 2025
- Features and details
- Time in the air:
-KHOU - KCRQ: 03:48
-13,542.75 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   HEAVY JET  ( 13 SEATS )
-(KGLE) Gainesville, United States    (KPSM) Portsmouth, United States
-	
- Gulfstream G IV SP
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KGLE - KPSM: 03:18
-Ask for pricing
-CLICK TO INQUIRE  
-   LIGHT JET  ( 6 SEATS )
-(KORD) Chicago, United States    (KSAN) San Diego, United States
-	
- Embraer Phenom 100
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KORD - KSAN: 04:48
-19,509.75 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   SUPER MID SIZE JET  ( 8 SEATS )
-(CYWG) Winnipeg, Canada    (CYVR) Vancouver, Canada
-	
- Bombardier Challenger 350
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-CYWG - CYVR: 02:30
-Ask for pricing
-CLICK TO INQUIRE  
-   LIGHT JET  ( 6 SEATS )
-(KHND) Las Vegas, United States    (KRDM) Redmond, United States
-	
- Beechcraft Premier I
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KHND - KRDM: 01:54
-4,680.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   LIGHT JET  ( 6 SEATS )
-(KSDL) Scottsdale, United States    (KHND) Las Vegas, United States
-	
- Beechcraft Premier I
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KSDL - KHND: 00:54
-4,680.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   SUPER MID SIZE JET  ( 8 SEATS )
-(KMEM) Memphis, United States    (KMKE) Milwaukee, United States
-	
- Cessna Citation X
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KMEM - KMKE: 01:18
-Ask for pricing
-CLICK TO INQUIRE  
    LIGHT JET  ( 8 SEATS )
-(KIND) Indianapolis, United States    (KTUL) Tulsa, United States
+(KTEB) Teterboro, United States    (CYYZ) Toronto, Canada
 	
- Cessna Citation CJ3
- Available on: Oct 01, 2025
+ Cessna Citation Encore
+ Available on: Oct 15, 2025
  Features and details
  Time in the air:
-KIND - KTUL: 01:36
-7,567.56 USD
+KTEB - CYYZ: 01:06
+8,424.00 CAD
 CLICK TO INQUIRE  
  Final price, tax not included
-   LIGHT JET  ( 7 SEATS )
-(KPGD) Punta Gorda, United States    (KART) Watertown, United States
-	
- Cessna Citation V
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KPGD - KART: 03:18
-12,519.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   SUPER MID SIZE JET  ( 9 SEATS )
-(KHPN) White Plains, United States    (KPVD) Providence, United States
+   SUPER MID SIZE JET  ( 8 SEATS )
+(KSDL) Scottsdale, United States    (KLAS) Las Vegas, United States
 	
  Cessna Citation Sovereign+
- Available on: Oct 01, 2025
+ Available on: Oct 15, 2025
  Features and details
  Time in the air:
-KHPN - KPVD: 00:30
-Ask for pricing
-CLICK TO INQUIRE  
-   SUPER MID SIZE JET  ( 10 SEATS )
-(KPWK) Chicago/Prospect Heights/Wheeling, United States    (KBMG) Bloomington, United States
-	
- Gulfstream G200
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KPWK - KBMG: 00:42
-2,098.98 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   SUPER MID SIZE JET  ( 8 SEATS )
-(KAUS) Austin, United States    (KHOU) Houston, United States
-	
- Gulfstream G200
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KAUS - KHOU: 00:30
-5,850.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   HEAVY JET  ( 13 SEATS )
-(KVNY) Van Nuys, United States    (KSFO) San Francisco, United States
-	
- Gulfstream GIV-SP
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KVNY - KSFO: 01:00
-Ask for pricing
-CLICK TO INQUIRE  
-   VERY LIGHT JET  ( 5 SEATS )
-(KLAS) Las Vegas, United States    (KSFO) San Francisco, United States
-	
- Honda Aircraft HA-420 HondaJet
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KLAS - KSFO: 01:18
-4,095.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   LIGHT JET  ( 8 SEATS )
-(KIND) Indianapolis, United States    (KTUL) Tulsa, United States
-	
- Cessna Citation CJ3
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KIND - KTUL: 01:36
-6,271.20 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   MID SIZE JET  ( 8 SEATS )
-(KHOU) Houston, United States    (KSAT) San Antonio, United States
-	
- Cessna Citation XLS
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KHOU - KSAT: 00:48
-1,674.97 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   MID SIZE JET  ( 8 SEATS )
-(KLAS) Las Vegas, United States    (KSJC) San Jose, United States
-	
- Beechcraft Hawker 900XP
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KLAS - KSJC: 01:12
-Ask for pricing
-CLICK TO INQUIRE  
-   SUPER MID SIZE JET  ( 9 SEATS )
-(KSLC) Salt Lake City, United States    (KJAC) Jackson, United States
-	
- Cessna Citation Sovereign
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KSLC - KJAC: 00:42
-Ask for pricing
-CLICK TO INQUIRE  
-   SUPER MID SIZE JET  ( 8 SEATS )
-(KISO) Kinston, United States    (KBWI) Baltimore, United States
-	
- Cessna Citation Sovereign+
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KISO - KBWI: 00:48
-Ask for pricing
-CLICK TO INQUIRE  
-   SUPER MID SIZE JET  ( 9 SEATS )
-(KTUL) Tulsa, United States    (KHOU) Houston, United States
-	
- Gulfstream G200
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KTUL - KHOU: 01:06
-4,197.96 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   HEAVY JET  ( 16 SEATS )
-(KLAS) Las Vegas, United States    (KBOS) Boston, United States
-	
- Gulfstream G450
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KLAS - KBOS: 04:54
-Ask for pricing
-CLICK TO INQUIRE  
-   LIGHT JET  ( 7 SEATS )
-(KDTS) Destin, United States    (KTUL) Tulsa, United States
-	
- Nextant Aerospace 400XTi
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KDTS - KTUL: 01:48
-9,239.49 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   LIGHT JET  ( 7 SEATS )
-(KHOU) Houston, United States    (KGTU) Georgetown, United States
-	
- Cessna Citation Ultra
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KHOU - KGTU: 00:42
-2,691.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   LIGHT JET  ( 6 SEATS )
-(KLAS) Las Vegas, United States    (KRIL) Rifle, United States
-	
- Cessna Citation CJ3+
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KLAS - KRIL: 01:12
+KSDL - KLAS: 00:48
 Ask for pricing
 CLICK TO INQUIRE  
    HEAVY JET  ( 12 SEATS )
-(KERV) Kerrville, United States    (KDAL) Dallas, United States
+(KROC) Rochester, United States    (KSTP) St Paul, United States
 	
  Dassault Falcon 900EX
- Available on: Oct 01, 2025
+ Available on: Oct 15, 2025
  Features and details
  Time in the air:
-KERV - KDAL: 00:42
-2,587.57 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   SUPER MID SIZE JET  ( 8 SEATS )
-(KAUS) Austin, United States    (KHOU) Houston, United States
-	
- Gulfstream G200
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KAUS - KHOU: 00:30
-1,749.15 USD
+KROC - KSTP: 01:48
+16,819.92 USD
 CLICK TO INQUIRE  
  Final price, tax not included
    MID SIZE JET  ( 7 SEATS )
-(KLAS) Las Vegas, United States    (KASE) Aspen, United States
-	
- Bombardier Learjet 60XR
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KLAS - KASE: 01:18
-Ask for pricing
-CLICK TO INQUIRE  
-   HEAVY JET  ( 9 SEATS )
-(KTEB) Teterboro, United States    (KBOS) Boston, United States
-	
- Bombardier Challenger 604
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KTEB - KBOS: 00:36
-Ask for pricing
-CLICK TO INQUIRE  
-   LIGHT JET  ( 7 SEATS )
-(KHCR) Heber, United States    (KJAC) Jackson, United States
-	
- Cessna Citation CJ3+
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KHCR - KJAC: 00:42
-Ask for pricing
-CLICK TO INQUIRE  
-   MID SIZE JET  ( 7 SEATS )
-(KIAD) Washington, United States    (KBNA) Nashville, United States
+(KFLL) Fort Lauderdale, United States    (KFTY) Atlanta, United States
 	
  Bombardier Learjet 60
- Available on: Oct 01, 2025
+ Available on: Oct 15, 2025
  Features and details
  Time in the air:
-KIAD - KBNA: 01:30
-11,934.00 USD
+KFLL - KFTY: 01:36
+7,283.25 USD
 CLICK TO INQUIRE  
  Final price, tax not included
-   MID SIZE JET  ( 8 SEATS )
-(KIAD) Washington, United States    (KBNA) Nashville, United States
-	
- Bombardier Learjet 60
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KIAD - KBNA: 01:30
-12,987.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   LIGHT JET  ( 7 SEATS )
-(KCLE) Cleveland, United States    (KM21) Greenville, United States
-	
- Bombardier Learjet 40XR
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KCLE - KM21: 01:12
-6,423.30 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   MID SIZE JET  ( 8 SEATS )
-(KBNA) Nashville, United States    (KSTL) St Louis, United States
-	
- Cessna Citation XLS+
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KBNA - KSTL: 00:54
-2,233.30 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   LIGHT JET  ( 7 SEATS )
-(KSHR) Sheridan, United States    (KLVM) Livingston, United States
-	
- Embraer Phenom 300
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KSHR - KLVM: 00:42
-10,413.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   HEAVY JET  ( 14 SEATS )
-(KPSP) Palm Springs, United States    (KVNY) Van Nuys, United States
-	
- Gulfstream G IV SP
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KPSP - KVNY: 00:36
-Ask for pricing
-CLICK TO INQUIRE  
-   MID SIZE JET  ( 7 SEATS )
-(KAPA) Denver, United States    (KFLL) Fort Lauderdale, United States
-	
- Bombardier Learjet 60
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KAPA - KFLL: 03:42
-26,676.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   MID SIZE JET  ( 8 SEATS )
-(KELP) El Paso, United States    (KTOL) Toledo, United States
-	
- Bombardier Learjet 60
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KELP - KTOL: 03:12
-21,294.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   HEAVY JET  ( 16 SEATS )
-(KPDK) Atlanta, United States    (KBOS) Boston, United States
-	
- Gulfstream G450
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KPDK - KBOS: 02:06
-Ask for pricing
-CLICK TO INQUIRE  
-   SUPER MID SIZE JET  ( 9 SEATS )
-(KMSY) New Orleans, United States    (KDAL) Dallas, United States
-	
- Bombardier Challenger 300
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KMSY - KDAL: 01:12
-4,197.96 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   LIGHT JET  ( 8 SEATS )
-(KMLI) Moline, United States    (KPWK) Chicago/Prospect Heights/Wheeling, United States
-	
- Bombardier Learjet 45
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KMLI - KPWK: 00:30
-1,395.81 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   LIGHT JET  ( 7 SEATS )
-(KDTS) Destin, United States    (KTUL) Tulsa, United States
-	
- Nextant Aerospace 400XTi
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KDTS - KTUL: 01:48
-7,447.05 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   LIGHT JET  ( 7 SEATS )
-(KJAX) Jacksonville, United States    (KCLT) Charlotte, United States
-	
- Embraer Phenom 300
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KJAX - KCLT: 00:54
-10,881.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   SUPER MID SIZE JET  ( 9 SEATS )
-(KTEB) Teterboro, United States    (KIAD) Washington, United States
-	
- Bombardier Challenger 300
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KTEB - KIAD: 00:48
-5,967.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   SUPER MID SIZE JET  ( 9 SEATS )
-(KSLC) Salt Lake City, United States    (KBFI) Seattle, United States
-	
- Cessna Citation Longitude
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KSLC - KBFI: 01:36
-Ask for pricing
-CLICK TO INQUIRE  
-   SUPER MID SIZE JET  ( 9 SEATS )
-(KLYH) Lynchburg, United States    (KIAD) Washington, United States
-	
- Gulfstream G200
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KLYH - KIAD: 00:30
-1,749.15 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   MID SIZE JET  ( 8 SEATS )
-(CYLW) Kelowna, Canada    (CYYC) Calgary, Canada
-	
- Cessna Citation Excel
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-CYLW - CYYC: 00:48
-Ask for pricing
-CLICK TO INQUIRE  
-   MID SIZE JET  ( 7 SEATS )
-(KFQD) Rutherfordton, United States    (KRDU) Raleigh/Durham, United States
-	
- Bombardier Learjet 60
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KFQD - KRDU: 00:36
-4,212.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   MID SIZE JET  ( 7 SEATS )
-(KOPF) Miami, United States    (KPIE) St Petersburg-Clearwater, United States
-	
- Bombardier Learjet 60
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KOPF - KPIE: 00:48
-5,616.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   LIGHT JET  ( 8 SEATS )
-(KSAV) Savannah, United States    (KEDC) Austin, United States
-	
- Beechcraft Hawker 400XP
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KSAV - KEDC: 02:24
-Ask for pricing
-CLICK TO INQUIRE  
-   SUPER MID SIZE JET  ( 9 SEATS )
-(KBCT) Boca Raton, United States    (KDWH) Houston, United States
-	
- Cessna Citation Sovereign
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KBCT - KDWH: 02:30
-Ask for pricing
-CLICK TO INQUIRE  
-   LIGHT JET  ( 6 SEATS )
-(KLLN) Levelland, United States    (KERV) Kerrville, United States
-	
- Cessna Citation CJ3+
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KLLN - KERV: 00:54
-Ask for pricing
-CLICK TO INQUIRE  
-   LIGHT JET  ( 7 SEATS )
-(K55J) Fernandina Beach, United States    (KMKY) Marco Island, United States
-	
- Embraer Phenom 300
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-K55J - KMKY: 01:00
-10,881.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   VERY LIGHT JET  ( 4 SEATS )
-(KLGB) Long Beach, United States    (KBOI) Boise, United States
-	
- Cessna Citation Mustang
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KLGB - KBOI: 02:06
-Ask for pricing
-CLICK TO INQUIRE  
-   SUPER MID SIZE JET  ( 9 SEATS )
-(KTEB) Teterboro, United States    (KACK) Nantucket, United States
-	
- Gulfstream G200
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KTEB - KACK: 00:36
-Ask for pricing
-CLICK TO INQUIRE  
-   MID SIZE JET  ( 7 SEATS )
-(KLVK) Livermore, United States    (KJAC) Jackson, United States
-	
- Bombardier Learjet 60
- Available on: Oct 01 - Oct 02, 2025
- Features and details
- Time in the air:
-KLVK - KJAC: 01:42
-11,934.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   MID SIZE JET  ( 8 SEATS )
-(KLVK) Livermore, United States    (KJAC) Jackson, United States
-	
- Bombardier Learjet 60
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KLVK - KJAC: 01:42
-12,987.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   LIGHT JET  ( 6 SEATS )
-(KAPC) Napa, United States    (KVNY) Van Nuys, United States
-	
- Cessna Citation CJ3
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KAPC - KVNY: 01:06
-Ask for pricing
-CLICK TO INQUIRE  
-   MID SIZE JET  ( 7 SEATS )
-(KOMA) Omaha, United States    (KSDF) Louisville, United States
-	
- Bombardier Learjet 60
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KOMA - KSDF: 01:24
-9,945.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   SUPER MID SIZE JET  ( 8 SEATS )
-(KOAK) Oakland, United States    (KSDL) Scottsdale, United States
-	
- Bombardier Challenger 300
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KOAK - KSDL: 01:30
-10,179.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   SUPER MID SIZE JET  ( 10 SEATS )
-(KAUS) Austin, United States    (KGYY) Gary, United States
-	
- Bombardier Challenger 300
- Available on: Oct 01, 2025
- Features and details
- Time in the air:
-KAUS - KGYY: 02:12
-Ask for pricing
-CLICK TO INQUIRE  
    MID SIZE JET  ( 9 SEATS )
-(KMCO) Orlando, United States    (KMTN) Baltimore, United States
+(KSZT) Sandpoint, United States    (KMSO) Missoula, United States
 	
- Beechcraft Hawker 800XPi
- Available on: Oct 01 - Oct 02, 2025
+ Cessna Citation XLS
+ Available on: Oct 15, 2025
  Features and details
  Time in the air:
-KMCO - KMTN: 02:00
-12,846.60 USD
+KSZT - KMSO: 00:36
+4,532.58 USD
 CLICK TO INQUIRE  
  Final price, tax not included
-   MID SIZE JET  ( 8 SEATS )
-(MYNN) Nassau, Bahamas    (KAPF) Naples, United States
+   LIGHT JET  ( 8 SEATS )
+(KGON) Groton (New London), United States    (KTOL) Toledo, United States
 	
- Cessna Citation XLS+
- Available on: Oct 02 - Oct 04, 2025
+ Beechcraft Beechjet 400A
+ Available on: Oct 15, 2025
  Features and details
  Time in the air:
-MYNN - KAPF: 01:00
-5,265.00 USD
+KGON - KTOL: 01:36
+8,482.50 USD
 CLICK TO INQUIRE  
  Final price, tax not included
-   MID SIZE JET  ( 8 SEATS )
-(KTEB) Teterboro, United States    (KMDW) Chicago, United States
+   SUPER MID SIZE JET  ( 9 SEATS )
+(KORL) Orlando, United States    (KACK) Nantucket, United States
+	
+ Bombardier Challenger 300
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KORL - KACK: 02:18
+15,912.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   MID SIZE JET  ( 9 SEATS )
+(KCLE) Cleveland, United States    (KIAD) Washington, United States
 	
  Beechcraft Hawker 850XP
- Available on: Oct 02, 2025
+ Available on: Oct 15, 2025
  Features and details
  Time in the air:
-KTEB - KMDW: 01:54
-10,471.50 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   SUPER MID SIZE JET  ( 9 SEATS )
-(LEPA) Palma De Mallorca, Spain    (LSZH) Zurich, Switzerland
-	
- Bombardier Challenger 300
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-LEPA - LSZH: 01:24
-Ask for pricing
-CLICK TO INQUIRE  
-   LIGHT JET  ( 8 SEATS )
-(KMDW) Chicago, United States    (KMPO) Mount Pocono, United States
-	
- Beechcraft Hawker 400XP
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KMDW - KMPO: 01:36
-16,380.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   LIGHT JET  ( 8 SEATS )
-(KDSM) Des Moines, United States    (KTEB) Teterboro, United States
-	
- Beechcraft Hawker 400XP
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KDSM - KTEB: 02:24
-14,040.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   SUPER MID SIZE JET  ( 9 SEATS )
-(KOAK) Oakland, United States    (KLAX) Los Angeles, United States
-	
- Cessna Citation Sovereign
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KOAK - KLAX: 01:00
-Ask for pricing
-CLICK TO INQUIRE  
-   LIGHT JET  ( 5 SEATS )
-(MDSD) Santo Domingo, Dominican Republic    (KCRQ) Carlsbad, United States
-	
- Embraer Phenom 100E
- Available on: Oct 02 - Oct 03, 2025
- Features and details
- Time in the air:
-MDSD - KCRQ: 08:24
-10,179.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   SUPER MID SIZE JET  ( 9 SEATS )
-(KSIY) Montague, United States    (KCIC) Chico, United States
-	
- Cessna Citation Sovereign
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KSIY - KCIC: 00:36
-Ask for pricing
-CLICK TO INQUIRE  
-   HEAVY JET  ( 14 SEATS )
-(MMSD) San José del Cabo, Mexico    (KSDM) San Diego, United States
-	
- Gulfstream GIV-SP
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-MMSD - KSDM: 01:48
-Ask for pricing
-CLICK TO INQUIRE  
-   HEAVY JET  ( 10 SEATS )
-(KHOU) Houston, United States    (KFTW) Fort Worth, United States
-	
- Bombardier Challenger 604
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KHOU - KFTW: 00:54
-6,388.20 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   SUPER MID SIZE JET  ( 9 SEATS )
-(CYYZ) Toronto, Canada    (CYOW) Ottawa, Canada
-	
- Gulfstream G280
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-CYYZ - CYOW: 00:42
-7,371.00 CAD
-CLICK TO INQUIRE  
- Final price, tax not included
-   MID SIZE JET  ( 8 SEATS )
-(KLAS) Las Vegas, United States    (KSJC) San Jose, United States
-	
- Beechcraft Hawker 900XP
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KLAS - KSJC: 01:12
-5,850.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   HEAVY JET  ( 16 SEATS )
-(LPPT) Lisbon, Portugal    (EGGW) London, United Kingdom
-	
- Gulfstream GIV-SP
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-LPPT - EGGW: 02:06
-Ask for pricing
-CLICK TO INQUIRE  
-   SUPER MID SIZE JET  ( 8 SEATS )
-(KENW) Kenosha, United States    (KIND) Indianapolis, United States
-	
- Cessna Citation X
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KENW - KIND: 00:24
-4,797.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   HEAVY JET  ( 14 SEATS )
-(KSDM) San Diego, United States    (KVNY) Van Nuys, United States
-	
- Gulfstream GIV-SP
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KSDM - KVNY: 00:36
-Ask for pricing
-CLICK TO INQUIRE  
-   SUPER MID SIZE JET  ( 10 SEATS )
-(KVNY) Van Nuys, United States    (KJAC) Jackson, United States
-	
- Bombardier Challenger 300
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KVNY - KJAC: 01:30
-Ask for pricing
-CLICK TO INQUIRE  
-   MID SIZE JET  ( 8 SEATS )
-(CYYZ) Toronto, Canada    (KOPF) Miami, United States
-	
- Cessna Citation XLS
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-CYYZ - KOPF: 02:54
-21,528.00 CAD
-CLICK TO INQUIRE  
- Final price, tax not included
-   SUPER MID SIZE JET  ( 9 SEATS )
-(KRAP) Rapid City, United States    (KMDW) Chicago, United States
-	
- Cessna Citation Sovereign
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KRAP - KMDW: 02:00
-12,907.44 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   MID SIZE JET  ( 7 SEATS )
-(KJAX) Jacksonville, United States    (KHEF) Manassas, United States
-	
- Bombardier Learjet 60
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KJAX - KHEF: 01:30
-Ask for pricing
-CLICK TO INQUIRE  
-   ULTRA LONG RANGE JET  ( 16 SEATS )
-(KFRG) Farmingdale, United States    (CYQG) Windsor, Canada
-	
- Gulfstream G550
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KFRG - CYQG: 01:18
-Ask for pricing
-CLICK TO INQUIRE  
-   HEAVY JET  ( 10 SEATS )
-(KHOU) Houston, United States    (KFTW) Fort Worth, United States
-	
- Bombardier Challenger 604
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KHOU - KFTW: 00:54
-3,018.83 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   SUPER MID SIZE JET  ( 8 SEATS )
-(KPWA) Oklahoma City, United States    (KPUB) Pueblo, United States
-	
- Bombardier Challenger 300
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KPWA - KPUB: 01:12
-Ask for pricing
-CLICK TO INQUIRE  
-   HEAVY JET  ( 15 SEATS )
-(KVNY) Van Nuys, United States    (MMCU) Chihuahua, Mexico
-	
- Bombardier Challenger 850
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KVNY - MMCU: 01:54
-17,550.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   LIGHT JET  ( 6 SEATS )
-(KHOU) Houston, United States    (KBNA) Nashville, United States
-	
- Cessna Citation CJ2
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KHOU - KBNA: 01:54
-7,906.86 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   HEAVY JET  ( 15 SEATS )
-(KLAS) Las Vegas, United States    (KVNY) Van Nuys, United States
-	
- Bombardier Challenger 850
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KLAS - KVNY: 00:48
-Ask for pricing
-CLICK TO INQUIRE  
-   MID SIZE JET  ( 7 SEATS )
-(KLAS) Las Vegas, United States    (KLVK) Livermore, United States
-	
- Bombardier Learjet 60XR
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KLAS - KLVK: 01:06
-5,850.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   MID SIZE JET  ( 8 SEATS )
-(CYKF) Kitchener, Canada    (CYOW) Ottawa, Canada
-	
- Cessna Citation Excel
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-CYKF - CYOW: 00:48
-5,733.00 CAD
-CLICK TO INQUIRE  
- Final price, tax not included
-   HEAVY JET  ( 12 SEATS )
-(KTRI) Bristol Johnson Kingsport, United States    (KBNA) Nashville, United States
-	
- Dassault Falcon 900EX
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KTRI - KBNA: 00:48
-3,018.83 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   LIGHT JET  ( 7 SEATS )
-(KFLL) Fort Lauderdale, United States    (KOCF) Ocala, United States
-	
- Embraer Phenom 300
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KFLL - KOCF: 00:48
-10,881.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   SUPER MID SIZE JET  ( 9 SEATS )
-(KDAL) Dallas, United States    (KTUL) Tulsa, United States
-	
- Gulfstream G200
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KDAL - KTUL: 00:42
-2,448.81 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   SUPER MID SIZE JET  ( 10 SEATS )
-(KPIE) St Petersburg-Clearwater, United States    (KARR) Chicago/Aurora, United States
-	
- Gulfstream G200
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KPIE - KARR: 02:12
-17,433.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   MID SIZE JET  ( 7 SEATS )
-(KAVL) Asheville, United States    (KTEB) Teterboro, United States
-	
- Bombardier Learjet 60
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KAVL - KTEB: 01:30
-9,126.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   MID SIZE JET  ( 8 SEATS )
-(KAVL) Asheville, United States    (KTEB) Teterboro, United States
-	
- Bombardier Learjet 60
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KAVL - KTEB: 01:30
-9,945.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   LIGHT JET  ( 9 SEATS )
-(KCLE) Cleveland, United States    (KBED) Bedford, United States
-	
- Bombardier Learjet 45XR
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KCLE - KBED: 01:24
+KCLE - KIAD: 00:54
 8,178.30 USD
 CLICK TO INQUIRE  
  Final price, tax not included
-   LIGHT JET  ( 7 SEATS )
-(KRDU) Raleigh/Durham, United States    (KFOK) Westhampton Beach, United States
+   SUPER MID SIZE JET  ( 8 SEATS )
+(KSDM) San Diego, United States    (CYYC) Calgary, Canada
 	
- Cessna Citation Ultra
- Available on: Oct 02, 2025
+ Cessna Citation X
+ Available on: Oct 15, 2025
  Features and details
  Time in the air:
-KRDU - KFOK: 01:24
-4,563.00 USD
+KSDM - CYYC: 02:30
+Ask for pricing
+CLICK TO INQUIRE  
+   LIGHT JET  ( 9 SEATS )
+(KCLE) Cleveland, United States    (KOCF) Ocala, United States
+	
+ Bombardier Learjet 45XR
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KCLE - KOCF: 02:06
+Ask for pricing
+CLICK TO INQUIRE  
+   MID SIZE JET  ( 7 SEATS )
+(KAUS) Austin, United States    (MMMY) Monterrey, Mexico
+	
+ Bombardier Learjet 60
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KAUS - MMMY: 01:00
+7,839.00 USD
 CLICK TO INQUIRE  
  Final price, tax not included
-   LIGHT JET  ( 7 SEATS )
-(KSTL) St Louis, United States    (KLOT) Chicago/Romeoville, United States
+   LIGHT JET  ( 6 SEATS )
+(KOAK) Oakland, United States    (CYYJ) Victoria, Canada
 	
  Cessna Citation CJ3
- Available on: Oct 02, 2025
+ Available on: Oct 15, 2025
  Features and details
  Time in the air:
-KSTL - KLOT: 00:48
-1,565.11 USD
+KOAK - CYYJ: 02:12
+Ask for pricing
+CLICK TO INQUIRE  
+   MID SIZE JET  ( 8 SEATS )
+(KVRB) Vero Beach, United States    (KAVL) Asheville, United States
+	
+ Cessna Citation XLS+
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KVRB - KAVL: 01:36
+7,283.25 USD
 CLICK TO INQUIRE  
  Final price, tax not included
-   TURBO PROP  ( 7 SEATS )
-(KHOU) Houston, United States    (KFST) Fort Stockton, United States
+   SUPER MID SIZE JET  ( 9 SEATS )
+(KFCM) Minneapolis, United States    (KMEM) Memphis, United States
 	
- Pilatus PC 12 NG
- Available on: Oct 02, 2025
+ Bombardier Challenger 300
+ Available on: Oct 15, 2025
  Features and details
  Time in the air:
-KHOU - KFST: 02:18
-5,850.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   HEAVY JET  ( 15 SEATS )
-(KSLC) Salt Lake City, United States    (KSJC) San Jose, United States
-	
- Bombardier Challenger 850
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KSLC - KSJC: 01:30
-9,360.00 USD
+KFCM - KMEM: 01:42
+13,738.14 USD
 CLICK TO INQUIRE  
  Final price, tax not included
    HEAVY JET  ( 10 SEATS )
-(KIAH) Houston, United States    (KDAL) Dallas, United States
+(KPBI) West Palm Beach, United States    (KPWM) Portland, United States
 	
- Dassault Falcon 2000EX EASy
- Available on: Oct 02, 2025
+ Bombardier Challenger 650
+ Available on: Oct 15, 2025
  Features and details
  Time in the air:
-KIAH - KDAL: 00:48
-3,018.83 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   TURBO PROP  ( 9 SEATS )
-(KBOI) Boise, United States    (KGPI) Kalispell, United States
-	
- Pilatus PC 12
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KBOI - KGPI: 01:42
+KPBI - KPWM: 02:36
 Ask for pricing
 CLICK TO INQUIRE  
-   MID SIZE JET  ( 7 SEATS )
-(KTME) Houston, United States    (KADS) Dallas, United States
-	
- Bombardier Learjet 60
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KTME - KADS: 00:48
-5,616.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
    SUPER MID SIZE JET  ( 9 SEATS )
-(KRAP) Rapid City, United States    (KMDW) Chicago, United States
+(KOAK) Oakland, United States    (KAPA) Denver, United States
 	
  Cessna Citation Sovereign
- Available on: Oct 02, 2025
+ Available on: Oct 15, 2025
  Features and details
  Time in the air:
-KRAP - KMDW: 02:00
-10,320.92 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   SUPER MID SIZE JET  ( 8 SEATS )
-(KLEB) Lebanon, United States    (KIAD) Washington, United States
-	
- Bombardier Challenger 300
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KLEB - KIAD: 01:06
-Ask for pricing
-CLICK TO INQUIRE  
-   LIGHT JET  ( 6 SEATS )
-(KHOU) Houston, United States    (KBNA) Nashville, United States
-	
- Cessna Citation CJ2
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KHOU - KBNA: 01:54
-6,271.20 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   HEAVY JET  ( 9 SEATS )
-(KTEB) Teterboro, United States    (KDFW) Dallas-Fort Worth, United States
-	
- Bombardier Challenger 605
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KTEB - KDFW: 02:48
-Ask for pricing
-CLICK TO INQUIRE  
-   SUPER MID SIZE JET  ( 9 SEATS )
-(KHUF) Terre Haute, United States    (KDTS) Destin, United States
-	
- Bombardier Challenger 350
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KHUF - KDTS: 01:24
-Ask for pricing
-CLICK TO INQUIRE  
-   MID SIZE JET  ( 7 SEATS )
-(KLAS) Las Vegas, United States    (KTRM) Palm Springs, United States
-	
- Bombardier Learjet 60
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KLAS - KTRM: 00:42
-4,914.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   MID SIZE JET  ( 8 SEATS )
-(KRIC) Richmond, United States    (KBNA) Nashville, United States
-	
- Cessna Citation Excel
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KRIC - KBNA: 01:24
-10,881.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   LIGHT JET  ( 6 SEATS )
-(KJAC) Jackson, United States    (KGPI) Kalispell, United States
-	
- Cessna Citation CJ3
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KJAC - KGPI: 01:18
-Ask for pricing
-CLICK TO INQUIRE  
-   MID SIZE JET  ( 8 SEATS )
-(KLAS) Las Vegas, United States    (KSNA) Santa Ana, United States
-	
- Beechcraft Hawker 900XP
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KLAS - KSNA: 00:48
-Ask for pricing
-CLICK TO INQUIRE  
-   LIGHT JET  ( 6 SEATS )
-(KMVY) Martha's Vineyard, United States    (KTEB) Teterboro, United States
-	
- Cessna Citation CJ4
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KMVY - KTEB: 00:42
-Ask for pricing
-CLICK TO INQUIRE  
-   MID SIZE JET  ( 7 SEATS )
-(KFTY) Atlanta, United States    (KRDU) Raleigh/Durham, United States
-	
- Bombardier Learjet 60
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KFTY - KRDU: 01:00
-6,318.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   LIGHT JET  ( 8 SEATS )
-(KLAS) Las Vegas, United States    (KPWA) Oklahoma City, United States
-	
- Bombardier Learjet 45
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KLAS - KPWA: 02:18
+KOAK - KAPA: 02:24
 Ask for pricing
 CLICK TO INQUIRE  
    HEAVY JET  ( 15 SEATS )
-(KVNY) Van Nuys, United States    (KHOU) Houston, United States
+(KSJC) San Jose, United States    (KLAS) Las Vegas, United States
 	
  Bombardier Challenger 850
- Available on: Oct 02, 2025
+ Available on: Oct 15, 2025
  Features and details
  Time in the air:
-KVNY - KHOU: 03:06
-17,550.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   LIGHT JET  ( 9 SEATS )
-(KSAT) San Antonio, United States    (KMAF) Midland, United States
-	
- Cessna Citation V
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KSAT - KMAF: 01:00
-2,012.28 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   MID SIZE JET  ( 8 SEATS )
-(KTYQ) Indianapolis, United States    (KBNA) Nashville, United States
-	
- Cessna Citation Excel
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KTYQ - KBNA: 00:48
-6,201.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   LIGHT JET  ( 7 SEATS )
-(KASE) Aspen, United States    (KBZN) Bozeman, United States
-	
- Embraer Phenom 300
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KASE - KBZN: 01:24
-10,413.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   LIGHT JET  ( 7 SEATS )
-(CYAM) Sault Ste Marie, Canada    (CYYZ) Toronto, Canada
-	
- Cessna Citation Ultra
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-CYAM - CYYZ: 01:00
-5,265.00 CAD
-CLICK TO INQUIRE  
- Final price, tax not included
-   MID SIZE JET  ( 9 SEATS )
-(KCLE) Cleveland, United States    (KPHL) Philadelphia, United States
-	
- Beechcraft Hawker 850XP
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KCLE - KPHL: 01:00
-7,008.30 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   SUPER MID SIZE JET  ( 9 SEATS )
-(KTEB) Teterboro, United States    (KPIT) Pittsburgh, United States
-	
- Cessna Citation Longitude
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KTEB - KPIT: 00:54
-Ask for pricing
-CLICK TO INQUIRE  
-   SUPER MID SIZE JET  ( 9 SEATS )
-(KHOU) Houston, United States    (KDAL) Dallas, United States
-	
- Bombardier Challenger 300
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KHOU - KDAL: 00:48
-5,967.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   SUPER MID SIZE JET  ( 9 SEATS )
-(KHOU) Houston, United States    (MMZO) Manzanillo, Mexico
-	
- Bombardier Challenger 350
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KHOU - MMZO: 02:06
-Ask for pricing
-CLICK TO INQUIRE  
-   TURBO PROP  ( 8 SEATS )
-(KBOI) Boise, United States    (KSTS) Santa Rosa, United States
-	
- Pilatus PC 12
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KBOI - KSTS: 02:06
-Ask for pricing
-CLICK TO INQUIRE  
-   MID SIZE JET  ( 8 SEATS )
-(KBTV) Burlington, United States    (KFRG) Farmingdale, United States
-	
- Beechcraft Hawker 900XP
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KBTV - KFRG: 00:54
-Ask for pricing
-CLICK TO INQUIRE  
-   LIGHT JET  ( 7 SEATS )
-(KCHS) Charleston, United States    (KRDU) Raleigh/Durham, United States
-	
- Cessna Citation Ultra
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KCHS - KRDU: 00:48
-2,691.00 USD
-CLICK TO INQUIRE  
- Final price, tax not included
-   HEAVY JET  ( 15 SEATS )
-(KSNA) Santa Ana, United States    (KLAS) Las Vegas, United States
-	
- Bombardier Challenger 850
- Available on: Oct 02, 2025
- Features and details
- Time in the air:
-KSNA - KLAS: 00:42
+KSJC - KLAS: 01:00
 11,700.00 USD
 CLICK TO INQUIRE  
  Final price, tax not included
-   MID SIZE JET  ( 7 SEATS )
-(KHOU) Houston, United States    (KHDC) Hammond, United States
+   MID SIZE JET  ( 8 SEATS )
+(KSRQ) Sarasota/Bradenton, United States    (KLNS) Lancaster, United States
 	
  Bombardier Learjet 60
- Available on: Oct 02, 2025
+ Available on: Oct 15, 2025
  Features and details
  Time in the air:
-KHOU - KHDC: 00:54
-5,616.00 USD
+KSRQ - KLNS: 02:12
+9,360.00 USD
 CLICK TO INQUIRE  
  Final price, tax not included
-   TURBO PROP  ( 9 SEATS )
-(KOTH) North Bend, United States    (KBOI) Boise, United States
+   MID SIZE JET  ( 9 SEATS )
+(KCLE) Cleveland, United States    (KBCT) Boca Raton, United States
 	
- Pilatus PC 12
- Available on: Oct 02, 2025
+ Beechcraft Hawker 800XP
+ Available on: Oct 15, 2025
  Features and details
  Time in the air:
-KOTH - KBOI: 01:54
+KCLE - KBCT: 02:30
+15,186.60 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   HEAVY JET  ( 13 SEATS )
+(KIAD) Washington, United States    (KFRG) Farmingdale, United States
+	
+ Embraer Legacy 600
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KIAD - KFRG: 00:42
 Ask for pricing
 CLICK TO INQUIRE  
+   SUPER MID SIZE JET  ( 10 SEATS )
+(KPBI) West Palm Beach, United States    (KTPA) Tampa, United States
+	
+ Dassault Falcon 2000
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KPBI - KTPA: 00:42
+2,546.15 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   ULTRA LONG RANGE JET  ( 18 SEATS )
+(KOPF) Miami, United States    (KBNA) Nashville, United States
+	
+ Gulfstream G V
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KOPF - KBNA: 01:54
+Ask for pricing
+CLICK TO INQUIRE  
+   HEAVY JET  ( 10 SEATS )
+(KSBA) Santa Barbara, United States    (KSTS) Santa Rosa, United States
+	
+ Bombardier Challenger 605
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KSBA - KSTS: 01:00
+Ask for pricing
+CLICK TO INQUIRE  
+   ULTRA LONG RANGE JET  ( 16 SEATS )
+(KLGA) New York, United States    (MYNN) Nassau, Bahamas
+	
+ Gulfstream G550
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KLGA - MYNN: 02:24
+Ask for pricing
+CLICK TO INQUIRE  
+   LIGHT JET  ( 8 SEATS )
+(KSEF) Sebring, United States    (KBNA) Nashville, United States
+	
+ Cessna Citation Bravo
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KSEF - KBNA: 02:06
+Ask for pricing
+CLICK TO INQUIRE  
+   SUPER MID SIZE JET  ( 8 SEATS )
+(KSFO) San Francisco, United States    (KAPA) Denver, United States
+	
+ Cessna Citation X
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KSFO - KAPA: 02:00
+11,430.67 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   LIGHT JET  ( 8 SEATS )
+(KTOL) Toledo, United States    (KOMA) Omaha, United States
+	
+ Beechcraft Beechjet 400A
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KTOL - KOMA: 01:36
+8,980.92 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   MID SIZE JET  ( 7 SEATS )
+(KPBI) West Palm Beach, United States    (KJAX) Jacksonville, United States
+	
+ Bombardier Learjet 60
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KPBI - KJAX: 00:54
+Ask for pricing
+CLICK TO INQUIRE  
+   HEAVY JET  ( 12 SEATS )
+(KPGV) Greenville, United States    (KBCT) Boca Raton, United States
+	
+ Bombardier Challenger 604
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KPGV - KBCT: 01:42
+Ask for pricing
+CLICK TO INQUIRE  
+   LIGHT JET  ( 7 SEATS )
+(KTUL) Tulsa, United States    (KSTL) St Louis, United States
+	
+ Nextant Aerospace 400XTi
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KTUL - KSTL: 01:00
+2,203.11 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   MID SIZE JET  ( 8 SEATS )
+(KVNY) Van Nuys, United States    (KLAS) Las Vegas, United States
+	
+ Beechcraft Hawker 900XP
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KVNY - KLAS: 00:42
+5,850.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   MID SIZE JET  ( 8 SEATS )
+(KOCH) Nacogdoches, United States    (KDAL) Dallas, United States
+	
+ Beechcraft Hawker 900XP
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KOCH - KDAL: 00:42
+Ask for pricing
+CLICK TO INQUIRE  
+   HEAVY JET  ( 12 SEATS )
+(KROC) Rochester, United States    (KSTP) St Paul, United States
+	
+ Dassault Falcon 900EX
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KROC - KSTP: 01:48
+13,280.44 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   SUPER MID SIZE JET  ( 9 SEATS )
+(KHOU) Houston, United States    (KAUS) Austin, United States
+	
+ Gulfstream G200
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KHOU - KAUS: 00:36
+5,850.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   MID SIZE JET  ( 7 SEATS )
+(KDTW) Detroit, United States    (KORD) Chicago, United States
+	
+ Bombardier Learjet 60XR
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KDTW - KORD: 00:48
+Ask for pricing
+CLICK TO INQUIRE  
+   LIGHT JET  ( 7 SEATS )
+(KCLE) Cleveland, United States    (KRST) Rochester, United States
+	
+ Bombardier Learjet 40XR
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KCLE - KRST: 01:36
+Ask for pricing
+CLICK TO INQUIRE  
+   LIGHT JET  ( 8 SEATS )
+(KGON) Groton (New London), United States    (KTOL) Toledo, United States
+	
+ Beechcraft Beechjet 400A
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KGON - KTOL: 01:36
+6,607.46 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
    VERY LIGHT JET  ( 5 SEATS )
 (KDRO) Durango, United States    (KLAS) Las Vegas, United States
 	
  Honda Aircraft HA-420 HondaJet
- Available on: Oct 02, 2025
+ Available on: Oct 15, 2025
  Features and details
  Time in the air:
 KDRO - KLAS: 01:18
 4,095.00 USD
 CLICK TO INQUIRE  
  Final price, tax not included
-   SUPER MID SIZE JET  ( 8 SEATS )
-(KBNA) Nashville, United States    (KHPN) White Plains, United States
+   ULTRA LONG RANGE JET  ( 13 SEATS )
+(KTEB) Teterboro, United States    (KJWN) Nashville, United States
 	
- Bombardier Challenger 300
- Available on: Oct 02, 2025
+ Gulfstream G V
+ Available on: Oct 15, 2025
  Features and details
  Time in the air:
-KBNA - KHPN: 01:42
+KTEB - KJWN: 01:48
+Ask for pricing
+CLICK TO INQUIRE  
+   HEAVY JET  ( 14 SEATS )
+(KLUK) Cincinnati, United States    (KBWI) Baltimore, United States
+	
+ Gulfstream G450
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KLUK - KBWI: 01:06
+Ask for pricing
+CLICK TO INQUIRE  
+   MID SIZE JET  ( 9 SEATS )
+(KAPA) Denver, United States    (KTUL) Tulsa, United States
+	
+ Cessna Citation XLS
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KAPA - KTUL: 01:18
+3,850.94 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   LIGHT JET  ( 8 SEATS )
+(KORF) Norfolk, United States    (KIAD) Washington, United States
+	
+ Cessna Citation CJ3+
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KORF - KIAD: 00:42
 Ask for pricing
 CLICK TO INQUIRE  
    MID SIZE JET  ( 7 SEATS )
-(KSDL) Scottsdale, United States    (KEGE) Eagle, United States
+(KSRQ) Sarasota/Bradenton, United States    (KCHA) Chattanooga, United States
 	
  Bombardier Learjet 60
- Available on: Oct 02, 2025
+ Available on: Oct 15, 2025
  Features and details
  Time in the air:
-KSDL - KEGE: 01:18
-9,126.00 USD
+KSRQ - KCHA: 01:30
+10,530.00 USD
 CLICK TO INQUIRE  
  Final price, tax not included
    MID SIZE JET  ( 8 SEATS )
-(KSDL) Scottsdale, United States    (KEGE) Eagle, United States
+(KSRQ) Sarasota/Bradenton, United States    (KCHA) Chattanooga, United States
 	
  Bombardier Learjet 60
- Available on: Oct 02, 2025
+ Available on: Oct 15, 2025
  Features and details
  Time in the air:
-KSDL - KEGE: 01:18
+KSRQ - KCHA: 01:30
+11,466.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   HEAVY JET  ( 12 SEATS )
+(KFRG) Farmingdale, United States    (KUNV) State College, United States
+	
+ Bombardier Challenger 605
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KFRG - KUNV: 00:48
+Ask for pricing
+CLICK TO INQUIRE  
+   MID SIZE JET  ( 7 SEATS )
+(MBPV) Providenciales Island, Turks and Caicos Islands    (KOPF) Miami, United States
+	
+ Bombardier Learjet 60
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+MBPV - KOPF: 01:30
+Ask for pricing
+CLICK TO INQUIRE  
+   MID SIZE JET  ( 7 SEATS )
+(KAUS) Austin, United States    (KMAF) Midland, United States
+	
+ Bombardier Learjet 60
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KAUS - KMAF: 01:00
+7,020.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   HEAVY JET  ( 8 SEATS )
+(LIPZ) Venice, Italy    (LSZH) Zurich, Switzerland
+	
+ Dassault Falcon 2000LX
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+LIPZ - LSZH: 00:48
+Ask for pricing
+CLICK TO INQUIRE  
+   SUPER MID SIZE JET  ( 9 SEATS )
+(KJVY) Jeffersonville, United States    (KTEB) Teterboro, United States
+	
+ Cessna Citation Sovereign
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KJVY - KTEB: 01:30
+10,413.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   SUPER MID SIZE JET  ( 9 SEATS )
+(KBUR) Burbank, United States    (KLAS) Las Vegas, United States
+	
+ Cessna Citation Longitude
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KBUR - KLAS: 00:42
+Ask for pricing
+CLICK TO INQUIRE  
+   LIGHT JET  ( 7 SEATS )
+(KDAL) Dallas, United States    (KAIK) Aiken, United States
+	
+ Cessna Citation Ultra
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KDAL - KAIK: 02:18
+7,956.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   MID SIZE JET  ( 9 SEATS )
+(KAPF) Naples, United States    (KLEE) Leesburg, United States
+	
+ CE-560-XLS (CITATION XLS)
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KAPF - KLEE: 00:48
+Ask for pricing
+CLICK TO INQUIRE  
+   MID SIZE JET  ( 7 SEATS )
+(KAUS) Austin, United States    (KLXT) Lee's Summit, United States
+	
+ Bombardier Learjet 60
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KAUS - KLXT: 01:36
+10,530.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   MID SIZE JET  ( 8 SEATS )
+(KAUS) Austin, United States    (KLXT) Lee's Summit, United States
+	
+ Bombardier Learjet 60
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KAUS - KLXT: 01:36
+11,466.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   MID SIZE JET  ( 7 SEATS )
+(KRYY) Atlanta, United States    (KCMI) Champaign/Urbana, United States
+	
+ Bombardier Learjet 60
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KRYY - KCMI: 01:18
 9,945.00 USD
 CLICK TO INQUIRE  
  Final price, tax not included
-   MID SIZE JET  ( 7 SEATS )
-(KAUS) Austin, United States    (KFTW) Fort Worth, United States
+   HEAVY JET  ( 14 SEATS )
+(KLUK) Cincinnati, United States    (KTEB) Teterboro, United States
 	
- Bombardier Learjet 60
- Available on: Oct 02, 2025
+ Gulfstream G IV SP
+ Available on: Oct 15, 2025
  Features and details
  Time in the air:
-KAUS - KFTW: 00:36
+KLUK - KTEB: 01:18
+Ask for pricing
+CLICK TO INQUIRE  
+   SUPER MID SIZE JET  ( 10 SEATS )
+(KFMY) Fort Myers, United States    (KGYY) Gary, United States
+	
+ Bombardier Challenger 300
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KFMY - KGYY: 02:30
+Ask for pricing
+CLICK TO INQUIRE  
+   LIGHT JET  ( 8 SEATS )
+(KTOL) Toledo, United States    (KOMA) Omaha, United States
+	
+ Beechcraft Beechjet 400A
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KTOL - KOMA: 01:36
+6,996.13 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   SUPER MID SIZE JET  ( 9 SEATS )
+(KFCM) Minneapolis, United States    (KMEM) Memphis, United States
+	
+ Bombardier Challenger 300
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KFCM - KMEM: 01:42
+9,625.82 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   MID SIZE JET  ( 7 SEATS )
+(KTWF) Twin Falls, United States    (KSLC) Salt Lake City, United States
+	
+ Bombardier Learjet 60
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KTWF - KSLC: 00:36
+5,850.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   MID SIZE JET  ( 7 SEATS )
+(KLAS) Las Vegas, United States    (KSFO) San Francisco, United States
+	
+ Bombardier Learjet 60XR
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KLAS - KSFO: 01:12
+5,850.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   MID SIZE JET  ( 7 SEATS )
+(KAPA) Denver, United States    (KLWT) Lewistown, United States
+	
+ Bombardier Learjet 55/55B
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KAPA - KLWT: 01:30
+Ask for pricing
+CLICK TO INQUIRE  
+   TURBO PROP  ( 5 SEATS )
+(KSBP) San Luis Obispo, United States    (KFAT) Fresno, United States
+	
+ Beechcraft King Air F90-1
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KSBP - KFAT: 00:42
+Ask for pricing
+CLICK TO INQUIRE  
+   SUPER MID SIZE JET  ( 8 SEATS )
+(KMRY) Monterey, United States    (KSDL) Scottsdale, United States
+	
+ Gulfstream G280
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KMRY - KSDL: 01:24
+10,062.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   SUPER MID SIZE JET  ( 9 SEATS )
+(KHOU) Houston, United States    (KAUS) Austin, United States
+	
+ Gulfstream G200
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KHOU - KAUS: 00:36
+1,721.66 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   LIGHT JET  ( 7 SEATS )
+(KSAV) Savannah, United States    (KCLE) Cleveland, United States
+	
+ Bombardier Learjet 40XR
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KSAV - KCLE: 01:42
+Ask for pricing
+CLICK TO INQUIRE  
+   MID SIZE JET  ( 7 SEATS )
+(KSJT) San Angelo, United States    (KAUS) Austin, United States
+	
+ Bombardier Learjet 60
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KSJT - KAUS: 00:36
 4,212.00 USD
 CLICK TO INQUIRE  
  Final price, tax not included
-   LIGHT JET  ( 9 SEATS )
-(KUES) Waukesha, United States    (KCGF) Cleveland, United States
+   SUPER MID SIZE JET  ( 9 SEATS )
+(KAUS) Austin, United States    (KDAL) Dallas, United States
 	
- Bombardier Learjet 45XR
- Available on: Oct 02, 2025
+ Cessna Citation Longitude
+ Available on: Oct 15, 2025
  Features and details
  Time in the air:
-KUES - KCGF: 01:00
+KAUS - KDAL: 00:36
 Ask for pricing
 CLICK TO INQUIRE  
-   LIGHT JET  ( 5 SEATS )
-(KHOU) Houston, United States    (KSAN) San Diego, United States
+   MID SIZE JET  ( 7 SEATS )
+(KSDL) Scottsdale, United States    (KCOE) Coeur d'Alene, United States
 	
- Embraer Phenom 100E
- Available on: Oct 02 - Oct 03, 2025
+ Bombardier Learjet 60
+ Available on: Oct 15 - Oct 16, 2025
  Features and details
  Time in the air:
-KHOU - KSAN: 03:48
-Ask for pricing
+KSDL - KCOE: 02:24
+17,550.00 USD
 CLICK TO INQUIRE  
+ Final price, tax not included
    MID SIZE JET  ( 8 SEATS )
-(KVNY) Van Nuys, United States    (KSDL) Scottsdale, United States
+(KSDL) Scottsdale, United States    (KCOE) Coeur d'Alene, United States
 	
- Cessna Citation XLS
- Available on: Oct 02 - Oct 03, 2025
+ Bombardier Learjet 60
+ Available on: Oct 15 - Oct 16, 2025
  Features and details
  Time in the air:
-KVNY - KSDL: 01:00
-5,382.00 USD
+KSDL - KCOE: 02:24
+19,071.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   LIGHT JET  ( 6 SEATS )
+(KGYY) Gary, United States    (KMGY) Dayton, United States
+	
+ Honda Aircraft HA-420 HondaJet
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KGYY - KMGY: 00:48
+Ask for pricing
+CLICK TO INQUIRE  
+   MID SIZE JET  ( 7 SEATS )
+(KLRU) Las Cruces, United States    (KLAS) Las Vegas, United States
+	
+ Bombardier Learjet 60
+ Available on: Oct 15 - Oct 16, 2025
+ Features and details
+ Time in the air:
+KLRU - KLAS: 01:30
+11,232.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   MID SIZE JET  ( 8 SEATS )
+(KLRU) Las Cruces, United States    (KLAS) Las Vegas, United States
+	
+ Bombardier Learjet 60
+ Available on: Oct 15 - Oct 16, 2025
+ Features and details
+ Time in the air:
+KLRU - KLAS: 01:30
+12,168.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   LIGHT JET  ( 6 SEATS )
+(KSUN) Hailey, United States    (KOAK) Oakland, United States
+	
+ Cessna Citation CJ3
+ Available on: Oct 15 - Oct 16, 2025
+ Features and details
+ Time in the air:
+KSUN - KOAK: 01:48
+Ask for pricing
+CLICK TO INQUIRE  
+   MID SIZE JET  ( 9 SEATS )
+(KRSW) Fort Myers, United States    (KCLE) Cleveland, United States
+	
+ Beechcraft Hawker 800XP
+ Available on: Oct 15 - Oct 16, 2025
+ Features and details
+ Time in the air:
+KRSW - KCLE: 02:30
+11,688.30 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   LIGHT JET  ( 8 SEATS )
+(KMQY) Smyrna, United States    (KHPN) White Plains, United States
+	
+ Cessna Citation Bravo
+ Available on: Oct 15 - Oct 16, 2025
+ Features and details
+ Time in the air:
+KMQY - KHPN: 02:18
+Ask for pricing
+CLICK TO INQUIRE  
+   MID SIZE JET  ( 9 SEATS )
+(KSUS) St Louis, United States    (KGYY) Gary, United States
+	
+ CE-560-XLS (CITATION XLS)
+ Available on: Oct 15 - Oct 16, 2025
+ Features and details
+ Time in the air:
+KSUS - KGYY: 00:54
+Ask for pricing
+CLICK TO INQUIRE  
+   ULTRA LONG RANGE JET  ( 16 SEATS )
+(KJFK) New York, United States    (KIAD) Washington, United States
+	
+ Gulfstream G550
+ Available on: Oct 15 - Oct 16, 2025
+ Features and details
+ Time in the air:
+KJFK - KIAD: 00:48
+Ask for pricing
+CLICK TO INQUIRE  
+   LIGHT JET  ( 8 SEATS )
+(KDSM) Des Moines, United States    (KHOU) Houston, United States
+	
+ Bombardier Learjet 45
+ Available on: Oct 15, 2025
+ Features and details
+ Time in the air:
+KDSM - KHOU: 02:06
+10,804.95 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   HEAVY JET  ( 9 SEATS )
+(KTEB) Teterboro, United States    (KVNY) Van Nuys, United States
+	
+ Bombardier Challenger 601-3R
+ Available on: Oct 16 - Oct 19, 2025
+ Features and details
+ Time in the air:
+KTEB - KVNY: 05:24
+43,231.50 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   TURBO PROP  ( 8 SEATS )
+(KECP) Panama City Beach, United States    (KTYS) Knoxville, United States
+	
+ Beechcraft King Air 250
+ Available on: Oct 16 - Oct 17, 2025
+ Features and details
+ Time in the air:
+KECP - KTYS: 01:24
+2,927.34 USD
 CLICK TO INQUIRE  
  Final price, tax not included
    MID SIZE JET  ( 9 SEATS )
-(KPLN) Pellston, United States    (KGYY) Gary, United States
+(KDZB) Horseshoe Bay, United States    (KDAL) Dallas, United States
 	
- Beechcraft Hawker 900XP
- Available on: Oct 02 - Oct 03, 2025
+ Cessna Citation VII
+ Available on: Oct 16, 2025
  Features and details
  Time in the air:
-KPLN - KGYY: 01:00
+KDZB - KDAL: 00:36
 Ask for pricing
 CLICK TO INQUIRE  
    MID SIZE JET  ( 9 SEATS )
-(KHND) Las Vegas, United States    (KPGA) Page, United States
+(KSAT) San Antonio, United States    (KSTP) St Paul, United States
 	
  Cessna Citation VII
- Available on: Oct 03, 2025
+ Available on: Oct 16, 2025
  Features and details
  Time in the air:
-KHND - KPGA: 00:42
+KSAT - KSTP: 02:36
 Ask for pricing
 CLICK TO INQUIRE  
+   MID SIZE JET  ( 8 SEATS )
+(TXKF) Hamilton, Bermuda    (KPBI) West Palm Beach, United States
+	
+ Beechcraft Hawker 800XP
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+TXKF - KPBI: 02:30
+Ask for pricing
+CLICK TO INQUIRE  
+   SUPER MID SIZE JET  ( 8 SEATS )
+(KSMF) Sacramento, United States    (KBUR) Burbank, United States
+	
+ Bombardier Challenger 300
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KSMF - KBUR: 00:54
+Ask for pricing
+CLICK TO INQUIRE  
+   VERY LIGHT JET  ( 4 SEATS )
+(KPHX) Phoenix, United States    (KVGT) Las Vegas, United States
+	
+ Cessna Citation Mustang
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KPHX - KVGT: 01:06
+Ask for pricing
+CLICK TO INQUIRE  
+   MID SIZE JET  ( 7 SEATS )
+(KSBN) South Bend, United States    (KSTP) St Paul, United States
+	
+ Bombardier Learjet 60
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KSBN - KSTP: 01:12
+9,126.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   MID SIZE JET  ( 9 SEATS )
+(KSBN) South Bend, United States    (KCLE) Cleveland, United States
+	
+ Beechcraft Hawker 850XP
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KSBN - KCLE: 00:48
+Ask for pricing
+CLICK TO INQUIRE  
+   SUPER MID SIZE JET  ( 9 SEATS )
+(KBNA) Nashville, United States    (KCGI) Cape Girardeau, United States
+	
+ Cessna Citation X
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KBNA - KCGI: 00:42
+Ask for pricing
+CLICK TO INQUIRE  
+   LIGHT JET  ( 8 SEATS )
+(KENW) Kenosha, United States    (KAPF) Naples, United States
+	
+ Bombardier Learjet 45
+ Available on: Oct 16 - Oct 18, 2025
+ Features and details
+ Time in the air:
+KENW - KAPF: 02:42
+Ask for pricing
+CLICK TO INQUIRE  
+   LIGHT JET  ( 7 SEATS )
+(KJVL) Janesville, United States    (KRAP) Rapid City, United States
+	
+ Cessna Citation CJ4
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KJVL - KRAP: 02:00
+Ask for pricing
+CLICK TO INQUIRE  
+   LIGHT JET  ( 7 SEATS )
+(KAPF) Naples, United States    (KCLE) Cleveland, United States
+	
+ Bombardier Learjet 40XR
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KAPF - KCLE: 02:36
+Ask for pricing
+CLICK TO INQUIRE  
+   MID SIZE JET  ( 9 SEATS )
+(KSDL) Scottsdale, United States    (KLAS) Las Vegas, United States
+	
+ Cessna Citation XLS
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KSDL - KLAS: 00:54
+5,850.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   HEAVY JET  ( 13 SEATS )
+(KSTL) St Louis, United States    (KIAH) Houston, United States
+	
+ Embraer Legacy 600
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KSTL - KIAH: 01:42
+17,128.80 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   LIGHT JET  ( 8 SEATS )
+(KDSM) Des Moines, United States    (KHOU) Houston, United States
+	
+ Bombardier Learjet 45
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KDSM - KHOU: 02:06
+13,920.66 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   HEAVY JET  ( 15 SEATS )
+(KLAS) Las Vegas, United States    (KSAA) Saratoga, United States
+	
+ Bombardier Challenger 850
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KLAS - KSAA: 01:24
+11,700.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   SUPER MID SIZE JET  ( 8 SEATS )
+(KDAL) Dallas, United States    (KJQF) Concord, United States
+	
+ Bombardier Challenger 300
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KDAL - KJQF: 02:00
+17,937.27 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   MID SIZE JET  ( 8 SEATS )
+(KVGT) Las Vegas, United States    (KSDL) Scottsdale, United States
+	
+ Beechcraft Hawker 900XP
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KVGT - KSDL: 00:48
+5,850.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   LIGHT JET  ( 9 SEATS )
+(KCRQ) Carlsbad, United States    (KMCE) Merced, United States
+	
+ Embraer Phenom 300
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KCRQ - KMCE: 01:00
+Ask for pricing
+CLICK TO INQUIRE  
+   ULTRA LONG RANGE JET  ( 13 SEATS )
+(KOPF) Miami, United States    (MBPV) Providenciales Island, Turks and Caicos Islands
+	
+ Gulfstream G600(GVII)
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KOPF - MBPV: 01:18
+Ask for pricing
+CLICK TO INQUIRE  
+   LIGHT JET  ( 7 SEATS )
+(KPGD) Punta Gorda, United States    (KPSM) Portsmouth, United States
+	
+ Cessna Citation V
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KPGD - KPSM: 03:24
+13,338.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   HEAVY JET  ( 10 SEATS )
+(KBNA) Nashville, United States    (KHXD) Hilton Head Island, United States
+	
+ Bombardier Challenger 605
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KBNA - KHXD: 01:06
+4,667.95 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   LIGHT JET  ( 7 SEATS )
+(KDRO) Durango, United States    (KASE) Aspen, United States
+	
+ Cessna Citation CJ3+
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KDRO - KASE: 00:36
+Ask for pricing
+CLICK TO INQUIRE  
+   HEAVY JET  ( 13 SEATS )
+(KSTL) St Louis, United States    (KIAH) Houston, United States
+	
+ Embraer Legacy 600
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KSTL - KIAH: 01:42
+13,280.44 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   HEAVY JET  ( 8 SEATS )
+(LIRQ) Firenze, Italy    (EIDW) Dublin, Ireland
+	
+ Dassault Falcon 2000LX
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+LIRQ - EIDW: 01:54
+Ask for pricing
+CLICK TO INQUIRE  
+   LIGHT JET  ( 7 SEATS )
+(CYYZ) Toronto, Canada    (CYHU) Montréal, Canada
+	
+ Cessna Citation Ultra
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+CYYZ - CYHU: 01:00
+5,850.00 CAD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   HEAVY JET  ( 8 SEATS )
+(KMQJ) Indianapolis, United States    (KBZN) Bozeman, United States
+	
+ Dassault Falcon 2000S
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KMQJ - KBZN: 02:48
+25,740.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   HEAVY JET  ( 9 SEATS )
+(KSRQ) Sarasota/Bradenton, United States    (KBHM) Birmingham, United States
+	
+ Bombardier Challenger 601-3AER
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KSRQ - KBHM: 01:24
+5,516.67 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   HEAVY JET  ( 14 SEATS )
+(KOPF) Miami, United States    (KLUK) Cincinnati, United States
+	
+ Gulfstream G450
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KOPF - KLUK: 02:12
+Ask for pricing
+CLICK TO INQUIRE  
+   MID SIZE JET  ( 9 SEATS )
+(KSDL) Scottsdale, United States    (KLAS) Las Vegas, United States
+	
+ Cessna Citation XLS
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KSDL - KLAS: 00:54
+2,200.54 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   SUPER MID SIZE JET  ( 8 SEATS )
+(KMSP) Minneapolis, United States    (KDFW) Dallas-Fort Worth, United States
+	
+ Gulfstream G200
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KMSP - KDFW: 02:06
+16,016.13 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   SUPER MID SIZE JET  ( 9 SEATS )
+(KSTS) Santa Rosa, United States    (KEUG) Eugene, United States
+	
+ Embraer Praetor 500
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KSTS - KEUG: 01:06
+Ask for pricing
+CLICK TO INQUIRE  
+   HEAVY JET  ( 10 SEATS )
+(KSPA) Spartanburg, United States    (KLUK) Cincinnati, United States
+	
+ Dassault Falcon 2000EX EASy
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KSPA - KLUK: 01:00
+Ask for pricing
+CLICK TO INQUIRE  
+   SUPER MID SIZE JET  ( 8 SEATS )
+(KDAL) Dallas, United States    (KJQF) Concord, United States
+	
+ Bombardier Challenger 300
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KDAL - KJQF: 02:00
+22,323.60 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   MID SIZE JET  ( 8 SEATS )
+(KMTN) Baltimore, United States    (KTEB) Teterboro, United States
+	
+ Beechcraft Hawker 850XP
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KMTN - KTEB: 00:36
+5,791.50 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   LIGHT JET  ( 7 SEATS )
+(KAUO) Auburn, United States    (KSAV) Savannah, United States
+	
+ Cessna Citation V
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KAUO - KSAV: 00:48
+2,925.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   SUPER MID SIZE JET  ( 9 SEATS )
+(KARV) Minocqua-Woodruff, United States    (KPWK) Chicago/Prospect Heights/Wheeling, United States
+	
+ Embraer Praetor 500
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KARV - KPWK: 00:48
+Ask for pricing
+CLICK TO INQUIRE  
+   MULTI ENGINE  ( 5 SEATS )
+(KBHM) Birmingham, United States    (KTYS) Knoxville, United States
+	
+ Beechcraft Baron G58
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KBHM - KTYS: 01:24
+1,119.69 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   MID SIZE JET  ( 8 SEATS )
+(KMRY) Monterey, United States    (KVNY) Van Nuys, United States
+	
+ Beechcraft Hawker 900XP
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KMRY - KVNY: 00:48
+5,850.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   SUPER MID SIZE JET  ( 9 SEATS )
+(CYYC) Calgary, Canada    (CYVR) Vancouver, Canada
+	
+ Cessna Citation X
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+CYYC - CYVR: 01:06
+Ask for pricing
+CLICK TO INQUIRE  
+   MID SIZE JET  ( 8 SEATS )
+(KAPF) Naples, United States    (KMSY) New Orleans, United States
+	
+ Bombardier Learjet 60
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KAPF - KMSY: 01:30
+12,168.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   MID SIZE JET  ( 9 SEATS )
+(KOPF) Miami, United States    (KECP) Panama City Beach, United States
+	
+ Cessna Citation XLS
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KOPF - KECP: 01:24
+8,650.98 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   SUPER MID SIZE JET  ( 8 SEATS )
+(KPIT) Pittsburgh, United States    (KROC) Rochester, United States
+	
+ Cessna Citation Sovereign+
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KPIT - KROC: 00:42
+Ask for pricing
+CLICK TO INQUIRE  
+   HEAVY JET  ( 15 SEATS )
+(KDEN) Denver, United States    (KLAS) Las Vegas, United States
+	
+ Bombardier Challenger 850
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KDEN - KLAS: 01:36
+11,700.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   HEAVY JET  ( 15 SEATS )
+(KSDL) Scottsdale, United States    (KLAS) Las Vegas, United States
+	
+ Bombardier Challenger 850
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KSDL - KLAS: 00:54
+11,700.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   LIGHT JET  ( 8 SEATS )
+(KBHM) Birmingham, United States    (KRYY) Atlanta, United States
+	
+ Cessna Citation V
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KBHM - KRYY: 00:36
+Ask for pricing
+CLICK TO INQUIRE  
+   HEAVY JET  ( 14 SEATS )
+(KADS) Dallas, United States    (KMCI) Kansas City, United States
+	
+ Gulfstream G450
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KADS - KMCI: 01:06
+Ask for pricing
+CLICK TO INQUIRE  
+   HEAVY JET  ( 14 SEATS )
+(KOPF) Miami, United States    (KORL) Orlando, United States
+	
+ Gulfstream G450
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KOPF - KORL: 00:42
+Ask for pricing
+CLICK TO INQUIRE  
+   SUPER MID SIZE JET  ( 10 SEATS )
+(KSDF) Louisville, United States    (KBNA) Nashville, United States
+	
+ Dassault Falcon 2000
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KSDF - KBNA: 00:42
+2,121.80 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   MID SIZE JET  ( 7 SEATS )
+(KSGR) Houston, United States    (KAUS) Austin, United States
+	
+ Bombardier Learjet 60
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KSGR - KAUS: 00:36
+4,212.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   HEAVY JET  ( 10 SEATS )
+(MBPV) Providenciales Island, Turks and Caicos Islands    (CYYZ) Toronto, Canada
+	
+ Bombardier Challenger 604
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+MBPV - CYYZ: 03:30
+35,685.00 CAD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   TURBO PROP  ( 9 SEATS )
+(KBOI) Boise, United States    (KCMA) Camarillo, United States
+	
+ Pilatus PC 12
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KBOI - KCMA: 03:06
+Ask for pricing
+CLICK TO INQUIRE  
+   HEAVY JET  ( 15 SEATS )
+(KLAS) Las Vegas, United States    (KVNY) Van Nuys, United States
+	
+ Bombardier Challenger 850
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KLAS - KVNY: 00:48
+11,700.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   MID SIZE JET  ( 7 SEATS )
+(KJYO) Leesburg, United States    (KFRG) Farmingdale, United States
+	
+ Bombardier Learjet 60
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KJYO - KFRG: 00:42
+Ask for pricing
+CLICK TO INQUIRE  
+   LIGHT JET  ( 8 SEATS )
+(KSAT) San Antonio, United States    (KHOU) Houston, United States
+	
+ Beechcraft Hawker 400XP
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KSAT - KHOU: 00:42
+Ask for pricing
+CLICK TO INQUIRE  
+   SUPER MID SIZE JET  ( 9 SEATS )
+(KHOU) Houston, United States    (KSDL) Scottsdale, United States
+	
+ Bombardier Challenger 300
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KHOU - KSDL: 02:18
+17,901.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   LIGHT JET  ( 7 SEATS )
+(KSGR) Houston, United States    (KPBF) Pine Bluff, United States
+	
+ Cessna Citation Ultra
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KSGR - KPBF: 01:06
+4,212.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   HEAVY JET  ( 9 SEATS )
+(KBOS) Boston, United States    (KTEB) Teterboro, United States
+	
+ Bombardier Challenger 601-3R
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KBOS - KTEB: 00:42
+4,797.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   MID SIZE JET  ( 9 SEATS )
+(KSDL) Scottsdale, United States    (CYYZ) Toronto, Canada
+	
+ Cessna Citation Excel
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KSDL - CYYZ: 04:06
+Ask for pricing
+CLICK TO INQUIRE  
+   TURBO PROP  ( 8 SEATS )
+(KBOI) Boise, United States    (KTIW) Tacoma, United States
+	
+ Pilatus PC 12
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KBOI - KTIW: 01:42
+Ask for pricing
+CLICK TO INQUIRE  
+   HEAVY JET  ( 10 SEATS )
+(KSRQ) Sarasota/Bradenton, United States    (KMTN) Baltimore, United States
+	
+ Bombardier Challenger 650
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KSRQ - KMTN: 01:48
+Ask for pricing
+CLICK TO INQUIRE  
+   ULTRA LONG RANGE JET  ( 13 SEATS )
+(KPWM) Portland, United States    (KTEB) Teterboro, United States
+	
+ Gulfstream G600(GVII)
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KPWM - KTEB: 00:48
+Ask for pricing
+CLICK TO INQUIRE  
+   SUPER MID SIZE JET  ( 8 SEATS )
+(KMSP) Minneapolis, United States    (KDFW) Dallas-Fort Worth, United States
+	
+ Gulfstream G200
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KMSP - KDFW: 02:06
+17,177.94 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   LIGHT JET  ( 6 SEATS )
+(KOAK) Oakland, United States    (KBZN) Bozeman, United States
+	
+ Cessna Citation CJ3
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KOAK - KBZN: 02:12
+Ask for pricing
+CLICK TO INQUIRE  
+   SUPER MID SIZE JET  ( 8 SEATS )
+(KUIN) Quincy, United States    (KXNX) Gallatin, United States
+	
+ Cessna Citation Latitude
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KUIN - KXNX: 00:48
+7,722.00 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
+   HEAVY JET  ( 10 SEATS )
+(KLWB) Lewisburg, United States    (KCGF) Cleveland, United States
+	
+ Dassault Falcon 2000EX EASy
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KLWB - KCGF: 00:54
+Ask for pricing
+CLICK TO INQUIRE  
+   MID SIZE JET  ( 8 SEATS )
+(KIND) Indianapolis, United States    (KSTL) St Louis, United States
+	
+ Cessna Citation XLS+
+ Available on: Oct 16, 2025
+ Features and details
+ Time in the air:
+KIND - KSTL: 00:54
+2,200.54 USD
+CLICK TO INQUIRE  
+ Final price, tax not included
 Show more 
+
+=== about:blank
+
+
+=== https://www.googletagmanager.com/static/service_worker/5a20/sw_iframe.html?origi
+
 
 === https://flyeasy.co/opapi/-fe3--dt1-ht2-ht3-ht4--ctp:__magellan_box__:-/578526bdf
    EMPTY LEG ALERTS
@@ -2409,19 +2223,13 @@ Empty legs are not scheduled flights. Departure and arrival locations are negoti
 === a2a_sm_ifr
 
 
-=== about:blank
-
-
-=== https://www.googletagmanager.com/static/service_worker/5940/sw_iframe.html?origi
+=== lo-frame-core
 
 
 === target_iframe_6b552334-f9ee-4c76-b350-4d41b89b4000
 
 
-=== lo-frame-core
-
-
-=== https://66565.hs-sites.com/hs-web-interactive-66565-151312353373?utk=bf558d5658e
+=== https://66565.hs-sites.com/hs-web-interactive-66565-151312353373?utk=2efb7726345
 Download your FREE 2025 guide to private jet programs and pricing
 
  

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"5bac33cc272149f2\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"ASE\",\n                toIata: \"YYZ\",\n                fromIcao: \"KASE\",\n                toIcao: \"CYYZ\",\n                fromCity: \"Aspen Pitkin Co Sardy\",\n                toCity: \"Lester B.Pearson Intl\",\n                fromName: \"Aspen Pitkin Co Sardy\",\n                toName: \"Lester B.Pearson Intl\",\n                departAt: \"2026-01-07T00:00:00.000Z\",\n                acType: \"Cessna Citation XLS\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 19500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"07-01-2026 00:00 → 08-01-2026 23:59\"\n              },\n              create: {\n                id: \"5bac33cc272149f2\",\n                operator: \"aviapages\",\n                fromIata: \"ASE\",\n                toIata: \"YYZ\",\n                fromIcao: \"KASE\",\n                toIcao: \"CYYZ\",\n                fromCity: \"Aspen Pitkin Co Sardy\",\n                toCity: \"Lester B.Pearson Intl\",\n                fromName: \"Aspen Pitkin Co Sardy\",\n                toName: \"Lester B.Pearson Intl\",\n                departAt: \"2026-01-07T00:00:00.000Z\",\n                acType: \"Cessna Citation XLS\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 19500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"07-01-2026 00:00 → 08-01-2026 23:59\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "5bac33cc272149f2",
+    "operator": "aviapages",
+    "fromIata": "ASE",
+    "toIata": "YYZ",
+    "fromIcao": "KASE",
+    "toIcao": "CYYZ",
+    "fromCity": "Aspen Pitkin Co Sardy",
+    "toCity": "Lester B.Pearson Intl",
+    "fromName": "Aspen Pitkin Co Sardy",
+    "toName": "Lester B.Pearson Intl",
+    "departAt": "2026-01-07T00:00:00.000Z",
+    "acType": "Cessna Citation XLS",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 19500,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "07-01-2026 00:00 → 08-01-2026 23:59"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"1aee0e2d8924b97b\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"VNY\",\n                toIata: \"STS\",\n                fromIcao: \"KVNY\",\n                toIcao: \"KSTS\",\n                fromCity: \"Van Nuys\",\n                toCity: \"Charles M Schulz Sonoma Co\",\n                fromName: \"Van Nuys\",\n                toName: \"Charles M Schulz Sonoma Co\",\n                departAt: \"2025-10-30T00:00:00.000Z\",\n                acType: \"Learjet 60XR\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"30-10-2025 00:00 → 30-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"1aee0e2d8924b97b\",\n                operator: \"aviapages\",\n                fromIata: \"VNY\",\n                toIata: \"STS\",\n                fromIcao: \"KVNY\",\n                toIcao: \"KSTS\",\n                fromCity: \"Van Nuys\",\n                toCity: \"Charles M Schulz Sonoma Co\",\n                fromName: \"Van Nuys\",\n                toName: \"Charles M Schulz Sonoma Co\",\n                departAt: \"2025-10-30T00:00:00.000Z\",\n                acType: \"Learjet 60XR\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"30-10-2025 00:00 → 30-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "1aee0e2d8924b97b",
+    "operator": "aviapages",
+    "fromIata": "VNY",
+    "toIata": "STS",
+    "fromIcao": "KVNY",
+    "toIcao": "KSTS",
+    "fromCity": "Van Nuys",
+    "toCity": "Charles M Schulz Sonoma Co",
+    "fromName": "Van Nuys",
+    "toName": "Charles M Schulz Sonoma Co",
+    "departAt": "2025-10-30T00:00:00.000Z",
+    "acType": "Learjet 60XR",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "30-10-2025 00:00 → 30-10-2025 00:00 | Price on Request"
+  }
+}

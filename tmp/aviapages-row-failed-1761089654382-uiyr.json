@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"27d33ee10b8b2b0f\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"ZAZ\",\n                toIata: \"LBG\",\n                fromIcao: \"LEZG\",\n                toIcao: \"LFPB\",\n                fromCity: \"Zaragoza\",\n                toCity: \"Le Bourget\",\n                fromName: \"Zaragoza\",\n                toName: \"Le Bourget\",\n                departAt: \"2025-10-29T00:00:00.000Z\",\n                acType: \"Global 6000\",\n                acClass: \"Heavy Jet\",\n                seats: null,\n                priceUSD: 11000,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"29-10-2025 00:00 → 29-10-2025 00:00\"\n              },\n              create: {\n                id: \"27d33ee10b8b2b0f\",\n                operator: \"aviapages\",\n                fromIata: \"ZAZ\",\n                toIata: \"LBG\",\n                fromIcao: \"LEZG\",\n                toIcao: \"LFPB\",\n                fromCity: \"Zaragoza\",\n                toCity: \"Le Bourget\",\n                fromName: \"Zaragoza\",\n                toName: \"Le Bourget\",\n                departAt: \"2025-10-29T00:00:00.000Z\",\n                acType: \"Global 6000\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 11000,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"29-10-2025 00:00 → 29-10-2025 00:00\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "27d33ee10b8b2b0f",
+    "operator": "aviapages",
+    "fromIata": "ZAZ",
+    "toIata": "LBG",
+    "fromIcao": "LEZG",
+    "toIcao": "LFPB",
+    "fromCity": "Zaragoza",
+    "toCity": "Le Bourget",
+    "fromName": "Zaragoza",
+    "toName": "Le Bourget",
+    "departAt": "2025-10-29T00:00:00.000Z",
+    "acType": "Global 6000",
+    "acClass": "Heavy Jet",
+    "seats": null,
+    "priceUSD": 11000,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "29-10-2025 00:00 → 29-10-2025 00:00"
+  }
+}

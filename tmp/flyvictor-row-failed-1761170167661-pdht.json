@@ -1,0 +1,22 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\flyvictor.ts:384:28\n\n  381 try {\n  382   await withConcurrency(batch, 6, async (r) => {\n  383     try {\n→ 384       await prisma.leg.upsert({\n              where: {\n                id: \"672d6172cac4ac10\"\n              },\n              update: {\n                operator: \"flyvictor\",\n                fromIata: \"JLN\",\n                toIata: \"CNC\",\n                fromName: \"JLN\",\n                toName: \"CNC\",\n                fromCity: \"JLN\",\n                toCity: \"CNC\",\n                departAt: \"2025-10-23T00:00:00.000Z\",\n                acType: \"Pilatus PC-12/47\",\n                acClass: \"Turboprop\",\n                priceUSD: 4795,\n                url: \"https://www.flyvictor.com/en-us/flights/\"\n              },\n              create: {\n                id: \"672d6172cac4ac10\",\n                operator: \"flyvictor\",\n                fromIata: \"JLN\",\n                toIata: \"CNC\",\n                fromName: \"JLN\",\n                toName: \"CNC\",\n                fromCity: \"JLN\",\n                toCity: \"CNC\",\n                departAt: \"2025-10-23T00:00:00.000Z\",\n                acType: \"Pilatus PC-12/47\",\n                acClass: \"Turboprop\",\n                priceUSD: 4795,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` is missing.",
+    "meta": null
+  },
+  "row": {
+    "id": "672d6172cac4ac10",
+    "operator": "flyvictor",
+    "fromIata": "JLN",
+    "toIata": "CNC",
+    "fromName": "JLN",
+    "toName": "CNC",
+    "fromCity": "JLN",
+    "toCity": "CNC",
+    "departAt": "2025-10-23T00:00:00.000Z",
+    "acType": "Pilatus PC-12/47",
+    "acClass": "Turboprop",
+    "priceUSD": 4795,
+    "url": "https://www.flyvictor.com/en-us/flights/"
+  }
+}

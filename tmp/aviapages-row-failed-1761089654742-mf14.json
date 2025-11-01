@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"2b768ff00f68c8fe\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"LWC\",\n                toIata: \"BTA\",\n                fromIcao: \"KLWC\",\n                toIcao: \"KBTA\",\n                fromCity: \"Lawrence Mun\",\n                toCity: \"Blair Mun\",\n                fromName: \"Lawrence Mun\",\n                toName: \"Blair Mun\",\n                departAt: \"2025-11-04T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 1500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"04-11-2025 00:00 → 04-11-2025 00:59\"\n              },\n              create: {\n                id: \"2b768ff00f68c8fe\",\n                operator: \"aviapages\",\n                fromIata: \"LWC\",\n                toIata: \"BTA\",\n                fromIcao: \"KLWC\",\n                toIcao: \"KBTA\",\n                fromCity: \"Lawrence Mun\",\n                toCity: \"Blair Mun\",\n                fromName: \"Lawrence Mun\",\n                toName: \"Blair Mun\",\n                departAt: \"2025-11-04T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 1500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"04-11-2025 00:00 → 04-11-2025 00:59\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "2b768ff00f68c8fe",
+    "operator": "aviapages",
+    "fromIata": "LWC",
+    "toIata": "BTA",
+    "fromIcao": "KLWC",
+    "toIcao": "KBTA",
+    "fromCity": "Lawrence Mun",
+    "toCity": "Blair Mun",
+    "fromName": "Lawrence Mun",
+    "toName": "Blair Mun",
+    "departAt": "2025-11-04T00:00:00.000Z",
+    "acType": "Cessna Citation Ultra",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 1500,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "04-11-2025 00:00 → 04-11-2025 00:59"
+  }
+}

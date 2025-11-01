@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"9eeed50158cf20ec\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"BTA\",\n                toIata: \"IKV\",\n                fromIcao: \"KBTA\",\n                toIcao: \"KIKV\",\n                fromCity: \"Blair Mun\",\n                toCity: \"Ankeny Regl\",\n                fromName: \"Blair Mun\",\n                toName: \"Ankeny Regl\",\n                departAt: \"2025-12-07T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 1500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"07-12-2025 00:00 → 07-12-2025 00:47\"\n              },\n              create: {\n                id: \"9eeed50158cf20ec\",\n                operator: \"aviapages\",\n                fromIata: \"BTA\",\n                toIata: \"IKV\",\n                fromIcao: \"KBTA\",\n                toIcao: \"KIKV\",\n                fromCity: \"Blair Mun\",\n                toCity: \"Ankeny Regl\",\n                fromName: \"Blair Mun\",\n                toName: \"Ankeny Regl\",\n                departAt: \"2025-12-07T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 1500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"07-12-2025 00:00 → 07-12-2025 00:47\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "9eeed50158cf20ec",
+    "operator": "aviapages",
+    "fromIata": "BTA",
+    "toIata": "IKV",
+    "fromIcao": "KBTA",
+    "toIcao": "KIKV",
+    "fromCity": "Blair Mun",
+    "toCity": "Ankeny Regl",
+    "fromName": "Blair Mun",
+    "toName": "Ankeny Regl",
+    "departAt": "2025-12-07T00:00:00.000Z",
+    "acType": "Cessna Citation Ultra",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 1500,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "07-12-2025 00:00 → 07-12-2025 00:47"
+  }
+}

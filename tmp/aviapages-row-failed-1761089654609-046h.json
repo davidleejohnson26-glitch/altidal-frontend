@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"f64ef819fec48067\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"SAT\",\n                toIata: \"FLL\",\n                fromIcao: \"KSAT\",\n                toIcao: \"KFLL\",\n                fromCity: \"San Antonio Intl\",\n                toCity: \"Ft Lauderdale Hollywood Intl\",\n                fromName: \"San Antonio Intl\",\n                toName: \"Ft Lauderdale Hollywood Intl\",\n                departAt: \"2025-10-27T00:00:00.000Z\",\n                acType: \"Gulfstream G550\",\n                acClass: \"Heavy Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"27-10-2025 00:00 → 28-10-2025 23:59 | Price on Request\"\n              },\n              create: {\n                id: \"f64ef819fec48067\",\n                operator: \"aviapages\",\n                fromIata: \"SAT\",\n                toIata: \"FLL\",\n                fromIcao: \"KSAT\",\n                toIcao: \"KFLL\",\n                fromCity: \"San Antonio Intl\",\n                toCity: \"Ft Lauderdale Hollywood Intl\",\n                fromName: \"San Antonio Intl\",\n                toName: \"Ft Lauderdale Hollywood Intl\",\n                departAt: \"2025-10-27T00:00:00.000Z\",\n                acType: \"Gulfstream G550\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"27-10-2025 00:00 → 28-10-2025 23:59 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "f64ef819fec48067",
+    "operator": "aviapages",
+    "fromIata": "SAT",
+    "toIata": "FLL",
+    "fromIcao": "KSAT",
+    "toIcao": "KFLL",
+    "fromCity": "San Antonio Intl",
+    "toCity": "Ft Lauderdale Hollywood Intl",
+    "fromName": "San Antonio Intl",
+    "toName": "Ft Lauderdale Hollywood Intl",
+    "departAt": "2025-10-27T00:00:00.000Z",
+    "acType": "Gulfstream G550",
+    "acClass": "Heavy Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "27-10-2025 00:00 → 28-10-2025 23:59 | Price on Request"
+  }
+}

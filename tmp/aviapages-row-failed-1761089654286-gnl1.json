@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"f88e272348c7ffba\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"EAR\",\n                toIata: \"OMA\",\n                fromIcao: \"KEAR\",\n                toIcao: \"KOMA\",\n                fromCity: \"Kearney Regional\",\n                toCity: \"Eppley Airfield\",\n                fromName: \"Kearney Regional\",\n                toName: \"Eppley Airfield\",\n                departAt: \"2025-11-03T00:00:00.000Z\",\n                acType: \"Cessna Citation Excel\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 2500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"03-11-2025 00:00 → 03-11-2025 00:48\"\n              },\n              create: {\n                id: \"f88e272348c7ffba\",\n                operator: \"aviapages\",\n                fromIata: \"EAR\",\n                toIata: \"OMA\",\n                fromIcao: \"KEAR\",\n                toIcao: \"KOMA\",\n                fromCity: \"Kearney Regional\",\n                toCity: \"Eppley Airfield\",\n                fromName: \"Kearney Regional\",\n                toName: \"Eppley Airfield\",\n                departAt: \"2025-11-03T00:00:00.000Z\",\n                acType: \"Cessna Citation Excel\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 2500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"03-11-2025 00:00 → 03-11-2025 00:48\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "f88e272348c7ffba",
+    "operator": "aviapages",
+    "fromIata": "EAR",
+    "toIata": "OMA",
+    "fromIcao": "KEAR",
+    "toIcao": "KOMA",
+    "fromCity": "Kearney Regional",
+    "toCity": "Eppley Airfield",
+    "fromName": "Kearney Regional",
+    "toName": "Eppley Airfield",
+    "departAt": "2025-11-03T00:00:00.000Z",
+    "acType": "Cessna Citation Excel",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 2500,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "03-11-2025 00:00 → 03-11-2025 00:48"
+  }
+}

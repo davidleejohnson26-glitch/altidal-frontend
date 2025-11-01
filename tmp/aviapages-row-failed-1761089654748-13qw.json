@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"7d9d71842aa247f0\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"LNK\",\n                toIata: \"GBD\",\n                fromIcao: \"KLNK\",\n                toIcao: \"KGBD\",\n                fromCity: \"Lincoln\",\n                toCity: \"Great Bend Mun\",\n                fromName: \"Lincoln\",\n                toName: \"Great Bend Mun\",\n                departAt: \"2025-10-31T00:00:00.000Z\",\n                acType: \"Cessna Citation CJ1\",\n                acClass: \"Light Jet\",\n                seats: null,\n                priceUSD: 1500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"31-10-2025 00:00 → 31-10-2025 01:00\"\n              },\n              create: {\n                id: \"7d9d71842aa247f0\",\n                operator: \"aviapages\",\n                fromIata: \"LNK\",\n                toIata: \"GBD\",\n                fromIcao: \"KLNK\",\n                toIcao: \"KGBD\",\n                fromCity: \"Lincoln\",\n                toCity: \"Great Bend Mun\",\n                fromName: \"Lincoln\",\n                toName: \"Great Bend Mun\",\n                departAt: \"2025-10-31T00:00:00.000Z\",\n                acType: \"Cessna Citation CJ1\",\n                acClass: \"Light Jet\",\n                priceUSD: 1500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"31-10-2025 00:00 → 31-10-2025 01:00\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "7d9d71842aa247f0",
+    "operator": "aviapages",
+    "fromIata": "LNK",
+    "toIata": "GBD",
+    "fromIcao": "KLNK",
+    "toIcao": "KGBD",
+    "fromCity": "Lincoln",
+    "toCity": "Great Bend Mun",
+    "fromName": "Lincoln",
+    "toName": "Great Bend Mun",
+    "departAt": "2025-10-31T00:00:00.000Z",
+    "acType": "Cessna Citation CJ1",
+    "acClass": "Light Jet",
+    "seats": null,
+    "priceUSD": 1500,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "31-10-2025 00:00 → 31-10-2025 01:00"
+  }
+}

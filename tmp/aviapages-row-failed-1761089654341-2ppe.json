@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"b50b7957b3d6a989\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"TEB\",\n                toIata: \"PIT\",\n                fromIcao: \"KTEB\",\n                toIcao: \"KPIT\",\n                fromCity: \"Teterboro\",\n                toCity: \"Pittsburgh Intl\",\n                fromName: \"Teterboro\",\n                toName: \"Pittsburgh Intl\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Hawker 400XP\",\n                acClass: \"Unknown\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 22-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"b50b7957b3d6a989\",\n                operator: \"aviapages\",\n                fromIata: \"TEB\",\n                toIata: \"PIT\",\n                fromIcao: \"KTEB\",\n                toIcao: \"KPIT\",\n                fromCity: \"Teterboro\",\n                toCity: \"Pittsburgh Intl\",\n                fromName: \"Teterboro\",\n                toName: \"Pittsburgh Intl\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Hawker 400XP\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 22-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "b50b7957b3d6a989",
+    "operator": "aviapages",
+    "fromIata": "TEB",
+    "toIata": "PIT",
+    "fromIcao": "KTEB",
+    "toIcao": "KPIT",
+    "fromCity": "Teterboro",
+    "toCity": "Pittsburgh Intl",
+    "fromName": "Teterboro",
+    "toName": "Pittsburgh Intl",
+    "departAt": "2025-10-21T00:00:00.000Z",
+    "acType": "Hawker 400XP",
+    "acClass": "Unknown",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "21-10-2025 00:00 → 22-10-2025 00:00 | Price on Request"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"5be7b7b0b2ec54a4\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"TTN\",\n                toIata: \"HYA\",\n                fromIcao: \"KTTN\",\n                toIcao: \"KHYA\",\n                fromCity: \"Trenton Mercer\",\n                toCity: \"Barnstable Mun Boardman Poland\",\n                fromName: \"Trenton Mercer\",\n                toName: \"Barnstable Mun Boardman Poland\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Gulfstream G200\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 21-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"5be7b7b0b2ec54a4\",\n                operator: \"aviapages\",\n                fromIata: \"TTN\",\n                toIata: \"HYA\",\n                fromIcao: \"KTTN\",\n                toIcao: \"KHYA\",\n                fromCity: \"Trenton Mercer\",\n                toCity: \"Barnstable Mun Boardman Poland\",\n                fromName: \"Trenton Mercer\",\n                toName: \"Barnstable Mun Boardman Poland\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Gulfstream G200\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 21-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "5be7b7b0b2ec54a4",
+    "operator": "aviapages",
+    "fromIata": "TTN",
+    "toIata": "HYA",
+    "fromIcao": "KTTN",
+    "toIcao": "KHYA",
+    "fromCity": "Trenton Mercer",
+    "toCity": "Barnstable Mun Boardman Poland",
+    "fromName": "Trenton Mercer",
+    "toName": "Barnstable Mun Boardman Poland",
+    "departAt": "2025-10-21T00:00:00.000Z",
+    "acType": "Gulfstream G200",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "21-10-2025 00:00 → 21-10-2025 00:00 | Price on Request"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"090f8178124597ba\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"PWK\",\n                toIata: \"RIC\",\n                fromIcao: \"KPWK\",\n                toIcao: \"KRIC\",\n                fromCity: \"Chicago Executive\",\n                toCity: \"Richmond Intl\",\n                fromName: \"Chicago Executive\",\n                toName: \"Richmond Intl\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Pilatus PC-24\",\n                acClass: \"Unknown\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 21-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"090f8178124597ba\",\n                operator: \"aviapages\",\n                fromIata: \"PWK\",\n                toIata: \"RIC\",\n                fromIcao: \"KPWK\",\n                toIcao: \"KRIC\",\n                fromCity: \"Chicago Executive\",\n                toCity: \"Richmond Intl\",\n                fromName: \"Chicago Executive\",\n                toName: \"Richmond Intl\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Pilatus PC-24\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 21-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "090f8178124597ba",
+    "operator": "aviapages",
+    "fromIata": "PWK",
+    "toIata": "RIC",
+    "fromIcao": "KPWK",
+    "toIcao": "KRIC",
+    "fromCity": "Chicago Executive",
+    "toCity": "Richmond Intl",
+    "fromName": "Chicago Executive",
+    "toName": "Richmond Intl",
+    "departAt": "2025-10-21T00:00:00.000Z",
+    "acType": "Pilatus PC-24",
+    "acClass": "Unknown",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "21-10-2025 00:00 → 21-10-2025 00:00 | Price on Request"
+  }
+}

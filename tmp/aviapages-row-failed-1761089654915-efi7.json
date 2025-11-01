@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"7dc82df0f98f5717\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"GVA\",\n                toIata: \"GVA\",\n                fromIcao: \"LSGG\",\n                toIcao: \"LSGG\",\n                fromCity: \"Geneva\",\n                toCity: \"Geneva\",\n                fromName: \"Geneva\",\n                toName: \"Geneva\",\n                departAt: \"2026-06-25T00:00:00.000Z\",\n                acType: \"Gulfstream IV-SP\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"25-06-2026 00:00 → 24-07-2026 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"7dc82df0f98f5717\",\n                operator: \"aviapages\",\n                fromIata: \"GVA\",\n                toIata: \"GVA\",\n                fromIcao: \"LSGG\",\n                toIcao: \"LSGG\",\n                fromCity: \"Geneva\",\n                toCity: \"Geneva\",\n                fromName: \"Geneva\",\n                toName: \"Geneva\",\n                departAt: \"2026-06-25T00:00:00.000Z\",\n                acType: \"Gulfstream IV-SP\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"25-06-2026 00:00 → 24-07-2026 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "7dc82df0f98f5717",
+    "operator": "aviapages",
+    "fromIata": "GVA",
+    "toIata": "GVA",
+    "fromIcao": "LSGG",
+    "toIcao": "LSGG",
+    "fromCity": "Geneva",
+    "toCity": "Geneva",
+    "fromName": "Geneva",
+    "toName": "Geneva",
+    "departAt": "2026-06-25T00:00:00.000Z",
+    "acType": "Gulfstream IV-SP",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "25-06-2026 00:00 → 24-07-2026 00:00 | Price on Request"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"c9afd9244e75947a\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"ATL\",\n                toIata: \"VDF\",\n                fromIcao: \"KATL\",\n                toIcao: \"KVDF\",\n                fromCity: \"Hartsfield Jackson Atlanta I\",\n                toCity: \"Tampa Executive\",\n                fromName: \"Hartsfield Jackson Atlanta I\",\n                toName: \"Tampa Executive\",\n                departAt: \"2025-10-22T00:00:00.000Z\",\n                acType: \"Gulfstream IV-SP\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-10-2025 00:00 → 22-10-2025 23:59 | Price on Request\"\n              },\n              create: {\n                id: \"c9afd9244e75947a\",\n                operator: \"aviapages\",\n                fromIata: \"ATL\",\n                toIata: \"VDF\",\n                fromIcao: \"KATL\",\n                toIcao: \"KVDF\",\n                fromCity: \"Hartsfield Jackson Atlanta I\",\n                toCity: \"Tampa Executive\",\n                fromName: \"Hartsfield Jackson Atlanta I\",\n                toName: \"Tampa Executive\",\n                departAt: \"2025-10-22T00:00:00.000Z\",\n                acType: \"Gulfstream IV-SP\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-10-2025 00:00 → 22-10-2025 23:59 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "c9afd9244e75947a",
+    "operator": "aviapages",
+    "fromIata": "ATL",
+    "toIata": "VDF",
+    "fromIcao": "KATL",
+    "toIcao": "KVDF",
+    "fromCity": "Hartsfield Jackson Atlanta I",
+    "toCity": "Tampa Executive",
+    "fromName": "Hartsfield Jackson Atlanta I",
+    "toName": "Tampa Executive",
+    "departAt": "2025-10-22T00:00:00.000Z",
+    "acType": "Gulfstream IV-SP",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "22-10-2025 00:00 → 22-10-2025 23:59 | Price on Request"
+  }
+}

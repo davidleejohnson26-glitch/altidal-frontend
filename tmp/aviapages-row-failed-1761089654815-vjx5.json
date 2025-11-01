@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"2ba476bd78fbe5d5\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"LNK\",\n                toIata: \"IBM\",\n                fromIcao: \"KLNK\",\n                toIcao: \"KIBM\",\n                fromCity: \"Lincoln\",\n                toCity: \"Kimball Mun Arraj\",\n                fromName: \"Lincoln\",\n                toName: \"Kimball Mun Arraj\",\n                departAt: \"2025-10-31T00:00:00.000Z\",\n                acType: \"Beechcraft King Air C90\",\n                acClass: \"Turboprop\",\n                seats: null,\n                priceUSD: 2000,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"31-10-2025 00:00 → 31-10-2025 02:05\"\n              },\n              create: {\n                id: \"2ba476bd78fbe5d5\",\n                operator: \"aviapages\",\n                fromIata: \"LNK\",\n                toIata: \"IBM\",\n                fromIcao: \"KLNK\",\n                toIcao: \"KIBM\",\n                fromCity: \"Lincoln\",\n                toCity: \"Kimball Mun Arraj\",\n                fromName: \"Lincoln\",\n                toName: \"Kimball Mun Arraj\",\n                departAt: \"2025-10-31T00:00:00.000Z\",\n                acType: \"Beechcraft King Air C90\",\n                acClass: \"Turboprop\",\n                priceUSD: 2000,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"31-10-2025 00:00 → 31-10-2025 02:05\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "2ba476bd78fbe5d5",
+    "operator": "aviapages",
+    "fromIata": "LNK",
+    "toIata": "IBM",
+    "fromIcao": "KLNK",
+    "toIcao": "KIBM",
+    "fromCity": "Lincoln",
+    "toCity": "Kimball Mun Arraj",
+    "fromName": "Lincoln",
+    "toName": "Kimball Mun Arraj",
+    "departAt": "2025-10-31T00:00:00.000Z",
+    "acType": "Beechcraft King Air C90",
+    "acClass": "Turboprop",
+    "seats": null,
+    "priceUSD": 2000,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "31-10-2025 00:00 → 31-10-2025 02:05"
+  }
+}

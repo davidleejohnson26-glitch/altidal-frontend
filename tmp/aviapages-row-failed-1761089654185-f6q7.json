@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"f88b83435509d900\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"NUQ\",\n                toIata: \"VNY\",\n                fromIcao: \"KNUQ\",\n                toIcao: \"KVNY\",\n                fromCity: \"Mountain View Moffett Federal\",\n                toCity: \"Van Nuys\",\n                fromName: \"Mountain View Moffett Federal\",\n                toName: \"Van Nuys\",\n                departAt: \"2025-10-26T00:00:00.000Z\",\n                acType: \"Hawker 900XP\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-10-2025 00:00 → 30-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"f88b83435509d900\",\n                operator: \"aviapages\",\n                fromIata: \"NUQ\",\n                toIata: \"VNY\",\n                fromIcao: \"KNUQ\",\n                toIcao: \"KVNY\",\n                fromCity: \"Mountain View Moffett Federal\",\n                toCity: \"Van Nuys\",\n                fromName: \"Mountain View Moffett Federal\",\n                toName: \"Van Nuys\",\n                departAt: \"2025-10-26T00:00:00.000Z\",\n                acType: \"Hawker 900XP\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-10-2025 00:00 → 30-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "f88b83435509d900",
+    "operator": "aviapages",
+    "fromIata": "NUQ",
+    "toIata": "VNY",
+    "fromIcao": "KNUQ",
+    "toIcao": "KVNY",
+    "fromCity": "Mountain View Moffett Federal",
+    "toCity": "Van Nuys",
+    "fromName": "Mountain View Moffett Federal",
+    "toName": "Van Nuys",
+    "departAt": "2025-10-26T00:00:00.000Z",
+    "acType": "Hawker 900XP",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "26-10-2025 00:00 → 30-10-2025 00:00 | Price on Request"
+  }
+}

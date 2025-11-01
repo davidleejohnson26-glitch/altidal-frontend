@@ -1,0 +1,20 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\flyvictor.ts:378:28\n\n  375 try {\n  376   await withConcurrency(batch, 6, async (r) => {\n  377     try {\n→ 378       await prisma.leg.upsert({\n              where: {\n                id: \"1fc87798508f690e\"\n              },\n              update: {\n                operator: \"flyvictor\",\n                fromIata: \"VNY\",\n                toIata: \"LVK\",\n                fromName: \"VNY\",\n                toName: \"LVK\",\n                fromCity: \"VNY\",\n                toCity: \"LVK\",\n                departAt: null,\n                priceUSD: 0,\n                url: \"https://www.flyvictor.com/en-us/flights/\"\n              },\n              create: {\n                id: \"1fc87798508f690e\",\n                operator: \"flyvictor\",\n                fromIata: \"VNY\",\n                toIata: \"LVK\",\n                fromName: \"VNY\",\n                toName: \"LVK\",\n                fromCity: \"VNY\",\n                toCity: \"LVK\",\n                departAt: null,\n                priceUSD: 0,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n            +   acType: String\n              }\n            })\n\nArgument `acType` is missing.",
+    "meta": null
+  },
+  "row": {
+    "id": "1fc87798508f690e",
+    "operator": "flyvictor",
+    "fromIata": "VNY",
+    "toIata": "LVK",
+    "fromName": "VNY",
+    "toName": "LVK",
+    "fromCity": "VNY",
+    "toCity": "LVK",
+    "departAt": null,
+    "priceUSD": 0,
+    "url": "https://www.flyvictor.com/en-us/flights/"
+  }
+}

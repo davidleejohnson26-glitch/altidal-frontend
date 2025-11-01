@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"543711b091f64e42\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"KJK\",\n                toIata: \"GRO\",\n                fromIcao: \"EBKT\",\n                toIcao: \"LEGE\",\n                fromCity: \"Kortrijk-Wevelgem\",\n                toCity: \"Girona\",\n                fromName: \"Kortrijk-Wevelgem\",\n                toName: \"Girona\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Cessna Citation CJ4\",\n                acClass: \"Light Jet\",\n                seats: null,\n                priceUSD: 5225,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 21-10-2025 00:00\"\n              },\n              create: {\n                id: \"543711b091f64e42\",\n                operator: \"aviapages\",\n                fromIata: \"KJK\",\n                toIata: \"GRO\",\n                fromIcao: \"EBKT\",\n                toIcao: \"LEGE\",\n                fromCity: \"Kortrijk-Wevelgem\",\n                toCity: \"Girona\",\n                fromName: \"Kortrijk-Wevelgem\",\n                toName: \"Girona\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Cessna Citation CJ4\",\n                acClass: \"Light Jet\",\n                priceUSD: 5225,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 21-10-2025 00:00\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "543711b091f64e42",
+    "operator": "aviapages",
+    "fromIata": "KJK",
+    "toIata": "GRO",
+    "fromIcao": "EBKT",
+    "toIcao": "LEGE",
+    "fromCity": "Kortrijk-Wevelgem",
+    "toCity": "Girona",
+    "fromName": "Kortrijk-Wevelgem",
+    "toName": "Girona",
+    "departAt": "2025-10-21T00:00:00.000Z",
+    "acType": "Cessna Citation CJ4",
+    "acClass": "Light Jet",
+    "seats": null,
+    "priceUSD": 5225,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "21-10-2025 00:00 → 21-10-2025 00:00"
+  }
+}

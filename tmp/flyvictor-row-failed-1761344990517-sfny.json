@@ -1,0 +1,18 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\flyvictor.ts:527:28\n\n  524 try {\n  525   await withConcurrency(batch, 6, async (r) => {\n  526     try {\n→ 527       await prisma.leg.upsert({\n              where: {\n                id: \"dfd4e888a2ba977f\"\n              },\n              update: {\n                operator: \"flyvictor\",\n                fromIata: \"OPF\",\n                toIata: \"HPN\",\n                fromName: \"OPF\",\n                toName: \"HPN\",\n                departAt: \"2025-10-31T00:00:00.000Z\",\n                priceUSD: 11986,\n                url: \"https://www.flyvictor.com/en-us/flights/\"\n              },\n              create: {\n                id: \"dfd4e888a2ba977f\",\n                operator: \"flyvictor\",\n                fromIata: \"OPF\",\n                toIata: \"HPN\",\n                fromName: \"OPF\",\n                toName: \"HPN\",\n                departAt: \"2025-10-31T00:00:00.000Z\",\n                priceUSD: 11986,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n            +   fromCity: String\n              }\n            })\n\nArgument `fromCity` is missing.",
+    "meta": null
+  },
+  "row": {
+    "id": "dfd4e888a2ba977f",
+    "operator": "flyvictor",
+    "fromIata": "OPF",
+    "toIata": "HPN",
+    "fromName": "OPF",
+    "toName": "HPN",
+    "departAt": "2025-10-31T00:00:00.000Z",
+    "priceUSD": 11986,
+    "url": "https://www.flyvictor.com/en-us/flights/"
+  }
+}

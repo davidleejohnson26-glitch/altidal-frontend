@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"63fd6be34031be42\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"MSY\",\n                toIata: \"MCO\",\n                fromIcao: \"KMSY\",\n                toIcao: \"KMCO\",\n                fromCity: \"Armstrong New Orleans Intl\",\n                toCity: \"Orlando Intl\",\n                fromName: \"Armstrong New Orleans Intl\",\n                toName: \"Orlando Intl\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Gulfstream G500\",\n                acClass: \"Heavy Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 24-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"63fd6be34031be42\",\n                operator: \"aviapages\",\n                fromIata: \"MSY\",\n                toIata: \"MCO\",\n                fromIcao: \"KMSY\",\n                toIcao: \"KMCO\",\n                fromCity: \"Armstrong New Orleans Intl\",\n                toCity: \"Orlando Intl\",\n                fromName: \"Armstrong New Orleans Intl\",\n                toName: \"Orlando Intl\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Gulfstream G500\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 24-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "63fd6be34031be42",
+    "operator": "aviapages",
+    "fromIata": "MSY",
+    "toIata": "MCO",
+    "fromIcao": "KMSY",
+    "toIcao": "KMCO",
+    "fromCity": "Armstrong New Orleans Intl",
+    "toCity": "Orlando Intl",
+    "fromName": "Armstrong New Orleans Intl",
+    "toName": "Orlando Intl",
+    "departAt": "2025-10-21T00:00:00.000Z",
+    "acType": "Gulfstream G500",
+    "acClass": "Heavy Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "21-10-2025 00:00 → 24-10-2025 00:00 | Price on Request"
+  }
+}

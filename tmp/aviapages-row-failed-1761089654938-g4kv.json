@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"cd54424a7f3b5629\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"GRB\",\n                toIata: \"LNK\",\n                fromIcao: \"KGRB\",\n                toIcao: \"KLNK\",\n                fromCity: \"Green Bay-Austin Straubel Intl\",\n                toCity: \"Lincoln\",\n                fromName: \"Green Bay-Austin Straubel Intl\",\n                toName: \"Lincoln\",\n                departAt: \"2025-11-01T00:00:00.000Z\",\n                acType: \"Cessna Citation CJ1\",\n                acClass: \"Light Jet\",\n                seats: null,\n                priceUSD: 3500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"01-11-2025 00:00 → 01-11-2025 01:48\"\n              },\n              create: {\n                id: \"cd54424a7f3b5629\",\n                operator: \"aviapages\",\n                fromIata: \"GRB\",\n                toIata: \"LNK\",\n                fromIcao: \"KGRB\",\n                toIcao: \"KLNK\",\n                fromCity: \"Green Bay-Austin Straubel Intl\",\n                toCity: \"Lincoln\",\n                fromName: \"Green Bay-Austin Straubel Intl\",\n                toName: \"Lincoln\",\n                departAt: \"2025-11-01T00:00:00.000Z\",\n                acType: \"Cessna Citation CJ1\",\n                acClass: \"Light Jet\",\n                priceUSD: 3500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"01-11-2025 00:00 → 01-11-2025 01:48\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "cd54424a7f3b5629",
+    "operator": "aviapages",
+    "fromIata": "GRB",
+    "toIata": "LNK",
+    "fromIcao": "KGRB",
+    "toIcao": "KLNK",
+    "fromCity": "Green Bay-Austin Straubel Intl",
+    "toCity": "Lincoln",
+    "fromName": "Green Bay-Austin Straubel Intl",
+    "toName": "Lincoln",
+    "departAt": "2025-11-01T00:00:00.000Z",
+    "acType": "Cessna Citation CJ1",
+    "acClass": "Light Jet",
+    "seats": null,
+    "priceUSD": 3500,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "01-11-2025 00:00 → 01-11-2025 01:48"
+  }
+}

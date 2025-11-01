@@ -1,0 +1,22 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\flyvictor.ts:384:28\n\n  381 try {\n  382   await withConcurrency(batch, 6, async (r) => {\n  383     try {\n→ 384       await prisma.leg.upsert({\n              where: {\n                id: \"91a2ef59638cfee2\"\n              },\n              update: {\n                operator: \"flyvictor\",\n                fromIata: \"VNY\",\n                toIata: \"LVK\",\n                fromName: \"VNY\",\n                toName: \"LVK\",\n                fromCity: \"VNY\",\n                toCity: \"LVK\",\n                departAt: \"2025-10-23T00:00:00.000Z\",\n                acType: \"Unknown\",\n                acClass: \"Unknown\",\n                priceUSD: 5933,\n                url: \"https://www.flyvictor.com/en-us/flights/\"\n              },\n              create: {\n                id: \"91a2ef59638cfee2\",\n                operator: \"flyvictor\",\n                fromIata: \"VNY\",\n                toIata: \"LVK\",\n                fromName: \"VNY\",\n                toName: \"LVK\",\n                fromCity: \"VNY\",\n                toCity: \"LVK\",\n                departAt: \"2025-10-23T00:00:00.000Z\",\n                acType: \"Unknown\",\n                acClass: \"Unknown\",\n                priceUSD: 5933,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` is missing.",
+    "meta": null
+  },
+  "row": {
+    "id": "91a2ef59638cfee2",
+    "operator": "flyvictor",
+    "fromIata": "VNY",
+    "toIata": "LVK",
+    "fromName": "VNY",
+    "toName": "LVK",
+    "fromCity": "VNY",
+    "toCity": "LVK",
+    "departAt": "2025-10-23T00:00:00.000Z",
+    "acType": "Unknown",
+    "acClass": "Unknown",
+    "priceUSD": 5933,
+    "url": "https://www.flyvictor.com/en-us/flights/"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"a679f1b76c60b119\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"OMA\",\n                toIata: \"JAC\",\n                fromIcao: \"KOMA\",\n                toIcao: \"KJAC\",\n                fromCity: \"Eppley Airfield\",\n                toCity: \"Jackson Hole\",\n                fromName: \"Eppley Airfield\",\n                toName: \"Jackson Hole\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 3500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 22-10-2025 17:06\"\n              },\n              create: {\n                id: \"a679f1b76c60b119\",\n                operator: \"aviapages\",\n                fromIata: \"OMA\",\n                toIata: \"JAC\",\n                fromIcao: \"KOMA\",\n                toIcao: \"KJAC\",\n                fromCity: \"Eppley Airfield\",\n                toCity: \"Jackson Hole\",\n                fromName: \"Eppley Airfield\",\n                toName: \"Jackson Hole\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 3500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 22-10-2025 17:06\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "a679f1b76c60b119",
+    "operator": "aviapages",
+    "fromIata": "OMA",
+    "toIata": "JAC",
+    "fromIcao": "KOMA",
+    "toIcao": "KJAC",
+    "fromCity": "Eppley Airfield",
+    "toCity": "Jackson Hole",
+    "fromName": "Eppley Airfield",
+    "toName": "Jackson Hole",
+    "departAt": "2025-10-21T00:00:00.000Z",
+    "acType": "Cessna Citation Ultra",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 3500,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "21-10-2025 00:00 → 22-10-2025 17:06"
+  }
+}

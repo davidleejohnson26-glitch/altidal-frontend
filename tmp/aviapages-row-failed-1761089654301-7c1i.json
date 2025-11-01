@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"667b5f195a3c0541\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"MMX\",\n                toIata: \"IEG\",\n                fromIcao: \"ESMS\",\n                toIcao: \"EPZG\",\n                fromCity: \"Malmo\",\n                toCity: \"Babimost\",\n                fromName: \"Malmo\",\n                toName: \"Babimost\",\n                departAt: \"2025-11-06T07:30:00.000Z\",\n                acType: \"Cessna Citation M2\",\n                acClass: \"Light Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"06-11-2025 07:30 → 06-11-2025 08:30 | Price on Request\"\n              },\n              create: {\n                id: \"667b5f195a3c0541\",\n                operator: \"aviapages\",\n                fromIata: \"MMX\",\n                toIata: \"IEG\",\n                fromIcao: \"ESMS\",\n                toIcao: \"EPZG\",\n                fromCity: \"Malmo\",\n                toCity: \"Babimost\",\n                fromName: \"Malmo\",\n                toName: \"Babimost\",\n                departAt: \"2025-11-06T07:30:00.000Z\",\n                acType: \"Cessna Citation M2\",\n                acClass: \"Light Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"06-11-2025 07:30 → 06-11-2025 08:30 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "667b5f195a3c0541",
+    "operator": "aviapages",
+    "fromIata": "MMX",
+    "toIata": "IEG",
+    "fromIcao": "ESMS",
+    "toIcao": "EPZG",
+    "fromCity": "Malmo",
+    "toCity": "Babimost",
+    "fromName": "Malmo",
+    "toName": "Babimost",
+    "departAt": "2025-11-06T07:30:00.000Z",
+    "acType": "Cessna Citation M2",
+    "acClass": "Light Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "06-11-2025 07:30 → 06-11-2025 08:30 | Price on Request"
+  }
+}

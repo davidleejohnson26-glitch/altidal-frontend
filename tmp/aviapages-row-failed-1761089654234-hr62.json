@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"ce1d92176eb5ea8f\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"AVL\",\n                toIata: \"LNK\",\n                fromIcao: \"KAVL\",\n                toIcao: \"KLNK\",\n                fromCity: \"Asheville Regl\",\n                toCity: \"Lincoln\",\n                fromName: \"Asheville Regl\",\n                toName: \"Lincoln\",\n                departAt: \"2026-01-11T00:00:00.000Z\",\n                acType: \"Cessna Citation Excel\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 5000,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"11-01-2026 00:00 → 11-01-2026 02:42\"\n              },\n              create: {\n                id: \"ce1d92176eb5ea8f\",\n                operator: \"aviapages\",\n                fromIata: \"AVL\",\n                toIata: \"LNK\",\n                fromIcao: \"KAVL\",\n                toIcao: \"KLNK\",\n                fromCity: \"Asheville Regl\",\n                toCity: \"Lincoln\",\n                fromName: \"Asheville Regl\",\n                toName: \"Lincoln\",\n                departAt: \"2026-01-11T00:00:00.000Z\",\n                acType: \"Cessna Citation Excel\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 5000,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"11-01-2026 00:00 → 11-01-2026 02:42\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "ce1d92176eb5ea8f",
+    "operator": "aviapages",
+    "fromIata": "AVL",
+    "toIata": "LNK",
+    "fromIcao": "KAVL",
+    "toIcao": "KLNK",
+    "fromCity": "Asheville Regl",
+    "toCity": "Lincoln",
+    "fromName": "Asheville Regl",
+    "toName": "Lincoln",
+    "departAt": "2026-01-11T00:00:00.000Z",
+    "acType": "Cessna Citation Excel",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 5000,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "11-01-2026 00:00 → 11-01-2026 02:42"
+  }
+}

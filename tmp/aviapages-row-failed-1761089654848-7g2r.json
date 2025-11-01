@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"13103b5509f099cd\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"CPS\",\n                toIata: \"FXE\",\n                fromIcao: \"KCPS\",\n                toIcao: \"KFXE\",\n                fromCity: \"St Louis Downtown\",\n                toCity: \"Fort Lauderdale Executive\",\n                fromName: \"St Louis Downtown\",\n                toName: \"Fort Lauderdale Executive\",\n                departAt: \"2025-11-02T00:00:00.000Z\",\n                acType: \"Cessna Citation III\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"02-11-2025 00:00 → 16-11-2025 23:59 | Price on Request\"\n              },\n              create: {\n                id: \"13103b5509f099cd\",\n                operator: \"aviapages\",\n                fromIata: \"CPS\",\n                toIata: \"FXE\",\n                fromIcao: \"KCPS\",\n                toIcao: \"KFXE\",\n                fromCity: \"St Louis Downtown\",\n                toCity: \"Fort Lauderdale Executive\",\n                fromName: \"St Louis Downtown\",\n                toName: \"Fort Lauderdale Executive\",\n                departAt: \"2025-11-02T00:00:00.000Z\",\n                acType: \"Cessna Citation III\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"02-11-2025 00:00 → 16-11-2025 23:59 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "13103b5509f099cd",
+    "operator": "aviapages",
+    "fromIata": "CPS",
+    "toIata": "FXE",
+    "fromIcao": "KCPS",
+    "toIcao": "KFXE",
+    "fromCity": "St Louis Downtown",
+    "toCity": "Fort Lauderdale Executive",
+    "fromName": "St Louis Downtown",
+    "toName": "Fort Lauderdale Executive",
+    "departAt": "2025-11-02T00:00:00.000Z",
+    "acType": "Cessna Citation III",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "02-11-2025 00:00 → 16-11-2025 23:59 | Price on Request"
+  }
+}

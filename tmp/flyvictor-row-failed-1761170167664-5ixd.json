@@ -1,0 +1,22 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\flyvictor.ts:384:28\n\n  381 try {\n  382   await withConcurrency(batch, 6, async (r) => {\n  383     try {\n→ 384       await prisma.leg.upsert({\n              where: {\n                id: \"c9d36a88e2ae4aec\"\n              },\n              update: {\n                operator: \"flyvictor\",\n                fromIata: \"DAL\",\n                toIata: \"TEB\",\n                fromName: \"DAL\",\n                toName: \"TEB\",\n                fromCity: \"DAL\",\n                toCity: \"TEB\",\n                departAt: \"2025-10-23T00:00:00.000Z\",\n                acType: \"Challenger 604\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 37157,\n                url: \"https://www.flyvictor.com/en-us/flights/\"\n              },\n              create: {\n                id: \"c9d36a88e2ae4aec\",\n                operator: \"flyvictor\",\n                fromIata: \"DAL\",\n                toIata: \"TEB\",\n                fromName: \"DAL\",\n                toName: \"TEB\",\n                fromCity: \"DAL\",\n                toCity: \"TEB\",\n                departAt: \"2025-10-23T00:00:00.000Z\",\n                acType: \"Challenger 604\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 37157,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` is missing.",
+    "meta": null
+  },
+  "row": {
+    "id": "c9d36a88e2ae4aec",
+    "operator": "flyvictor",
+    "fromIata": "DAL",
+    "toIata": "TEB",
+    "fromName": "DAL",
+    "toName": "TEB",
+    "fromCity": "DAL",
+    "toCity": "TEB",
+    "departAt": "2025-10-23T00:00:00.000Z",
+    "acType": "Challenger 604",
+    "acClass": "Heavy Jet",
+    "priceUSD": 37157,
+    "url": "https://www.flyvictor.com/en-us/flights/"
+  }
+}

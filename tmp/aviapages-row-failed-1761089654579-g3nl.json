@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"49558b9e69cec150\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"SBN\",\n                toIata: \"PIT\",\n                fromIcao: \"KSBN\",\n                toIcao: \"KPIT\",\n                fromCity: \"South Bend Intl\",\n                toCity: \"Pittsburgh Intl\",\n                fromName: \"South Bend Intl\",\n                toName: \"Pittsburgh Intl\",\n                departAt: \"2025-10-18T00:00:00.000Z\",\n                acType: \"Cessna Citation XLS+\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"18-10-2025 00:00 → 23-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"49558b9e69cec150\",\n                operator: \"aviapages\",\n                fromIata: \"SBN\",\n                toIata: \"PIT\",\n                fromIcao: \"KSBN\",\n                toIcao: \"KPIT\",\n                fromCity: \"South Bend Intl\",\n                toCity: \"Pittsburgh Intl\",\n                fromName: \"South Bend Intl\",\n                toName: \"Pittsburgh Intl\",\n                departAt: \"2025-10-18T00:00:00.000Z\",\n                acType: \"Cessna Citation XLS+\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"18-10-2025 00:00 → 23-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "49558b9e69cec150",
+    "operator": "aviapages",
+    "fromIata": "SBN",
+    "toIata": "PIT",
+    "fromIcao": "KSBN",
+    "toIcao": "KPIT",
+    "fromCity": "South Bend Intl",
+    "toCity": "Pittsburgh Intl",
+    "fromName": "South Bend Intl",
+    "toName": "Pittsburgh Intl",
+    "departAt": "2025-10-18T00:00:00.000Z",
+    "acType": "Cessna Citation XLS+",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "18-10-2025 00:00 → 23-10-2025 00:00 | Price on Request"
+  }
+}

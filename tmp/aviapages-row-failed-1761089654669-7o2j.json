@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"8ee9ab07fa1edcb1\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"BKV\",\n                toIata: \"FXE\",\n                fromIcao: \"KBKV\",\n                toIcao: \"KFXE\",\n                fromCity: \"Brooksville - Tampa Bay Regional\",\n                toCity: \"Fort Lauderdale Executive\",\n                fromName: \"Brooksville - Tampa Bay Regional\",\n                toName: \"Fort Lauderdale Executive\",\n                departAt: \"2025-10-26T20:18:00.000Z\",\n                acType: \"Learjet 60XR\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-10-2025 20:18 → 26-10-2025 20:54 | Price on Request\"\n              },\n              create: {\n                id: \"8ee9ab07fa1edcb1\",\n                operator: \"aviapages\",\n                fromIata: \"BKV\",\n                toIata: \"FXE\",\n                fromIcao: \"KBKV\",\n                toIcao: \"KFXE\",\n                fromCity: \"Brooksville - Tampa Bay Regional\",\n                toCity: \"Fort Lauderdale Executive\",\n                fromName: \"Brooksville - Tampa Bay Regional\",\n                toName: \"Fort Lauderdale Executive\",\n                departAt: \"2025-10-26T20:18:00.000Z\",\n                acType: \"Learjet 60XR\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-10-2025 20:18 → 26-10-2025 20:54 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "8ee9ab07fa1edcb1",
+    "operator": "aviapages",
+    "fromIata": "BKV",
+    "toIata": "FXE",
+    "fromIcao": "KBKV",
+    "toIcao": "KFXE",
+    "fromCity": "Brooksville - Tampa Bay Regional",
+    "toCity": "Fort Lauderdale Executive",
+    "fromName": "Brooksville - Tampa Bay Regional",
+    "toName": "Fort Lauderdale Executive",
+    "departAt": "2025-10-26T20:18:00.000Z",
+    "acType": "Learjet 60XR",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "26-10-2025 20:18 → 26-10-2025 20:54 | Price on Request"
+  }
+}

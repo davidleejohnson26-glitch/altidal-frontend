@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"1ce8b218dff2d313\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"ALS\",\n                toIata: \"AUS\",\n                fromIcao: \"KALS\",\n                toIcao: \"KAUS\",\n                fromCity: \"San Luis Valley Regl Bergman\",\n                toCity: \"Austin-Bergstrom Intl\",\n                fromName: \"San Luis Valley Regl Bergman\",\n                toName: \"Austin-Bergstrom Intl\",\n                departAt: \"2025-10-29T00:00:00.000Z\",\n                acType: \"Cessna Citation X\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"29-10-2025 00:00 → 29-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"1ce8b218dff2d313\",\n                operator: \"aviapages\",\n                fromIata: \"ALS\",\n                toIata: \"AUS\",\n                fromIcao: \"KALS\",\n                toIcao: \"KAUS\",\n                fromCity: \"San Luis Valley Regl Bergman\",\n                toCity: \"Austin-Bergstrom Intl\",\n                fromName: \"San Luis Valley Regl Bergman\",\n                toName: \"Austin-Bergstrom Intl\",\n                departAt: \"2025-10-29T00:00:00.000Z\",\n                acType: \"Cessna Citation X\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"29-10-2025 00:00 → 29-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "1ce8b218dff2d313",
+    "operator": "aviapages",
+    "fromIata": "ALS",
+    "toIata": "AUS",
+    "fromIcao": "KALS",
+    "toIcao": "KAUS",
+    "fromCity": "San Luis Valley Regl Bergman",
+    "toCity": "Austin-Bergstrom Intl",
+    "fromName": "San Luis Valley Regl Bergman",
+    "toName": "Austin-Bergstrom Intl",
+    "departAt": "2025-10-29T00:00:00.000Z",
+    "acType": "Cessna Citation X",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "29-10-2025 00:00 → 29-10-2025 00:00 | Price on Request"
+  }
+}

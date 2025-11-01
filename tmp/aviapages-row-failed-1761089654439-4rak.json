@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"d9c34be73c3d96ba\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"ACE\",\n                toIata: \"TFS\",\n                fromIcao: \"GCRR\",\n                toIcao: \"GCTS\",\n                fromCity: \"Cesar Manrique Lanzarote\",\n                toCity: \"Reina Sofia\",\n                fromName: \"Cesar Manrique Lanzarote\",\n                toName: \"Reina Sofia\",\n                departAt: \"2025-10-23T00:00:00.000Z\",\n                acType: \"Cessna Citation Sovereign\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-10-2025 00:00 → 23-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"d9c34be73c3d96ba\",\n                operator: \"aviapages\",\n                fromIata: \"ACE\",\n                toIata: \"TFS\",\n                fromIcao: \"GCRR\",\n                toIcao: \"GCTS\",\n                fromCity: \"Cesar Manrique Lanzarote\",\n                toCity: \"Reina Sofia\",\n                fromName: \"Cesar Manrique Lanzarote\",\n                toName: \"Reina Sofia\",\n                departAt: \"2025-10-23T00:00:00.000Z\",\n                acType: \"Cessna Citation Sovereign\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-10-2025 00:00 → 23-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "d9c34be73c3d96ba",
+    "operator": "aviapages",
+    "fromIata": "ACE",
+    "toIata": "TFS",
+    "fromIcao": "GCRR",
+    "toIcao": "GCTS",
+    "fromCity": "Cesar Manrique Lanzarote",
+    "toCity": "Reina Sofia",
+    "fromName": "Cesar Manrique Lanzarote",
+    "toName": "Reina Sofia",
+    "departAt": "2025-10-23T00:00:00.000Z",
+    "acType": "Cessna Citation Sovereign",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "23-10-2025 00:00 → 23-10-2025 00:00 | Price on Request"
+  }
+}

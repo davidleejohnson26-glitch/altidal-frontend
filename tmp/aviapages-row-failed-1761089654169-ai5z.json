@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"7a7abf28563fab48\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"LIN\",\n                toIata: \"BRU\",\n                fromIcao: \"LIML\",\n                toIcao: \"EBBR\",\n                fromCity: \"Linate\",\n                toCity: \"Brussels National\",\n                fromName: \"Linate\",\n                toName: \"Brussels National\",\n                departAt: \"2025-10-23T00:00:00.000Z\",\n                acType: \"Cessna Citation CJ4\",\n                acClass: \"Light Jet\",\n                seats: null,\n                priceUSD: 3850,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-10-2025 00:00 → 23-10-2025 00:00\"\n              },\n              create: {\n                id: \"7a7abf28563fab48\",\n                operator: \"aviapages\",\n                fromIata: \"LIN\",\n                toIata: \"BRU\",\n                fromIcao: \"LIML\",\n                toIcao: \"EBBR\",\n                fromCity: \"Linate\",\n                toCity: \"Brussels National\",\n                fromName: \"Linate\",\n                toName: \"Brussels National\",\n                departAt: \"2025-10-23T00:00:00.000Z\",\n                acType: \"Cessna Citation CJ4\",\n                acClass: \"Light Jet\",\n                priceUSD: 3850,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-10-2025 00:00 → 23-10-2025 00:00\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "7a7abf28563fab48",
+    "operator": "aviapages",
+    "fromIata": "LIN",
+    "toIata": "BRU",
+    "fromIcao": "LIML",
+    "toIcao": "EBBR",
+    "fromCity": "Linate",
+    "toCity": "Brussels National",
+    "fromName": "Linate",
+    "toName": "Brussels National",
+    "departAt": "2025-10-23T00:00:00.000Z",
+    "acType": "Cessna Citation CJ4",
+    "acClass": "Light Jet",
+    "seats": null,
+    "priceUSD": 3850,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "23-10-2025 00:00 → 23-10-2025 00:00"
+  }
+}

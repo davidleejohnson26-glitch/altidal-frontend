@@ -1,0 +1,18 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\flyvictor.ts:527:28\n\n  524 try {\n  525   await withConcurrency(batch, 6, async (r) => {\n  526     try {\n→ 527       await prisma.leg.upsert({\n              where: {\n                id: \"c8a090f3342d07d9\"\n              },\n              update: {\n                operator: \"flyvictor\",\n                fromIata: \"FAO\",\n                toIata: \"ZNV\",\n                fromName: \"FAO\",\n                toName: \"ZNV\",\n                departAt: \"2025-10-25T00:00:00.000Z\",\n                priceUSD: 18635,\n                url: \"https://www.flyvictor.com/en-us/flights/\"\n              },\n              create: {\n                id: \"c8a090f3342d07d9\",\n                operator: \"flyvictor\",\n                fromIata: \"FAO\",\n                toIata: \"ZNV\",\n                fromName: \"FAO\",\n                toName: \"ZNV\",\n                departAt: \"2025-10-25T00:00:00.000Z\",\n                priceUSD: 18635,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n            +   fromCity: String\n              }\n            })\n\nArgument `fromCity` is missing.",
+    "meta": null
+  },
+  "row": {
+    "id": "c8a090f3342d07d9",
+    "operator": "flyvictor",
+    "fromIata": "FAO",
+    "toIata": "ZNV",
+    "fromName": "FAO",
+    "toName": "ZNV",
+    "departAt": "2025-10-25T00:00:00.000Z",
+    "priceUSD": 18635,
+    "url": "https://www.flyvictor.com/en-us/flights/"
+  }
+}

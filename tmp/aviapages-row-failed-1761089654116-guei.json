@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"c917d6739ef990f8\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"DAL\",\n                toIata: \"CSL\",\n                fromIcao: \"KDAL\",\n                toIcao: \"MMSL\",\n                fromCity: \"Dallas Love\",\n                toCity: \"Cabo San Lucas Intl\",\n                fromName: \"Dallas Love\",\n                toName: \"Cabo San Lucas Intl\",\n                departAt: \"2025-10-24T00:00:00.000Z\",\n                acType: \"Learjet 45\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"24-10-2025 00:00 → 24-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"c917d6739ef990f8\",\n                operator: \"aviapages\",\n                fromIata: \"DAL\",\n                toIata: \"CSL\",\n                fromIcao: \"KDAL\",\n                toIcao: \"MMSL\",\n                fromCity: \"Dallas Love\",\n                toCity: \"Cabo San Lucas Intl\",\n                fromName: \"Dallas Love\",\n                toName: \"Cabo San Lucas Intl\",\n                departAt: \"2025-10-24T00:00:00.000Z\",\n                acType: \"Learjet 45\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"24-10-2025 00:00 → 24-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "c917d6739ef990f8",
+    "operator": "aviapages",
+    "fromIata": "DAL",
+    "toIata": "CSL",
+    "fromIcao": "KDAL",
+    "toIcao": "MMSL",
+    "fromCity": "Dallas Love",
+    "toCity": "Cabo San Lucas Intl",
+    "fromName": "Dallas Love",
+    "toName": "Cabo San Lucas Intl",
+    "departAt": "2025-10-24T00:00:00.000Z",
+    "acType": "Learjet 45",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "24-10-2025 00:00 → 24-10-2025 00:00 | Price on Request"
+  }
+}

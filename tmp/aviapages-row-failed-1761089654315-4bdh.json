@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"98929ecb996fe92d\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"AXA\",\n                toIata: \"PBI\",\n                fromIcao: \"TQPF\",\n                toIcao: \"KPBI\",\n                fromCity: \"Clayton J Lloyd Intl\",\n                toCity: \"Palm Beach Intl\",\n                fromName: \"Clayton J Lloyd Intl\",\n                toName: \"Palm Beach Intl\",\n                departAt: \"2025-11-13T00:00:00.000Z\",\n                acType: \"Gulfstream G280\",\n                acClass: \"Super Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"13-11-2025 00:00 → 13-11-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"98929ecb996fe92d\",\n                operator: \"aviapages\",\n                fromIata: \"AXA\",\n                toIata: \"PBI\",\n                fromIcao: \"TQPF\",\n                toIcao: \"KPBI\",\n                fromCity: \"Clayton J Lloyd Intl\",\n                toCity: \"Palm Beach Intl\",\n                fromName: \"Clayton J Lloyd Intl\",\n                toName: \"Palm Beach Intl\",\n                departAt: \"2025-11-13T00:00:00.000Z\",\n                acType: \"Gulfstream G280\",\n                acClass: \"Super Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"13-11-2025 00:00 → 13-11-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "98929ecb996fe92d",
+    "operator": "aviapages",
+    "fromIata": "AXA",
+    "toIata": "PBI",
+    "fromIcao": "TQPF",
+    "toIcao": "KPBI",
+    "fromCity": "Clayton J Lloyd Intl",
+    "toCity": "Palm Beach Intl",
+    "fromName": "Clayton J Lloyd Intl",
+    "toName": "Palm Beach Intl",
+    "departAt": "2025-11-13T00:00:00.000Z",
+    "acType": "Gulfstream G280",
+    "acClass": "Super Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "13-11-2025 00:00 → 13-11-2025 00:00 | Price on Request"
+  }
+}

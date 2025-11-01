@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"ecbdb880b5af1828\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"OAK\",\n                toIata: \"HCR\",\n                fromIcao: \"KOAK\",\n                toIcao: \"KHCR\",\n                fromCity: \"Metropolitan Oakland Intl\",\n                toCity: \"Heber City Mun Mcdonald\",\n                fromName: \"Metropolitan Oakland Intl\",\n                toName: \"Heber City Mun Mcdonald\",\n                departAt: \"2025-10-23T00:00:00.000Z\",\n                acType: \"Cessna Citation CJ3\",\n                acClass: \"Light Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-10-2025 00:00 → 23-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"ecbdb880b5af1828\",\n                operator: \"aviapages\",\n                fromIata: \"OAK\",\n                toIata: \"HCR\",\n                fromIcao: \"KOAK\",\n                toIcao: \"KHCR\",\n                fromCity: \"Metropolitan Oakland Intl\",\n                toCity: \"Heber City Mun Mcdonald\",\n                fromName: \"Metropolitan Oakland Intl\",\n                toName: \"Heber City Mun Mcdonald\",\n                departAt: \"2025-10-23T00:00:00.000Z\",\n                acType: \"Cessna Citation CJ3\",\n                acClass: \"Light Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-10-2025 00:00 → 23-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "ecbdb880b5af1828",
+    "operator": "aviapages",
+    "fromIata": "OAK",
+    "toIata": "HCR",
+    "fromIcao": "KOAK",
+    "toIcao": "KHCR",
+    "fromCity": "Metropolitan Oakland Intl",
+    "toCity": "Heber City Mun Mcdonald",
+    "fromName": "Metropolitan Oakland Intl",
+    "toName": "Heber City Mun Mcdonald",
+    "departAt": "2025-10-23T00:00:00.000Z",
+    "acType": "Cessna Citation CJ3",
+    "acClass": "Light Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "23-10-2025 00:00 → 23-10-2025 00:00 | Price on Request"
+  }
+}

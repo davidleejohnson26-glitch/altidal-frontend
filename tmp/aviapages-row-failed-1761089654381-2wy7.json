@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"b6db86637f5afb86\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"APF\",\n                toIata: \"YYZ\",\n                fromIcao: \"KAPF\",\n                toIcao: \"CYYZ\",\n                fromCity: \"Naples Mun\",\n                toCity: \"Lester B.Pearson Intl\",\n                fromName: \"Naples Mun\",\n                toName: \"Lester B.Pearson Intl\",\n                departAt: \"2025-10-26T00:00:00.000Z\",\n                acType: \"Gulfstream IV\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-10-2025 00:00 → 29-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"b6db86637f5afb86\",\n                operator: \"aviapages\",\n                fromIata: \"APF\",\n                toIata: \"YYZ\",\n                fromIcao: \"KAPF\",\n                toIcao: \"CYYZ\",\n                fromCity: \"Naples Mun\",\n                toCity: \"Lester B.Pearson Intl\",\n                fromName: \"Naples Mun\",\n                toName: \"Lester B.Pearson Intl\",\n                departAt: \"2025-10-26T00:00:00.000Z\",\n                acType: \"Gulfstream IV\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-10-2025 00:00 → 29-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "b6db86637f5afb86",
+    "operator": "aviapages",
+    "fromIata": "APF",
+    "toIata": "YYZ",
+    "fromIcao": "KAPF",
+    "toIcao": "CYYZ",
+    "fromCity": "Naples Mun",
+    "toCity": "Lester B.Pearson Intl",
+    "fromName": "Naples Mun",
+    "toName": "Lester B.Pearson Intl",
+    "departAt": "2025-10-26T00:00:00.000Z",
+    "acType": "Gulfstream IV",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "26-10-2025 00:00 → 29-10-2025 00:00 | Price on Request"
+  }
+}

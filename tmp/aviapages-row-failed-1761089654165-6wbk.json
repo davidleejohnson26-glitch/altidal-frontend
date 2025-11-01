@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"3beea8d0f96669fb\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"RIX\",\n                toIata: \"TLV\",\n                fromIcao: \"EVRA\",\n                toIcao: \"LLBG\",\n                fromCity: \"Riga\",\n                toCity: \"Ben Gurion\",\n                fromName: \"Riga\",\n                toName: \"Ben Gurion\",\n                departAt: \"2025-10-26T00:00:00.000Z\",\n                acType: \"Embraer Legacy 650\",\n                acClass: \"Unknown\",\n                seats: null,\n                priceUSD: 26950,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-10-2025 00:00 → 26-10-2025 00:00\"\n              },\n              create: {\n                id: \"3beea8d0f96669fb\",\n                operator: \"aviapages\",\n                fromIata: \"RIX\",\n                toIata: \"TLV\",\n                fromIcao: \"EVRA\",\n                toIcao: \"LLBG\",\n                fromCity: \"Riga\",\n                toCity: \"Ben Gurion\",\n                fromName: \"Riga\",\n                toName: \"Ben Gurion\",\n                departAt: \"2025-10-26T00:00:00.000Z\",\n                acType: \"Embraer Legacy 650\",\n                acClass: \"Unknown\",\n                priceUSD: 26950,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-10-2025 00:00 → 26-10-2025 00:00\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "3beea8d0f96669fb",
+    "operator": "aviapages",
+    "fromIata": "RIX",
+    "toIata": "TLV",
+    "fromIcao": "EVRA",
+    "toIcao": "LLBG",
+    "fromCity": "Riga",
+    "toCity": "Ben Gurion",
+    "fromName": "Riga",
+    "toName": "Ben Gurion",
+    "departAt": "2025-10-26T00:00:00.000Z",
+    "acType": "Embraer Legacy 650",
+    "acClass": "Unknown",
+    "seats": null,
+    "priceUSD": 26950,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "26-10-2025 00:00 → 26-10-2025 00:00"
+  }
+}

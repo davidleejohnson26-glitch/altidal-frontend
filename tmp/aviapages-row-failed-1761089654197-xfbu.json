@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"39208a7d6771f3dd\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"DAL\",\n                toIata: \"LXT\",\n                fromIcao: \"KDAL\",\n                toIcao: \"KLXT\",\n                fromCity: \"Dallas Love\",\n                toCity: \"Lee's Summit Municipal Airport\",\n                fromName: \"Dallas Love\",\n                toName: \"Lee's Summit Municipal Airport\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Hawker 800XP\",\n                acClass: \"Unknown\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 24-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"39208a7d6771f3dd\",\n                operator: \"aviapages\",\n                fromIata: \"DAL\",\n                toIata: \"LXT\",\n                fromIcao: \"KDAL\",\n                toIcao: \"KLXT\",\n                fromCity: \"Dallas Love\",\n                toCity: \"Lee's Summit Municipal Airport\",\n                fromName: \"Dallas Love\",\n                toName: \"Lee's Summit Municipal Airport\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Hawker 800XP\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 24-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "39208a7d6771f3dd",
+    "operator": "aviapages",
+    "fromIata": "DAL",
+    "toIata": "LXT",
+    "fromIcao": "KDAL",
+    "toIcao": "KLXT",
+    "fromCity": "Dallas Love",
+    "toCity": "Lee's Summit Municipal Airport",
+    "fromName": "Dallas Love",
+    "toName": "Lee's Summit Municipal Airport",
+    "departAt": "2025-10-21T00:00:00.000Z",
+    "acType": "Hawker 800XP",
+    "acClass": "Unknown",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "21-10-2025 00:00 → 24-10-2025 00:00 | Price on Request"
+  }
+}

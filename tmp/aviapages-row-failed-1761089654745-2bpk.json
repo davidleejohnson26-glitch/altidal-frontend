@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"16e1e854c826abcf\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"PSP\",\n                toIata: \"LNK\",\n                fromIcao: \"KPSP\",\n                toIcao: \"KLNK\",\n                fromCity: \"Palm Springs Intl\",\n                toCity: \"Lincoln\",\n                fromName: \"Palm Springs Intl\",\n                toName: \"Lincoln\",\n                departAt: \"2025-11-02T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 5000,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"02-11-2025 00:00 → 08-11-2025 03:00\"\n              },\n              create: {\n                id: \"16e1e854c826abcf\",\n                operator: \"aviapages\",\n                fromIata: \"PSP\",\n                toIata: \"LNK\",\n                fromIcao: \"KPSP\",\n                toIcao: \"KLNK\",\n                fromCity: \"Palm Springs Intl\",\n                toCity: \"Lincoln\",\n                fromName: \"Palm Springs Intl\",\n                toName: \"Lincoln\",\n                departAt: \"2025-11-02T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 5000,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"02-11-2025 00:00 → 08-11-2025 03:00\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "16e1e854c826abcf",
+    "operator": "aviapages",
+    "fromIata": "PSP",
+    "toIata": "LNK",
+    "fromIcao": "KPSP",
+    "toIcao": "KLNK",
+    "fromCity": "Palm Springs Intl",
+    "toCity": "Lincoln",
+    "fromName": "Palm Springs Intl",
+    "toName": "Lincoln",
+    "departAt": "2025-11-02T00:00:00.000Z",
+    "acType": "Cessna Citation Ultra",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 5000,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "02-11-2025 00:00 → 08-11-2025 03:00"
+  }
+}

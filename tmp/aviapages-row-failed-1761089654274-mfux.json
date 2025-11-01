@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"8a87e23ed1abe70f\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"BIL\",\n                toIata: \"APA\",\n                fromIcao: \"KBIL\",\n                toIcao: \"KAPA\",\n                fromCity: \"Billings Logan Intl\",\n                toCity: \"Centennial\",\n                fromName: \"Billings Logan Intl\",\n                toName: \"Centennial\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Learjet 60XR\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 21-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"8a87e23ed1abe70f\",\n                operator: \"aviapages\",\n                fromIata: \"BIL\",\n                toIata: \"APA\",\n                fromIcao: \"KBIL\",\n                toIcao: \"KAPA\",\n                fromCity: \"Billings Logan Intl\",\n                toCity: \"Centennial\",\n                fromName: \"Billings Logan Intl\",\n                toName: \"Centennial\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Learjet 60XR\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 21-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "8a87e23ed1abe70f",
+    "operator": "aviapages",
+    "fromIata": "BIL",
+    "toIata": "APA",
+    "fromIcao": "KBIL",
+    "toIcao": "KAPA",
+    "fromCity": "Billings Logan Intl",
+    "toCity": "Centennial",
+    "fromName": "Billings Logan Intl",
+    "toName": "Centennial",
+    "departAt": "2025-10-21T00:00:00.000Z",
+    "acType": "Learjet 60XR",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "21-10-2025 00:00 → 21-10-2025 00:00 | Price on Request"
+  }
+}

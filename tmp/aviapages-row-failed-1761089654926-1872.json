@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"f4a6eeb7a9adc185\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"TEB\",\n                toIata: \"LIS\",\n                fromIcao: \"KTEB\",\n                toIcao: \"LPPT\",\n                fromCity: \"Teterboro\",\n                toCity: \"Lisbon\",\n                fromName: \"Teterboro\",\n                toName: \"Lisbon\",\n                departAt: \"2026-01-16T00:00:00.000Z\",\n                acType: \"Gulfstream IV-SP\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"16-01-2026 00:00 → 29-01-2026 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"f4a6eeb7a9adc185\",\n                operator: \"aviapages\",\n                fromIata: \"TEB\",\n                toIata: \"LIS\",\n                fromIcao: \"KTEB\",\n                toIcao: \"LPPT\",\n                fromCity: \"Teterboro\",\n                toCity: \"Lisbon\",\n                fromName: \"Teterboro\",\n                toName: \"Lisbon\",\n                departAt: \"2026-01-16T00:00:00.000Z\",\n                acType: \"Gulfstream IV-SP\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"16-01-2026 00:00 → 29-01-2026 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "f4a6eeb7a9adc185",
+    "operator": "aviapages",
+    "fromIata": "TEB",
+    "toIata": "LIS",
+    "fromIcao": "KTEB",
+    "toIcao": "LPPT",
+    "fromCity": "Teterboro",
+    "toCity": "Lisbon",
+    "fromName": "Teterboro",
+    "toName": "Lisbon",
+    "departAt": "2026-01-16T00:00:00.000Z",
+    "acType": "Gulfstream IV-SP",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "16-01-2026 00:00 → 29-01-2026 00:00 | Price on Request"
+  }
+}

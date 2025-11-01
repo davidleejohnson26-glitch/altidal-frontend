@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"6d9aa97e31cae62d\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"BER\",\n                toIata: \"BRQ\",\n                fromIcao: \"EDDB\",\n                toIcao: \"LKTB\",\n                fromCity: \"Berlin Brandenburg Airport\",\n                toCity: \"Turany\",\n                fromName: \"Berlin Brandenburg Airport\",\n                toName: \"Turany\",\n                departAt: \"2025-10-22T00:00:00.000Z\",\n                acType: \"Cessna Citation XLS+\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-10-2025 00:00 → 22-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"6d9aa97e31cae62d\",\n                operator: \"aviapages\",\n                fromIata: \"BER\",\n                toIata: \"BRQ\",\n                fromIcao: \"EDDB\",\n                toIcao: \"LKTB\",\n                fromCity: \"Berlin Brandenburg Airport\",\n                toCity: \"Turany\",\n                fromName: \"Berlin Brandenburg Airport\",\n                toName: \"Turany\",\n                departAt: \"2025-10-22T00:00:00.000Z\",\n                acType: \"Cessna Citation XLS+\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-10-2025 00:00 → 22-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "6d9aa97e31cae62d",
+    "operator": "aviapages",
+    "fromIata": "BER",
+    "toIata": "BRQ",
+    "fromIcao": "EDDB",
+    "toIcao": "LKTB",
+    "fromCity": "Berlin Brandenburg Airport",
+    "toCity": "Turany",
+    "fromName": "Berlin Brandenburg Airport",
+    "toName": "Turany",
+    "departAt": "2025-10-22T00:00:00.000Z",
+    "acType": "Cessna Citation XLS+",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "22-10-2025 00:00 → 22-10-2025 00:00 | Price on Request"
+  }
+}

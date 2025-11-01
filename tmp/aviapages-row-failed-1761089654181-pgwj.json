@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"73c2b25db5c36aaf\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"LTN\",\n                toIata: \"LBG\",\n                fromIcao: \"EGGW\",\n                toIcao: \"LFPB\",\n                fromCity: \"London Luton Airport\",\n                toCity: \"Le Bourget\",\n                fromName: \"London Luton Airport\",\n                toName: \"Le Bourget\",\n                departAt: \"2025-11-01T00:00:00.000Z\",\n                acType: \"Cessna Citation CJ1\",\n                acClass: \"Light Jet\",\n                seats: null,\n                priceUSD: 3250,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"01-11-2025 00:00 → 01-11-2025 00:00\"\n              },\n              create: {\n                id: \"73c2b25db5c36aaf\",\n                operator: \"aviapages\",\n                fromIata: \"LTN\",\n                toIata: \"LBG\",\n                fromIcao: \"EGGW\",\n                toIcao: \"LFPB\",\n                fromCity: \"London Luton Airport\",\n                toCity: \"Le Bourget\",\n                fromName: \"London Luton Airport\",\n                toName: \"Le Bourget\",\n                departAt: \"2025-11-01T00:00:00.000Z\",\n                acType: \"Cessna Citation CJ1\",\n                acClass: \"Light Jet\",\n                priceUSD: 3250,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"01-11-2025 00:00 → 01-11-2025 00:00\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "73c2b25db5c36aaf",
+    "operator": "aviapages",
+    "fromIata": "LTN",
+    "toIata": "LBG",
+    "fromIcao": "EGGW",
+    "toIcao": "LFPB",
+    "fromCity": "London Luton Airport",
+    "toCity": "Le Bourget",
+    "fromName": "London Luton Airport",
+    "toName": "Le Bourget",
+    "departAt": "2025-11-01T00:00:00.000Z",
+    "acType": "Cessna Citation CJ1",
+    "acClass": "Light Jet",
+    "seats": null,
+    "priceUSD": 3250,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "01-11-2025 00:00 → 01-11-2025 00:00"
+  }
+}

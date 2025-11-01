@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"35a1230494ff0248\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"MAD\",\n                toIata: \"NCE\",\n                fromIcao: \"LEMD\",\n                toIcao: \"LFMN\",\n                fromCity: \"Adolfo Suarez Madrid Barajas\",\n                toCity: \"Nice Cote D Azur\",\n                fromName: \"Adolfo Suarez Madrid Barajas\",\n                toName: \"Nice Cote D Azur\",\n                departAt: \"2025-10-24T06:52:00.000Z\",\n                acType: \"Learjet 60XR\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"24-10-2025 06:52 → 24-10-2025 08:20 | Price on Request\"\n              },\n              create: {\n                id: \"35a1230494ff0248\",\n                operator: \"aviapages\",\n                fromIata: \"MAD\",\n                toIata: \"NCE\",\n                fromIcao: \"LEMD\",\n                toIcao: \"LFMN\",\n                fromCity: \"Adolfo Suarez Madrid Barajas\",\n                toCity: \"Nice Cote D Azur\",\n                fromName: \"Adolfo Suarez Madrid Barajas\",\n                toName: \"Nice Cote D Azur\",\n                departAt: \"2025-10-24T06:52:00.000Z\",\n                acType: \"Learjet 60XR\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"24-10-2025 06:52 → 24-10-2025 08:20 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "35a1230494ff0248",
+    "operator": "aviapages",
+    "fromIata": "MAD",
+    "toIata": "NCE",
+    "fromIcao": "LEMD",
+    "toIcao": "LFMN",
+    "fromCity": "Adolfo Suarez Madrid Barajas",
+    "toCity": "Nice Cote D Azur",
+    "fromName": "Adolfo Suarez Madrid Barajas",
+    "toName": "Nice Cote D Azur",
+    "departAt": "2025-10-24T06:52:00.000Z",
+    "acType": "Learjet 60XR",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "24-10-2025 06:52 → 24-10-2025 08:20 | Price on Request"
+  }
+}

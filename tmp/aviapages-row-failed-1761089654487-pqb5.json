@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"f7c2916d428fd5db\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"TER\",\n                toIata: \"PRG\",\n                fromIcao: \"LPLA\",\n                toIcao: \"LKPR\",\n                fromCity: \"Lajes Ab\",\n                toCity: \"Ruzyne\",\n                fromName: \"Lajes Ab\",\n                toName: \"Ruzyne\",\n                departAt: \"2025-10-22T18:03:00.000Z\",\n                acType: \"Gulfstream G280\",\n                acClass: \"Super Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-10-2025 18:03 → 23-10-2025 23:33 | Price on Request\"\n              },\n              create: {\n                id: \"f7c2916d428fd5db\",\n                operator: \"aviapages\",\n                fromIata: \"TER\",\n                toIata: \"PRG\",\n                fromIcao: \"LPLA\",\n                toIcao: \"LKPR\",\n                fromCity: \"Lajes Ab\",\n                toCity: \"Ruzyne\",\n                fromName: \"Lajes Ab\",\n                toName: \"Ruzyne\",\n                departAt: \"2025-10-22T18:03:00.000Z\",\n                acType: \"Gulfstream G280\",\n                acClass: \"Super Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-10-2025 18:03 → 23-10-2025 23:33 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "f7c2916d428fd5db",
+    "operator": "aviapages",
+    "fromIata": "TER",
+    "toIata": "PRG",
+    "fromIcao": "LPLA",
+    "toIcao": "LKPR",
+    "fromCity": "Lajes Ab",
+    "toCity": "Ruzyne",
+    "fromName": "Lajes Ab",
+    "toName": "Ruzyne",
+    "departAt": "2025-10-22T18:03:00.000Z",
+    "acType": "Gulfstream G280",
+    "acClass": "Super Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "22-10-2025 18:03 → 23-10-2025 23:33 | Price on Request"
+  }
+}

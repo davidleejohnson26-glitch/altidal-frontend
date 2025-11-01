@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"c9ad755759873859\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"LEE\",\n                toIata: \"YQR\",\n                fromIcao: \"KLEE\",\n                toIcao: \"CYQR\",\n                fromCity: \"Leesburg Intl\",\n                toCity: \"Regina Intl\",\n                fromName: \"Leesburg Intl\",\n                toName: \"Regina Intl\",\n                departAt: \"2025-11-01T00:00:00.000Z\",\n                acType: \"Global 5000\",\n                acClass: \"Heavy Jet\",\n                seats: null,\n                priceUSD: 49500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"01-11-2025 00:00 → 01-11-2025 23:59\"\n              },\n              create: {\n                id: \"c9ad755759873859\",\n                operator: \"aviapages\",\n                fromIata: \"LEE\",\n                toIata: \"YQR\",\n                fromIcao: \"KLEE\",\n                toIcao: \"CYQR\",\n                fromCity: \"Leesburg Intl\",\n                toCity: \"Regina Intl\",\n                fromName: \"Leesburg Intl\",\n                toName: \"Regina Intl\",\n                departAt: \"2025-11-01T00:00:00.000Z\",\n                acType: \"Global 5000\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 49500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"01-11-2025 00:00 → 01-11-2025 23:59\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "c9ad755759873859",
+    "operator": "aviapages",
+    "fromIata": "LEE",
+    "toIata": "YQR",
+    "fromIcao": "KLEE",
+    "toIcao": "CYQR",
+    "fromCity": "Leesburg Intl",
+    "toCity": "Regina Intl",
+    "fromName": "Leesburg Intl",
+    "toName": "Regina Intl",
+    "departAt": "2025-11-01T00:00:00.000Z",
+    "acType": "Global 5000",
+    "acClass": "Heavy Jet",
+    "seats": null,
+    "priceUSD": 49500,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "01-11-2025 00:00 → 01-11-2025 23:59"
+  }
+}

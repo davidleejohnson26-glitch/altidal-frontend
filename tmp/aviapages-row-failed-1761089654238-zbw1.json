@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"facbea9db461cadf\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"BER\",\n                toIata: \"AGB\",\n                fromIcao: \"EDDB\",\n                toIcao: \"EDMA\",\n                fromCity: \"Berlin Brandenburg Airport\",\n                toCity: \"Augsburg\",\n                fromName: \"Berlin Brandenburg Airport\",\n                toName: \"Augsburg\",\n                departAt: \"2025-10-29T12:00:00.000Z\",\n                acType: \"Beechcraft Premier 1\",\n                acClass: \"Unknown\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"29-10-2025 12:00 → 29-10-2025 13:00 | Price on Request\"\n              },\n              create: {\n                id: \"facbea9db461cadf\",\n                operator: \"aviapages\",\n                fromIata: \"BER\",\n                toIata: \"AGB\",\n                fromIcao: \"EDDB\",\n                toIcao: \"EDMA\",\n                fromCity: \"Berlin Brandenburg Airport\",\n                toCity: \"Augsburg\",\n                fromName: \"Berlin Brandenburg Airport\",\n                toName: \"Augsburg\",\n                departAt: \"2025-10-29T12:00:00.000Z\",\n                acType: \"Beechcraft Premier 1\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"29-10-2025 12:00 → 29-10-2025 13:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "facbea9db461cadf",
+    "operator": "aviapages",
+    "fromIata": "BER",
+    "toIata": "AGB",
+    "fromIcao": "EDDB",
+    "toIcao": "EDMA",
+    "fromCity": "Berlin Brandenburg Airport",
+    "toCity": "Augsburg",
+    "fromName": "Berlin Brandenburg Airport",
+    "toName": "Augsburg",
+    "departAt": "2025-10-29T12:00:00.000Z",
+    "acType": "Beechcraft Premier 1",
+    "acClass": "Unknown",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "29-10-2025 12:00 → 29-10-2025 13:00 | Price on Request"
+  }
+}

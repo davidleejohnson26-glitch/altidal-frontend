@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"f613ccc72716294e\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"AVL\",\n                toIata: \"SRQ\",\n                fromIcao: \"KAVL\",\n                toIcao: \"KSRQ\",\n                fromCity: \"Asheville Regl\",\n                toCity: \"Sarasota Bradenton Intl\",\n                fromName: \"Asheville Regl\",\n                toName: \"Sarasota Bradenton Intl\",\n                departAt: \"2025-12-26T00:00:00.000Z\",\n                acType: \"Embraer Phenom 300\",\n                acClass: \"Light Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-12-2025 00:00 → 26-12-2025 23:59 | Price on Request\"\n              },\n              create: {\n                id: \"f613ccc72716294e\",\n                operator: \"aviapages\",\n                fromIata: \"AVL\",\n                toIata: \"SRQ\",\n                fromIcao: \"KAVL\",\n                toIcao: \"KSRQ\",\n                fromCity: \"Asheville Regl\",\n                toCity: \"Sarasota Bradenton Intl\",\n                fromName: \"Asheville Regl\",\n                toName: \"Sarasota Bradenton Intl\",\n                departAt: \"2025-12-26T00:00:00.000Z\",\n                acType: \"Embraer Phenom 300\",\n                acClass: \"Light Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-12-2025 00:00 → 26-12-2025 23:59 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "f613ccc72716294e",
+    "operator": "aviapages",
+    "fromIata": "AVL",
+    "toIata": "SRQ",
+    "fromIcao": "KAVL",
+    "toIcao": "KSRQ",
+    "fromCity": "Asheville Regl",
+    "toCity": "Sarasota Bradenton Intl",
+    "fromName": "Asheville Regl",
+    "toName": "Sarasota Bradenton Intl",
+    "departAt": "2025-12-26T00:00:00.000Z",
+    "acType": "Embraer Phenom 300",
+    "acClass": "Light Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "26-12-2025 00:00 → 26-12-2025 23:59 | Price on Request"
+  }
+}

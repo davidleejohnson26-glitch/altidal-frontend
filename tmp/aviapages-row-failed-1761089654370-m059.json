@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"04b8c5c70d245a0a\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"TEB\",\n                toIata: \"YYZ\",\n                fromIcao: \"KTEB\",\n                toIcao: \"CYYZ\",\n                fromCity: \"Teterboro\",\n                toCity: \"Lester B.Pearson Intl\",\n                fromName: \"Teterboro\",\n                toName: \"Lester B.Pearson Intl\",\n                departAt: \"2026-01-11T00:00:00.000Z\",\n                acType: \"Challenger 605\",\n                acClass: \"Heavy Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"11-01-2026 00:00 → 11-01-2026 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"04b8c5c70d245a0a\",\n                operator: \"aviapages\",\n                fromIata: \"TEB\",\n                toIata: \"YYZ\",\n                fromIcao: \"KTEB\",\n                toIcao: \"CYYZ\",\n                fromCity: \"Teterboro\",\n                toCity: \"Lester B.Pearson Intl\",\n                fromName: \"Teterboro\",\n                toName: \"Lester B.Pearson Intl\",\n                departAt: \"2026-01-11T00:00:00.000Z\",\n                acType: \"Challenger 605\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"11-01-2026 00:00 → 11-01-2026 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "04b8c5c70d245a0a",
+    "operator": "aviapages",
+    "fromIata": "TEB",
+    "toIata": "YYZ",
+    "fromIcao": "KTEB",
+    "toIcao": "CYYZ",
+    "fromCity": "Teterboro",
+    "toCity": "Lester B.Pearson Intl",
+    "fromName": "Teterboro",
+    "toName": "Lester B.Pearson Intl",
+    "departAt": "2026-01-11T00:00:00.000Z",
+    "acType": "Challenger 605",
+    "acClass": "Heavy Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "11-01-2026 00:00 → 11-01-2026 00:00 | Price on Request"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"0bb7252c5402abdd\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"AUS\",\n                toIata: \"LAS\",\n                fromIcao: \"KAUS\",\n                toIcao: \"KLAS\",\n                fromCity: \"Austin-Bergstrom Intl\",\n                toCity: \"McCarran Int'l Airport\",\n                fromName: \"Austin-Bergstrom Intl\",\n                toName: \"McCarran Int'l Airport\",\n                departAt: \"2025-10-27T00:00:00.000Z\",\n                acType: \"Learjet 60XR\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"27-10-2025 00:00 → 27-10-2025 23:59 | Price on Request\"\n              },\n              create: {\n                id: \"0bb7252c5402abdd\",\n                operator: \"aviapages\",\n                fromIata: \"AUS\",\n                toIata: \"LAS\",\n                fromIcao: \"KAUS\",\n                toIcao: \"KLAS\",\n                fromCity: \"Austin-Bergstrom Intl\",\n                toCity: \"McCarran Int'l Airport\",\n                fromName: \"Austin-Bergstrom Intl\",\n                toName: \"McCarran Int'l Airport\",\n                departAt: \"2025-10-27T00:00:00.000Z\",\n                acType: \"Learjet 60XR\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"27-10-2025 00:00 → 27-10-2025 23:59 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "0bb7252c5402abdd",
+    "operator": "aviapages",
+    "fromIata": "AUS",
+    "toIata": "LAS",
+    "fromIcao": "KAUS",
+    "toIcao": "KLAS",
+    "fromCity": "Austin-Bergstrom Intl",
+    "toCity": "McCarran Int'l Airport",
+    "fromName": "Austin-Bergstrom Intl",
+    "toName": "McCarran Int'l Airport",
+    "departAt": "2025-10-27T00:00:00.000Z",
+    "acType": "Learjet 60XR",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "27-10-2025 00:00 → 27-10-2025 23:59 | Price on Request"
+  }
+}

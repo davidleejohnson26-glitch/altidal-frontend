@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"a63f1fd68e44a682\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"YYC\",\n                toIata: \"YQU\",\n                fromIcao: \"CYYC\",\n                toIcao: \"CYQU\",\n                fromCity: \"Calgary International Airport\",\n                toCity: \"Grande Prairie\",\n                fromName: \"Calgary International Airport\",\n                toName: \"Grande Prairie\",\n                departAt: \"2025-10-26T00:00:00.000Z\",\n                acType: \"Beechcraft King Air 350\",\n                acClass: \"Turboprop\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-10-2025 00:00 → 26-10-2025 23:59 | Price on Request\"\n              },\n              create: {\n                id: \"a63f1fd68e44a682\",\n                operator: \"aviapages\",\n                fromIata: \"YYC\",\n                toIata: \"YQU\",\n                fromIcao: \"CYYC\",\n                toIcao: \"CYQU\",\n                fromCity: \"Calgary International Airport\",\n                toCity: \"Grande Prairie\",\n                fromName: \"Calgary International Airport\",\n                toName: \"Grande Prairie\",\n                departAt: \"2025-10-26T00:00:00.000Z\",\n                acType: \"Beechcraft King Air 350\",\n                acClass: \"Turboprop\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-10-2025 00:00 → 26-10-2025 23:59 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "a63f1fd68e44a682",
+    "operator": "aviapages",
+    "fromIata": "YYC",
+    "toIata": "YQU",
+    "fromIcao": "CYYC",
+    "toIcao": "CYQU",
+    "fromCity": "Calgary International Airport",
+    "toCity": "Grande Prairie",
+    "fromName": "Calgary International Airport",
+    "toName": "Grande Prairie",
+    "departAt": "2025-10-26T00:00:00.000Z",
+    "acType": "Beechcraft King Air 350",
+    "acClass": "Turboprop",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "26-10-2025 00:00 → 26-10-2025 23:59 | Price on Request"
+  }
+}

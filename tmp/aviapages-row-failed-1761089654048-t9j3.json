@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"1ca0ed532c349569\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"XSP\",\n                toIata: \"HLP\",\n                fromIcao: \"WSSL\",\n                toIcao: \"WIHH\",\n                fromCity: \"Seletar\",\n                toCity: \"Halim Intl\",\n                fromName: \"Seletar\",\n                toName: \"Halim Intl\",\n                departAt: \"2025-10-25T01:00:00.000Z\",\n                acType: \"Gulfstream G450\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"25-10-2025 01:00 → 25-10-2025 02:39 | Price on Request\"\n              },\n              create: {\n                id: \"1ca0ed532c349569\",\n                operator: \"aviapages\",\n                fromIata: \"XSP\",\n                toIata: \"HLP\",\n                fromIcao: \"WSSL\",\n                toIcao: \"WIHH\",\n                fromCity: \"Seletar\",\n                toCity: \"Halim Intl\",\n                fromName: \"Seletar\",\n                toName: \"Halim Intl\",\n                departAt: \"2025-10-25T01:00:00.000Z\",\n                acType: \"Gulfstream G450\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"25-10-2025 01:00 → 25-10-2025 02:39 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "1ca0ed532c349569",
+    "operator": "aviapages",
+    "fromIata": "XSP",
+    "toIata": "HLP",
+    "fromIcao": "WSSL",
+    "toIcao": "WIHH",
+    "fromCity": "Seletar",
+    "toCity": "Halim Intl",
+    "fromName": "Seletar",
+    "toName": "Halim Intl",
+    "departAt": "2025-10-25T01:00:00.000Z",
+    "acType": "Gulfstream G450",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "25-10-2025 01:00 → 25-10-2025 02:39 | Price on Request"
+  }
+}

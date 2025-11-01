@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"13dd79e3a23c174b\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"CEQ\",\n                toIata: \"LBG\",\n                fromIcao: \"LFMD\",\n                toIcao: \"LFPB\",\n                fromCity: \"Mandelieu\",\n                toCity: \"Le Bourget\",\n                fromName: \"Mandelieu\",\n                toName: \"Le Bourget\",\n                departAt: \"2025-10-24T00:00:00.000Z\",\n                acType: \"Embraer Legacy 500\",\n                acClass: \"Unknown\",\n                seats: null,\n                priceUSD: 8125,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"24-10-2025 00:00 → 24-10-2025 00:00\"\n              },\n              create: {\n                id: \"13dd79e3a23c174b\",\n                operator: \"aviapages\",\n                fromIata: \"CEQ\",\n                toIata: \"LBG\",\n                fromIcao: \"LFMD\",\n                toIcao: \"LFPB\",\n                fromCity: \"Mandelieu\",\n                toCity: \"Le Bourget\",\n                fromName: \"Mandelieu\",\n                toName: \"Le Bourget\",\n                departAt: \"2025-10-24T00:00:00.000Z\",\n                acType: \"Embraer Legacy 500\",\n                acClass: \"Unknown\",\n                priceUSD: 8125,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"24-10-2025 00:00 → 24-10-2025 00:00\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "13dd79e3a23c174b",
+    "operator": "aviapages",
+    "fromIata": "CEQ",
+    "toIata": "LBG",
+    "fromIcao": "LFMD",
+    "toIcao": "LFPB",
+    "fromCity": "Mandelieu",
+    "toCity": "Le Bourget",
+    "fromName": "Mandelieu",
+    "toName": "Le Bourget",
+    "departAt": "2025-10-24T00:00:00.000Z",
+    "acType": "Embraer Legacy 500",
+    "acClass": "Unknown",
+    "seats": null,
+    "priceUSD": 8125,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "24-10-2025 00:00 → 24-10-2025 00:00"
+  }
+}

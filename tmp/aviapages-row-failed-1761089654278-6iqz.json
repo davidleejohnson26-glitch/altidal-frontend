@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"3ef588125132850e\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"OCF\",\n                toIata: \"CVG\",\n                fromIcao: \"KOCF\",\n                toIcao: \"KCVG\",\n                fromCity: \"Ocala Intl-Jim Taylor Field\",\n                toCity: \"Cincinnati/Northern Kentucky Intl\",\n                fromName: \"Ocala Intl-Jim Taylor Field\",\n                toName: \"Cincinnati/Northern Kentucky Intl\",\n                departAt: \"2025-11-10T00:00:00.000Z\",\n                acType: \"Gulfstream IV\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"10-11-2025 00:00 → 10-11-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"3ef588125132850e\",\n                operator: \"aviapages\",\n                fromIata: \"OCF\",\n                toIata: \"CVG\",\n                fromIcao: \"KOCF\",\n                toIcao: \"KCVG\",\n                fromCity: \"Ocala Intl-Jim Taylor Field\",\n                toCity: \"Cincinnati/Northern Kentucky Intl\",\n                fromName: \"Ocala Intl-Jim Taylor Field\",\n                toName: \"Cincinnati/Northern Kentucky Intl\",\n                departAt: \"2025-11-10T00:00:00.000Z\",\n                acType: \"Gulfstream IV\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"10-11-2025 00:00 → 10-11-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "3ef588125132850e",
+    "operator": "aviapages",
+    "fromIata": "OCF",
+    "toIata": "CVG",
+    "fromIcao": "KOCF",
+    "toIcao": "KCVG",
+    "fromCity": "Ocala Intl-Jim Taylor Field",
+    "toCity": "Cincinnati/Northern Kentucky Intl",
+    "fromName": "Ocala Intl-Jim Taylor Field",
+    "toName": "Cincinnati/Northern Kentucky Intl",
+    "departAt": "2025-11-10T00:00:00.000Z",
+    "acType": "Gulfstream IV",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "10-11-2025 00:00 → 10-11-2025 00:00 | Price on Request"
+  }
+}

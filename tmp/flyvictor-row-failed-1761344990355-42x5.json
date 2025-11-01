@@ -1,0 +1,18 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\flyvictor.ts:527:28\n\n  524 try {\n  525   await withConcurrency(batch, 6, async (r) => {\n  526     try {\n→ 527       await prisma.leg.upsert({\n              where: {\n                id: \"1ceb0a7fa167de51\"\n              },\n              update: {\n                operator: \"flyvictor\",\n                fromIata: \"TEB\",\n                toIata: \"RKD\",\n                fromName: \"TEB\",\n                toName: \"RKD\",\n                departAt: \"2025-10-28T00:00:00.000Z\",\n                priceUSD: 9589,\n                url: \"https://www.flyvictor.com/en-us/flights/\"\n              },\n              create: {\n                id: \"1ceb0a7fa167de51\",\n                operator: \"flyvictor\",\n                fromIata: \"TEB\",\n                toIata: \"RKD\",\n                fromName: \"TEB\",\n                toName: \"RKD\",\n                departAt: \"2025-10-28T00:00:00.000Z\",\n                priceUSD: 9589,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n            +   fromCity: String\n              }\n            })\n\nArgument `fromCity` is missing.",
+    "meta": null
+  },
+  "row": {
+    "id": "1ceb0a7fa167de51",
+    "operator": "flyvictor",
+    "fromIata": "TEB",
+    "toIata": "RKD",
+    "fromName": "TEB",
+    "toName": "RKD",
+    "departAt": "2025-10-28T00:00:00.000Z",
+    "priceUSD": 9589,
+    "url": "https://www.flyvictor.com/en-us/flights/"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"69c9fb5ebf9c75ae\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"BER\",\n                toIata: \"FAO\",\n                fromIcao: \"EDDB\",\n                toIcao: \"LPFR\",\n                fromCity: \"Berlin Brandenburg Airport\",\n                toCity: \"Faro\",\n                fromName: \"Berlin Brandenburg Airport\",\n                toName: \"Faro\",\n                departAt: \"2025-10-20T00:00:00.000Z\",\n                acType: \"Challenger 300\",\n                acClass: \"Super Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"20-10-2025 00:00 → 22-10-2025 23:59 | Price on Request\"\n              },\n              create: {\n                id: \"69c9fb5ebf9c75ae\",\n                operator: \"aviapages\",\n                fromIata: \"BER\",\n                toIata: \"FAO\",\n                fromIcao: \"EDDB\",\n                toIcao: \"LPFR\",\n                fromCity: \"Berlin Brandenburg Airport\",\n                toCity: \"Faro\",\n                fromName: \"Berlin Brandenburg Airport\",\n                toName: \"Faro\",\n                departAt: \"2025-10-20T00:00:00.000Z\",\n                acType: \"Challenger 300\",\n                acClass: \"Super Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"20-10-2025 00:00 → 22-10-2025 23:59 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "69c9fb5ebf9c75ae",
+    "operator": "aviapages",
+    "fromIata": "BER",
+    "toIata": "FAO",
+    "fromIcao": "EDDB",
+    "toIcao": "LPFR",
+    "fromCity": "Berlin Brandenburg Airport",
+    "toCity": "Faro",
+    "fromName": "Berlin Brandenburg Airport",
+    "toName": "Faro",
+    "departAt": "2025-10-20T00:00:00.000Z",
+    "acType": "Challenger 300",
+    "acClass": "Super Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "20-10-2025 00:00 → 22-10-2025 23:59 | Price on Request"
+  }
+}

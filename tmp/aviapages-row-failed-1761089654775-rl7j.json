@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"878824ee55c5dda8\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"CAK\",\n                toIata: \"SRQ\",\n                fromIcao: \"KCAK\",\n                toIcao: \"KSRQ\",\n                fromCity: \"Akron-Canton Rgnl\",\n                toCity: \"Sarasota Bradenton Intl\",\n                fromName: \"Akron-Canton Rgnl\",\n                toName: \"Sarasota Bradenton Intl\",\n                departAt: \"2025-12-20T00:00:00.000Z\",\n                acType: \"Embraer Phenom 300\",\n                acClass: \"Light Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"20-12-2025 00:00 → 20-12-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"878824ee55c5dda8\",\n                operator: \"aviapages\",\n                fromIata: \"CAK\",\n                toIata: \"SRQ\",\n                fromIcao: \"KCAK\",\n                toIcao: \"KSRQ\",\n                fromCity: \"Akron-Canton Rgnl\",\n                toCity: \"Sarasota Bradenton Intl\",\n                fromName: \"Akron-Canton Rgnl\",\n                toName: \"Sarasota Bradenton Intl\",\n                departAt: \"2025-12-20T00:00:00.000Z\",\n                acType: \"Embraer Phenom 300\",\n                acClass: \"Light Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"20-12-2025 00:00 → 20-12-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "878824ee55c5dda8",
+    "operator": "aviapages",
+    "fromIata": "CAK",
+    "toIata": "SRQ",
+    "fromIcao": "KCAK",
+    "toIcao": "KSRQ",
+    "fromCity": "Akron-Canton Rgnl",
+    "toCity": "Sarasota Bradenton Intl",
+    "fromName": "Akron-Canton Rgnl",
+    "toName": "Sarasota Bradenton Intl",
+    "departAt": "2025-12-20T00:00:00.000Z",
+    "acType": "Embraer Phenom 300",
+    "acClass": "Light Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "20-12-2025 00:00 → 20-12-2025 00:00 | Price on Request"
+  }
+}

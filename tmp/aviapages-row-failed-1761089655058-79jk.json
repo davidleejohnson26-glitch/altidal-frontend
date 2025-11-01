@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"8a7c813f45444482\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"FLR\",\n                toIata: \"BLQ\",\n                fromIcao: \"LIRQ\",\n                toIcao: \"LIPE\",\n                fromCity: \"Peretola\",\n                toCity: \"Borgo Panigale\",\n                fromName: \"Peretola\",\n                toName: \"Borgo Panigale\",\n                departAt: \"2025-12-03T13:35:00.000Z\",\n                acType: \"Gulfstream G650ER\",\n                acClass: \"Heavy Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"03-12-2025 13:35 → 08-12-2025 13:35 | Price on Request\"\n              },\n              create: {\n                id: \"8a7c813f45444482\",\n                operator: \"aviapages\",\n                fromIata: \"FLR\",\n                toIata: \"BLQ\",\n                fromIcao: \"LIRQ\",\n                toIcao: \"LIPE\",\n                fromCity: \"Peretola\",\n                toCity: \"Borgo Panigale\",\n                fromName: \"Peretola\",\n                toName: \"Borgo Panigale\",\n                departAt: \"2025-12-03T13:35:00.000Z\",\n                acType: \"Gulfstream G650ER\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"03-12-2025 13:35 → 08-12-2025 13:35 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "8a7c813f45444482",
+    "operator": "aviapages",
+    "fromIata": "FLR",
+    "toIata": "BLQ",
+    "fromIcao": "LIRQ",
+    "toIcao": "LIPE",
+    "fromCity": "Peretola",
+    "toCity": "Borgo Panigale",
+    "fromName": "Peretola",
+    "toName": "Borgo Panigale",
+    "departAt": "2025-12-03T13:35:00.000Z",
+    "acType": "Gulfstream G650ER",
+    "acClass": "Heavy Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "03-12-2025 13:35 → 08-12-2025 13:35 | Price on Request"
+  }
+}

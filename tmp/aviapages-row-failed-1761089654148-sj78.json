@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"fb2979d5a805c890\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"TFN\",\n                toIata: \"RAK\",\n                fromIcao: \"GCXO\",\n                toIcao: \"GMMX\",\n                fromCity: \"Ciudad De La Laguna\",\n                toCity: \"Menara Intl\",\n                fromName: \"Ciudad De La Laguna\",\n                toName: \"Menara Intl\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Cessna Citation XLS+\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 21-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"fb2979d5a805c890\",\n                operator: \"aviapages\",\n                fromIata: \"TFN\",\n                toIata: \"RAK\",\n                fromIcao: \"GCXO\",\n                toIcao: \"GMMX\",\n                fromCity: \"Ciudad De La Laguna\",\n                toCity: \"Menara Intl\",\n                fromName: \"Ciudad De La Laguna\",\n                toName: \"Menara Intl\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Cessna Citation XLS+\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 21-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "fb2979d5a805c890",
+    "operator": "aviapages",
+    "fromIata": "TFN",
+    "toIata": "RAK",
+    "fromIcao": "GCXO",
+    "toIcao": "GMMX",
+    "fromCity": "Ciudad De La Laguna",
+    "toCity": "Menara Intl",
+    "fromName": "Ciudad De La Laguna",
+    "toName": "Menara Intl",
+    "departAt": "2025-10-21T00:00:00.000Z",
+    "acType": "Cessna Citation XLS+",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "21-10-2025 00:00 → 21-10-2025 00:00 | Price on Request"
+  }
+}

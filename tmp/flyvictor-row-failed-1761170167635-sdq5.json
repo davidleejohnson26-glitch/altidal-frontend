@@ -1,0 +1,22 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\flyvictor.ts:384:28\n\n  381 try {\n  382   await withConcurrency(batch, 6, async (r) => {\n  383     try {\n→ 384       await prisma.leg.upsert({\n              where: {\n                id: \"4aa7efdc02a144e7\"\n              },\n              update: {\n                operator: \"flyvictor\",\n                fromIata: \"MAD\",\n                toIata: \"OXF\",\n                fromName: \"MAD\",\n                toName: \"OXF\",\n                fromCity: \"MAD\",\n                toCity: \"OXF\",\n                departAt: \"2025-10-23T00:00:00.000Z\",\n                acType: \"Citation CJ2+\",\n                acClass: \"Light Jet\",\n                priceUSD: 9453,\n                url: \"https://www.flyvictor.com/en-us/flights/\"\n              },\n              create: {\n                id: \"4aa7efdc02a144e7\",\n                operator: \"flyvictor\",\n                fromIata: \"MAD\",\n                toIata: \"OXF\",\n                fromName: \"MAD\",\n                toName: \"OXF\",\n                fromCity: \"MAD\",\n                toCity: \"OXF\",\n                departAt: \"2025-10-23T00:00:00.000Z\",\n                acType: \"Citation CJ2+\",\n                acClass: \"Light Jet\",\n                priceUSD: 9453,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` is missing.",
+    "meta": null
+  },
+  "row": {
+    "id": "4aa7efdc02a144e7",
+    "operator": "flyvictor",
+    "fromIata": "MAD",
+    "toIata": "OXF",
+    "fromName": "MAD",
+    "toName": "OXF",
+    "fromCity": "MAD",
+    "toCity": "OXF",
+    "departAt": "2025-10-23T00:00:00.000Z",
+    "acType": "Citation CJ2+",
+    "acClass": "Light Jet",
+    "priceUSD": 9453,
+    "url": "https://www.flyvictor.com/en-us/flights/"
+  }
+}

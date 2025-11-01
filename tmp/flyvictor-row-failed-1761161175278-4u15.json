@@ -1,0 +1,16 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\flyvictor.ts:367:28\n\n  364 try {\n  365   await withConcurrency(batch, 6, async (r) => {\n  366     try {\n→ 367       await prisma.leg.upsert({\n              where: {\n                id: \"2a3c19d497a7418c\"\n              },\n              update: {\n                operator: \"flyvictor\",\n                fromIata: \"MDD\",\n                toIata: \"DAL\",\n                departAt: \"2025-10-22T00:00:00.000Z\",\n                priceUSD: 3476,\n                url: \"https://www.flyvictor.com/en-us/flights/\"\n              },\n              create: {\n                id: \"2a3c19d497a7418c\",\n                operator: \"flyvictor\",\n                fromIata: \"MDD\",\n                toIata: \"DAL\",\n                departAt: \"2025-10-22T00:00:00.000Z\",\n                priceUSD: 3476,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n            +   fromName: String\n              }\n            })\n\nArgument `fromName` is missing.",
+    "meta": null
+  },
+  "row": {
+    "id": "2a3c19d497a7418c",
+    "operator": "flyvictor",
+    "fromIata": "MDD",
+    "toIata": "DAL",
+    "departAt": "2025-10-22T00:00:00.000Z",
+    "priceUSD": 3476,
+    "url": "https://www.flyvictor.com/en-us/flights/"
+  }
+}

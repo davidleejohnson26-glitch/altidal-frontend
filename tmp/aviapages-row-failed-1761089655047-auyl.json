@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"a88edb2cc7f635d7\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"TFS\",\n                toIata: \"MLH\",\n                fromIcao: \"GCTS\",\n                toIcao: \"LFSB\",\n                fromCity: \"Reina Sofia\",\n                toCity: \"EuroAirport Basel Mulhouse Freiburg\",\n                fromName: \"Reina Sofia\",\n                toName: \"EuroAirport Basel Mulhouse Freiburg\",\n                departAt: \"2025-11-10T15:05:00.000Z\",\n                acType: \"Challenger 300\",\n                acClass: \"Super Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"10-11-2025 15:05 → 14-11-2025 15:05 | Price on Request\"\n              },\n              create: {\n                id: \"a88edb2cc7f635d7\",\n                operator: \"aviapages\",\n                fromIata: \"TFS\",\n                toIata: \"MLH\",\n                fromIcao: \"GCTS\",\n                toIcao: \"LFSB\",\n                fromCity: \"Reina Sofia\",\n                toCity: \"EuroAirport Basel Mulhouse Freiburg\",\n                fromName: \"Reina Sofia\",\n                toName: \"EuroAirport Basel Mulhouse Freiburg\",\n                departAt: \"2025-11-10T15:05:00.000Z\",\n                acType: \"Challenger 300\",\n                acClass: \"Super Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"10-11-2025 15:05 → 14-11-2025 15:05 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "a88edb2cc7f635d7",
+    "operator": "aviapages",
+    "fromIata": "TFS",
+    "toIata": "MLH",
+    "fromIcao": "GCTS",
+    "toIcao": "LFSB",
+    "fromCity": "Reina Sofia",
+    "toCity": "EuroAirport Basel Mulhouse Freiburg",
+    "fromName": "Reina Sofia",
+    "toName": "EuroAirport Basel Mulhouse Freiburg",
+    "departAt": "2025-11-10T15:05:00.000Z",
+    "acType": "Challenger 300",
+    "acClass": "Super Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "10-11-2025 15:05 → 14-11-2025 15:05 | Price on Request"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\flyvictor.ts:370:28\n\n  367 try {\n  368   await withConcurrency(batch, 6, async (r) => {\n  369     try {\n→ 370       await prisma.leg.upsert({\n              where: {\n                id: \"ebf6017326352128\"\n              },\n              update: {\n                operator: \"flyvictor\",\n                fromIata: \"NEW\",\n                toIata: \"SAT\",\n                fromIcao: \"KNEW\",\n                toIcao: \"KSAT\",\n                fromCity: null,\n                toCity: null,\n                fromName: \"NEW\",\n                toName: \"SAT\",\n                departAt: null,\n                acType: \"Gulfstream\",\n                acClass: \"Midsize Jet\",\n                seats: 0,\n                priceUSD: 13604,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n                notes: null\n              },\n              create: {\n                id: \"ebf6017326352128\",\n                operator: \"flyvictor\",\n                fromIata: \"NEW\",\n                toIata: \"SAT\",\n                fromIcao: \"KNEW\",\n                toIcao: \"KSAT\",\n                toCity: null,\n                fromName: \"NEW\",\n                toName: \"SAT\",\n                departAt: null,\n                acType: \"Gulfstream\",\n                acClass: \"Midsize Jet\",\n                seats: 0,\n                priceUSD: 13604,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n                notes: null,\n            +   fromCity: String\n              }\n            })\n\nArgument `fromCity` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "ebf6017326352128",
+    "operator": "flyvictor",
+    "fromIata": "NEW",
+    "toIata": "SAT",
+    "fromIcao": "KNEW",
+    "toIcao": "KSAT",
+    "fromCity": null,
+    "toCity": null,
+    "fromName": "NEW",
+    "toName": "SAT",
+    "departAt": null,
+    "acType": "Gulfstream",
+    "acClass": "Midsize Jet",
+    "seats": 0,
+    "priceUSD": 13604,
+    "url": "https://www.flyvictor.com/en-us/flights/",
+    "notes": null
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"7e4386100cb22171\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"TEB\",\n                toIata: \"AVL\",\n                fromIcao: \"KTEB\",\n                toIcao: \"KAVL\",\n                fromCity: \"Teterboro\",\n                toCity: \"Asheville Regl\",\n                fromName: \"Teterboro\",\n                toName: \"Asheville Regl\",\n                departAt: \"2025-10-21T20:42:00.000Z\",\n                acType: \"Learjet 60XR\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 20:42 → 21-10-2025 22:24 | Price on Request\"\n              },\n              create: {\n                id: \"7e4386100cb22171\",\n                operator: \"aviapages\",\n                fromIata: \"TEB\",\n                toIata: \"AVL\",\n                fromIcao: \"KTEB\",\n                toIcao: \"KAVL\",\n                fromCity: \"Teterboro\",\n                toCity: \"Asheville Regl\",\n                fromName: \"Teterboro\",\n                toName: \"Asheville Regl\",\n                departAt: \"2025-10-21T20:42:00.000Z\",\n                acType: \"Learjet 60XR\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 20:42 → 21-10-2025 22:24 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "7e4386100cb22171",
+    "operator": "aviapages",
+    "fromIata": "TEB",
+    "toIata": "AVL",
+    "fromIcao": "KTEB",
+    "toIcao": "KAVL",
+    "fromCity": "Teterboro",
+    "toCity": "Asheville Regl",
+    "fromName": "Teterboro",
+    "toName": "Asheville Regl",
+    "departAt": "2025-10-21T20:42:00.000Z",
+    "acType": "Learjet 60XR",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "21-10-2025 20:42 → 21-10-2025 22:24 | Price on Request"
+  }
+}

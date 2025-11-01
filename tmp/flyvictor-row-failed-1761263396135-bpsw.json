@@ -1,0 +1,23 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\flyvictor.ts:501:28\n\n  498 try {\n  499   await withConcurrency(batch, 6, async (r) => {\n  500     try {\n→ 501       await prisma.leg.upsert({\n              where: {\n                id: \"d0d665d71a1a3e2f\"\n              },\n              update: {\n                operator: \"flyvictor\",\n                fromIata: \"VNY\",\n                toIata: \"LAX\",\n                fromName: \"VNY\",\n                toName: \"LAX\",\n                fromCity: \"VNY\",\n                toCity: \"LAX\",\n                departAt: null,\n                acType: \"Unknown\",\n                acClass: \"Unknown\",\n                seats: 0,\n                priceUSD: 0,\n                url: \"https://www.flyvictor.com/en-us/flights/\"\n              },\n              create: {\n                id: \"d0d665d71a1a3e2f\",\n                operator: \"flyvictor\",\n                fromIata: \"VNY\",\n                toIata: \"LAX\",\n                fromName: \"VNY\",\n                toName: \"LAX\",\n                fromCity: \"VNY\",\n                toCity: \"LAX\",\n                acType: \"Unknown\",\n                acClass: \"Unknown\",\n                seats: 0,\n                priceUSD: 0,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n            +   departAt: DateTime\n              }\n            })\n\nArgument `departAt` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "d0d665d71a1a3e2f",
+    "operator": "flyvictor",
+    "fromIata": "VNY",
+    "toIata": "LAX",
+    "fromName": "VNY",
+    "toName": "LAX",
+    "fromCity": "VNY",
+    "toCity": "LAX",
+    "departAt": null,
+    "acType": "Unknown",
+    "acClass": "Unknown",
+    "seats": 0,
+    "priceUSD": 0,
+    "url": "https://www.flyvictor.com/en-us/flights/"
+  }
+}

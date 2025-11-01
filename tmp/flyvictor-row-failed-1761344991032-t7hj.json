@@ -1,0 +1,18 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\flyvictor.ts:527:28\n\n  524 try {\n  525   await withConcurrency(batch, 6, async (r) => {\n  526     try {\n→ 527       await prisma.leg.upsert({\n              where: {\n                id: \"9902bb7f8e5254d0\"\n              },\n              update: {\n                operator: \"flyvictor\",\n                fromIata: \"DGO\",\n                toIata: \"GDL\",\n                fromName: \"DGO\",\n                toName: \"GDL\",\n                departAt: \"2025-11-18T00:00:00.000Z\",\n                priceUSD: 3345,\n                url: \"https://www.flyvictor.com/en-us/flights/\"\n              },\n              create: {\n                id: \"9902bb7f8e5254d0\",\n                operator: \"flyvictor\",\n                fromIata: \"DGO\",\n                toIata: \"GDL\",\n                fromName: \"DGO\",\n                toName: \"GDL\",\n                departAt: \"2025-11-18T00:00:00.000Z\",\n                priceUSD: 3345,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n            +   fromCity: String\n              }\n            })\n\nArgument `fromCity` is missing.",
+    "meta": null
+  },
+  "row": {
+    "id": "9902bb7f8e5254d0",
+    "operator": "flyvictor",
+    "fromIata": "DGO",
+    "toIata": "GDL",
+    "fromName": "DGO",
+    "toName": "GDL",
+    "departAt": "2025-11-18T00:00:00.000Z",
+    "priceUSD": 3345,
+    "url": "https://www.flyvictor.com/en-us/flights/"
+  }
+}

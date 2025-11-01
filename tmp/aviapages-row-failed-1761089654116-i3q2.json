@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"2fafb4cf3d685c80\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"CVG\",\n                toIata: \"PIT\",\n                fromIcao: \"KCVG\",\n                toIcao: \"KPIT\",\n                fromCity: \"Cincinnati/Northern Kentucky Intl\",\n                toCity: \"Pittsburgh Intl\",\n                fromName: \"Cincinnati/Northern Kentucky Intl\",\n                toName: \"Pittsburgh Intl\",\n                departAt: \"2025-10-20T00:00:00.000Z\",\n                acType: \"Hawker 900XP\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"20-10-2025 00:00 → 21-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"2fafb4cf3d685c80\",\n                operator: \"aviapages\",\n                fromIata: \"CVG\",\n                toIata: \"PIT\",\n                fromIcao: \"KCVG\",\n                toIcao: \"KPIT\",\n                fromCity: \"Cincinnati/Northern Kentucky Intl\",\n                toCity: \"Pittsburgh Intl\",\n                fromName: \"Cincinnati/Northern Kentucky Intl\",\n                toName: \"Pittsburgh Intl\",\n                departAt: \"2025-10-20T00:00:00.000Z\",\n                acType: \"Hawker 900XP\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"20-10-2025 00:00 → 21-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "2fafb4cf3d685c80",
+    "operator": "aviapages",
+    "fromIata": "CVG",
+    "toIata": "PIT",
+    "fromIcao": "KCVG",
+    "toIcao": "KPIT",
+    "fromCity": "Cincinnati/Northern Kentucky Intl",
+    "toCity": "Pittsburgh Intl",
+    "fromName": "Cincinnati/Northern Kentucky Intl",
+    "toName": "Pittsburgh Intl",
+    "departAt": "2025-10-20T00:00:00.000Z",
+    "acType": "Hawker 900XP",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "20-10-2025 00:00 → 21-10-2025 00:00 | Price on Request"
+  }
+}

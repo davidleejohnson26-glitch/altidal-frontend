@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"33ccc301717cfe4b\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"DAL\",\n                toIata: \"LNK\",\n                fromIcao: \"KDAL\",\n                toIcao: \"KLNK\",\n                fromCity: \"Dallas Love\",\n                toCity: \"Lincoln\",\n                fromName: \"Dallas Love\",\n                toName: \"Lincoln\",\n                departAt: \"2025-11-21T00:00:00.000Z\",\n                acType: \"Cessna Citation Excel\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 5000,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-11-2025 00:00 → 21-11-2025 01:42\"\n              },\n              create: {\n                id: \"33ccc301717cfe4b\",\n                operator: \"aviapages\",\n                fromIata: \"DAL\",\n                toIata: \"LNK\",\n                fromIcao: \"KDAL\",\n                toIcao: \"KLNK\",\n                fromCity: \"Dallas Love\",\n                toCity: \"Lincoln\",\n                fromName: \"Dallas Love\",\n                toName: \"Lincoln\",\n                departAt: \"2025-11-21T00:00:00.000Z\",\n                acType: \"Cessna Citation Excel\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 5000,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-11-2025 00:00 → 21-11-2025 01:42\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "33ccc301717cfe4b",
+    "operator": "aviapages",
+    "fromIata": "DAL",
+    "toIata": "LNK",
+    "fromIcao": "KDAL",
+    "toIcao": "KLNK",
+    "fromCity": "Dallas Love",
+    "toCity": "Lincoln",
+    "fromName": "Dallas Love",
+    "toName": "Lincoln",
+    "departAt": "2025-11-21T00:00:00.000Z",
+    "acType": "Cessna Citation Excel",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 5000,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "21-11-2025 00:00 → 21-11-2025 01:42"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"fa1756349ce90b10\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"BQH\",\n                toIata: \"LTN\",\n                fromIcao: \"EGKB\",\n                toIcao: \"EGGW\",\n                fromCity: \"London Biggin Hill Airport\",\n                toCity: \"London Luton Airport\",\n                fromName: \"London Biggin Hill Airport\",\n                toName: \"London Luton Airport\",\n                departAt: \"2025-11-12T15:45:00.000Z\",\n                acType: \"Cessna Citation CJ1\",\n                acClass: \"Light Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"12-11-2025 15:45 → 12-11-2025 16:10 | Price on Request\"\n              },\n              create: {\n                id: \"fa1756349ce90b10\",\n                operator: \"aviapages\",\n                fromIata: \"BQH\",\n                toIata: \"LTN\",\n                fromIcao: \"EGKB\",\n                toIcao: \"EGGW\",\n                fromCity: \"London Biggin Hill Airport\",\n                toCity: \"London Luton Airport\",\n                fromName: \"London Biggin Hill Airport\",\n                toName: \"London Luton Airport\",\n                departAt: \"2025-11-12T15:45:00.000Z\",\n                acType: \"Cessna Citation CJ1\",\n                acClass: \"Light Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"12-11-2025 15:45 → 12-11-2025 16:10 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "fa1756349ce90b10",
+    "operator": "aviapages",
+    "fromIata": "BQH",
+    "toIata": "LTN",
+    "fromIcao": "EGKB",
+    "toIcao": "EGGW",
+    "fromCity": "London Biggin Hill Airport",
+    "toCity": "London Luton Airport",
+    "fromName": "London Biggin Hill Airport",
+    "toName": "London Luton Airport",
+    "departAt": "2025-11-12T15:45:00.000Z",
+    "acType": "Cessna Citation CJ1",
+    "acClass": "Light Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "12-11-2025 15:45 → 12-11-2025 16:10 | Price on Request"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"107277c5ae4ba8a7\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"DUB\",\n                toIata: \"KJK\",\n                fromIcao: \"EIDW\",\n                toIcao: \"EBKT\",\n                fromCity: \"Dublin Intl\",\n                toCity: \"Kortrijk-Wevelgem\",\n                fromName: \"Dublin Intl\",\n                toName: \"Kortrijk-Wevelgem\",\n                departAt: \"2025-10-23T00:00:00.000Z\",\n                acType: \"Cessna Citation CJ4\",\n                acClass: \"Light Jet\",\n                seats: null,\n                priceUSD: 4475,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-10-2025 00:00 → 23-10-2025 00:00\"\n              },\n              create: {\n                id: \"107277c5ae4ba8a7\",\n                operator: \"aviapages\",\n                fromIata: \"DUB\",\n                toIata: \"KJK\",\n                fromIcao: \"EIDW\",\n                toIcao: \"EBKT\",\n                fromCity: \"Dublin Intl\",\n                toCity: \"Kortrijk-Wevelgem\",\n                fromName: \"Dublin Intl\",\n                toName: \"Kortrijk-Wevelgem\",\n                departAt: \"2025-10-23T00:00:00.000Z\",\n                acType: \"Cessna Citation CJ4\",\n                acClass: \"Light Jet\",\n                priceUSD: 4475,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-10-2025 00:00 → 23-10-2025 00:00\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "107277c5ae4ba8a7",
+    "operator": "aviapages",
+    "fromIata": "DUB",
+    "toIata": "KJK",
+    "fromIcao": "EIDW",
+    "toIcao": "EBKT",
+    "fromCity": "Dublin Intl",
+    "toCity": "Kortrijk-Wevelgem",
+    "fromName": "Dublin Intl",
+    "toName": "Kortrijk-Wevelgem",
+    "departAt": "2025-10-23T00:00:00.000Z",
+    "acType": "Cessna Citation CJ4",
+    "acClass": "Light Jet",
+    "seats": null,
+    "priceUSD": 4475,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "23-10-2025 00:00 → 23-10-2025 00:00"
+  }
+}

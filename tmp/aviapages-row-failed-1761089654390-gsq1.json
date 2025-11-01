@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"daa07b70fa23d9ed\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"DSI\",\n                toIata: \"OMA\",\n                fromIcao: \"KDTS\",\n                toIcao: \"KOMA\",\n                fromCity: \"Destin Ft Walton Beach\",\n                toCity: \"Eppley Airfield\",\n                fromName: \"Destin Ft Walton Beach\",\n                toName: \"Eppley Airfield\",\n                departAt: \"2025-10-31T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 8000,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"31-10-2025 00:00 → 31-10-2025 00:00\"\n              },\n              create: {\n                id: \"daa07b70fa23d9ed\",\n                operator: \"aviapages\",\n                fromIata: \"DSI\",\n                toIata: \"OMA\",\n                fromIcao: \"KDTS\",\n                toIcao: \"KOMA\",\n                fromCity: \"Destin Ft Walton Beach\",\n                toCity: \"Eppley Airfield\",\n                fromName: \"Destin Ft Walton Beach\",\n                toName: \"Eppley Airfield\",\n                departAt: \"2025-10-31T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 8000,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"31-10-2025 00:00 → 31-10-2025 00:00\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "daa07b70fa23d9ed",
+    "operator": "aviapages",
+    "fromIata": "DSI",
+    "toIata": "OMA",
+    "fromIcao": "KDTS",
+    "toIcao": "KOMA",
+    "fromCity": "Destin Ft Walton Beach",
+    "toCity": "Eppley Airfield",
+    "fromName": "Destin Ft Walton Beach",
+    "toName": "Eppley Airfield",
+    "departAt": "2025-10-31T00:00:00.000Z",
+    "acType": "Cessna Citation Ultra",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 8000,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "31-10-2025 00:00 → 31-10-2025 00:00"
+  }
+}

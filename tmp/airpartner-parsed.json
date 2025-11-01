@@ -1,46 +1,136 @@
 [
   {
-    "id": "airpartner:el-405901610:TEB-GRU:2025-10-06T00:00:00.000Z",
+    "id": "airpartner:el-405921281:TEB-LYS:2025-10-13T00:00:00.000Z",
     "operator": "airpartner",
     "fromIata": "TEB",
-    "toIata": "GRU",
-    "departureUtc": "2025-10-06T00:00:00.000Z",
+    "toIata": "LYS",
+    "departureUtc": "2025-10-13T00:00:00.000Z",
     "arrivalUtc": null,
-    "aircraft": "Gulfstream G-650ER",
+    "aircraft": "Global Express",
     "price": null,
     "url": "https://www.airpartner.com/en-us/private-jets/empty-legs/",
     "sourceMeta": {
       "method": "iframe-settings",
       "currency": "USD",
-      "flightTime": "08:55",
+      "flightTime": "07:06",
       "startText": "Teterboro, US (TEB)",
-      "endText": "Guarulhos Intl, BR (GRU)"
+      "endText": "Lyon Saint Exupery, FR (LYS)"
     }
   },
   {
-    "id": "airpartner:el-405906615:TEB-CHA:2025-10-07T00:00:00.000Z",
+    "id": "airpartner:el-405921326:TEB-DAL:2025-10-13T00:00:00.000Z",
     "operator": "airpartner",
     "fromIata": "TEB",
-    "toIata": "CHA",
-    "departureUtc": "2025-10-07T00:00:00.000Z",
+    "toIata": "DAL",
+    "departureUtc": "2025-10-13T00:00:00.000Z",
     "arrivalUtc": null,
-    "aircraft": "Gulfstream G-V",
+    "aircraft": "Falcon 2000EX",
+    "price": 24200,
+    "url": "https://www.airpartner.com/en-us/private-jets/empty-legs/",
+    "sourceMeta": {
+      "method": "iframe-settings",
+      "currency": "USD",
+      "flightTime": "03:26",
+      "startText": "Teterboro, US (TEB)",
+      "endText": "Dallas Love Field, US (DAL)"
+    }
+  },
+  {
+    "id": "airpartner:el-405920558:TEB-FAB:2025-10-14T00:00:00.000Z",
+    "operator": "airpartner",
+    "fromIata": "TEB",
+    "toIata": "FAB",
+    "departureUtc": "2025-10-14T00:00:00.000Z",
+    "arrivalUtc": null,
+    "aircraft": "Gulfstream G-IV",
+    "price": 55000,
+    "url": "https://www.airpartner.com/en-us/private-jets/empty-legs/",
+    "sourceMeta": {
+      "method": "iframe-settings",
+      "currency": "USD",
+      "flightTime": "06:24",
+      "startText": "Teterboro, US (TEB)",
+      "endText": "Farnborough, GB (FAB)"
+    }
+  },
+  {
+    "id": "airpartner:el-405922985:TEB-BED:2025-10-14T00:00:00.000Z",
+    "operator": "airpartner",
+    "fromIata": "TEB",
+    "toIata": "BED",
+    "departureUtc": "2025-10-14T00:00:00.000Z",
+    "arrivalUtc": null,
+    "aircraft": "Citation X",
     "price": null,
     "url": "https://www.airpartner.com/en-us/private-jets/empty-legs/",
     "sourceMeta": {
       "method": "iframe-settings",
       "currency": "USD",
-      "flightTime": "02:12",
+      "flightTime": "00:48",
       "startText": "Teterboro, US (TEB)",
-      "endText": "Lovell Field, US (CHA)"
+      "endText": "Laurence G Hanscom Fld, US (BED)"
     }
   },
   {
-    "id": "airpartner:el-405887142:TEB-BTV:2025-10-07T00:00:00.000Z",
+    "id": "airpartner:el-405922040:TEB-HYA:2025-10-14T00:00:00.000Z",
     "operator": "airpartner",
     "fromIata": "TEB",
-    "toIata": "BTV",
-    "departureUtc": "2025-10-07T00:00:00.000Z",
+    "toIata": "HYA",
+    "departureUtc": "2025-10-14T00:00:00.000Z",
+    "arrivalUtc": null,
+    "aircraft": "Hawker 400XP",
+    "price": null,
+    "url": "https://www.airpartner.com/en-us/private-jets/empty-legs/",
+    "sourceMeta": {
+      "method": "iframe-settings",
+      "currency": "USD",
+      "flightTime": "01:30",
+      "startText": "Teterboro, US (TEB)",
+      "endText": "Cape Cod Gateway, US (HYA)"
+    }
+  },
+  {
+    "id": "airpartner:el-405918571:TEB-HYA:2025-10-14T00:00:00.000Z",
+    "operator": "airpartner",
+    "fromIata": "TEB",
+    "toIata": "HYA",
+    "departureUtc": "2025-10-14T00:00:00.000Z",
+    "arrivalUtc": null,
+    "aircraft": "Hawker 400XP",
+    "price": null,
+    "url": "https://www.airpartner.com/en-us/private-jets/empty-legs/",
+    "sourceMeta": {
+      "method": "iframe-settings",
+      "currency": "USD",
+      "flightTime": "01:30",
+      "startText": "Teterboro, US (TEB)",
+      "endText": "Cape Cod Gateway, US (HYA)"
+    }
+  },
+  {
+    "id": "airpartner:el-405918028:TEB-PGA:2025-10-15T00:00:00.000Z",
+    "operator": "airpartner",
+    "fromIata": "TEB",
+    "toIata": "PGA",
+    "departureUtc": "2025-10-15T00:00:00.000Z",
+    "arrivalUtc": null,
+    "aircraft": "Citation X",
+    "price": 22000,
+    "url": "https://www.airpartner.com/en-us/private-jets/empty-legs/",
+    "sourceMeta": {
+      "method": "iframe-settings",
+      "currency": "USD",
+      "flightTime": "04:24",
+      "startText": "Teterboro, US (TEB)",
+      "endText": "Page Municipal Airport, US (PGA)"
+    }
+  },
+  {
+    "id": "airpartner:el-405912543:TEB-LCI:2025-10-15T00:00:00.000Z",
+    "operator": "airpartner",
+    "fromIata": "TEB",
+    "toIata": "LCI",
+    "departureUtc": "2025-10-15T00:00:00.000Z",
     "arrivalUtc": null,
     "aircraft": "Learjet 60",
     "price": null,
@@ -48,135 +138,27 @@
     "sourceMeta": {
       "method": "iframe-settings",
       "currency": "USD",
-      "flightTime": "00:54",
+      "flightTime": "00:50",
       "startText": "Teterboro, US (TEB)",
-      "endText": "Burlington Intl, US (BTV)"
+      "endText": "Laconia Muni, US (LCI)"
     }
   },
   {
-    "id": "airpartner:el-405908821:TEB-ENW:2025-10-07T00:00:00.000Z",
+    "id": "airpartner:el-405913813:TEB-GVA:2025-10-15T00:00:00.000Z",
     "operator": "airpartner",
     "fromIata": "TEB",
-    "toIata": "ENW",
-    "departureUtc": "2025-10-07T00:00:00.000Z",
+    "toIata": "GVA",
+    "departureUtc": "2025-10-15T00:00:00.000Z",
     "arrivalUtc": null,
-    "aircraft": "Hawker 800XP",
+    "aircraft": "Global Express XRS",
     "price": null,
     "url": "https://www.airpartner.com/en-us/private-jets/empty-legs/",
     "sourceMeta": {
       "method": "iframe-settings",
       "currency": "USD",
-      "flightTime": "02:02",
+      "flightTime": "07:07",
       "startText": "Teterboro, US (TEB)",
-      "endText": "Kenosha Regional, US (ENW)"
-    }
-  },
-  {
-    "id": "airpartner:el-405908823:TEB-ENW:2025-10-07T00:00:00.000Z",
-    "operator": "airpartner",
-    "fromIata": "TEB",
-    "toIata": "ENW",
-    "departureUtc": "2025-10-07T00:00:00.000Z",
-    "arrivalUtc": null,
-    "aircraft": "Hawker 800XP",
-    "price": null,
-    "url": "https://www.airpartner.com/en-us/private-jets/empty-legs/",
-    "sourceMeta": {
-      "method": "iframe-settings",
-      "currency": "USD",
-      "flightTime": "02:02",
-      "startText": "Teterboro, US (TEB)",
-      "endText": "Kenosha Regional, US (ENW)"
-    }
-  },
-  {
-    "id": "airpartner:el-405892174:TEB-BOS:2025-10-07T00:00:00.000Z",
-    "operator": "airpartner",
-    "fromIata": "TEB",
-    "toIata": "BOS",
-    "departureUtc": "2025-10-07T00:00:00.000Z",
-    "arrivalUtc": null,
-    "aircraft": "Gulfstream G-200",
-    "price": 7600,
-    "url": "https://www.airpartner.com/en-us/private-jets/empty-legs/",
-    "sourceMeta": {
-      "method": "iframe-settings",
-      "currency": "USD",
-      "flightTime": "00:44",
-      "startText": "Teterboro, US (TEB)",
-      "endText": "Logan Intl, US (BOS)"
-    }
-  },
-  {
-    "id": "airpartner:el-405906827:TEB-INT:2025-10-07T00:00:00.000Z",
-    "operator": "airpartner",
-    "fromIata": "TEB",
-    "toIata": "INT",
-    "departureUtc": "2025-10-07T00:00:00.000Z",
-    "arrivalUtc": null,
-    "aircraft": "Learjet 60",
-    "price": null,
-    "url": "https://www.airpartner.com/en-us/private-jets/empty-legs/",
-    "sourceMeta": {
-      "method": "iframe-settings",
-      "currency": "USD",
-      "flightTime": "01:24",
-      "startText": "Teterboro, US (TEB)",
-      "endText": "Smith Reynolds, US (INT)"
-    }
-  },
-  {
-    "id": "airpartner:el-405900633:TEB-FOK:2025-10-07T00:00:00.000Z",
-    "operator": "airpartner",
-    "fromIata": "TEB",
-    "toIata": "FOK",
-    "departureUtc": "2025-10-07T00:00:00.000Z",
-    "arrivalUtc": null,
-    "aircraft": "Challenger 350",
-    "price": 12450,
-    "url": "https://www.airpartner.com/en-us/private-jets/empty-legs/",
-    "sourceMeta": {
-      "method": "iframe-settings",
-      "currency": "USD",
-      "flightTime": "00:36",
-      "startText": "Teterboro, US (TEB)",
-      "endText": "Francis S Gabreski, US (FOK)"
-    }
-  },
-  {
-    "id": "airpartner:el-405906019:TEB-PSF:2025-10-07T00:00:00.000Z",
-    "operator": "airpartner",
-    "fromIata": "TEB",
-    "toIata": "PSF",
-    "departureUtc": "2025-10-07T00:00:00.000Z",
-    "arrivalUtc": null,
-    "aircraft": "Gulfstream G-V",
-    "price": null,
-    "url": "https://www.airpartner.com/en-us/private-jets/empty-legs/",
-    "sourceMeta": {
-      "method": "iframe-settings",
-      "currency": "USD",
-      "flightTime": "00:35",
-      "startText": "Teterboro, US (TEB)",
-      "endText": "Pittsfield Muni, US (PSF)"
-    }
-  },
-  {
-    "id": "airpartner:el-405908294:TEB-FOK:2025-10-08T00:00:00.000Z",
-    "operator": "airpartner",
-    "fromIata": "TEB",
-    "toIata": "FOK",
-    "departureUtc": "2025-10-08T00:00:00.000Z",
-    "arrivalUtc": null,
-    "aircraft": "Gulfstream G-V",
-    "price": null,
-    "url": "https://www.airpartner.com/en-us/private-jets/empty-legs/",
-    "sourceMeta": {
-      "method": "iframe-settings",
-      "currency": "USD",
-      "flightTime": "00:30",
-      "startText": "Teterboro, US (TEB)",
-      "endText": "Francis S Gabreski, US (FOK)"
+      "endText": "Geneva, CH (GVA)"
     }
   }
 ]

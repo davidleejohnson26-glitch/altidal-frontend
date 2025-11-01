@@ -1,0 +1,18 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\flyvictor.ts:527:28\n\n  524 try {\n  525   await withConcurrency(batch, 6, async (r) => {\n  526     try {\n→ 527       await prisma.leg.upsert({\n              where: {\n                id: \"87ca80888eb7af5c\"\n              },\n              update: {\n                operator: \"flyvictor\",\n                fromIata: \"XSP\",\n                toIata: \"DWC\",\n                fromName: \"XSP\",\n                toName: \"DWC\",\n                departAt: \"2025-10-26T00:00:00.000Z\",\n                priceUSD: 116467,\n                url: \"https://www.flyvictor.com/en-us/flights/\"\n              },\n              create: {\n                id: \"87ca80888eb7af5c\",\n                operator: \"flyvictor\",\n                fromIata: \"XSP\",\n                toIata: \"DWC\",\n                fromName: \"XSP\",\n                toName: \"DWC\",\n                departAt: \"2025-10-26T00:00:00.000Z\",\n                priceUSD: 116467,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n            +   fromCity: String\n              }\n            })\n\nArgument `fromCity` is missing.",
+    "meta": null
+  },
+  "row": {
+    "id": "87ca80888eb7af5c",
+    "operator": "flyvictor",
+    "fromIata": "XSP",
+    "toIata": "DWC",
+    "fromName": "XSP",
+    "toName": "DWC",
+    "departAt": "2025-10-26T00:00:00.000Z",
+    "priceUSD": 116467,
+    "url": "https://www.flyvictor.com/en-us/flights/"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"a5c367c843fe43c7\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"OAK\",\n                toIata: \"SJC\",\n                fromIcao: \"KOAK\",\n                toIcao: \"KSJC\",\n                fromCity: \"Metropolitan Oakland Intl\",\n                toCity: \"Mineta San Jose Intl\",\n                fromName: \"Metropolitan Oakland Intl\",\n                toName: \"Mineta San Jose Intl\",\n                departAt: \"2025-10-24T00:00:00.000Z\",\n                acType: \"Cessna Citation X\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"24-10-2025 00:00 → 26-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"a5c367c843fe43c7\",\n                operator: \"aviapages\",\n                fromIata: \"OAK\",\n                toIata: \"SJC\",\n                fromIcao: \"KOAK\",\n                toIcao: \"KSJC\",\n                fromCity: \"Metropolitan Oakland Intl\",\n                toCity: \"Mineta San Jose Intl\",\n                fromName: \"Metropolitan Oakland Intl\",\n                toName: \"Mineta San Jose Intl\",\n                departAt: \"2025-10-24T00:00:00.000Z\",\n                acType: \"Cessna Citation X\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"24-10-2025 00:00 → 26-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "a5c367c843fe43c7",
+    "operator": "aviapages",
+    "fromIata": "OAK",
+    "toIata": "SJC",
+    "fromIcao": "KOAK",
+    "toIcao": "KSJC",
+    "fromCity": "Metropolitan Oakland Intl",
+    "toCity": "Mineta San Jose Intl",
+    "fromName": "Metropolitan Oakland Intl",
+    "toName": "Mineta San Jose Intl",
+    "departAt": "2025-10-24T00:00:00.000Z",
+    "acType": "Cessna Citation X",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "24-10-2025 00:00 → 26-10-2025 00:00 | Price on Request"
+  }
+}

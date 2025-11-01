@@ -1,0 +1,18 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\flyvictor.ts:370:28\n\n  367 try {\n  368   await withConcurrency(batch, 6, async (r) => {\n  369     try {\n→ 370       await prisma.leg.upsert({\n              where: {\n                id: \"03fb09dc22bffbce\"\n              },\n              update: {\n                operator: \"flyvictor\",\n                fromIata: \"MAD\",\n                toIata: \"OXF\",\n                fromName: \"MAD\",\n                toName: \"OXF\",\n                departAt: null,\n                priceUSD: 0,\n                url: \"https://www.flyvictor.com/en-us/flights/\"\n              },\n              create: {\n                id: \"03fb09dc22bffbce\",\n                operator: \"flyvictor\",\n                fromIata: \"MAD\",\n                toIata: \"OXF\",\n                fromName: \"MAD\",\n                toName: \"OXF\",\n                departAt: null,\n                priceUSD: 0,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n            +   fromCity: String\n              }\n            })\n\nArgument `fromCity` is missing.",
+    "meta": null
+  },
+  "row": {
+    "id": "03fb09dc22bffbce",
+    "operator": "flyvictor",
+    "fromIata": "MAD",
+    "toIata": "OXF",
+    "fromName": "MAD",
+    "toName": "OXF",
+    "departAt": null,
+    "priceUSD": 0,
+    "url": "https://www.flyvictor.com/en-us/flights/"
+  }
+}

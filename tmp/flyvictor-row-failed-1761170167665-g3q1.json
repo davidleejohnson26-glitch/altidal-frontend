@@ -1,0 +1,22 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\flyvictor.ts:384:28\n\n  381 try {\n  382   await withConcurrency(batch, 6, async (r) => {\n  383     try {\n→ 384       await prisma.leg.upsert({\n              where: {\n                id: \"b366a3cb1823576c\"\n              },\n              update: {\n                operator: \"flyvictor\",\n                fromIata: \"DAL\",\n                toIata: \"TEB\",\n                fromName: \"DAL\",\n                toName: \"TEB\",\n                fromCity: \"DAL\",\n                toCity: \"TEB\",\n                departAt: null,\n                acType: \"Unknown\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://www.flyvictor.com/en-us/flights/\"\n              },\n              create: {\n                id: \"b366a3cb1823576c\",\n                operator: \"flyvictor\",\n                fromIata: \"DAL\",\n                toIata: \"TEB\",\n                fromName: \"DAL\",\n                toName: \"TEB\",\n                fromCity: \"DAL\",\n                toCity: \"TEB\",\n                departAt: null,\n                acType: \"Unknown\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` is missing.",
+    "meta": null
+  },
+  "row": {
+    "id": "b366a3cb1823576c",
+    "operator": "flyvictor",
+    "fromIata": "DAL",
+    "toIata": "TEB",
+    "fromName": "DAL",
+    "toName": "TEB",
+    "fromCity": "DAL",
+    "toCity": "TEB",
+    "departAt": null,
+    "acType": "Unknown",
+    "acClass": "Unknown",
+    "priceUSD": 0,
+    "url": "https://www.flyvictor.com/en-us/flights/"
+  }
+}

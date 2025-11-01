@@ -1,0 +1,18 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\flyvictor.ts:527:28\n\n  524 try {\n  525   await withConcurrency(batch, 6, async (r) => {\n  526     try {\n→ 527       await prisma.leg.upsert({\n              where: {\n                id: \"956274021f82fb79\"\n              },\n              update: {\n                operator: \"flyvictor\",\n                fromIata: \"NCL\",\n                toIata: \"AMS\",\n                fromName: \"NCL\",\n                toName: \"AMS\",\n                departAt: \"2025-11-20T00:00:00.000Z\",\n                priceUSD: 3713,\n                url: \"https://www.flyvictor.com/en-us/flights/\"\n              },\n              create: {\n                id: \"956274021f82fb79\",\n                operator: \"flyvictor\",\n                fromIata: \"NCL\",\n                toIata: \"AMS\",\n                fromName: \"NCL\",\n                toName: \"AMS\",\n                departAt: \"2025-11-20T00:00:00.000Z\",\n                priceUSD: 3713,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n            +   fromCity: String\n              }\n            })\n\nArgument `fromCity` is missing.",
+    "meta": null
+  },
+  "row": {
+    "id": "956274021f82fb79",
+    "operator": "flyvictor",
+    "fromIata": "NCL",
+    "toIata": "AMS",
+    "fromName": "NCL",
+    "toName": "AMS",
+    "departAt": "2025-11-20T00:00:00.000Z",
+    "priceUSD": 3713,
+    "url": "https://www.flyvictor.com/en-us/flights/"
+  }
+}

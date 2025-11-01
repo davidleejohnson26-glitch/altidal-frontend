@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"e45ce495d5f08d01\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"EWR\",\n                toIata: \"CSV\",\n                fromIcao: \"KEWR\",\n                toIcao: \"KCSV\",\n                fromCity: \"Newark Liberty Intl\",\n                toCity: \"Crossville Memorial Airport-Whitson Field\",\n                fromName: \"Newark Liberty Intl\",\n                toName: \"Crossville Memorial Airport-Whitson Field\",\n                departAt: \"2025-10-26T00:00:00.000Z\",\n                acType: \"Cessna Citation Excel\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 5000,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-10-2025 00:00 → 26-10-2025 02:06\"\n              },\n              create: {\n                id: \"e45ce495d5f08d01\",\n                operator: \"aviapages\",\n                fromIata: \"EWR\",\n                toIata: \"CSV\",\n                fromIcao: \"KEWR\",\n                toIcao: \"KCSV\",\n                fromCity: \"Newark Liberty Intl\",\n                toCity: \"Crossville Memorial Airport-Whitson Field\",\n                fromName: \"Newark Liberty Intl\",\n                toName: \"Crossville Memorial Airport-Whitson Field\",\n                departAt: \"2025-10-26T00:00:00.000Z\",\n                acType: \"Cessna Citation Excel\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 5000,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-10-2025 00:00 → 26-10-2025 02:06\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "e45ce495d5f08d01",
+    "operator": "aviapages",
+    "fromIata": "EWR",
+    "toIata": "CSV",
+    "fromIcao": "KEWR",
+    "toIcao": "KCSV",
+    "fromCity": "Newark Liberty Intl",
+    "toCity": "Crossville Memorial Airport-Whitson Field",
+    "fromName": "Newark Liberty Intl",
+    "toName": "Crossville Memorial Airport-Whitson Field",
+    "departAt": "2025-10-26T00:00:00.000Z",
+    "acType": "Cessna Citation Excel",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 5000,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "26-10-2025 00:00 → 26-10-2025 02:06"
+  }
+}

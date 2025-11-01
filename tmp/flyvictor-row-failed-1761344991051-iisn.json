@@ -1,0 +1,18 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\flyvictor.ts:527:28\n\n  524 try {\n  525   await withConcurrency(batch, 6, async (r) => {\n  526     try {\n→ 527       await prisma.leg.upsert({\n              where: {\n                id: \"7014f7546abd4a34\"\n              },\n              update: {\n                operator: \"flyvictor\",\n                fromIata: \"BOI\",\n                toIata: \"COE\",\n                fromName: \"BOI\",\n                toName: \"COE\",\n                departAt: \"2025-11-19T00:00:00.000Z\",\n                priceUSD: 3955,\n                url: \"https://www.flyvictor.com/en-us/flights/\"\n              },\n              create: {\n                id: \"7014f7546abd4a34\",\n                operator: \"flyvictor\",\n                fromIata: \"BOI\",\n                toIata: \"COE\",\n                fromName: \"BOI\",\n                toName: \"COE\",\n                departAt: \"2025-11-19T00:00:00.000Z\",\n                priceUSD: 3955,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n            +   fromCity: String\n              }\n            })\n\nArgument `fromCity` is missing.",
+    "meta": null
+  },
+  "row": {
+    "id": "7014f7546abd4a34",
+    "operator": "flyvictor",
+    "fromIata": "BOI",
+    "toIata": "COE",
+    "fromName": "BOI",
+    "toName": "COE",
+    "departAt": "2025-11-19T00:00:00.000Z",
+    "priceUSD": 3955,
+    "url": "https://www.flyvictor.com/en-us/flights/"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"36be2b160d6a4378\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"SIR\",\n                toIata: \"VIE\",\n                fromIcao: \"LSGS\",\n                toIcao: \"LOWW\",\n                fromCity: \"Sion\",\n                toCity: \"Schwechat\",\n                fromName: \"Sion\",\n                toName: \"Schwechat\",\n                departAt: \"2025-12-23T11:25:00.000Z\",\n                acType: \"Challenger 605\",\n                acClass: \"Heavy Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-12-2025 11:25 → 23-12-2025 23:59 | Price on Request\"\n              },\n              create: {\n                id: \"36be2b160d6a4378\",\n                operator: \"aviapages\",\n                fromIata: \"SIR\",\n                toIata: \"VIE\",\n                fromIcao: \"LSGS\",\n                toIcao: \"LOWW\",\n                fromCity: \"Sion\",\n                toCity: \"Schwechat\",\n                fromName: \"Sion\",\n                toName: \"Schwechat\",\n                departAt: \"2025-12-23T11:25:00.000Z\",\n                acType: \"Challenger 605\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-12-2025 11:25 → 23-12-2025 23:59 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "36be2b160d6a4378",
+    "operator": "aviapages",
+    "fromIata": "SIR",
+    "toIata": "VIE",
+    "fromIcao": "LSGS",
+    "toIcao": "LOWW",
+    "fromCity": "Sion",
+    "toCity": "Schwechat",
+    "fromName": "Sion",
+    "toName": "Schwechat",
+    "departAt": "2025-12-23T11:25:00.000Z",
+    "acType": "Challenger 605",
+    "acClass": "Heavy Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "23-12-2025 11:25 → 23-12-2025 23:59 | Price on Request"
+  }
+}

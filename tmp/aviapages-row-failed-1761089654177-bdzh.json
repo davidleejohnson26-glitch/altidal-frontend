@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"bf0d0581ef5ee575\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"BPT\",\n                toIata: \"AUS\",\n                fromIcao: \"KBPT\",\n                toIcao: \"KAUS\",\n                fromCity: \"Jack Brooks Regl\",\n                toCity: \"Austin-Bergstrom Intl\",\n                fromName: \"Jack Brooks Regl\",\n                toName: \"Austin-Bergstrom Intl\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 2900,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 21-10-2025 00:00\"\n              },\n              create: {\n                id: \"bf0d0581ef5ee575\",\n                operator: \"aviapages\",\n                fromIata: \"BPT\",\n                toIata: \"AUS\",\n                fromIcao: \"KBPT\",\n                toIcao: \"KAUS\",\n                fromCity: \"Jack Brooks Regl\",\n                toCity: \"Austin-Bergstrom Intl\",\n                fromName: \"Jack Brooks Regl\",\n                toName: \"Austin-Bergstrom Intl\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 2900,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 21-10-2025 00:00\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "bf0d0581ef5ee575",
+    "operator": "aviapages",
+    "fromIata": "BPT",
+    "toIata": "AUS",
+    "fromIcao": "KBPT",
+    "toIcao": "KAUS",
+    "fromCity": "Jack Brooks Regl",
+    "toCity": "Austin-Bergstrom Intl",
+    "fromName": "Jack Brooks Regl",
+    "toName": "Austin-Bergstrom Intl",
+    "departAt": "2025-10-21T00:00:00.000Z",
+    "acType": "Cessna Citation Ultra",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 2900,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "21-10-2025 00:00 → 21-10-2025 00:00"
+  }
+}

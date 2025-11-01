@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"3ae7cc1059c6b5c8\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"FXE\",\n                toIata: \"MDW\",\n                fromIcao: \"KFXE\",\n                toIcao: \"KMDW\",\n                fromCity: \"Fort Lauderdale Executive\",\n                toCity: \"Chicago Midway Intl\",\n                fromName: \"Fort Lauderdale Executive\",\n                toName: \"Chicago Midway Intl\",\n                departAt: \"2025-10-19T00:00:00.000Z\",\n                acType: \"Learjet 45\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"19-10-2025 00:00 → 21-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"3ae7cc1059c6b5c8\",\n                operator: \"aviapages\",\n                fromIata: \"FXE\",\n                toIata: \"MDW\",\n                fromIcao: \"KFXE\",\n                toIcao: \"KMDW\",\n                fromCity: \"Fort Lauderdale Executive\",\n                toCity: \"Chicago Midway Intl\",\n                fromName: \"Fort Lauderdale Executive\",\n                toName: \"Chicago Midway Intl\",\n                departAt: \"2025-10-19T00:00:00.000Z\",\n                acType: \"Learjet 45\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"19-10-2025 00:00 → 21-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "3ae7cc1059c6b5c8",
+    "operator": "aviapages",
+    "fromIata": "FXE",
+    "toIata": "MDW",
+    "fromIcao": "KFXE",
+    "toIcao": "KMDW",
+    "fromCity": "Fort Lauderdale Executive",
+    "toCity": "Chicago Midway Intl",
+    "fromName": "Fort Lauderdale Executive",
+    "toName": "Chicago Midway Intl",
+    "departAt": "2025-10-19T00:00:00.000Z",
+    "acType": "Learjet 45",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "19-10-2025 00:00 → 21-10-2025 00:00 | Price on Request"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"47c17f7c046028fa\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"STL\",\n                toIata: \"LNK\",\n                fromIcao: \"KSTL\",\n                toIcao: \"KLNK\",\n                fromCity: \"Lambert St Louis Intl\",\n                toCity: \"Lincoln\",\n                fromName: \"Lambert St Louis Intl\",\n                toName: \"Lincoln\",\n                departAt: \"2026-02-26T00:00:00.000Z\",\n                acType: \"Cessna Citation Excel\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 5000,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-02-2026 00:00 → 26-02-2026 01:18\"\n              },\n              create: {\n                id: \"47c17f7c046028fa\",\n                operator: \"aviapages\",\n                fromIata: \"STL\",\n                toIata: \"LNK\",\n                fromIcao: \"KSTL\",\n                toIcao: \"KLNK\",\n                fromCity: \"Lambert St Louis Intl\",\n                toCity: \"Lincoln\",\n                fromName: \"Lambert St Louis Intl\",\n                toName: \"Lincoln\",\n                departAt: \"2026-02-26T00:00:00.000Z\",\n                acType: \"Cessna Citation Excel\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 5000,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-02-2026 00:00 → 26-02-2026 01:18\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "47c17f7c046028fa",
+    "operator": "aviapages",
+    "fromIata": "STL",
+    "toIata": "LNK",
+    "fromIcao": "KSTL",
+    "toIcao": "KLNK",
+    "fromCity": "Lambert St Louis Intl",
+    "toCity": "Lincoln",
+    "fromName": "Lambert St Louis Intl",
+    "toName": "Lincoln",
+    "departAt": "2026-02-26T00:00:00.000Z",
+    "acType": "Cessna Citation Excel",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 5000,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "26-02-2026 00:00 → 26-02-2026 01:18"
+  }
+}

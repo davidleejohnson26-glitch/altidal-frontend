@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"969e5571e1e3b8d8\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"TBS\",\n                toIata: \"LBG\",\n                fromIcao: \"UGTB\",\n                toIcao: \"LFPB\",\n                fromCity: \"Tbilisi\",\n                toCity: \"Le Bourget\",\n                fromName: \"Tbilisi\",\n                toName: \"Le Bourget\",\n                departAt: \"2025-10-22T06:00:00.000Z\",\n                acType: \"Embraer Legacy 650\",\n                acClass: \"Unknown\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-10-2025 06:00 → 22-10-2025 10:55 | Price on Request\"\n              },\n              create: {\n                id: \"969e5571e1e3b8d8\",\n                operator: \"aviapages\",\n                fromIata: \"TBS\",\n                toIata: \"LBG\",\n                fromIcao: \"UGTB\",\n                toIcao: \"LFPB\",\n                fromCity: \"Tbilisi\",\n                toCity: \"Le Bourget\",\n                fromName: \"Tbilisi\",\n                toName: \"Le Bourget\",\n                departAt: \"2025-10-22T06:00:00.000Z\",\n                acType: \"Embraer Legacy 650\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-10-2025 06:00 → 22-10-2025 10:55 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "969e5571e1e3b8d8",
+    "operator": "aviapages",
+    "fromIata": "TBS",
+    "toIata": "LBG",
+    "fromIcao": "UGTB",
+    "toIcao": "LFPB",
+    "fromCity": "Tbilisi",
+    "toCity": "Le Bourget",
+    "fromName": "Tbilisi",
+    "toName": "Le Bourget",
+    "departAt": "2025-10-22T06:00:00.000Z",
+    "acType": "Embraer Legacy 650",
+    "acClass": "Unknown",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "22-10-2025 06:00 → 22-10-2025 10:55 | Price on Request"
+  }
+}

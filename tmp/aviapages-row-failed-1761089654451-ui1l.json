@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"1fcf3d9d70f4266c\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"MUB\",\n                toIata: \"PRG\",\n                fromIcao: \"FBMN\",\n                toIcao: \"LKPR\",\n                fromCity: \"Maun\",\n                toCity: \"Ruzyne\",\n                fromName: \"Maun\",\n                toName: \"Ruzyne\",\n                departAt: \"2025-10-24T17:00:00.000Z\",\n                acType: \"Gulfstream V\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"24-10-2025 17:00 → 25-10-2025 02:35 | Price on Request\"\n              },\n              create: {\n                id: \"1fcf3d9d70f4266c\",\n                operator: \"aviapages\",\n                fromIata: \"MUB\",\n                toIata: \"PRG\",\n                fromIcao: \"FBMN\",\n                toIcao: \"LKPR\",\n                fromCity: \"Maun\",\n                toCity: \"Ruzyne\",\n                fromName: \"Maun\",\n                toName: \"Ruzyne\",\n                departAt: \"2025-10-24T17:00:00.000Z\",\n                acType: \"Gulfstream V\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"24-10-2025 17:00 → 25-10-2025 02:35 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "1fcf3d9d70f4266c",
+    "operator": "aviapages",
+    "fromIata": "MUB",
+    "toIata": "PRG",
+    "fromIcao": "FBMN",
+    "toIcao": "LKPR",
+    "fromCity": "Maun",
+    "toCity": "Ruzyne",
+    "fromName": "Maun",
+    "toName": "Ruzyne",
+    "departAt": "2025-10-24T17:00:00.000Z",
+    "acType": "Gulfstream V",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "24-10-2025 17:00 → 25-10-2025 02:35 | Price on Request"
+  }
+}

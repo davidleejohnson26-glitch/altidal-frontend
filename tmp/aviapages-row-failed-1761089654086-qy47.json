@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"6799affe0e45153d\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"EDI\",\n                toIata: \"GVA\",\n                fromIcao: \"EGPH\",\n                toIcao: \"LSGG\",\n                fromCity: \"Edinburgh\",\n                toCity: \"Geneva\",\n                fromName: \"Edinburgh\",\n                toName: \"Geneva\",\n                departAt: \"2025-10-22T16:40:00.000Z\",\n                acType: \"Falcon 2000LX\",\n                acClass: \"Super Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-10-2025 16:40 → 22-10-2025 18:45 | Price on Request\"\n              },\n              create: {\n                id: \"6799affe0e45153d\",\n                operator: \"aviapages\",\n                fromIata: \"EDI\",\n                toIata: \"GVA\",\n                fromIcao: \"EGPH\",\n                toIcao: \"LSGG\",\n                fromCity: \"Edinburgh\",\n                toCity: \"Geneva\",\n                fromName: \"Edinburgh\",\n                toName: \"Geneva\",\n                departAt: \"2025-10-22T16:40:00.000Z\",\n                acType: \"Falcon 2000LX\",\n                acClass: \"Super Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-10-2025 16:40 → 22-10-2025 18:45 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "6799affe0e45153d",
+    "operator": "aviapages",
+    "fromIata": "EDI",
+    "toIata": "GVA",
+    "fromIcao": "EGPH",
+    "toIcao": "LSGG",
+    "fromCity": "Edinburgh",
+    "toCity": "Geneva",
+    "fromName": "Edinburgh",
+    "toName": "Geneva",
+    "departAt": "2025-10-22T16:40:00.000Z",
+    "acType": "Falcon 2000LX",
+    "acClass": "Super Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "22-10-2025 16:40 → 22-10-2025 18:45 | Price on Request"
+  }
+}

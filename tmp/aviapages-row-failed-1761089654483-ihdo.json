@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"57908bb1b8acdcc8\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"TEB\",\n                toIata: \"DAL\",\n                fromIcao: \"KTEB\",\n                toIcao: \"KDAL\",\n                fromCity: \"Teterboro\",\n                toCity: \"Dallas Love\",\n                fromName: \"Teterboro\",\n                toName: \"Dallas Love\",\n                departAt: \"2025-10-28T00:00:00.000Z\",\n                acType: \"Gulfstream G650ER\",\n                acClass: \"Heavy Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"28-10-2025 00:00 → 28-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"57908bb1b8acdcc8\",\n                operator: \"aviapages\",\n                fromIata: \"TEB\",\n                toIata: \"DAL\",\n                fromIcao: \"KTEB\",\n                toIcao: \"KDAL\",\n                fromCity: \"Teterboro\",\n                toCity: \"Dallas Love\",\n                fromName: \"Teterboro\",\n                toName: \"Dallas Love\",\n                departAt: \"2025-10-28T00:00:00.000Z\",\n                acType: \"Gulfstream G650ER\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"28-10-2025 00:00 → 28-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "57908bb1b8acdcc8",
+    "operator": "aviapages",
+    "fromIata": "TEB",
+    "toIata": "DAL",
+    "fromIcao": "KTEB",
+    "toIcao": "KDAL",
+    "fromCity": "Teterboro",
+    "toCity": "Dallas Love",
+    "fromName": "Teterboro",
+    "toName": "Dallas Love",
+    "departAt": "2025-10-28T00:00:00.000Z",
+    "acType": "Gulfstream G650ER",
+    "acClass": "Heavy Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "28-10-2025 00:00 → 28-10-2025 00:00 | Price on Request"
+  }
+}

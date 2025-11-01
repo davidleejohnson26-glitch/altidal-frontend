@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"a20413ab4ad6022a\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"LOS\",\n                toIata: \"VRN\",\n                fromIcao: \"DNMM\",\n                toIcao: \"LIPX\",\n                fromCity: \"Murtala Muhammed\",\n                toCity: \"Villafranca\",\n                fromName: \"Murtala Muhammed\",\n                toName: \"Villafranca\",\n                departAt: \"2025-11-10T11:00:00.000Z\",\n                acType: \"Global 5000\",\n                acClass: \"Heavy Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"10-11-2025 11:00 → 10-11-2025 16:10 | Price on Request\"\n              },\n              create: {\n                id: \"a20413ab4ad6022a\",\n                operator: \"aviapages\",\n                fromIata: \"LOS\",\n                toIata: \"VRN\",\n                fromIcao: \"DNMM\",\n                toIcao: \"LIPX\",\n                fromCity: \"Murtala Muhammed\",\n                toCity: \"Villafranca\",\n                fromName: \"Murtala Muhammed\",\n                toName: \"Villafranca\",\n                departAt: \"2025-11-10T11:00:00.000Z\",\n                acType: \"Global 5000\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"10-11-2025 11:00 → 10-11-2025 16:10 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "a20413ab4ad6022a",
+    "operator": "aviapages",
+    "fromIata": "LOS",
+    "toIata": "VRN",
+    "fromIcao": "DNMM",
+    "toIcao": "LIPX",
+    "fromCity": "Murtala Muhammed",
+    "toCity": "Villafranca",
+    "fromName": "Murtala Muhammed",
+    "toName": "Villafranca",
+    "departAt": "2025-11-10T11:00:00.000Z",
+    "acType": "Global 5000",
+    "acClass": "Heavy Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "10-11-2025 11:00 → 10-11-2025 16:10 | Price on Request"
+  }
+}

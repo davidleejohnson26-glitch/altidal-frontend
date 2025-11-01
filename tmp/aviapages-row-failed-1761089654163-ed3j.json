@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"bcfee448b3ba696e\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"GVA\",\n                toIata: \"LBG\",\n                fromIcao: \"LSGG\",\n                toIcao: \"LFPB\",\n                fromCity: \"Geneva\",\n                toCity: \"Le Bourget\",\n                fromName: \"Geneva\",\n                toName: \"Le Bourget\",\n                departAt: \"2025-10-31T00:00:00.000Z\",\n                acType: \"Falcon 7X\",\n                acClass: \"Heavy Jet\",\n                seats: null,\n                priceUSD: 7275,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"31-10-2025 00:00 → 31-10-2025 00:00\"\n              },\n              create: {\n                id: \"bcfee448b3ba696e\",\n                operator: \"aviapages\",\n                fromIata: \"GVA\",\n                toIata: \"LBG\",\n                fromIcao: \"LSGG\",\n                toIcao: \"LFPB\",\n                fromCity: \"Geneva\",\n                toCity: \"Le Bourget\",\n                fromName: \"Geneva\",\n                toName: \"Le Bourget\",\n                departAt: \"2025-10-31T00:00:00.000Z\",\n                acType: \"Falcon 7X\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 7275,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"31-10-2025 00:00 → 31-10-2025 00:00\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "bcfee448b3ba696e",
+    "operator": "aviapages",
+    "fromIata": "GVA",
+    "toIata": "LBG",
+    "fromIcao": "LSGG",
+    "toIcao": "LFPB",
+    "fromCity": "Geneva",
+    "toCity": "Le Bourget",
+    "fromName": "Geneva",
+    "toName": "Le Bourget",
+    "departAt": "2025-10-31T00:00:00.000Z",
+    "acType": "Falcon 7X",
+    "acClass": "Heavy Jet",
+    "seats": null,
+    "priceUSD": 7275,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "31-10-2025 00:00 → 31-10-2025 00:00"
+  }
+}

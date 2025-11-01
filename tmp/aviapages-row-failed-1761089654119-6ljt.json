@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"b60c3856670945ea\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"PDK\",\n                toIata: \"ORL\",\n                fromIcao: \"KPDK\",\n                toIcao: \"KORL\",\n                fromCity: \"Dekalb-Peachtree\",\n                toCity: \"Executive\",\n                fromName: \"Dekalb-Peachtree\",\n                toName: \"Executive\",\n                departAt: \"2025-11-01T00:00:00.000Z\",\n                acType: \"Challenger 350\",\n                acClass: \"Super Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"01-11-2025 00:00 → 02-11-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"b60c3856670945ea\",\n                operator: \"aviapages\",\n                fromIata: \"PDK\",\n                toIata: \"ORL\",\n                fromIcao: \"KPDK\",\n                toIcao: \"KORL\",\n                fromCity: \"Dekalb-Peachtree\",\n                toCity: \"Executive\",\n                fromName: \"Dekalb-Peachtree\",\n                toName: \"Executive\",\n                departAt: \"2025-11-01T00:00:00.000Z\",\n                acType: \"Challenger 350\",\n                acClass: \"Super Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"01-11-2025 00:00 → 02-11-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "b60c3856670945ea",
+    "operator": "aviapages",
+    "fromIata": "PDK",
+    "toIata": "ORL",
+    "fromIcao": "KPDK",
+    "toIcao": "KORL",
+    "fromCity": "Dekalb-Peachtree",
+    "toCity": "Executive",
+    "fromName": "Dekalb-Peachtree",
+    "toName": "Executive",
+    "departAt": "2025-11-01T00:00:00.000Z",
+    "acType": "Challenger 350",
+    "acClass": "Super Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "01-11-2025 00:00 → 02-11-2025 00:00 | Price on Request"
+  }
+}

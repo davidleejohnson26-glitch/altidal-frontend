@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"b244964369bcb5d4\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"LBG\",\n                toIata: \"CIA\",\n                fromIcao: \"LFPB\",\n                toIcao: \"LIRA\",\n                fromCity: \"Le Bourget\",\n                toCity: \"Ciampino\",\n                fromName: \"Le Bourget\",\n                toName: \"Ciampino\",\n                departAt: \"2025-10-22T00:00:00.000Z\",\n                acType: \"Falcon 900EX\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 11550,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-10-2025 00:00 → 22-10-2025 00:00\"\n              },\n              create: {\n                id: \"b244964369bcb5d4\",\n                operator: \"aviapages\",\n                fromIata: \"LBG\",\n                toIata: \"CIA\",\n                fromIcao: \"LFPB\",\n                toIcao: \"LIRA\",\n                fromCity: \"Le Bourget\",\n                toCity: \"Ciampino\",\n                fromName: \"Le Bourget\",\n                toName: \"Ciampino\",\n                departAt: \"2025-10-22T00:00:00.000Z\",\n                acType: \"Falcon 900EX\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 11550,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-10-2025 00:00 → 22-10-2025 00:00\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "b244964369bcb5d4",
+    "operator": "aviapages",
+    "fromIata": "LBG",
+    "toIata": "CIA",
+    "fromIcao": "LFPB",
+    "toIcao": "LIRA",
+    "fromCity": "Le Bourget",
+    "toCity": "Ciampino",
+    "fromName": "Le Bourget",
+    "toName": "Ciampino",
+    "departAt": "2025-10-22T00:00:00.000Z",
+    "acType": "Falcon 900EX",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 11550,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "22-10-2025 00:00 → 22-10-2025 00:00"
+  }
+}

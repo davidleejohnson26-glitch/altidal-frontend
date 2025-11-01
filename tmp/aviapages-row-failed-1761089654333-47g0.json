@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"179616d372a4bd68\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"HJO\",\n                toIata: \"OAK\",\n                fromIcao: \"KHJO\",\n                toIcao: \"KOAK\",\n                fromCity: \"Hanford Mun\",\n                toCity: \"Metropolitan Oakland Intl\",\n                fromName: \"Hanford Mun\",\n                toName: \"Metropolitan Oakland Intl\",\n                departAt: \"2025-10-22T00:00:00.000Z\",\n                acType: \"Pilatus PC-12/47 NG\",\n                acClass: \"Turboprop\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-10-2025 00:00 → 22-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"179616d372a4bd68\",\n                operator: \"aviapages\",\n                fromIata: \"HJO\",\n                toIata: \"OAK\",\n                fromIcao: \"KHJO\",\n                toIcao: \"KOAK\",\n                fromCity: \"Hanford Mun\",\n                toCity: \"Metropolitan Oakland Intl\",\n                fromName: \"Hanford Mun\",\n                toName: \"Metropolitan Oakland Intl\",\n                departAt: \"2025-10-22T00:00:00.000Z\",\n                acType: \"Pilatus PC-12/47 NG\",\n                acClass: \"Turboprop\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-10-2025 00:00 → 22-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "179616d372a4bd68",
+    "operator": "aviapages",
+    "fromIata": "HJO",
+    "toIata": "OAK",
+    "fromIcao": "KHJO",
+    "toIcao": "KOAK",
+    "fromCity": "Hanford Mun",
+    "toCity": "Metropolitan Oakland Intl",
+    "fromName": "Hanford Mun",
+    "toName": "Metropolitan Oakland Intl",
+    "departAt": "2025-10-22T00:00:00.000Z",
+    "acType": "Pilatus PC-12/47 NG",
+    "acClass": "Turboprop",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "22-10-2025 00:00 → 22-10-2025 00:00 | Price on Request"
+  }
+}

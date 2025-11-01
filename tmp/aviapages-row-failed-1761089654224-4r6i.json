@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"228813db83c1ae4d\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"BED\",\n                toIata: \"LNS\",\n                fromIcao: \"KBED\",\n                toIcao: \"KLNS\",\n                fromCity: \"Laurence G Hanscom Fld\",\n                toCity: \"Lancaster\",\n                fromName: \"Laurence G Hanscom Fld\",\n                toName: \"Lancaster\",\n                departAt: \"2025-11-30T00:00:00.000Z\",\n                acType: \"Learjet 60XR\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"30-11-2025 00:00 → 30-11-2025 23:59 | Price on Request\"\n              },\n              create: {\n                id: \"228813db83c1ae4d\",\n                operator: \"aviapages\",\n                fromIata: \"BED\",\n                toIata: \"LNS\",\n                fromIcao: \"KBED\",\n                toIcao: \"KLNS\",\n                fromCity: \"Laurence G Hanscom Fld\",\n                toCity: \"Lancaster\",\n                fromName: \"Laurence G Hanscom Fld\",\n                toName: \"Lancaster\",\n                departAt: \"2025-11-30T00:00:00.000Z\",\n                acType: \"Learjet 60XR\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"30-11-2025 00:00 → 30-11-2025 23:59 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "228813db83c1ae4d",
+    "operator": "aviapages",
+    "fromIata": "BED",
+    "toIata": "LNS",
+    "fromIcao": "KBED",
+    "toIcao": "KLNS",
+    "fromCity": "Laurence G Hanscom Fld",
+    "toCity": "Lancaster",
+    "fromName": "Laurence G Hanscom Fld",
+    "toName": "Lancaster",
+    "departAt": "2025-11-30T00:00:00.000Z",
+    "acType": "Learjet 60XR",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "30-11-2025 00:00 → 30-11-2025 23:59 | Price on Request"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"c390c7e249418454\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"OMA\",\n                toIata: \"LXT\",\n                fromIcao: \"KOMA\",\n                toIcao: \"KLXT\",\n                fromCity: \"Eppley Airfield\",\n                toCity: \"Lee's Summit Municipal Airport\",\n                fromName: \"Eppley Airfield\",\n                toName: \"Lee's Summit Municipal Airport\",\n                departAt: \"2025-10-22T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 1500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-10-2025 00:00 → 22-10-2025 00:54\"\n              },\n              create: {\n                id: \"c390c7e249418454\",\n                operator: \"aviapages\",\n                fromIata: \"OMA\",\n                toIata: \"LXT\",\n                fromIcao: \"KOMA\",\n                toIcao: \"KLXT\",\n                fromCity: \"Eppley Airfield\",\n                toCity: \"Lee's Summit Municipal Airport\",\n                fromName: \"Eppley Airfield\",\n                toName: \"Lee's Summit Municipal Airport\",\n                departAt: \"2025-10-22T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 1500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-10-2025 00:00 → 22-10-2025 00:54\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "c390c7e249418454",
+    "operator": "aviapages",
+    "fromIata": "OMA",
+    "toIata": "LXT",
+    "fromIcao": "KOMA",
+    "toIcao": "KLXT",
+    "fromCity": "Eppley Airfield",
+    "toCity": "Lee's Summit Municipal Airport",
+    "fromName": "Eppley Airfield",
+    "toName": "Lee's Summit Municipal Airport",
+    "departAt": "2025-10-22T00:00:00.000Z",
+    "acType": "Cessna Citation Ultra",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 1500,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "22-10-2025 00:00 → 22-10-2025 00:54"
+  }
+}

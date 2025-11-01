@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"8756d9ef16156157\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"VIE\",\n                toIata: \"VCE\",\n                fromIcao: \"LOWW\",\n                toIcao: \"LIPZ\",\n                fromCity: \"Schwechat\",\n                toCity: \"Tessera\",\n                fromName: \"Schwechat\",\n                toName: \"Tessera\",\n                departAt: \"2025-10-26T14:20:00.000Z\",\n                acType: \"Cessna Citation XLS+\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-10-2025 14:20 → 26-10-2025 15:31 | Price on Request\"\n              },\n              create: {\n                id: \"8756d9ef16156157\",\n                operator: \"aviapages\",\n                fromIata: \"VIE\",\n                toIata: \"VCE\",\n                fromIcao: \"LOWW\",\n                toIcao: \"LIPZ\",\n                fromCity: \"Schwechat\",\n                toCity: \"Tessera\",\n                fromName: \"Schwechat\",\n                toName: \"Tessera\",\n                departAt: \"2025-10-26T14:20:00.000Z\",\n                acType: \"Cessna Citation XLS+\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-10-2025 14:20 → 26-10-2025 15:31 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "8756d9ef16156157",
+    "operator": "aviapages",
+    "fromIata": "VIE",
+    "toIata": "VCE",
+    "fromIcao": "LOWW",
+    "toIcao": "LIPZ",
+    "fromCity": "Schwechat",
+    "toCity": "Tessera",
+    "fromName": "Schwechat",
+    "toName": "Tessera",
+    "departAt": "2025-10-26T14:20:00.000Z",
+    "acType": "Cessna Citation XLS+",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "26-10-2025 14:20 → 26-10-2025 15:31 | Price on Request"
+  }
+}

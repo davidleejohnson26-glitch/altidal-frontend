@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"41f348714d9648d5\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"OMA\",\n                toIata: \"EWR\",\n                fromIcao: \"KOMA\",\n                toIcao: \"KEWR\",\n                fromCity: \"Eppley Airfield\",\n                toCity: \"Newark Liberty Intl\",\n                fromName: \"Eppley Airfield\",\n                toName: \"Newark Liberty Intl\",\n                departAt: \"2025-10-30T00:00:00.000Z\",\n                acType: \"Cessna Citation Excel\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 7500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"30-10-2025 00:00 → 30-10-2025 17:24\"\n              },\n              create: {\n                id: \"41f348714d9648d5\",\n                operator: \"aviapages\",\n                fromIata: \"OMA\",\n                toIata: \"EWR\",\n                fromIcao: \"KOMA\",\n                toIcao: \"KEWR\",\n                fromCity: \"Eppley Airfield\",\n                toCity: \"Newark Liberty Intl\",\n                fromName: \"Eppley Airfield\",\n                toName: \"Newark Liberty Intl\",\n                departAt: \"2025-10-30T00:00:00.000Z\",\n                acType: \"Cessna Citation Excel\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 7500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"30-10-2025 00:00 → 30-10-2025 17:24\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "41f348714d9648d5",
+    "operator": "aviapages",
+    "fromIata": "OMA",
+    "toIata": "EWR",
+    "fromIcao": "KOMA",
+    "toIcao": "KEWR",
+    "fromCity": "Eppley Airfield",
+    "toCity": "Newark Liberty Intl",
+    "fromName": "Eppley Airfield",
+    "toName": "Newark Liberty Intl",
+    "departAt": "2025-10-30T00:00:00.000Z",
+    "acType": "Cessna Citation Excel",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 7500,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "30-10-2025 00:00 → 30-10-2025 17:24"
+  }
+}

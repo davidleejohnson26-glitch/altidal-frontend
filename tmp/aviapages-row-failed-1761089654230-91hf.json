@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"d4dae68ce3c8ee1f\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"MSP\",\n                toIata: \"LNK\",\n                fromIcao: \"KMSP\",\n                toIcao: \"KLNK\",\n                fromCity: \"Minneapolis St Paul Intl Wold\",\n                toCity: \"Lincoln\",\n                fromName: \"Minneapolis St Paul Intl Wold\",\n                toName: \"Lincoln\",\n                departAt: \"2026-03-12T00:00:00.000Z\",\n                acType: \"Cessna Citation Encore\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 1500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"12-03-2026 00:00 → 19-03-2026 01:23\"\n              },\n              create: {\n                id: \"d4dae68ce3c8ee1f\",\n                operator: \"aviapages\",\n                fromIata: \"MSP\",\n                toIata: \"LNK\",\n                fromIcao: \"KMSP\",\n                toIcao: \"KLNK\",\n                fromCity: \"Minneapolis St Paul Intl Wold\",\n                toCity: \"Lincoln\",\n                fromName: \"Minneapolis St Paul Intl Wold\",\n                toName: \"Lincoln\",\n                departAt: \"2026-03-12T00:00:00.000Z\",\n                acType: \"Cessna Citation Encore\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 1500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"12-03-2026 00:00 → 19-03-2026 01:23\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "d4dae68ce3c8ee1f",
+    "operator": "aviapages",
+    "fromIata": "MSP",
+    "toIata": "LNK",
+    "fromIcao": "KMSP",
+    "toIcao": "KLNK",
+    "fromCity": "Minneapolis St Paul Intl Wold",
+    "toCity": "Lincoln",
+    "fromName": "Minneapolis St Paul Intl Wold",
+    "toName": "Lincoln",
+    "departAt": "2026-03-12T00:00:00.000Z",
+    "acType": "Cessna Citation Encore",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 1500,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "12-03-2026 00:00 → 19-03-2026 01:23"
+  }
+}

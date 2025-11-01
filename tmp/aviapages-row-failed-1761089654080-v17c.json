@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"b36089cb29264c7d\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"OMA\",\n                toIata: \"JCI\",\n                fromIcao: \"KOMA\",\n                toIcao: \"KIXD\",\n                fromCity: \"Eppley Airfield\",\n                toCity: \"New Century Aircenter\",\n                fromName: \"Eppley Airfield\",\n                toName: \"New Century Aircenter\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 1500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 21-10-2025 00:54\"\n              },\n              create: {\n                id: \"b36089cb29264c7d\",\n                operator: \"aviapages\",\n                fromIata: \"OMA\",\n                toIata: \"JCI\",\n                fromIcao: \"KOMA\",\n                toIcao: \"KIXD\",\n                fromCity: \"Eppley Airfield\",\n                toCity: \"New Century Aircenter\",\n                fromName: \"Eppley Airfield\",\n                toName: \"New Century Aircenter\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 1500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 21-10-2025 00:54\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "b36089cb29264c7d",
+    "operator": "aviapages",
+    "fromIata": "OMA",
+    "toIata": "JCI",
+    "fromIcao": "KOMA",
+    "toIcao": "KIXD",
+    "fromCity": "Eppley Airfield",
+    "toCity": "New Century Aircenter",
+    "fromName": "Eppley Airfield",
+    "toName": "New Century Aircenter",
+    "departAt": "2025-10-21T00:00:00.000Z",
+    "acType": "Cessna Citation Ultra",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 1500,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "21-10-2025 00:00 → 21-10-2025 00:54"
+  }
+}

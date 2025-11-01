@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"010730dbaf45f1a2\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"APA\",\n                toIata: \"BWG\",\n                fromIcao: \"KAPA\",\n                toIcao: \"KBWG\",\n                fromCity: \"Centennial\",\n                toCity: \"Bowling Green-Warren County Rg\",\n                fromName: \"Centennial\",\n                toName: \"Bowling Green-Warren County Rg\",\n                departAt: \"2025-10-23T00:00:00.000Z\",\n                acType: \"Gulfstream IV\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-10-2025 00:00 → 23-10-2025 23:59 | Price on Request\"\n              },\n              create: {\n                id: \"010730dbaf45f1a2\",\n                operator: \"aviapages\",\n                fromIata: \"APA\",\n                toIata: \"BWG\",\n                fromIcao: \"KAPA\",\n                toIcao: \"KBWG\",\n                fromCity: \"Centennial\",\n                toCity: \"Bowling Green-Warren County Rg\",\n                fromName: \"Centennial\",\n                toName: \"Bowling Green-Warren County Rg\",\n                departAt: \"2025-10-23T00:00:00.000Z\",\n                acType: \"Gulfstream IV\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-10-2025 00:00 → 23-10-2025 23:59 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "010730dbaf45f1a2",
+    "operator": "aviapages",
+    "fromIata": "APA",
+    "toIata": "BWG",
+    "fromIcao": "KAPA",
+    "toIcao": "KBWG",
+    "fromCity": "Centennial",
+    "toCity": "Bowling Green-Warren County Rg",
+    "fromName": "Centennial",
+    "toName": "Bowling Green-Warren County Rg",
+    "departAt": "2025-10-23T00:00:00.000Z",
+    "acType": "Gulfstream IV",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "23-10-2025 00:00 → 23-10-2025 23:59 | Price on Request"
+  }
+}

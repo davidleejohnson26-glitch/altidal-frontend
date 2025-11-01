@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"f6f7ed07c1d9f231\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"BCT\",\n                toIata: \"DSI\",\n                fromIcao: \"KBCT\",\n                toIcao: \"KDTS\",\n                fromCity: \"Boca Raton\",\n                toCity: \"Destin Ft Walton Beach\",\n                fromName: \"Boca Raton\",\n                toName: \"Destin Ft Walton Beach\",\n                departAt: \"2025-12-02T00:00:00.000Z\",\n                acType: \"Learjet 60XR\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"02-12-2025 00:00 → 02-12-2025 23:59 | Price on Request\"\n              },\n              create: {\n                id: \"f6f7ed07c1d9f231\",\n                operator: \"aviapages\",\n                fromIata: \"BCT\",\n                toIata: \"DSI\",\n                fromIcao: \"KBCT\",\n                toIcao: \"KDTS\",\n                fromCity: \"Boca Raton\",\n                toCity: \"Destin Ft Walton Beach\",\n                fromName: \"Boca Raton\",\n                toName: \"Destin Ft Walton Beach\",\n                departAt: \"2025-12-02T00:00:00.000Z\",\n                acType: \"Learjet 60XR\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"02-12-2025 00:00 → 02-12-2025 23:59 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "f6f7ed07c1d9f231",
+    "operator": "aviapages",
+    "fromIata": "BCT",
+    "toIata": "DSI",
+    "fromIcao": "KBCT",
+    "toIcao": "KDTS",
+    "fromCity": "Boca Raton",
+    "toCity": "Destin Ft Walton Beach",
+    "fromName": "Boca Raton",
+    "toName": "Destin Ft Walton Beach",
+    "departAt": "2025-12-02T00:00:00.000Z",
+    "acType": "Learjet 60XR",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "02-12-2025 00:00 → 02-12-2025 23:59 | Price on Request"
+  }
+}

@@ -1,0 +1,6063 @@
+{
+  "url": "https://aviapages.com/api/aircraft_type/",
+  "status": 200,
+  "ct": "application/json",
+  "body": {
+    "aircraft": [
+      {
+        "id": 644,
+        "name": "Airbus ACJ319neo",
+        "aircraft_category__name": "VIP airliner",
+        "is_public": true,
+        "priority": 991,
+        "null_priority": 1
+      },
+      {
+        "id": 645,
+        "name": "Airbus ACJ320neo",
+        "aircraft_category__name": "VIP airliner",
+        "is_public": true,
+        "priority": 992,
+        "null_priority": 1
+      },
+      {
+        "id": 979,
+        "name": "Airbus ACJ330neo ",
+        "aircraft_category__name": "VIP airliner",
+        "is_public": true,
+        "priority": 993,
+        "null_priority": 1
+      },
+      {
+        "id": 980,
+        "name": "Airbus ACJ TwoTwenty",
+        "aircraft_category__name": "VIP airliner",
+        "is_public": true,
+        "priority": 995,
+        "null_priority": 1
+      },
+      {
+        "id": 283,
+        "name": "Embraer Legacy 650",
+        "aircraft_category__name": "Heavy",
+        "is_public": true,
+        "priority": 1000,
+        "null_priority": 1
+      },
+      {
+        "id": 87,
+        "name": "Challenger 604",
+        "aircraft_category__name": "Heavy",
+        "is_public": true,
+        "priority": 2000,
+        "null_priority": 1
+      },
+      {
+        "id": 206,
+        "name": "Falcon 900EX EASy",
+        "aircraft_category__name": "Ultra long range",
+        "is_public": true,
+        "priority": 3000,
+        "null_priority": 1
+      },
+      {
+        "id": 82,
+        "name": "Gulfstream G550",
+        "aircraft_category__name": "Ultra long range",
+        "is_public": true,
+        "priority": 4000,
+        "null_priority": 1
+      },
+      {
+        "id": 191,
+        "name": "Global Express XRS",
+        "aircraft_category__name": "Ultra long range",
+        "is_public": true,
+        "priority": 5000,
+        "null_priority": 1
+      },
+      {
+        "id": 81,
+        "name": "Embraer Legacy 600",
+        "aircraft_category__name": "Heavy",
+        "is_public": true,
+        "priority": 6000,
+        "null_priority": 1
+      },
+      {
+        "id": 88,
+        "name": "Challenger 605",
+        "aircraft_category__name": "Heavy",
+        "is_public": true,
+        "priority": 7000,
+        "null_priority": 1
+      },
+      {
+        "id": 86,
+        "name": "Challenger 850",
+        "aircraft_category__name": "Heavy",
+        "is_public": true,
+        "priority": 8000,
+        "null_priority": 1
+      },
+      {
+        "id": 161,
+        "name": "Cessna Citation X",
+        "aircraft_category__name": "Super midsize",
+        "is_public": true,
+        "priority": 9000,
+        "null_priority": 1
+      },
+      {
+        "id": 90,
+        "name": "Falcon 900EX",
+        "aircraft_category__name": "Ultra long range",
+        "is_public": true,
+        "priority": 10000,
+        "null_priority": 1
+      },
+      {
+        "id": 279,
+        "name": "Global 5000",
+        "aircraft_category__name": "Ultra long range",
+        "is_public": true,
+        "priority": 11000,
+        "null_priority": 1
+      },
+      {
+        "id": 207,
+        "name": "Hawker 800XP",
+        "aircraft_category__name": "Midsize",
+        "is_public": true,
+        "priority": 12000,
+        "null_priority": 1
+      },
+      {
+        "id": 78,
+        "name": "Global Express",
+        "aircraft_category__name": "Ultra long range",
+        "is_public": true,
+        "priority": 13000,
+        "null_priority": 1
+      },
+      {
+        "id": 96,
+        "name": "Cessna Citation XLS",
+        "aircraft_category__name": "Midsize",
+        "is_public": true,
+        "priority": 14000,
+        "null_priority": 1
+      },
+      {
+        "id": 12,
+        "name": "Airbus ACJ320",
+        "aircraft_category__name": "VIP airliner",
+        "is_public": true,
+        "priority": 15000,
+        "null_priority": 1
+      },
+      {
+        "id": 77,
+        "name": "Airbus ACJ319",
+        "aircraft_category__name": "VIP airliner",
+        "is_public": true,
+        "priority": 16000,
+        "null_priority": 1
+      },
+      {
+        "id": 281,
+        "name": "Challenger 300",
+        "aircraft_category__name": "Super midsize",
+        "is_public": true,
+        "priority": 17000,
+        "null_priority": 1
+      },
+      {
+        "id": 212,
+        "name": "Global 6000",
+        "aircraft_category__name": "Ultra long range",
+        "is_public": true,
+        "priority": 18000,
+        "null_priority": 1
+      },
+      {
+        "id": 199,
+        "name": "Falcon 2000",
+        "aircraft_category__name": "Heavy",
+        "is_public": true,
+        "priority": 19000,
+        "null_priority": 1
+      },
+      {
+        "id": 111,
+        "name": "to delete Cessna Citation Sovereign LRC",
+        "aircraft_category__name": "Super midsize",
+        "is_public": false,
+        "priority": 20000,
+        "null_priority": 1
+      },
+      {
+        "id": 510,
+        "name": "Cessna Citation Sovereign+",
+        "aircraft_category__name": "Super midsize",
+        "is_public": true,
+        "priority": 20001,
+        "null_priority": 1
+      },
+      {
+        "id": 228,
+        "name": "Gulfstream G200",
+        "aircraft_category__name": "Super midsize",
+        "is_public": true,
+        "priority": 21000,
+        "null_priority": 1
+      },
+      {
+        "id": 84,
+        "name": "Gulfstream G450",
+        "aircraft_category__name": "Heavy",
+        "is_public": true,
+        "priority": 22000,
+        "null_priority": 1
+      },
+      {
+        "id": 73,
+        "name": "Cessna Citation Mustang",
+        "aircraft_category__name": "Very light",
+        "is_public": true,
+        "priority": 23000,
+        "null_priority": 1
+      },
+      {
+        "id": 459,
+        "name": "Challenger 350",
+        "aircraft_category__name": "Super midsize",
+        "is_public": true,
+        "priority": 24000,
+        "null_priority": 1
+      },
+      {
+        "id": 366,
+        "name": "Boeing 737-300",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": 25000,
+        "null_priority": 1
+      },
+      {
+        "id": 108,
+        "name": "Falcon 7X",
+        "aircraft_category__name": "Ultra long range",
+        "is_public": true,
+        "priority": 27000,
+        "null_priority": 1
+      },
+      {
+        "id": 380,
+        "name": "Yak-42D",
+        "aircraft_category__name": "VIP airliner",
+        "is_public": true,
+        "priority": 28000,
+        "null_priority": 1
+      },
+      {
+        "id": 367,
+        "name": "Boeing 737-400",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": 29000,
+        "null_priority": 1
+      },
+      {
+        "id": 368,
+        "name": "Boeing 737-700",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": 30000,
+        "null_priority": 1
+      },
+      {
+        "id": 125,
+        "name": "Learjet 60XR",
+        "aircraft_category__name": "Midsize",
+        "is_public": true,
+        "priority": 31000,
+        "null_priority": 1
+      },
+      {
+        "id": 236,
+        "name": "Cessna Citation XLS+",
+        "aircraft_category__name": "Midsize",
+        "is_public": true,
+        "priority": 32000,
+        "null_priority": 1
+      },
+      {
+        "id": 967,
+        "name": "Cessna Citation XLS+ (IASA regulations)",
+        "aircraft_category__name": "Midsize",
+        "is_public": false,
+        "priority": 32000,
+        "null_priority": 1
+      },
+      {
+        "id": 351,
+        "name": "Gulfstream G650",
+        "aircraft_category__name": "Ultra long range",
+        "is_public": true,
+        "priority": 33000,
+        "null_priority": 1
+      },
+      {
+        "id": 8,
+        "name": "to delete Boeing 767-300W CF6-80",
+        "aircraft_category__name": "Airliner",
+        "is_public": false,
+        "priority": 34000,
+        "null_priority": 1
+      },
+      {
+        "id": 463,
+        "name": "Sukhoi Superjet 100",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": 35000,
+        "null_priority": 1
+      },
+      {
+        "id": 4,
+        "name": "Falcon 900LX",
+        "aircraft_category__name": "Ultra long range",
+        "is_public": true,
+        "priority": 36000,
+        "null_priority": 1
+      },
+      {
+        "id": 126,
+        "name": "Cessna Citation Bravo",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": 37000,
+        "null_priority": 1
+      },
+      {
+        "id": 7,
+        "name": "Boeing 767-300F",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": 38000,
+        "null_priority": 1
+      },
+      {
+        "id": 3,
+        "name": "Fokker 100",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": 39000,
+        "null_priority": 1
+      },
+      {
+        "id": 194,
+        "name": "Challenger 601",
+        "aircraft_category__name": "Heavy",
+        "is_public": true,
+        "priority": 40000,
+        "null_priority": 1
+      },
+      {
+        "id": 237,
+        "name": "Hawker 850XP",
+        "aircraft_category__name": "Midsize",
+        "is_public": true,
+        "priority": 41000,
+        "null_priority": 1
+      },
+      {
+        "id": 10,
+        "name": "Boeing 757-200W PW 2040",
+        "aircraft_category__name": "Airliner",
+        "is_public": false,
+        "priority": 42000,
+        "null_priority": 1
+      },
+      {
+        "id": 347,
+        "name": "Gulfstream G280",
+        "aircraft_category__name": "Super midsize",
+        "is_public": true,
+        "priority": 43000,
+        "null_priority": 1
+      },
+      {
+        "id": 122,
+        "name": "Hawker 700",
+        "aircraft_category__name": "Midsize",
+        "is_public": true,
+        "priority": 44000,
+        "null_priority": 1
+      },
+      {
+        "id": 115,
+        "name": "Cessna Citation CJ2",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": 45000,
+        "null_priority": 1
+      },
+      {
+        "id": 210,
+        "name": "Cessna Citation CJ2+",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": 46000,
+        "null_priority": 1
+      },
+      {
+        "id": 436,
+        "name": "Fokker 50",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": 47000,
+        "null_priority": 1
+      },
+      {
+        "id": 342,
+        "name": "Falcon 2000S",
+        "aircraft_category__name": "Heavy",
+        "is_public": true,
+        "priority": 48000,
+        "null_priority": 1
+      },
+      {
+        "id": 400,
+        "name": "to-delete_ATR 72",
+        "aircraft_category__name": "Airliner",
+        "is_public": false,
+        "priority": 49000,
+        "null_priority": 1
+      },
+      {
+        "id": 9,
+        "name": "Boeing 767-200F",
+        "aircraft_category__name": "Cargo",
+        "is_public": true,
+        "priority": 50000,
+        "null_priority": 1
+      },
+      {
+        "id": 114,
+        "name": "Beechcraft Premier 1",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": 51000,
+        "null_priority": 1
+      },
+      {
+        "id": 408,
+        "name": "Nextant 400XT",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": 52000,
+        "null_priority": 1
+      },
+      {
+        "id": 102,
+        "name": "Gulfstream G150",
+        "aircraft_category__name": "Midsize",
+        "is_public": true,
+        "priority": 53000,
+        "null_priority": 1
+      },
+      {
+        "id": 11,
+        "name": "Boeing 757-200 PW 2037",
+        "aircraft_category__name": "Airliner",
+        "is_public": false,
+        "priority": 54000,
+        "null_priority": 1
+      },
+      {
+        "id": 197,
+        "name": "Gulfstream IV",
+        "aircraft_category__name": "Heavy",
+        "is_public": true,
+        "priority": 55000,
+        "null_priority": 1
+      },
+      {
+        "id": 708,
+        "name": "Gulfstream IV-SP",
+        "aircraft_category__name": "Heavy",
+        "is_public": true,
+        "priority": 55000,
+        "null_priority": 1
+      },
+      {
+        "id": 195,
+        "name": "Gulfstream II",
+        "aircraft_category__name": "Super midsize",
+        "is_public": true,
+        "priority": 56000,
+        "null_priority": 1
+      },
+      {
+        "id": 198,
+        "name": "Falcon 900",
+        "aircraft_category__name": "Ultra long range",
+        "is_public": true,
+        "priority": 57000,
+        "null_priority": 1
+      },
+      {
+        "id": 100,
+        "name": "Cessna Citation CJ3",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": 58000,
+        "null_priority": 1
+      },
+      {
+        "id": 253,
+        "name": "Cessna CitationJet",
+        "aircraft_category__name": "Very light",
+        "is_public": true,
+        "priority": 59000,
+        "null_priority": 1
+      },
+      {
+        "id": 177,
+        "name": "Learjet 45",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": 60000,
+        "null_priority": 1
+      },
+      {
+        "id": 179,
+        "name": "Embraer Phenom 100",
+        "aircraft_category__name": "Very light",
+        "is_public": true,
+        "priority": 61000,
+        "null_priority": 1
+      },
+      {
+        "id": 250,
+        "name": "Beechjet 400",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": 62000,
+        "null_priority": 1
+      },
+      {
+        "id": 349,
+        "name": "Gulfstream G400",
+        "aircraft_category__name": "Heavy",
+        "is_public": true,
+        "priority": 64000,
+        "null_priority": 1
+      },
+      {
+        "id": 176,
+        "name": "Cessna Citation Excel",
+        "aircraft_category__name": "Midsize",
+        "is_public": true,
+        "priority": 65000,
+        "null_priority": 1
+      },
+      {
+        "id": 439,
+        "name": "Pilatus PC-12/47",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": 66000,
+        "null_priority": 1
+      },
+      {
+        "id": 462,
+        "name": "Cessna Citation M2",
+        "aircraft_category__name": "Very light",
+        "is_public": true,
+        "priority": 68000,
+        "null_priority": 1
+      },
+      {
+        "id": 357,
+        "name": "Hawker 750",
+        "aircraft_category__name": "Midsize",
+        "is_public": true,
+        "priority": 69000,
+        "null_priority": 1
+      },
+      {
+        "id": 460,
+        "name": "Hawker 900",
+        "aircraft_category__name": "Midsize",
+        "is_public": true,
+        "priority": 70000,
+        "null_priority": 1
+      },
+      {
+        "id": 363,
+        "name": "Learjet 55C",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": 71000,
+        "null_priority": 1
+      },
+      {
+        "id": 438,
+        "name": "Piaggio Avanti II",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": 72000,
+        "null_priority": 1
+      },
+      {
+        "id": 271,
+        "name": "Cessna Citation CJ1+",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": 73000,
+        "null_priority": 1
+      },
+      {
+        "id": 13,
+        "name": "Learjet 45XR",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": 74000,
+        "null_priority": 1
+      },
+      {
+        "id": 85,
+        "name": "Gulfstream V",
+        "aircraft_category__name": "Ultra long range",
+        "is_public": true,
+        "priority": 75000,
+        "null_priority": 1
+      },
+      {
+        "id": 142,
+        "name": "Cessna Citation II",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": 76000,
+        "null_priority": 1
+      },
+      {
+        "id": 350,
+        "name": "Gulfstream G500",
+        "aircraft_category__name": "Ultra long range",
+        "is_public": true,
+        "priority": 77000,
+        "null_priority": 1
+      },
+      {
+        "id": 341,
+        "name": "Falcon 200",
+        "aircraft_category__name": "Super midsize",
+        "is_public": true,
+        "priority": 78000,
+        "null_priority": 1
+      },
+      {
+        "id": 358,
+        "name": "Hawker 800A",
+        "aircraft_category__name": "Midsize",
+        "is_public": true,
+        "priority": 80000,
+        "null_priority": 1
+      },
+      {
+        "id": 208,
+        "name": "Hawker 800",
+        "aircraft_category__name": "Midsize",
+        "is_public": true,
+        "priority": 81000,
+        "null_priority": 1
+      },
+      {
+        "id": 356,
+        "name": "Hawker 700A",
+        "aircraft_category__name": "Midsize",
+        "is_public": true,
+        "priority": 82000,
+        "null_priority": 1
+      },
+      {
+        "id": 215,
+        "name": "Beechcraft Premier 1A",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": 83000,
+        "null_priority": 1
+      },
+      {
+        "id": 119,
+        "name": "Embraer Phenom 300",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": 84000,
+        "null_priority": 1
+      },
+      {
+        "id": 313,
+        "name": "Cessna 208B Grand Caravan",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": 85000,
+        "null_priority": 1
+      },
+      {
+        "id": 14,
+        "name": "Beechcraft King Air 350",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": 86000,
+        "null_priority": 1
+      },
+      {
+        "id": 245,
+        "name": "Falcon 900DX",
+        "aircraft_category__name": "Ultra long range",
+        "is_public": true,
+        "priority": 87000,
+        "null_priority": 1
+      },
+      {
+        "id": 422,
+        "name": "Saab 340B",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": 88000,
+        "null_priority": 1
+      },
+      {
+        "id": 113,
+        "name": "Gulfstream G100",
+        "aircraft_category__name": "Midsize",
+        "is_public": true,
+        "priority": 89000,
+        "null_priority": 1
+      },
+      {
+        "id": 300,
+        "name": "Beechjet 400A",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": 90000,
+        "null_priority": 1
+      },
+      {
+        "id": 278,
+        "name": "Embraer Lineage 1000",
+        "aircraft_category__name": "VIP airliner",
+        "is_public": true,
+        "priority": 92000,
+        "null_priority": 1
+      },
+      {
+        "id": 6,
+        "name": "Falcon 900C",
+        "aircraft_category__name": "Ultra long range",
+        "is_public": true,
+        "priority": 93000,
+        "null_priority": 1
+      },
+      {
+        "id": 364,
+        "name": "Challenger 601-3A/R",
+        "aircraft_category__name": "Heavy",
+        "is_public": true,
+        "priority": 94000,
+        "null_priority": 1
+      },
+      {
+        "id": 348,
+        "name": "Gulfstream G300",
+        "aircraft_category__name": "Super midsize",
+        "is_public": true,
+        "priority": 95000,
+        "null_priority": 1
+      },
+      {
+        "id": 340,
+        "name": "Falcon 100",
+        "aircraft_category__name": "Heavy",
+        "is_public": true,
+        "priority": 96000,
+        "null_priority": 1
+      },
+      {
+        "id": 80,
+        "name": "CRJ-200",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": 97000,
+        "null_priority": 1
+      },
+      {
+        "id": 118,
+        "name": "Cessna Citation CJ4",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": 98000,
+        "null_priority": 1
+      },
+      {
+        "id": 2,
+        "name": "Cessna Citation CJ1",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": 99000,
+        "null_priority": 1
+      },
+      {
+        "id": 262,
+        "name": "Embraer 135LR",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": 100000,
+        "null_priority": 1
+      },
+      {
+        "id": 359,
+        "name": "Airbus A319 VIP",
+        "aircraft_category__name": "VIP airliner",
+        "is_public": true,
+        "priority": 101000,
+        "null_priority": 1
+      },
+      {
+        "id": 218,
+        "name": "Challenger 600",
+        "aircraft_category__name": "Heavy",
+        "is_public": true,
+        "priority": 102000,
+        "null_priority": 1
+      },
+      {
+        "id": 406,
+        "name": "MD 600N",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": 103000,
+        "null_priority": 1
+      },
+      {
+        "id": 384,
+        "name": "Beechcraft King Air C90",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": 104000,
+        "null_priority": 1
+      },
+      {
+        "id": 355,
+        "name": "Challenger 601-3A",
+        "aircraft_category__name": "Heavy",
+        "is_public": true,
+        "priority": 105000,
+        "null_priority": 1
+      },
+      {
+        "id": 5,
+        "name": "Falcon 900B",
+        "aircraft_category__name": "Ultra long range",
+        "is_public": true,
+        "priority": 106000,
+        "null_priority": 1
+      },
+      {
+        "id": 383,
+        "name": "Beechcraft King Air 350iER",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": 107000,
+        "null_priority": 1
+      },
+      {
+        "id": 227,
+        "name": "Airbus A318 Elite",
+        "aircraft_category__name": "VIP airliner",
+        "is_public": true,
+        "priority": 108000,
+        "null_priority": 1
+      },
+      {
+        "id": 365,
+        "name": "Challenger 601-3R",
+        "aircraft_category__name": "Heavy",
+        "is_public": true,
+        "priority": 109000,
+        "null_priority": 1
+      },
+      {
+        "id": 306,
+        "name": "Hawker 800B",
+        "aircraft_category__name": "Midsize",
+        "is_public": true,
+        "priority": 110000,
+        "null_priority": 1
+      },
+      {
+        "id": 274,
+        "name": "Eclipse 500",
+        "aircraft_category__name": "Very light",
+        "is_public": true,
+        "priority": 111000,
+        "null_priority": 1
+      },
+      {
+        "id": 386,
+        "name": "Beechcraft King Air C90B",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": 112000,
+        "null_priority": 1
+      },
+      {
+        "id": 143,
+        "name": "Cessna Citation V",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": 115000,
+        "null_priority": 1
+      },
+      {
+        "id": 221,
+        "name": "Cessna Citation Encore+",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": 116000,
+        "null_priority": 1
+      },
+      {
+        "id": 282,
+        "name": "McDonnell Douglas MD-83 Executive",
+        "aircraft_category__name": "VIP airliner",
+        "is_public": true,
+        "priority": 117000,
+        "null_priority": 1
+      },
+      {
+        "id": 196,
+        "name": "Gulfstream III",
+        "aircraft_category__name": "Super midsize",
+        "is_public": true,
+        "priority": 118000,
+        "null_priority": 1
+      },
+      {
+        "id": 260,
+        "name": "Boeing 757-200",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": 119000,
+        "null_priority": 1
+      },
+      {
+        "id": 414,
+        "name": "Piper PA-34-220T Seneca III",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": 120000,
+        "null_priority": 1
+      },
+      {
+        "id": 339,
+        "name": "ATR 72-200",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": 121000,
+        "null_priority": 1
+      },
+      {
+        "id": 231,
+        "name": "Beechcraft 1900D",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": 122000,
+        "null_priority": 1
+      },
+      {
+        "id": 444,
+        "name": "Gulfstream G350",
+        "aircraft_category__name": "Super midsize",
+        "is_public": true,
+        "priority": 123000,
+        "null_priority": 1
+      },
+      {
+        "id": 429,
+        "name": "Cirrus SR22",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": 124000,
+        "null_priority": 1
+      },
+      {
+        "id": 1100,
+        "name": "Cirrus SR22T",
+        "aircraft_category__name": "Piston",
+        "is_public": null,
+        "priority": 124050,
+        "null_priority": 1
+      },
+      {
+        "id": 219,
+        "name": "Cessna Citation S/II",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": 125000,
+        "null_priority": 1
+      },
+      {
+        "id": 484,
+        "name": "Robinson R66",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": 126000,
+        "null_priority": 1
+      },
+      {
+        "id": 376,
+        "name": "Cessna 414",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": 127000,
+        "null_priority": 1
+      },
+      {
+        "id": 379,
+        "name": "Cessna 421C",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": 128000,
+        "null_priority": 1
+      },
+      {
+        "id": 138,
+        "name": "Falcon 10",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": 129000,
+        "null_priority": 1
+      },
+      {
+        "id": 248,
+        "name": "Cessna Citation Ultra",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": 130000,
+        "null_priority": 1
+      },
+      {
+        "id": 309,
+        "name": "IAI Galaxy",
+        "aircraft_category__name": "Super midsize",
+        "is_public": true,
+        "priority": 131000,
+        "null_priority": 1
+      },
+      {
+        "id": 247,
+        "name": "Cessna Citation Encore",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": 132000,
+        "null_priority": 1
+      },
+      {
+        "id": 243,
+        "name": "Falcon 20",
+        "aircraft_category__name": "Midsize",
+        "is_public": true,
+        "priority": 133000,
+        "null_priority": 1
+      },
+      {
+        "id": 404,
+        "name": "Cessna Citation Stallion",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": 134000,
+        "null_priority": 1
+      },
+      {
+        "id": 410,
+        "name": "Piper PA-34-200 Seneca I",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": 135000,
+        "null_priority": 1
+      },
+      {
+        "id": 109,
+        "name": "Cessna 172S",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": 136000,
+        "null_priority": 1
+      },
+      {
+        "id": 461,
+        "name": "Hawker 850",
+        "aircraft_category__name": "Midsize",
+        "is_public": true,
+        "priority": 137000,
+        "null_priority": 1
+      },
+      {
+        "id": 432,
+        "name": "Dornier 228",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": 139000,
+        "null_priority": 1
+      },
+      {
+        "id": 485,
+        "name": "Agusta AW109K2",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": 140000,
+        "null_priority": 1
+      },
+      {
+        "id": 263,
+        "name": "Embraer 145LR",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": 141000,
+        "null_priority": 1
+      },
+      {
+        "id": 168,
+        "name": "Embraer 170",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": 142000,
+        "null_priority": 1
+      },
+      {
+        "id": 166,
+        "name": "Airbus A320-200",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": 143000,
+        "null_priority": 1
+      },
+      {
+        "id": 482,
+        "name": "Bell 412",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": 144000,
+        "null_priority": 1
+      },
+      {
+        "id": 226,
+        "name": "Falcon 50EX",
+        "aircraft_category__name": "Super midsize",
+        "is_public": true,
+        "priority": 145000,
+        "null_priority": 1
+      },
+      {
+        "id": 385,
+        "name": "Beechcraft King Air C90A",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": 146000,
+        "null_priority": 1
+      },
+      {
+        "id": 487,
+        "name": "Eurocopter AS365",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": 147000,
+        "null_priority": 1
+      },
+      {
+        "id": 369,
+        "name": "Cessna 182",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": 148000,
+        "null_priority": 1
+      },
+      {
+        "id": 381,
+        "name": "Beechcraft King Air 200",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": 149000,
+        "null_priority": 1
+      },
+      {
+        "id": 164,
+        "name": "Falcon 2000EX",
+        "aircraft_category__name": "Heavy",
+        "is_public": true,
+        "priority": 150000,
+        "null_priority": 1
+      },
+      {
+        "id": 17,
+        "name": "Learjet 31A",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": 151000,
+        "null_priority": 1
+      },
+      {
+        "id": 388,
+        "name": "Learjet 24A",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": 152000,
+        "null_priority": 1
+      },
+      {
+        "id": 244,
+        "name": "Learjet 40XR",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": 153000,
+        "null_priority": 1
+      },
+      {
+        "id": 147,
+        "name": "Learjet 31",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": 154000,
+        "null_priority": 1
+      },
+      {
+        "id": 430,
+        "name": "Diamond DA42 Twin Star",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": 155000,
+        "null_priority": 1
+      },
+      {
+        "id": 401,
+        "name": "BAe Jetstream 31",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": 157000,
+        "null_priority": 1
+      },
+      {
+        "id": 353,
+        "name": "Hawker 600A",
+        "aircraft_category__name": "Midsize",
+        "is_public": true,
+        "priority": 158000,
+        "null_priority": 1
+      },
+      {
+        "id": 330,
+        "name": "Fairchild Merlin IV",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": 159000,
+        "null_priority": 1
+      },
+      {
+        "id": 491,
+        "name": "Airbus Helicopters H215 / Eurocopter AS332 L1",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": 160000,
+        "null_priority": 1
+      },
+      {
+        "id": 382,
+        "name": "Beechcraft King Air 250",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": 161000,
+        "null_priority": 1
+      },
+      {
+        "id": 480,
+        "name": "Enstrom 480",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": 162000,
+        "null_priority": 1
+      },
+      {
+        "id": 371,
+        "name": "Cessna 310",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": 163000,
+        "null_priority": 1
+      },
+      {
+        "id": 440,
+        "name": "Piper PA-23-250 Aztec",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": 165000,
+        "null_priority": 1
+      },
+      {
+        "id": 251,
+        "name": "Embraer 120ER",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": 166000,
+        "null_priority": 1
+      },
+      {
+        "id": 997,
+        "name": "Airbus A220-100",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 998,
+        "name": "Airbus A220-300",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 695,
+        "name": "Airbus A319-100",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1087,
+        "name": "Airbus A319-111",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1088,
+        "name": "Airbus A319-112",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1039,
+        "name": "Airbus A320-232",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1044,
+        "name": "Airbus A320-271N",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 693,
+        "name": "Airbus A321-200",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1041,
+        "name": "Airbus A321-231",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1042,
+        "name": "Airbus A321-271N",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1043,
+        "name": "Airbus A321-271NX",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 692,
+        "name": "Airbus A330-200",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 696,
+        "name": "Airbus A330-300",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 992,
+        "name": "Airbus A330-900",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 999,
+        "name": "Airbus A340-200",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 568,
+        "name": "Airbus A340-300",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1000,
+        "name": "Airbus A340-500",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1002,
+        "name": "Airbus A340-600",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 555,
+        "name": "Airbus A380",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 541,
+        "name": "An-148",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 977,
+        "name": "An-158",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 530,
+        "name": "An-26",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 611,
+        "name": "An-32",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 469,
+        "name": "An-38",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 559,
+        "name": "An-74TK-100",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1012,
+        "name": "ATR 42-300",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1013,
+        "name": "ATR 42-310",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1007,
+        "name": "ATR 42-400",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1005,
+        "name": "ATR 42-500",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1008,
+        "name": "ATR 42-600",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1011,
+        "name": "ATR 72-210",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1009,
+        "name": "ATR 72-211",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1010,
+        "name": "ATR 72-212",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1003,
+        "name": "ATR 72-500",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1004,
+        "name": "ATR 72-600",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 616,
+        "name": "BAe 146-200",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 272,
+        "name": "BAe ATP",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 615,
+        "name": "BAe Avro RJ100",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 656,
+        "name": "BAe Avro RJ70",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 614,
+        "name": "BAe Avro RJ85",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 545,
+        "name": "Beechcraft 1900C",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1025,
+        "name": "Boeing 717-200",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 909,
+        "name": "Boeing 727-17",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 910,
+        "name": "Boeing 727-30C",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 597,
+        "name": "Boeing 737-200",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 499,
+        "name": "Boeing 737-500",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1018,
+        "name": "Boeing 737-600",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 520,
+        "name": "Boeing 737-800",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1017,
+        "name": "Boeing 737-900ER",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1070,
+        "name": "Boeing 737 MAX 10",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1075,
+        "name": "Boeing 737 MAX 200",
+        "aircraft_category__name": "Airliner",
+        "is_public": false,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1063,
+        "name": "Boeing 737 MAX 7",
+        "aircraft_category__name": "Airliner",
+        "is_public": false,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1067,
+        "name": "Boeing 737 MAX 8",
+        "aircraft_category__name": "Airliner",
+        "is_public": false,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1068,
+        "name": "Boeing 737 MAX 9",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1047,
+        "name": "Boeing 747-400",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 667,
+        "name": "Boeing 757-2K2",
+        "aircraft_category__name": "Airliner",
+        "is_public": false,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1023,
+        "name": "Boeing 757-300W RB211",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 552,
+        "name": "Boeing 767-200",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1084,
+        "name": "Boeing 767-200ER",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 609,
+        "name": "Boeing 767-300",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1040,
+        "name": "Boeing 767-300ER",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 478,
+        "name": "Boeing 777-200",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1045,
+        "name": "Boeing 777-200LR",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 608,
+        "name": "CASA C-212-400 ",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 634,
+        "name": "CRJ-100",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1026,
+        "name": "CRJ-1000",
+        "aircraft_category__name": "Airliner",
+        "is_public": false,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 169,
+        "name": "CRJ-900 NextGen",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 600,
+        "name": "Crystal Skye BBJ 777 200-LR",
+        "aircraft_category__name": "Airliner",
+        "is_public": false,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 662,
+        "name": "DHC-8-102",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 663,
+        "name": "DHC-8-103",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 664,
+        "name": "DHC-8-106",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 880,
+        "name": "DHC-8-202",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1086,
+        "name": "DHC-8-311",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 665,
+        "name": "DHC-8-314",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1089,
+        "name": "DHC-8-315",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1027,
+        "name": "DHC-8-400",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 261,
+        "name": "DHC-8-Q200",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 822,
+        "name": "DHC-8-Q400",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 230,
+        "name": "Dornier 328",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 91,
+        "name": "Dornier 328 Jet",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 632,
+        "name": "Embraer 135ER",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1038,
+        "name": "Embraer 145EP",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 619,
+        "name": "Embraer 145LU",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1061,
+        "name": "Embraer 145MP",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 996,
+        "name": "Embraer 175-E2",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 993,
+        "name": "Embraer 175LR",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 995,
+        "name": "Embraer 175STD",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 540,
+        "name": "Embraer 190",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1036,
+        "name": "Embraer 190-E2",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 572,
+        "name": "Embraer 195",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1037,
+        "name": "Embraer 195-E2",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 268,
+        "name": "Fairchild Metro 23",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 334,
+        "name": "Fairchild Metro II",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 269,
+        "name": "Fairchild Metro III",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 270,
+        "name": "Fairchild Metro IV",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 953,
+        "name": "Fairchild Metro IVC",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 595,
+        "name": "IL-76",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1028,
+        "name": "McDonnell Douglas MD-81",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 557,
+        "name": "McDonnell Douglas MD-82",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 277,
+        "name": "McDonnell Douglas MD-87",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1029,
+        "name": "McDonnell Douglas MD-88",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 421,
+        "name": "Saab 2000",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 170,
+        "name": "Saab 340A",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 445,
+        "name": "Short 360",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 464,
+        "name": "Sukhoi Superjet 100 LR",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 544,
+        "name": "to delete Airbus A319-10 IAE V2524-A5",
+        "aircraft_category__name": "Airliner",
+        "is_public": false,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 509,
+        "name": "to delete Airbus A320-200 IAE V2527-A5",
+        "aircraft_category__name": "Airliner",
+        "is_public": false,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 521,
+        "name": "to delete Airbus A321-200 IAE V2530-A5 1 ACT",
+        "aircraft_category__name": "Airliner",
+        "is_public": false,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 517,
+        "name": "to delete Airbus A321-200 IAE V2530-A5 2 ACT",
+        "aircraft_category__name": "Airliner",
+        "is_public": false,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1046,
+        "name": "to delete Airbus ACJ220",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 547,
+        "name": "to_delete_ATR 42",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1006,
+        "name": "to delete ATR 42-200",
+        "aircraft_category__name": "Airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 106,
+        "name": "Tupolev-134",
+        "aircraft_category__name": "Airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 868,
+        "name": "Airbus A300-600F",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 881,
+        "name": "Airbus A300B4-203",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 875,
+        "name": "Airbus A300B4-622R",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 873,
+        "name": "Airbus A300C4-605R",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 867,
+        "name": "Airbus A310-300F",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 871,
+        "name": "Airbus A310-304F",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 870,
+        "name": "Airbus A310-308F",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 869,
+        "name": "Airbus A330-200F",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 872,
+        "name": "Airbus A330-243F",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 740,
+        "name": "Airbus A380-800",
+        "aircraft_category__name": "Cargo",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 741,
+        "name": "An-124-100",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 594,
+        "name": "An-124-100M",
+        "aircraft_category__name": "Cargo",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 772,
+        "name": "An-124-100M-150",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 811,
+        "name": "AN-12B",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 812,
+        "name": "AN-12BK",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 742,
+        "name": "An-225",
+        "aircraft_category__name": "Cargo",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 743,
+        "name": "An-22A",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 773,
+        "name": "An-26-100",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 814,
+        "name": "AN-26B",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 882,
+        "name": "An-74D",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 884,
+        "name": "An-74T-200",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 883,
+        "name": "An-74TK-300D",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 804,
+        "name": "ATR 42-300F",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 865,
+        "name": "ATR 42-320",
+        "aircraft_category__name": "Cargo",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 788,
+        "name": "ATR 72-200F",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 789,
+        "name": "ATR 72-200F / LCD",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 866,
+        "name": "ATR 72-202",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 790,
+        "name": "ATR 72-500F",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 791,
+        "name": "ATR 72-500F / LCD",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 820,
+        "name": "BAe ATP-F (LFD)",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 821,
+        "name": "BAe ATP-F (MFD)",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 806,
+        "name": "Boeing 727-100",
+        "aircraft_category__name": "Cargo",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 807,
+        "name": "Boeing 727-200",
+        "aircraft_category__name": "Cargo",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 863,
+        "name": "Boeing 727-212",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 864,
+        "name": "Boeing 727-223",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 840,
+        "name": "Boeing 727-225",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 841,
+        "name": "Boeing 727-231",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 848,
+        "name": "Boeing 737-232",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 850,
+        "name": "Boeing 737-25C",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 851,
+        "name": "Boeing 737-2A8",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 777,
+        "name": "Boeing 737-300F",
+        "aircraft_category__name": "Cargo",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 849,
+        "name": "Boeing 737-301",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 778,
+        "name": "Boeing 737-400F",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 779,
+        "name": "Boeing 737-400SF",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 796,
+        "name": "Boeing 737-436",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 797,
+        "name": "Boeing 737-4Q8",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1101,
+        "name": "Boeing 737-700FC",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 781,
+        "name": "Boeing 737-800BCF",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 780,
+        "name": "Boeing 737-800F",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 768,
+        "name": "Boeing 747-212F",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 763,
+        "name": "Boeing 747-221F",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 759,
+        "name": "Boeing 747-246F",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 767,
+        "name": "Boeing 747-251B",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 757,
+        "name": "Boeing 747-251F",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 774,
+        "name": "Boeing 747-400BCF",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 769,
+        "name": "Boeing 747-400ERF",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 754,
+        "name": "Boeing 747-400F",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 758,
+        "name": "Boeing 747-412",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 801,
+        "name": "Boeing 747-422",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 929,
+        "name": "Boeing 747-430",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 762,
+        "name": "Boeing 747-446",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 800,
+        "name": "Boeing 747-45E",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 858,
+        "name": "Boeing 747-45EF",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 747,
+        "name": "Boeing 747-467F",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 856,
+        "name": "Boeing 747-46NF",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 859,
+        "name": "Boeing 747-47UF",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 755,
+        "name": "Boeing 747-481F",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 756,
+        "name": "Boeing 747-4B5",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 760,
+        "name": "Boeing 747-4B5F",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 749,
+        "name": "Boeing 747-4EVF",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 761,
+        "name": "Boeing 747-4H6",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 748,
+        "name": "Boeing 747-4HAF",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 746,
+        "name": "Boeing 747-4HQF",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 939,
+        "name": "Boeing 747-4KZF",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 750,
+        "name": "Boeing 747-4R7F",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 799,
+        "name": "Boeing 747-4UF",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 938,
+        "name": "Boeing 747-867F",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 802,
+        "name": "Boeing 747-87UF",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 753,
+        "name": "Boeing 747-8F",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 940,
+        "name": "Boeing 747-8KZF",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 752,
+        "name": "Boeing 747-8R7F",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 803,
+        "name": "Boeing 757-200F",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 845,
+        "name": "Boeing 757-204",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 842,
+        "name": "Boeing 757-223",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 846,
+        "name": "Boeing 757-236",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 836,
+        "name": "Boeing 757-23A",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 844,
+        "name": "Boeing 757-25F",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 843,
+        "name": "Boeing 757-28A",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 805,
+        "name": "Boeing 767-200SF",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 834,
+        "name": "Boeing 767-223",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 835,
+        "name": "Boeing 767-224",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 808,
+        "name": "Boeing 767-232",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 785,
+        "name": "Boeing 767-300BCF",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 786,
+        "name": "Boeing 767-300BDSF",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 839,
+        "name": "Boeing 767-306",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 795,
+        "name": "Boeing 767-31A",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 810,
+        "name": "Boeing 767-323",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 794,
+        "name": "Boeing 767-324",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 837,
+        "name": "Boeing 767-328",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 809,
+        "name": "Boeing 767-338",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 838,
+        "name": "Boeing 767-33A",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 764,
+        "name": "Boeing 767-341",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 766,
+        "name": "Boeing 767-346",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 847,
+        "name": "Boeing 767-35E",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 832,
+        "name": "Boeing 767-375",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 793,
+        "name": "Boeing 767-383",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 798,
+        "name": "Boeing 767-38E",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 833,
+        "name": "Boeing 767-39H",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 861,
+        "name": "Boeing 767-3JHF",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 765,
+        "name": "Boeing 767-3P6",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 792,
+        "name": "Boeing 767-3YO",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 782,
+        "name": "Boeing 777-200F",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 775,
+        "name": "Boeing 777-268ER",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 745,
+        "name": "Boeing 777-300",
+        "aircraft_category__name": "Cargo",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 776,
+        "name": "Boeing 777-368ER",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 744,
+        "name": "Boeing 777F",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 947,
+        "name": "Boeing 777-F60",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 946,
+        "name": "Boeing 777-F6N",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 942,
+        "name": "Boeing 777-FDZ",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1090,
+        "name": "Cessna 208B Super Cargomaster",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 828,
+        "name": "CRJ-100PF",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 829,
+        "name": "CRJ-100SF",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 827,
+        "name": "CRJ-200PF",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 817,
+        "name": "CRJ-200SF",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 876,
+        "name": "Fairchild Expediter",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 815,
+        "name": "IL-62M",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 787,
+        "name": "IL-76TD",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1098,
+        "name": "IL-96",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 825,
+        "name": "McDonnell Douglas DC-9-10",
+        "aircraft_category__name": "Cargo",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 853,
+        "name": "McDonnell Douglas DC-9-30",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 852,
+        "name": "McDonnell Douglas MD-11F",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 944,
+        "name": "McDonnell Douglas MD-82SF",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 945,
+        "name": "McDonnell Douglas MD-83SF",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 222,
+        "name": "Saab 340A Cargo",
+        "aircraft_category__name": "Cargo",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 816,
+        "name": "Tupolev-204C",
+        "aircraft_category__name": "Cargo",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 575,
+        "name": "Challenger 650",
+        "aircraft_category__name": "Heavy",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 505,
+        "name": "Embraer Legacy 600 long range",
+        "aircraft_category__name": "Heavy",
+        "is_public": false,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 507,
+        "name": "Embraer Legacy 600 speeds ident",
+        "aircraft_category__name": "Heavy",
+        "is_public": false,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 957,
+        "name": "Embraer Legacy 650E",
+        "aircraft_category__name": "Heavy",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 877,
+        "name": "Falcon 2000DX",
+        "aircraft_category__name": "Heavy",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 160,
+        "name": "Falcon 2000EX EASy",
+        "aircraft_category__name": "Heavy",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 617,
+        "name": "Falcon 2000LX",
+        "aircraft_category__name": "Heavy",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 223,
+        "name": "Falcon 2000LX EASy",
+        "aircraft_category__name": "Heavy",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 549,
+        "name": "Falcon 2000LXS",
+        "aircraft_category__name": "Heavy",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 515,
+        "name": "Aerospatiale SA 315 Lama",
+        "aircraft_category__name": "Helicopter",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 958,
+        "name": "Aerospatiale SA 316 Alouette III",
+        "aircraft_category__name": "Helicopter",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 394,
+        "name": "Agusta AW109A",
+        "aircraft_category__name": "Helicopter",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 558,
+        "name": "Agusta AW109C",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 395,
+        "name": "Agusta AW109E",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 396,
+        "name": "Agusta AW109 Grand",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 397,
+        "name": "Agusta AW109S",
+        "aircraft_category__name": "Helicopter",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 398,
+        "name": "Agusta AW109S Grand",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 399,
+        "name": "Agusta AW109SP Grand New",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 538,
+        "name": "Agusta AW119",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 299,
+        "name": "Agusta AW139",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 736,
+        "name": "Agusta AW169",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 554,
+        "name": "Agusta AW189",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 297,
+        "name": "Airbus Helicopters H120 / Eurocopter EC120",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 298,
+        "name": "Airbus Helicopters H120 / Eurocopter EC120 B",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 476,
+        "name": "Airbus Helicopters H125",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 433,
+        "name": "Airbus Helicopters H125 / Eurocopter AS350 B",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 502,
+        "name": "Airbus Helicopters H125 / Eurocopter AS350 B1",
+        "aircraft_category__name": "Helicopter",
+        "is_public": false,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 434,
+        "name": "Airbus Helicopters H125 / Eurocopter AS350 B2",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 435,
+        "name": "Airbus Helicopters H125 / Eurocopter AS350 B3",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 319,
+        "name": "Airbus Helicopters H125 / Eurocopter AS350 BA",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 527,
+        "name": "Airbus Helicopters H125 / Eurocopter AS350 D",
+        "aircraft_category__name": "Helicopter",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 583,
+        "name": "Airbus Helicopters H130",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 320,
+        "name": "Airbus Helicopters H130 / Eurocopter EC130",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 321,
+        "name": "Airbus Helicopters H130 / Eurocopter EC130 B4",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 670,
+        "name": "Airbus Helicopters H135",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 322,
+        "name": "Airbus Helicopters H135 / Eurocopter EC135",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 323,
+        "name": "Airbus Helicopters H135 / Eurocopter EC135 P2+",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 503,
+        "name": "Airbus Helicopters H135 / Eurocopter EC135 T1",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 504,
+        "name": "Airbus Helicopters H135 / Eurocopter EC135 T2",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 671,
+        "name": "Airbus Helicopters H145",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 324,
+        "name": "Airbus Helicopters H145 / Eurocopter EC145",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 672,
+        "name": "Airbus Helicopters H155",
+        "aircraft_category__name": "Helicopter",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 325,
+        "name": "Airbus Helicopters H155 / Eurocopter EC155 B",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 327,
+        "name": "Airbus Helicopters H155 / Eurocopter EC155 B1",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1034,
+        "name": "Airbus Helicopters H160",
+        "aircraft_category__name": "Helicopter",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1083,
+        "name": "Airbus Helicopters H175",
+        "aircraft_category__name": "Helicopter",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 673,
+        "name": "Airbus Helicopters H215",
+        "aircraft_category__name": "Helicopter",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 516,
+        "name": "Airbus Helicopters H215 / Eurocopter AS332",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 685,
+        "name": "Ansat",
+        "aircraft_category__name": "Helicopter",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1020,
+        "name": "Bell 205A-1",
+        "aircraft_category__name": "Helicopter",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 474,
+        "name": "Bell 205A-1++",
+        "aircraft_category__name": "Helicopter",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 301,
+        "name": "Bell 206",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 302,
+        "name": "Bell 206B",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 303,
+        "name": "Bell 206L-3",
+        "aircraft_category__name": "Helicopter",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1021,
+        "name": "Bell 206L-4 ",
+        "aircraft_category__name": "Helicopter",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 472,
+        "name": "Bell 212HP",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1059,
+        "name": "Bell 214B-1",
+        "aircraft_category__name": "Helicopter",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 490,
+        "name": "Bell 222UT",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 488,
+        "name": "Bell 230",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 304,
+        "name": "Bell 407",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 975,
+        "name": "Bell 407GX",
+        "aircraft_category__name": "Helicopter",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 660,
+        "name": "Bell 427",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 291,
+        "name": "Bell 429",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 305,
+        "name": "Bell 430",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 676,
+        "name": "Bell 505 Jet Ranger X",
+        "aircraft_category__name": "Helicopter",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 524,
+        "name": "Bell UH-1",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 497,
+        "name": "Bo 105",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 292,
+        "name": "Eurocopter AS355 F1",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 293,
+        "name": "Eurocopter AS355 F2",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 296,
+        "name": "Eurocopter AS355 N",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 514,
+        "name": "Ka-32",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 531,
+        "name": "Kawasaki BK 117",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 587,
+        "name": "MD 500E",
+        "aircraft_category__name": "Helicopter",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 573,
+        "name": "MD 500N",
+        "aircraft_category__name": "Helicopter",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 501,
+        "name": "MD 520N",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 536,
+        "name": "MD 530F",
+        "aircraft_category__name": "Helicopter",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 675,
+        "name": "MD 900 Explorer",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 500,
+        "name": "MD 902",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 483,
+        "name": "MI-171",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 674,
+        "name": "MI-26T",
+        "aircraft_category__name": "Helicopter",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 470,
+        "name": "MI-8",
+        "aircraft_category__name": "Helicopter",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 561,
+        "name": "PZL W-3A Sokol",
+        "aircraft_category__name": "Helicopter",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 562,
+        "name": "PZL W-3AS Sokol",
+        "aircraft_category__name": "Helicopter",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 560,
+        "name": "PZL W-3 Sokol",
+        "aircraft_category__name": "Helicopter",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 513,
+        "name": "Sikorsky S-300C",
+        "aircraft_category__name": "Helicopter",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 588,
+        "name": "Sikorsky S-333",
+        "aircraft_category__name": "Helicopter",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 661,
+        "name": "Sikorsky S-58C",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 542,
+        "name": "Sikorsky S-61",
+        "aircraft_category__name": "Helicopter",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 423,
+        "name": "Sikorsky S-76A",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 424,
+        "name": "Sikorsky S-76B",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 426,
+        "name": "Sikorsky S-76C",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 735,
+        "name": "Sikorsky S-76D",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 546,
+        "name": "Sikorsky S-92A",
+        "aircraft_category__name": "Helicopter",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1085,
+        "name": "Aero Commander 500S",
+        "aircraft_category__name": "Light",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 402,
+        "name": "BAe Jetstream 41",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 519,
+        "name": "Cessna Citation CJ3+",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 141,
+        "name": "Cessna Citation I",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 405,
+        "name": "Cessna Citation VI",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1033,
+        "name": "Embraer Phenom 300E",
+        "aircraft_category__name": "Light",
+        "is_public": false,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 267,
+        "name": "Hawker 400",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 145,
+        "name": "Hawker 400XP",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 687,
+        "name": "HondaJet (high speed cruise)",
+        "aircraft_category__name": "Light",
+        "is_public": false,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 962,
+        "name": "HondaJet (IASA regulations)",
+        "aircraft_category__name": "Light",
+        "is_public": false,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 686,
+        "name": "HondaJet (long range cruise)",
+        "aircraft_category__name": "Light",
+        "is_public": false,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 453,
+        "name": "Learjet 24B",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 454,
+        "name": "Learjet 24D",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 455,
+        "name": "Learjet 24D/A",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 354,
+        "name": "Learjet 24E",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 456,
+        "name": "Learjet 24F",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 276,
+        "name": "Learjet 25",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 361,
+        "name": "Learjet 28",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 362,
+        "name": "Learjet 31ER",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 171,
+        "name": "Learjet 35",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 148,
+        "name": "Learjet 35A",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 770,
+        "name": "Learjet 36",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 771,
+        "name": "Learjet 36A",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 103,
+        "name": "Learjet 40",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 172,
+        "name": "Learjet 55",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 592,
+        "name": "Learjet 55XR",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 458,
+        "name": "Learjet 75",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1030,
+        "name": "Lockheed JetStar 2",
+        "aircraft_category__name": "Light",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1032,
+        "name": "Lockheed JetStar  6",
+        "aircraft_category__name": "Light",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1035,
+        "name": "Nextant 400XTi",
+        "aircraft_category__name": "Light",
+        "is_public": false,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 655,
+        "name": "Pilatus PC-24",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 968,
+        "name": "Sabre 75A",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 446,
+        "name": "Sabreliner 60",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 217,
+        "name": "Sabreliner 65",
+        "aircraft_category__name": "Light",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1052,
+        "name": "to delete King Air 360",
+        "aircraft_category__name": "Light",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1053,
+        "name": "to delete King Air 360ER",
+        "aircraft_category__name": "Light",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 112,
+        "name": "Cessna Citation III",
+        "aircraft_category__name": "Midsize",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 548,
+        "name": "Cessna Citation Latitude",
+        "aircraft_category__name": "Midsize",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 684,
+        "name": "Cessna Citation Longitude",
+        "aircraft_category__name": "Midsize",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 162,
+        "name": "Cessna Citation VII",
+        "aircraft_category__name": "Midsize",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 511,
+        "name": "Embraer Legacy 450",
+        "aircraft_category__name": "Midsize",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 508,
+        "name": "Embraer Legacy 500",
+        "aircraft_category__name": "Midsize",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 698,
+        "name": "Embraer Praetor 500",
+        "aircraft_category__name": "Midsize",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 976,
+        "name": "Hawker 700B",
+        "aircraft_category__name": "Midsize",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 682,
+        "name": "Hawker 800XPi",
+        "aircraft_category__name": "Midsize",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 98,
+        "name": "Hawker 900XP",
+        "aircraft_category__name": "Midsize",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 535,
+        "name": "Hawker Siddeley 125-700",
+        "aircraft_category__name": "Midsize",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 428,
+        "name": "IAI Astra",
+        "aircraft_category__name": "Midsize",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 337,
+        "name": "IAI Astra SPX",
+        "aircraft_category__name": "Midsize",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 308,
+        "name": "IAI Westwind I",
+        "aircraft_category__name": "Midsize",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 317,
+        "name": "IAI Westwind II",
+        "aircraft_category__name": "Midsize",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 97,
+        "name": "Learjet 60",
+        "aircraft_category__name": "Midsize",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 457,
+        "name": "Learjet 70",
+        "aircraft_category__name": "Midsize",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 936,
+        "name": "Aero Commander 680V ",
+        "aircraft_category__name": "Piston",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 346,
+        "name": "Aero Commander 690",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 590,
+        "name": "An-2",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 618,
+        "name": "A-Viator AP.68TP-600",
+        "aircraft_category__name": "Piston",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 127,
+        "name": "Beechcraft 58 Baron",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 688,
+        "name": "Beechcraft 76 Duchess",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 935,
+        "name": "Beechcraft A36 Bonanza",
+        "aircraft_category__name": "Piston",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1050,
+        "name": "Beechcraft B24-R Sierra",
+        "aircraft_category__name": "Piston",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 950,
+        "name": "Beechcraft E18S Bonanza",
+        "aircraft_category__name": "Piston",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 556,
+        "name": "Beechcraft F33A Bonanza",
+        "aircraft_category__name": "Piston",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 537,
+        "name": "Bell 47",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 691,
+        "name": "Bellanca Viking",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 730,
+        "name": "Britten Norman Islander BN-2",
+        "aircraft_category__name": "Piston",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 729,
+        "name": "Britten Norman Islander BN-2A",
+        "aircraft_category__name": "Piston",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 734,
+        "name": "Britten Norman Islander BN-2A-21",
+        "aircraft_category__name": "Piston",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 311,
+        "name": "Britten Norman Islander BN-2A-26",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 722,
+        "name": "Britten Norman Islander BN-2A-27",
+        "aircraft_category__name": "Piston",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 728,
+        "name": "Britten Norman Islander BN-2A-3",
+        "aircraft_category__name": "Piston",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 725,
+        "name": "Britten Norman Islander BN-2A-6",
+        "aircraft_category__name": "Piston",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 727,
+        "name": "Britten Norman Islander BN-2A-8",
+        "aircraft_category__name": "Piston",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 733,
+        "name": "Britten Norman Islander BN-2A Mk III-2",
+        "aircraft_category__name": "Piston",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 731,
+        "name": "Britten Norman Islander BN-2B-20",
+        "aircraft_category__name": "Piston",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 523,
+        "name": "Cessna 150",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 551,
+        "name": "Cessna 152",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 581,
+        "name": "Cessna 162",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 566,
+        "name": "Cessna 172",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 543,
+        "name": "Cessna 177",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 712,
+        "name": "Cessna 185",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 370,
+        "name": "Cessna 206",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 824,
+        "name": "Cessna 207",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 666,
+        "name": "Cessna 208B Grand Caravan EX",
+        "aircraft_category__name": "Piston",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 571,
+        "name": "Cessna 210",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 372,
+        "name": "Cessna 310R",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 332,
+        "name": "Cessna 337",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 129,
+        "name": "Cessna 340",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 373,
+        "name": "Cessna 400",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1056,
+        "name": "Cessna 401",
+        "aircraft_category__name": "Piston",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 374,
+        "name": "Cessna 402B",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 550,
+        "name": "Cessna 404",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 378,
+        "name": "Cessna 421",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 265,
+        "name": "Cessna T303",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 610,
+        "name": "Cirrus SR20",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 948,
+        "name": "Convair CV-580",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 949,
+        "name": "Convair CV-5800",
+        "aircraft_category__name": "Piston",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 715,
+        "name": "DHC-2 MK3 Turbo Beaver",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 532,
+        "name": "Diamond DA20 Katana",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 534,
+        "name": "Diamond DA40 Diamond Star",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1019,
+        "name": "Diamond DA62",
+        "aircraft_category__name": "Piston",
+        "is_public": false,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 720,
+        "name": "Douglas DC-3",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 479,
+        "name": "Enstrom 280FX",
+        "aircraft_category__name": "Piston",
+        "is_public": false,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 481,
+        "name": "Enstrom F-28F",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 969,
+        "name": "FBA-2C1",
+        "aircraft_category__name": "Piston",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1058,
+        "name": "GippsAero GA8 Airvan",
+        "aircraft_category__name": "Piston",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 518,
+        "name": "Guimbal Cabri G2",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 526,
+        "name": "Hughes TH-55 Osage",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 956,
+        "name": "Jodel D140 Mousquetaire",
+        "aircraft_category__name": "Piston",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 716,
+        "name": "Maule M-5-210C",
+        "aircraft_category__name": "Piston",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 407,
+        "name": "Mooney M20E",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 714,
+        "name": "Piper PA-28-161 Warrior II",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 719,
+        "name": "Piper PA-28-181 Archer II",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 567,
+        "name": "Piper PA-28 Cherokee",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 717,
+        "name": "Piper PA-28R-200 Arrow II",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 335,
+        "name": "Piper PA-28R-201T Turbo Arrow III",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 442,
+        "name": "Piper PA-31-325 Navajo C/R",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 131,
+        "name": "Piper PA-31-350 Chieftain",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 443,
+        "name": "Piper PA-31P",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 409,
+        "name": "Piper PA-31T2 Cheyenne II XL",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 133,
+        "name": "Piper PA-31T Cheyenne",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 316,
+        "name": "Piper PA-31T Cheyenne II",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 564,
+        "name": "Piper PA-32-301FT 6X",
+        "aircraft_category__name": "Piston",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 933,
+        "name": "Piper PA-32R-300",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 934,
+        "name": "Piper PA-32R-301",
+        "aircraft_category__name": "Piston",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 931,
+        "name": "Piper PA-32RT-300",
+        "aircraft_category__name": "Piston",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 932,
+        "name": "Piper PA-32RT-301T",
+        "aircraft_category__name": "Piston",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 413,
+        "name": "Piper PA-34-200T Seneca II",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 607,
+        "name": "Piper PA-34-220T Seneca V",
+        "aircraft_category__name": "Piston",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 565,
+        "name": "Piper PA-42-1000 Cheyenne 400",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 213,
+        "name": "Piper PA-42-720 Cheyenne III",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 652,
+        "name": "Piper PA-46-350P Malibu Mirage",
+        "aircraft_category__name": "Piston",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 441,
+        "name": "Piper PA-46R-350T Matrix",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 569,
+        "name": "Piper PA-60 Aerostar",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 415,
+        "name": "Robinson R22 Beta II",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 416,
+        "name": "Robinson R44",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 418,
+        "name": "Robinson R44 Clipper II",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 419,
+        "name": "Robinson R44 Raven II",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 659,
+        "name": "Socata TB-20",
+        "aircraft_category__name": "Piston",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 528,
+        "name": "Vulcanair P68",
+        "aircraft_category__name": "Piston",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 613,
+        "name": "Cessna Citation Sovereign",
+        "aircraft_category__name": "Super midsize",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 539,
+        "name": "Cessna Citation X+",
+        "aircraft_category__name": "Super midsize",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 680,
+        "name": "Cessna Citation X Elite",
+        "aircraft_category__name": "Super midsize",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1081,
+        "name": "Challenger 3500",
+        "aircraft_category__name": "Super midsize",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 697,
+        "name": "Embraer Praetor 600",
+        "aircraft_category__name": "Super midsize",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 343,
+        "name": "Falcon 20F",
+        "aircraft_category__name": "Super midsize",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 344,
+        "name": "Falcon 20F-5",
+        "aircraft_category__name": "Super midsize",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1076,
+        "name": "Falcon 20F-5BR",
+        "aircraft_category__name": "Super midsize",
+        "is_public": false,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 193,
+        "name": "Falcon 50",
+        "aircraft_category__name": "Super midsize",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 352,
+        "name": "Gulfstream IIB",
+        "aircraft_category__name": "Super midsize",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 254,
+        "name": "Hawker 1000",
+        "aircraft_category__name": "Super midsize",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 286,
+        "name": "Hawker 4000",
+        "aircraft_category__name": "Super midsize",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 506,
+        "name": "remove Challenger 300 M080",
+        "aircraft_category__name": "Super midsize",
+        "is_public": false,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 468,
+        "name": "An-28",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 275,
+        "name": "BAe Jetstream 32",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 690,
+        "name": "Beechcraft 99 Airliner ",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 220,
+        "name": "Beechcraft King Air 100",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1051,
+        "name": "Beechcraft King Air 260",
+        "aircraft_category__name": "Turboprop",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 165,
+        "name": "Beechcraft King Air 300",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 15,
+        "name": "Beechcraft King Air 350ER",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1054,
+        "name": "Beechcraft King Air 360",
+        "aircraft_category__name": "Turboprop",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1055,
+        "name": "Beechcraft King Air 360ER",
+        "aircraft_category__name": "Turboprop",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 214,
+        "name": "Beechcraft King Air 90",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 683,
+        "name": "Beechcraft King Air B200",
+        "aircraft_category__name": "Turboprop",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 678,
+        "name": "Beechcraft King Air B200GT",
+        "aircraft_category__name": "Turboprop",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 387,
+        "name": "Beechcraft King Air C90GT",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 389,
+        "name": "Beechcraft King Air C90GTi",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 390,
+        "name": "Beechcraft King Air C90GTx",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 391,
+        "name": "Beechcraft King Air E90",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 392,
+        "name": "Beechcraft King Air F90",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 173,
+        "name": "Cessna 208",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 312,
+        "name": "Cessna 208 Amphibian",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 375,
+        "name": "Cessna 406",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 314,
+        "name": "Cessna 414A",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 377,
+        "name": "Cessna 414 RAM VI",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 315,
+        "name": "Cessna 425",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 289,
+        "name": "Cessna 441",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 879,
+        "name": "DHC-6-300",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 252,
+        "name": "Embraer 110",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 134,
+        "name": "Embraer 121 Xingu",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 328,
+        "name": "Fairchild Merlin 300",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 329,
+        "name": "Fairchild Merlin III",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 529,
+        "name": "Let L-410",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 580,
+        "name": "Mitsubishi MU-2",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 101,
+        "name": "Piaggio Avanti",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 983,
+        "name": "Piaggio Avanti Evo",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 668,
+        "name": "Pilatus PC-12/41",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 287,
+        "name": "Pilatus PC-12/45",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 288,
+        "name": "Pilatus PC-12/47 NG",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 246,
+        "name": "Pilatus PC-6",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 654,
+        "name": "Piper JetPROP DLX",
+        "aircraft_category__name": "Turboprop",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1016,
+        "name": "Piper M350",
+        "aircraft_category__name": "Turboprop",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1015,
+        "name": "Piper M500 ",
+        "aircraft_category__name": "Turboprop",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1014,
+        "name": "Piper M600 SLS",
+        "aircraft_category__name": "Turboprop",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 651,
+        "name": "Piper PA-46-500TP Malibu Meridian",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 630,
+        "name": "Quest Kodiak 100",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 626,
+        "name": "Socata TBM 700A",
+        "aircraft_category__name": "Turboprop",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 625,
+        "name": "Socata TBM 700B",
+        "aircraft_category__name": "Turboprop",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 985,
+        "name": "Socata TBM 700C1",
+        "aircraft_category__name": "Turboprop",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 987,
+        "name": "Socata TBM 700C2",
+        "aircraft_category__name": "Turboprop",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 412,
+        "name": "TBM 850",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 988,
+        "name": "TBM 850 Elite",
+        "aircraft_category__name": "Turboprop",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 627,
+        "name": "TBM 900",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 628,
+        "name": "TBM 910",
+        "aircraft_category__name": "Turboprop",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 629,
+        "name": "TBM 930",
+        "aircraft_category__name": "Turboprop",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 990,
+        "name": "TBM 940",
+        "aircraft_category__name": "Turboprop",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 336,
+        "name": "Twin Commander 1000",
+        "aircraft_category__name": "Turboprop",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 633,
+        "name": "Falcon 6X",
+        "aircraft_category__name": "Ultra long range",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 603,
+        "name": "Falcon 8X",
+        "aircraft_category__name": "Ultra long range",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 739,
+        "name": "Falcon 900LX EASy II",
+        "aircraft_category__name": "Ultra long range",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 981,
+        "name": "Global 5500",
+        "aircraft_category__name": "Ultra long range",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 982,
+        "name": "Global 6500",
+        "aircraft_category__name": "Ultra long range",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 623,
+        "name": "Global 7500",
+        "aircraft_category__name": "Ultra long range",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 624,
+        "name": "Global 8000",
+        "aircraft_category__name": "Ultra long range",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 713,
+        "name": "Gulfstream G650ER",
+        "aircraft_category__name": "Ultra long range",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 738,
+        "name": "Gulfstream G700",
+        "aircraft_category__name": "Ultra long range",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 973,
+        "name": "Gulfstream GVII-G500",
+        "aircraft_category__name": "Ultra long range",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 974,
+        "name": "Gulfstream GVII-G600",
+        "aircraft_category__name": "Ultra long range",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 937,
+        "name": "Cirrus SF50",
+        "aircraft_category__name": "Very light",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 570,
+        "name": "Eclipse 550",
+        "aircraft_category__name": "Very light",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 622,
+        "name": "HondaJet",
+        "aircraft_category__name": "Very light",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1077,
+        "name": "HondaJet Elite",
+        "aircraft_category__name": "Very light",
+        "is_public": false,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1078,
+        "name": "HondaJet Elite II",
+        "aircraft_category__name": "Very light",
+        "is_public": false,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 649,
+        "name": "Airbus A350-1000 XWB",
+        "aircraft_category__name": "VIP airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 643,
+        "name": "Airbus ACJ318",
+        "aircraft_category__name": "VIP airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 646,
+        "name": "Airbus ACJ321",
+        "aircraft_category__name": "VIP airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 647,
+        "name": "Airbus ACJ330neo (ACJ-330-800)",
+        "aircraft_category__name": "VIP airliner",
+        "is_public": false,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 648,
+        "name": "Airbus ACJ350",
+        "aircraft_category__name": "VIP airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 978,
+        "name": "Airbus ACJ350 (ACJ-350-1000)",
+        "aircraft_category__name": "VIP airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 650,
+        "name": "Airbus ACJ380",
+        "aircraft_category__name": "VIP airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 638,
+        "name": "BBJ2 / Boeing 737-800",
+        "aircraft_category__name": "VIP airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 639,
+        "name": "BBJ3 / Boeing 737-900ER",
+        "aircraft_category__name": "VIP airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 657,
+        "name": "BBJ 787 8",
+        "aircraft_category__name": "VIP airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 658,
+        "name": "BBJ 787 9",
+        "aircraft_category__name": "VIP airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 902,
+        "name": "BBJ / Boeing 737-700",
+        "aircraft_category__name": "VIP airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 640,
+        "name": "BBJ C",
+        "aircraft_category__name": "VIP airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 641,
+        "name": "BBJ MAX 8",
+        "aircraft_category__name": "VIP airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 642,
+        "name": "BBJ MAX 9",
+        "aircraft_category__name": "VIP airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1073,
+        "name": "to delete Boeing 737 MAX 7 BBJ",
+        "aircraft_category__name": "VIP airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 1071,
+        "name": "to delete  Boeing 737 MAX 8 BBJ",
+        "aircraft_category__name": "VIP airliner",
+        "is_public": null,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 107,
+        "name": "Tupolev-154",
+        "aircraft_category__name": "VIP airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 104,
+        "name": "Yak-40",
+        "aircraft_category__name": "VIP airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 105,
+        "name": "Yak-42 ",
+        "aircraft_category__name": "VIP airliner",
+        "is_public": true,
+        "priority": null,
+        "null_priority": 0
+      },
+      {
+        "id": 972,
+        "name": "to delete Cessna Citation Latitude MCT",
+        "aircraft_category__name": null,
+        "is_public": false,
+        "priority": null,
+        "null_priority": 0
+      }
+    ],
+    "categories": [
+      {
+        "id": 4,
+        "name": "Piston",
+        "priority": 1
+      },
+      {
+        "id": 3,
+        "name": "Turboprop",
+        "priority": 2
+      },
+      {
+        "id": 2,
+        "name": "Very light",
+        "priority": 3
+      },
+      {
+        "id": 12,
+        "name": "Light",
+        "priority": 4
+      },
+      {
+        "id": 7,
+        "name": "Midsize",
+        "priority": 5
+      },
+      {
+        "id": 1,
+        "name": "Super midsize",
+        "priority": 6
+      },
+      {
+        "id": 6,
+        "name": "Heavy",
+        "priority": 7
+      },
+      {
+        "id": 13,
+        "name": "Ultra long range",
+        "priority": 8
+      },
+      {
+        "id": 10,
+        "name": "Airliner",
+        "priority": 9
+      },
+      {
+        "id": 8,
+        "name": "VIP airliner",
+        "priority": 10
+      },
+      {
+        "id": 14,
+        "name": "Helicopter",
+        "priority": 11
+      },
+      {
+        "id": 9,
+        "name": "Cargo",
+        "priority": 12
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"7971e9bc29702e1a\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"CEU\",\n                toIata: \"CLT\",\n                fromIcao: \"KCEU\",\n                toIcao: \"KCLT\",\n                fromCity: \"Oconee County Rgnl\",\n                toCity: \"Charlotte Douglas Intl\",\n                fromName: \"Oconee County Rgnl\",\n                toName: \"Charlotte Douglas Intl\",\n                departAt: \"2025-10-24T00:00:00.000Z\",\n                acType: \"Cessna Citation V\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 1600,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"24-10-2025 00:00 → 24-10-2025 00:00\"\n              },\n              create: {\n                id: \"7971e9bc29702e1a\",\n                operator: \"aviapages\",\n                fromIata: \"CEU\",\n                toIata: \"CLT\",\n                fromIcao: \"KCEU\",\n                toIcao: \"KCLT\",\n                fromCity: \"Oconee County Rgnl\",\n                toCity: \"Charlotte Douglas Intl\",\n                fromName: \"Oconee County Rgnl\",\n                toName: \"Charlotte Douglas Intl\",\n                departAt: \"2025-10-24T00:00:00.000Z\",\n                acType: \"Cessna Citation V\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 1600,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"24-10-2025 00:00 → 24-10-2025 00:00\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "7971e9bc29702e1a",
+    "operator": "aviapages",
+    "fromIata": "CEU",
+    "toIata": "CLT",
+    "fromIcao": "KCEU",
+    "toIcao": "KCLT",
+    "fromCity": "Oconee County Rgnl",
+    "toCity": "Charlotte Douglas Intl",
+    "fromName": "Oconee County Rgnl",
+    "toName": "Charlotte Douglas Intl",
+    "departAt": "2025-10-24T00:00:00.000Z",
+    "acType": "Cessna Citation V",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 1600,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "24-10-2025 00:00 → 24-10-2025 00:00"
+  }
+}

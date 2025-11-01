@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"61f004bcfb2d9029\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"NAS\",\n                toIata: \"PLS\",\n                fromIcao: \"MYNN\",\n                toIcao: \"MBPV\",\n                fromCity: \"Lynden Pindling Intl\",\n                toCity: \"Providenciales Intl\",\n                fromName: \"Lynden Pindling Intl\",\n                toName: \"Providenciales Intl\",\n                departAt: \"2025-10-25T00:00:00.000Z\",\n                acType: \"Challenger 604\",\n                acClass: \"Heavy Jet\",\n                seats: null,\n                priceUSD: 9400,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"25-10-2025 00:00 → 25-10-2025 00:00\"\n              },\n              create: {\n                id: \"61f004bcfb2d9029\",\n                operator: \"aviapages\",\n                fromIata: \"NAS\",\n                toIata: \"PLS\",\n                fromIcao: \"MYNN\",\n                toIcao: \"MBPV\",\n                fromCity: \"Lynden Pindling Intl\",\n                toCity: \"Providenciales Intl\",\n                fromName: \"Lynden Pindling Intl\",\n                toName: \"Providenciales Intl\",\n                departAt: \"2025-10-25T00:00:00.000Z\",\n                acType: \"Challenger 604\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 9400,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"25-10-2025 00:00 → 25-10-2025 00:00\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "61f004bcfb2d9029",
+    "operator": "aviapages",
+    "fromIata": "NAS",
+    "toIata": "PLS",
+    "fromIcao": "MYNN",
+    "toIcao": "MBPV",
+    "fromCity": "Lynden Pindling Intl",
+    "toCity": "Providenciales Intl",
+    "fromName": "Lynden Pindling Intl",
+    "toName": "Providenciales Intl",
+    "departAt": "2025-10-25T00:00:00.000Z",
+    "acType": "Challenger 604",
+    "acClass": "Heavy Jet",
+    "seats": null,
+    "priceUSD": 9400,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "25-10-2025 00:00 → 25-10-2025 00:00"
+  }
+}

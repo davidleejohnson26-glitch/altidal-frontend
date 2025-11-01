@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"8b417decd38142c3\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"OCF\",\n                toIata: \"HXD\",\n                fromIcao: \"KOCF\",\n                toIcao: \"KHXD\",\n                fromCity: \"Ocala Intl-Jim Taylor Field\",\n                toCity: \"Hilton Head\",\n                fromName: \"Ocala Intl-Jim Taylor Field\",\n                toName: \"Hilton Head\",\n                departAt: \"2025-10-24T00:00:00.000Z\",\n                acType: \"Hawker 400XP\",\n                acClass: \"Unknown\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"24-10-2025 00:00 → 25-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"8b417decd38142c3\",\n                operator: \"aviapages\",\n                fromIata: \"OCF\",\n                toIata: \"HXD\",\n                fromIcao: \"KOCF\",\n                toIcao: \"KHXD\",\n                fromCity: \"Ocala Intl-Jim Taylor Field\",\n                toCity: \"Hilton Head\",\n                fromName: \"Ocala Intl-Jim Taylor Field\",\n                toName: \"Hilton Head\",\n                departAt: \"2025-10-24T00:00:00.000Z\",\n                acType: \"Hawker 400XP\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"24-10-2025 00:00 → 25-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "8b417decd38142c3",
+    "operator": "aviapages",
+    "fromIata": "OCF",
+    "toIata": "HXD",
+    "fromIcao": "KOCF",
+    "toIcao": "KHXD",
+    "fromCity": "Ocala Intl-Jim Taylor Field",
+    "toCity": "Hilton Head",
+    "fromName": "Ocala Intl-Jim Taylor Field",
+    "toName": "Hilton Head",
+    "departAt": "2025-10-24T00:00:00.000Z",
+    "acType": "Hawker 400XP",
+    "acClass": "Unknown",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "24-10-2025 00:00 → 25-10-2025 00:00 | Price on Request"
+  }
+}

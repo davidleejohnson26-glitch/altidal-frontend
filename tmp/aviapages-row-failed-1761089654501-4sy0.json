@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"748587622cab390e\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"VNY\",\n                toIata: \"MRY\",\n                fromIcao: \"KVNY\",\n                toIcao: \"KMRY\",\n                fromCity: \"Van Nuys\",\n                toCity: \"Monterey Rgnl\",\n                fromName: \"Van Nuys\",\n                toName: \"Monterey Rgnl\",\n                departAt: \"2025-11-13T00:00:00.000Z\",\n                acType: \"Gulfstream IV-SP\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"13-11-2025 00:00 → 13-11-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"748587622cab390e\",\n                operator: \"aviapages\",\n                fromIata: \"VNY\",\n                toIata: \"MRY\",\n                fromIcao: \"KVNY\",\n                toIcao: \"KMRY\",\n                fromCity: \"Van Nuys\",\n                toCity: \"Monterey Rgnl\",\n                fromName: \"Van Nuys\",\n                toName: \"Monterey Rgnl\",\n                departAt: \"2025-11-13T00:00:00.000Z\",\n                acType: \"Gulfstream IV-SP\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"13-11-2025 00:00 → 13-11-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "748587622cab390e",
+    "operator": "aviapages",
+    "fromIata": "VNY",
+    "toIata": "MRY",
+    "fromIcao": "KVNY",
+    "toIcao": "KMRY",
+    "fromCity": "Van Nuys",
+    "toCity": "Monterey Rgnl",
+    "fromName": "Van Nuys",
+    "toName": "Monterey Rgnl",
+    "departAt": "2025-11-13T00:00:00.000Z",
+    "acType": "Gulfstream IV-SP",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "13-11-2025 00:00 → 13-11-2025 00:00 | Price on Request"
+  }
+}

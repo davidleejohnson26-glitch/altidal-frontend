@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"069e5a0882d9d2ac\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"BCT\",\n                toIata: \"TYS\",\n                fromIcao: \"KBCT\",\n                toIcao: \"KTYS\",\n                fromCity: \"Boca Raton\",\n                toCity: \"Mc Ghee Tyson\",\n                fromName: \"Boca Raton\",\n                toName: \"Mc Ghee Tyson\",\n                departAt: \"2025-10-26T00:00:00.000Z\",\n                acType: \"Hawker 850XP\",\n                acClass: \"Unknown\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-10-2025 00:00 → 26-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"069e5a0882d9d2ac\",\n                operator: \"aviapages\",\n                fromIata: \"BCT\",\n                toIata: \"TYS\",\n                fromIcao: \"KBCT\",\n                toIcao: \"KTYS\",\n                fromCity: \"Boca Raton\",\n                toCity: \"Mc Ghee Tyson\",\n                fromName: \"Boca Raton\",\n                toName: \"Mc Ghee Tyson\",\n                departAt: \"2025-10-26T00:00:00.000Z\",\n                acType: \"Hawker 850XP\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-10-2025 00:00 → 26-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "069e5a0882d9d2ac",
+    "operator": "aviapages",
+    "fromIata": "BCT",
+    "toIata": "TYS",
+    "fromIcao": "KBCT",
+    "toIcao": "KTYS",
+    "fromCity": "Boca Raton",
+    "toCity": "Mc Ghee Tyson",
+    "fromName": "Boca Raton",
+    "toName": "Mc Ghee Tyson",
+    "departAt": "2025-10-26T00:00:00.000Z",
+    "acType": "Hawker 850XP",
+    "acClass": "Unknown",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "26-10-2025 00:00 → 26-10-2025 00:00 | Price on Request"
+  }
+}

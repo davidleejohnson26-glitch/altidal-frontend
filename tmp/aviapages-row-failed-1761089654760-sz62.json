@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"16e5f5f40d1ecb9f\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"TRI\",\n                toIata: \"TEB\",\n                fromIcao: \"KTRI\",\n                toIcao: \"KTEB\",\n                fromCity: \"Tri Cities Regl Tn Va\",\n                toCity: \"Teterboro\",\n                fromName: \"Tri Cities Regl Tn Va\",\n                toName: \"Teterboro\",\n                departAt: \"2025-11-30T00:00:00.000Z\",\n                acType: \"Cessna Citation Sovereign+\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"30-11-2025 00:00 → 30-11-2025 23:59 | Price on Request\"\n              },\n              create: {\n                id: \"16e5f5f40d1ecb9f\",\n                operator: \"aviapages\",\n                fromIata: \"TRI\",\n                toIata: \"TEB\",\n                fromIcao: \"KTRI\",\n                toIcao: \"KTEB\",\n                fromCity: \"Tri Cities Regl Tn Va\",\n                toCity: \"Teterboro\",\n                fromName: \"Tri Cities Regl Tn Va\",\n                toName: \"Teterboro\",\n                departAt: \"2025-11-30T00:00:00.000Z\",\n                acType: \"Cessna Citation Sovereign+\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"30-11-2025 00:00 → 30-11-2025 23:59 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "16e5f5f40d1ecb9f",
+    "operator": "aviapages",
+    "fromIata": "TRI",
+    "toIata": "TEB",
+    "fromIcao": "KTRI",
+    "toIcao": "KTEB",
+    "fromCity": "Tri Cities Regl Tn Va",
+    "toCity": "Teterboro",
+    "fromName": "Tri Cities Regl Tn Va",
+    "toName": "Teterboro",
+    "departAt": "2025-11-30T00:00:00.000Z",
+    "acType": "Cessna Citation Sovereign+",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "30-11-2025 00:00 → 30-11-2025 23:59 | Price on Request"
+  }
+}

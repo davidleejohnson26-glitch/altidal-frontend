@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"2094b3a227e17691\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"HOU\",\n                toIata: \"SAT\",\n                fromIcao: \"KHOU\",\n                toIcao: \"KSAT\",\n                fromCity: \"William P Hobby\",\n                toCity: \"San Antonio Intl\",\n                fromName: \"William P Hobby\",\n                toName: \"San Antonio Intl\",\n                departAt: \"2025-10-19T00:00:00.000Z\",\n                acType: \"Hawker 400XP\",\n                acClass: \"Unknown\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"19-10-2025 00:00 → 21-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"2094b3a227e17691\",\n                operator: \"aviapages\",\n                fromIata: \"HOU\",\n                toIata: \"SAT\",\n                fromIcao: \"KHOU\",\n                toIcao: \"KSAT\",\n                fromCity: \"William P Hobby\",\n                toCity: \"San Antonio Intl\",\n                fromName: \"William P Hobby\",\n                toName: \"San Antonio Intl\",\n                departAt: \"2025-10-19T00:00:00.000Z\",\n                acType: \"Hawker 400XP\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"19-10-2025 00:00 → 21-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "2094b3a227e17691",
+    "operator": "aviapages",
+    "fromIata": "HOU",
+    "toIata": "SAT",
+    "fromIcao": "KHOU",
+    "toIcao": "KSAT",
+    "fromCity": "William P Hobby",
+    "toCity": "San Antonio Intl",
+    "fromName": "William P Hobby",
+    "toName": "San Antonio Intl",
+    "departAt": "2025-10-19T00:00:00.000Z",
+    "acType": "Hawker 400XP",
+    "acClass": "Unknown",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "19-10-2025 00:00 → 21-10-2025 00:00 | Price on Request"
+  }
+}

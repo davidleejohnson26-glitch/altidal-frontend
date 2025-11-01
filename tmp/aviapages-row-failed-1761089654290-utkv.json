@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"e0e2bb87604f2baf\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"VNY\",\n                toIata: \"SXM\",\n                fromIcao: \"KVNY\",\n                toIcao: \"TNCM\",\n                fromCity: \"Van Nuys\",\n                toCity: \"Princess Juliana Intl\",\n                fromName: \"Van Nuys\",\n                toName: \"Princess Juliana Intl\",\n                departAt: \"2026-01-02T00:00:00.000Z\",\n                acType: \"Global 5000\",\n                acClass: \"Heavy Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"02-01-2026 00:00 → 02-01-2026 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"e0e2bb87604f2baf\",\n                operator: \"aviapages\",\n                fromIata: \"VNY\",\n                toIata: \"SXM\",\n                fromIcao: \"KVNY\",\n                toIcao: \"TNCM\",\n                fromCity: \"Van Nuys\",\n                toCity: \"Princess Juliana Intl\",\n                fromName: \"Van Nuys\",\n                toName: \"Princess Juliana Intl\",\n                departAt: \"2026-01-02T00:00:00.000Z\",\n                acType: \"Global 5000\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"02-01-2026 00:00 → 02-01-2026 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "e0e2bb87604f2baf",
+    "operator": "aviapages",
+    "fromIata": "VNY",
+    "toIata": "SXM",
+    "fromIcao": "KVNY",
+    "toIcao": "TNCM",
+    "fromCity": "Van Nuys",
+    "toCity": "Princess Juliana Intl",
+    "fromName": "Van Nuys",
+    "toName": "Princess Juliana Intl",
+    "departAt": "2026-01-02T00:00:00.000Z",
+    "acType": "Global 5000",
+    "acClass": "Heavy Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "02-01-2026 00:00 → 02-01-2026 00:00 | Price on Request"
+  }
+}

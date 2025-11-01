@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"30dfa2801ecbbe24\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"LTN\",\n                toIata: \"ZRH\",\n                fromIcao: \"EGGW\",\n                toIcao: \"LSZH\",\n                fromCity: \"London Luton Airport\",\n                toCity: \"Zurich\",\n                fromName: \"London Luton Airport\",\n                toName: \"Zurich\",\n                departAt: \"2025-10-31T00:00:00.000Z\",\n                acType: \"Cessna Citation CJ2\",\n                acClass: \"Light Jet\",\n                seats: null,\n                priceUSD: 5450,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"31-10-2025 00:00 → 31-10-2025 00:00\"\n              },\n              create: {\n                id: \"30dfa2801ecbbe24\",\n                operator: \"aviapages\",\n                fromIata: \"LTN\",\n                toIata: \"ZRH\",\n                fromIcao: \"EGGW\",\n                toIcao: \"LSZH\",\n                fromCity: \"London Luton Airport\",\n                toCity: \"Zurich\",\n                fromName: \"London Luton Airport\",\n                toName: \"Zurich\",\n                departAt: \"2025-10-31T00:00:00.000Z\",\n                acType: \"Cessna Citation CJ2\",\n                acClass: \"Light Jet\",\n                priceUSD: 5450,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"31-10-2025 00:00 → 31-10-2025 00:00\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "30dfa2801ecbbe24",
+    "operator": "aviapages",
+    "fromIata": "LTN",
+    "toIata": "ZRH",
+    "fromIcao": "EGGW",
+    "toIcao": "LSZH",
+    "fromCity": "London Luton Airport",
+    "toCity": "Zurich",
+    "fromName": "London Luton Airport",
+    "toName": "Zurich",
+    "departAt": "2025-10-31T00:00:00.000Z",
+    "acType": "Cessna Citation CJ2",
+    "acClass": "Light Jet",
+    "seats": null,
+    "priceUSD": 5450,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "31-10-2025 00:00 → 31-10-2025 00:00"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"95e28cb4d2ae826b\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"BCN\",\n                toIata: \"LEU\",\n                fromIcao: \"LEBL\",\n                toIcao: \"LESU\",\n                fromCity: \"Josep Tarradellas El Prat\",\n                toCity: \"La Seu D Urgell\",\n                fromName: \"Josep Tarradellas El Prat\",\n                toName: \"La Seu D Urgell\",\n                departAt: \"2025-10-25T09:00:00.000Z\",\n                acType: \"Pilatus PC-24\",\n                acClass: \"Unknown\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"25-10-2025 09:00 → 25-10-2025 09:50 | Price on Request\"\n              },\n              create: {\n                id: \"95e28cb4d2ae826b\",\n                operator: \"aviapages\",\n                fromIata: \"BCN\",\n                toIata: \"LEU\",\n                fromIcao: \"LEBL\",\n                toIcao: \"LESU\",\n                fromCity: \"Josep Tarradellas El Prat\",\n                toCity: \"La Seu D Urgell\",\n                fromName: \"Josep Tarradellas El Prat\",\n                toName: \"La Seu D Urgell\",\n                departAt: \"2025-10-25T09:00:00.000Z\",\n                acType: \"Pilatus PC-24\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"25-10-2025 09:00 → 25-10-2025 09:50 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "95e28cb4d2ae826b",
+    "operator": "aviapages",
+    "fromIata": "BCN",
+    "toIata": "LEU",
+    "fromIcao": "LEBL",
+    "toIcao": "LESU",
+    "fromCity": "Josep Tarradellas El Prat",
+    "toCity": "La Seu D Urgell",
+    "fromName": "Josep Tarradellas El Prat",
+    "toName": "La Seu D Urgell",
+    "departAt": "2025-10-25T09:00:00.000Z",
+    "acType": "Pilatus PC-24",
+    "acClass": "Unknown",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "25-10-2025 09:00 → 25-10-2025 09:50 | Price on Request"
+  }
+}

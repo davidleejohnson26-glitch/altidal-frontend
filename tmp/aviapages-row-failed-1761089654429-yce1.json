@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"b7e727dddc50fe28\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"AUZ\",\n                toIata: \"SLC\",\n                fromIcao: \"KARR\",\n                toIcao: \"KSLC\",\n                fromCity: \"Aurora Mun\",\n                toCity: \"Salt Lake City Intl\",\n                fromName: \"Aurora Mun\",\n                toName: \"Salt Lake City Intl\",\n                departAt: \"2025-10-26T00:00:00.000Z\",\n                acType: \"Falcon 50\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-10-2025 00:00 → 31-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"b7e727dddc50fe28\",\n                operator: \"aviapages\",\n                fromIata: \"AUZ\",\n                toIata: \"SLC\",\n                fromIcao: \"KARR\",\n                toIcao: \"KSLC\",\n                fromCity: \"Aurora Mun\",\n                toCity: \"Salt Lake City Intl\",\n                fromName: \"Aurora Mun\",\n                toName: \"Salt Lake City Intl\",\n                departAt: \"2025-10-26T00:00:00.000Z\",\n                acType: \"Falcon 50\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-10-2025 00:00 → 31-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "b7e727dddc50fe28",
+    "operator": "aviapages",
+    "fromIata": "AUZ",
+    "toIata": "SLC",
+    "fromIcao": "KARR",
+    "toIcao": "KSLC",
+    "fromCity": "Aurora Mun",
+    "toCity": "Salt Lake City Intl",
+    "fromName": "Aurora Mun",
+    "toName": "Salt Lake City Intl",
+    "departAt": "2025-10-26T00:00:00.000Z",
+    "acType": "Falcon 50",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "26-10-2025 00:00 → 31-10-2025 00:00 | Price on Request"
+  }
+}

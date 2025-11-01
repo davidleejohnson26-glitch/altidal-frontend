@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"d095c2818608e967\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"ROA\",\n                toIata: \"ECP\",\n                fromIcao: \"KROA\",\n                toIcao: \"KECP\",\n                fromCity: \"Roanoke Regl Woodrum\",\n                toCity: \"Northwest Florida Beaches Intl\",\n                fromName: \"Roanoke Regl Woodrum\",\n                toName: \"Northwest Florida Beaches Intl\",\n                departAt: \"2025-10-24T00:00:00.000Z\",\n                acType: \"Cessna Citation V\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 6400,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"24-10-2025 00:00 → 24-10-2025 00:00\"\n              },\n              create: {\n                id: \"d095c2818608e967\",\n                operator: \"aviapages\",\n                fromIata: \"ROA\",\n                toIata: \"ECP\",\n                fromIcao: \"KROA\",\n                toIcao: \"KECP\",\n                fromCity: \"Roanoke Regl Woodrum\",\n                toCity: \"Northwest Florida Beaches Intl\",\n                fromName: \"Roanoke Regl Woodrum\",\n                toName: \"Northwest Florida Beaches Intl\",\n                departAt: \"2025-10-24T00:00:00.000Z\",\n                acType: \"Cessna Citation V\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 6400,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"24-10-2025 00:00 → 24-10-2025 00:00\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "d095c2818608e967",
+    "operator": "aviapages",
+    "fromIata": "ROA",
+    "toIata": "ECP",
+    "fromIcao": "KROA",
+    "toIcao": "KECP",
+    "fromCity": "Roanoke Regl Woodrum",
+    "toCity": "Northwest Florida Beaches Intl",
+    "fromName": "Roanoke Regl Woodrum",
+    "toName": "Northwest Florida Beaches Intl",
+    "departAt": "2025-10-24T00:00:00.000Z",
+    "acType": "Cessna Citation V",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 6400,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "24-10-2025 00:00 → 24-10-2025 00:00"
+  }
+}

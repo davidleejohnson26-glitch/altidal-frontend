@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"a4f36cc12a39eebc\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"BZN\",\n                toIata: \"OAK\",\n                fromIcao: \"KBZN\",\n                toIcao: \"KOAK\",\n                fromCity: \"Bozeman Yellowstone Intl\",\n                toCity: \"Metropolitan Oakland Intl\",\n                fromName: \"Bozeman Yellowstone Intl\",\n                toName: \"Metropolitan Oakland Intl\",\n                departAt: \"2025-11-22T00:00:00.000Z\",\n                acType: \"Cessna Citation Sovereign\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-11-2025 00:00 → 20-12-2025 23:59 | Price on Request\"\n              },\n              create: {\n                id: \"a4f36cc12a39eebc\",\n                operator: \"aviapages\",\n                fromIata: \"BZN\",\n                toIata: \"OAK\",\n                fromIcao: \"KBZN\",\n                toIcao: \"KOAK\",\n                fromCity: \"Bozeman Yellowstone Intl\",\n                toCity: \"Metropolitan Oakland Intl\",\n                fromName: \"Bozeman Yellowstone Intl\",\n                toName: \"Metropolitan Oakland Intl\",\n                departAt: \"2025-11-22T00:00:00.000Z\",\n                acType: \"Cessna Citation Sovereign\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-11-2025 00:00 → 20-12-2025 23:59 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "a4f36cc12a39eebc",
+    "operator": "aviapages",
+    "fromIata": "BZN",
+    "toIata": "OAK",
+    "fromIcao": "KBZN",
+    "toIcao": "KOAK",
+    "fromCity": "Bozeman Yellowstone Intl",
+    "toCity": "Metropolitan Oakland Intl",
+    "fromName": "Bozeman Yellowstone Intl",
+    "toName": "Metropolitan Oakland Intl",
+    "departAt": "2025-11-22T00:00:00.000Z",
+    "acType": "Cessna Citation Sovereign",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "22-11-2025 00:00 → 20-12-2025 23:59 | Price on Request"
+  }
+}

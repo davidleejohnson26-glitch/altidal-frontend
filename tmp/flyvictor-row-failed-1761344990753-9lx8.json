@@ -1,0 +1,18 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\flyvictor.ts:527:28\n\n  524 try {\n  525   await withConcurrency(batch, 6, async (r) => {\n  526     try {\n→ 527       await prisma.leg.upsert({\n              where: {\n                id: \"913f78767145b639\"\n              },\n              update: {\n                operator: \"flyvictor\",\n                fromIata: \"MFE\",\n                toIata: \"CDS\",\n                fromName: \"MFE\",\n                toName: \"CDS\",\n                departAt: \"2025-11-05T00:00:00.000Z\",\n                priceUSD: 6592,\n                url: \"https://www.flyvictor.com/en-us/flights/\"\n              },\n              create: {\n                id: \"913f78767145b639\",\n                operator: \"flyvictor\",\n                fromIata: \"MFE\",\n                toIata: \"CDS\",\n                fromName: \"MFE\",\n                toName: \"CDS\",\n                departAt: \"2025-11-05T00:00:00.000Z\",\n                priceUSD: 6592,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n            +   fromCity: String\n              }\n            })\n\nArgument `fromCity` is missing.",
+    "meta": null
+  },
+  "row": {
+    "id": "913f78767145b639",
+    "operator": "flyvictor",
+    "fromIata": "MFE",
+    "toIata": "CDS",
+    "fromName": "MFE",
+    "toName": "CDS",
+    "departAt": "2025-11-05T00:00:00.000Z",
+    "priceUSD": 6592,
+    "url": "https://www.flyvictor.com/en-us/flights/"
+  }
+}

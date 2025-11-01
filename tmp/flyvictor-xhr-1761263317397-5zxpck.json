@@ -1,0 +1,27 @@
+{
+  "url": "https://api.flyvictor.com/airports/action/find?searchText=JFK",
+  "body": {
+    "destinations": [
+      {
+        "code": "JFK",
+        "displayText": "New York, John F Kennedy International (JFK), NY, US",
+        "displayInfo": "New York, John F Kennedy International (JFK), NY, US",
+        "timeZone": "America/New_York",
+        "type": "Airport",
+        "country": "United States",
+        "latitude": 40.63975111,
+        "longitude": -73.77892555,
+        "city": "New York",
+        "airportName": "John F Kennedy International Airport",
+        "icao": "KJFK",
+        "translations": {
+          "ar": {
+            "airportName": "مطار جون إف كينيدي الدولي",
+            "displayInfo": "NY (JFK) نيويورك، مطار جون إف كينيدي الدولي، الولايات المتحدة",
+            "city": "نيويورك"
+          }
+        }
+      }
+    ]
+  }
+}

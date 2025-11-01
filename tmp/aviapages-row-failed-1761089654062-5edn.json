@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"8906282164c6279d\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"OPF\",\n                toIata: \"MRK\",\n                fromIcao: \"KOPF\",\n                toIcao: \"KMKY\",\n                fromCity: \"Miami-Opa Locka Executive\",\n                toCity: \"Marco Island Executive\",\n                fromName: \"Miami-Opa Locka Executive\",\n                toName: \"Marco Island Executive\",\n                departAt: \"2025-11-02T19:30:00.000Z\",\n                acType: \"Gulfstream V\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"02-11-2025 19:30 → 02-11-2025 20:05 | Price on Request\"\n              },\n              create: {\n                id: \"8906282164c6279d\",\n                operator: \"aviapages\",\n                fromIata: \"OPF\",\n                toIata: \"MRK\",\n                fromIcao: \"KOPF\",\n                toIcao: \"KMKY\",\n                fromCity: \"Miami-Opa Locka Executive\",\n                toCity: \"Marco Island Executive\",\n                fromName: \"Miami-Opa Locka Executive\",\n                toName: \"Marco Island Executive\",\n                departAt: \"2025-11-02T19:30:00.000Z\",\n                acType: \"Gulfstream V\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"02-11-2025 19:30 → 02-11-2025 20:05 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "8906282164c6279d",
+    "operator": "aviapages",
+    "fromIata": "OPF",
+    "toIata": "MRK",
+    "fromIcao": "KOPF",
+    "toIcao": "KMKY",
+    "fromCity": "Miami-Opa Locka Executive",
+    "toCity": "Marco Island Executive",
+    "fromName": "Miami-Opa Locka Executive",
+    "toName": "Marco Island Executive",
+    "departAt": "2025-11-02T19:30:00.000Z",
+    "acType": "Gulfstream V",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "02-11-2025 19:30 → 02-11-2025 20:05 | Price on Request"
+  }
+}

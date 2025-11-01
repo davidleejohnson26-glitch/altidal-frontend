@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"0ddf9cea33efb199\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"FAO\",\n                toIata: \"AGP\",\n                fromIcao: \"LPFR\",\n                toIcao: \"LEMG\",\n                fromCity: \"Faro\",\n                toCity: \"Costa Del Sol\",\n                fromName: \"Faro\",\n                toName: \"Costa Del Sol\",\n                departAt: \"2025-10-24T12:31:00.000Z\",\n                acType: \"Learjet 60XR\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"24-10-2025 12:31 → 24-10-2025 13:07 | Price on Request\"\n              },\n              create: {\n                id: \"0ddf9cea33efb199\",\n                operator: \"aviapages\",\n                fromIata: \"FAO\",\n                toIata: \"AGP\",\n                fromIcao: \"LPFR\",\n                toIcao: \"LEMG\",\n                fromCity: \"Faro\",\n                toCity: \"Costa Del Sol\",\n                fromName: \"Faro\",\n                toName: \"Costa Del Sol\",\n                departAt: \"2025-10-24T12:31:00.000Z\",\n                acType: \"Learjet 60XR\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"24-10-2025 12:31 → 24-10-2025 13:07 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "0ddf9cea33efb199",
+    "operator": "aviapages",
+    "fromIata": "FAO",
+    "toIata": "AGP",
+    "fromIcao": "LPFR",
+    "toIcao": "LEMG",
+    "fromCity": "Faro",
+    "toCity": "Costa Del Sol",
+    "fromName": "Faro",
+    "toName": "Costa Del Sol",
+    "departAt": "2025-10-24T12:31:00.000Z",
+    "acType": "Learjet 60XR",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "24-10-2025 12:31 → 24-10-2025 13:07 | Price on Request"
+  }
+}

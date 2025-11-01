@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"c5606c66a0639a41\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"LAS\",\n                toIata: \"LNK\",\n                fromIcao: \"KLAS\",\n                toIcao: \"KLNK\",\n                fromCity: \"McCarran Int'l Airport\",\n                toCity: \"Lincoln\",\n                fromName: \"McCarran Int'l Airport\",\n                toName: \"Lincoln\",\n                departAt: \"2025-11-23T00:00:00.000Z\",\n                acType: \"Cessna Citation Excel\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 7500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-11-2025 00:00 → 23-11-2025 17:18\"\n              },\n              create: {\n                id: \"c5606c66a0639a41\",\n                operator: \"aviapages\",\n                fromIata: \"LAS\",\n                toIata: \"LNK\",\n                fromIcao: \"KLAS\",\n                toIcao: \"KLNK\",\n                fromCity: \"McCarran Int'l Airport\",\n                toCity: \"Lincoln\",\n                fromName: \"McCarran Int'l Airport\",\n                toName: \"Lincoln\",\n                departAt: \"2025-11-23T00:00:00.000Z\",\n                acType: \"Cessna Citation Excel\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 7500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-11-2025 00:00 → 23-11-2025 17:18\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "c5606c66a0639a41",
+    "operator": "aviapages",
+    "fromIata": "LAS",
+    "toIata": "LNK",
+    "fromIcao": "KLAS",
+    "toIcao": "KLNK",
+    "fromCity": "McCarran Int'l Airport",
+    "toCity": "Lincoln",
+    "fromName": "McCarran Int'l Airport",
+    "toName": "Lincoln",
+    "departAt": "2025-11-23T00:00:00.000Z",
+    "acType": "Cessna Citation Excel",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 7500,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "23-11-2025 00:00 → 23-11-2025 17:18"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"e8ca20abbd361b26\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"BTP\",\n                toIata: \"SFB\",\n                fromIcao: \"KBTP\",\n                toIcao: \"KSFB\",\n                fromCity: \"Pittsburgh Butler Regl\",\n                toCity: \"Orlando Sanford Intl\",\n                fromName: \"Pittsburgh Butler Regl\",\n                toName: \"Orlando Sanford Intl\",\n                departAt: \"2025-10-31T00:00:00.000Z\",\n                acType: \"Embraer Legacy 600\",\n                acClass: \"Unknown\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"31-10-2025 00:00 → 05-11-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"e8ca20abbd361b26\",\n                operator: \"aviapages\",\n                fromIata: \"BTP\",\n                toIata: \"SFB\",\n                fromIcao: \"KBTP\",\n                toIcao: \"KSFB\",\n                fromCity: \"Pittsburgh Butler Regl\",\n                toCity: \"Orlando Sanford Intl\",\n                fromName: \"Pittsburgh Butler Regl\",\n                toName: \"Orlando Sanford Intl\",\n                departAt: \"2025-10-31T00:00:00.000Z\",\n                acType: \"Embraer Legacy 600\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"31-10-2025 00:00 → 05-11-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "e8ca20abbd361b26",
+    "operator": "aviapages",
+    "fromIata": "BTP",
+    "toIata": "SFB",
+    "fromIcao": "KBTP",
+    "toIcao": "KSFB",
+    "fromCity": "Pittsburgh Butler Regl",
+    "toCity": "Orlando Sanford Intl",
+    "fromName": "Pittsburgh Butler Regl",
+    "toName": "Orlando Sanford Intl",
+    "departAt": "2025-10-31T00:00:00.000Z",
+    "acType": "Embraer Legacy 600",
+    "acClass": "Unknown",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "31-10-2025 00:00 → 05-11-2025 00:00 | Price on Request"
+  }
+}

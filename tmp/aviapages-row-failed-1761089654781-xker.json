@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"5504ca4d10f1f123\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"EAR\",\n                toIata: \"LNK\",\n                fromIcao: \"KEAR\",\n                toIcao: \"KLNK\",\n                fromCity: \"Kearney Regional\",\n                toCity: \"Lincoln\",\n                fromName: \"Kearney Regional\",\n                toName: \"Lincoln\",\n                departAt: \"2025-11-09T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 1500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"09-11-2025 00:00 → 09-11-2025 15:24\"\n              },\n              create: {\n                id: \"5504ca4d10f1f123\",\n                operator: \"aviapages\",\n                fromIata: \"EAR\",\n                toIata: \"LNK\",\n                fromIcao: \"KEAR\",\n                toIcao: \"KLNK\",\n                fromCity: \"Kearney Regional\",\n                toCity: \"Lincoln\",\n                fromName: \"Kearney Regional\",\n                toName: \"Lincoln\",\n                departAt: \"2025-11-09T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 1500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"09-11-2025 00:00 → 09-11-2025 15:24\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "5504ca4d10f1f123",
+    "operator": "aviapages",
+    "fromIata": "EAR",
+    "toIata": "LNK",
+    "fromIcao": "KEAR",
+    "toIcao": "KLNK",
+    "fromCity": "Kearney Regional",
+    "toCity": "Lincoln",
+    "fromName": "Kearney Regional",
+    "toName": "Lincoln",
+    "departAt": "2025-11-09T00:00:00.000Z",
+    "acType": "Cessna Citation Ultra",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 1500,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "09-11-2025 00:00 → 09-11-2025 15:24"
+  }
+}

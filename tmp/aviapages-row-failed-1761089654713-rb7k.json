@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"14e07f286b0bf750\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"JAC\",\n                toIata: \"VNY\",\n                fromIcao: \"KJAC\",\n                toIcao: \"KVNY\",\n                fromCity: \"Jackson Hole\",\n                toCity: \"Van Nuys\",\n                fromName: \"Jackson Hole\",\n                toName: \"Van Nuys\",\n                departAt: \"2026-01-02T00:00:00.000Z\",\n                acType: \"Gulfstream IV\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"02-01-2026 00:00 → 05-01-2026 23:59 | Price on Request\"\n              },\n              create: {\n                id: \"14e07f286b0bf750\",\n                operator: \"aviapages\",\n                fromIata: \"JAC\",\n                toIata: \"VNY\",\n                fromIcao: \"KJAC\",\n                toIcao: \"KVNY\",\n                fromCity: \"Jackson Hole\",\n                toCity: \"Van Nuys\",\n                fromName: \"Jackson Hole\",\n                toName: \"Van Nuys\",\n                departAt: \"2026-01-02T00:00:00.000Z\",\n                acType: \"Gulfstream IV\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"02-01-2026 00:00 → 05-01-2026 23:59 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "14e07f286b0bf750",
+    "operator": "aviapages",
+    "fromIata": "JAC",
+    "toIata": "VNY",
+    "fromIcao": "KJAC",
+    "toIcao": "KVNY",
+    "fromCity": "Jackson Hole",
+    "toCity": "Van Nuys",
+    "fromName": "Jackson Hole",
+    "toName": "Van Nuys",
+    "departAt": "2026-01-02T00:00:00.000Z",
+    "acType": "Gulfstream IV",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "02-01-2026 00:00 → 05-01-2026 23:59 | Price on Request"
+  }
+}

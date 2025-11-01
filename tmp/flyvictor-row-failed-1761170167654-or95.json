@@ -1,0 +1,22 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\flyvictor.ts:384:28\n\n  381 try {\n  382   await withConcurrency(batch, 6, async (r) => {\n  383     try {\n→ 384       await prisma.leg.upsert({\n              where: {\n                id: \"85d2214040663863\"\n              },\n              update: {\n                operator: \"flyvictor\",\n                fromIata: \"BNA\",\n                toIata: \"BWI\",\n                fromName: \"BNA\",\n                toName: \"BWI\",\n                fromCity: \"BNA\",\n                toCity: \"BWI\",\n                departAt: null,\n                acType: \"Unknown\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://www.flyvictor.com/en-us/flights/\"\n              },\n              create: {\n                id: \"85d2214040663863\",\n                operator: \"flyvictor\",\n                fromIata: \"BNA\",\n                toIata: \"BWI\",\n                fromName: \"BNA\",\n                toName: \"BWI\",\n                fromCity: \"BNA\",\n                toCity: \"BWI\",\n                departAt: null,\n                acType: \"Unknown\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` is missing.",
+    "meta": null
+  },
+  "row": {
+    "id": "85d2214040663863",
+    "operator": "flyvictor",
+    "fromIata": "BNA",
+    "toIata": "BWI",
+    "fromName": "BNA",
+    "toName": "BWI",
+    "fromCity": "BNA",
+    "toCity": "BWI",
+    "departAt": null,
+    "acType": "Unknown",
+    "acClass": "Unknown",
+    "priceUSD": 0,
+    "url": "https://www.flyvictor.com/en-us/flights/"
+  }
+}

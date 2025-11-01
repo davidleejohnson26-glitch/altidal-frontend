@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"5026c5a8a9f0f4c8\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"HCR\",\n                toIata: \"VNY\",\n                fromIcao: \"KHCR\",\n                toIcao: \"KVNY\",\n                fromCity: \"Heber City Mun Mcdonald\",\n                toCity: \"Van Nuys\",\n                fromName: \"Heber City Mun Mcdonald\",\n                toName: \"Van Nuys\",\n                departAt: \"2026-01-07T00:00:00.000Z\",\n                acType: \"Learjet 60XR\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"07-01-2026 00:00 → 07-01-2026 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"5026c5a8a9f0f4c8\",\n                operator: \"aviapages\",\n                fromIata: \"HCR\",\n                toIata: \"VNY\",\n                fromIcao: \"KHCR\",\n                toIcao: \"KVNY\",\n                fromCity: \"Heber City Mun Mcdonald\",\n                toCity: \"Van Nuys\",\n                fromName: \"Heber City Mun Mcdonald\",\n                toName: \"Van Nuys\",\n                departAt: \"2026-01-07T00:00:00.000Z\",\n                acType: \"Learjet 60XR\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"07-01-2026 00:00 → 07-01-2026 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "5026c5a8a9f0f4c8",
+    "operator": "aviapages",
+    "fromIata": "HCR",
+    "toIata": "VNY",
+    "fromIcao": "KHCR",
+    "toIcao": "KVNY",
+    "fromCity": "Heber City Mun Mcdonald",
+    "toCity": "Van Nuys",
+    "fromName": "Heber City Mun Mcdonald",
+    "toName": "Van Nuys",
+    "departAt": "2026-01-07T00:00:00.000Z",
+    "acType": "Learjet 60XR",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "07-01-2026 00:00 → 07-01-2026 00:00 | Price on Request"
+  }
+}

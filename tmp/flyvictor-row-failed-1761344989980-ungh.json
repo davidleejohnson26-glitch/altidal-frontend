@@ -1,0 +1,18 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\flyvictor.ts:527:28\n\n  524 try {\n  525   await withConcurrency(batch, 6, async (r) => {\n  526     try {\n→ 527       await prisma.leg.upsert({\n              where: {\n                id: \"09cef9dafe2398bc\"\n              },\n              update: {\n                operator: \"flyvictor\",\n                fromIata: \"BNE\",\n                toIata: \"GMP\",\n                fromName: \"BNE\",\n                toName: \"GMP\",\n                departAt: \"2025-10-25T00:00:00.000Z\",\n                priceUSD: 89200,\n                url: \"https://www.flyvictor.com/en-us/flights/\"\n              },\n              create: {\n                id: \"09cef9dafe2398bc\",\n                operator: \"flyvictor\",\n                fromIata: \"BNE\",\n                toIata: \"GMP\",\n                fromName: \"BNE\",\n                toName: \"GMP\",\n                departAt: \"2025-10-25T00:00:00.000Z\",\n                priceUSD: 89200,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n            +   fromCity: String\n              }\n            })\n\nArgument `fromCity` is missing.",
+    "meta": null
+  },
+  "row": {
+    "id": "09cef9dafe2398bc",
+    "operator": "flyvictor",
+    "fromIata": "BNE",
+    "toIata": "GMP",
+    "fromName": "BNE",
+    "toName": "GMP",
+    "departAt": "2025-10-25T00:00:00.000Z",
+    "priceUSD": 89200,
+    "url": "https://www.flyvictor.com/en-us/flights/"
+  }
+}

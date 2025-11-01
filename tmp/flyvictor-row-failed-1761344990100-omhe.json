@@ -1,0 +1,18 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\flyvictor.ts:527:28\n\n  524 try {\n  525   await withConcurrency(batch, 6, async (r) => {\n  526     try {\n→ 527       await prisma.leg.upsert({\n              where: {\n                id: \"0f380412967adf82\"\n              },\n              update: {\n                operator: \"flyvictor\",\n                fromIata: \"OSI\",\n                toIata: \"SOF\",\n                fromName: \"OSI\",\n                toName: \"SOF\",\n                departAt: \"2025-10-26T00:00:00.000Z\",\n                priceUSD: 5888,\n                url: \"https://www.flyvictor.com/en-us/flights/\"\n              },\n              create: {\n                id: \"0f380412967adf82\",\n                operator: \"flyvictor\",\n                fromIata: \"OSI\",\n                toIata: \"SOF\",\n                fromName: \"OSI\",\n                toName: \"SOF\",\n                departAt: \"2025-10-26T00:00:00.000Z\",\n                priceUSD: 5888,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n            +   fromCity: String\n              }\n            })\n\nArgument `fromCity` is missing.",
+    "meta": null
+  },
+  "row": {
+    "id": "0f380412967adf82",
+    "operator": "flyvictor",
+    "fromIata": "OSI",
+    "toIata": "SOF",
+    "fromName": "OSI",
+    "toName": "SOF",
+    "departAt": "2025-10-26T00:00:00.000Z",
+    "priceUSD": 5888,
+    "url": "https://www.flyvictor.com/en-us/flights/"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"c22b942e7f74b393\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"BWI\",\n                toIata: \"EAR\",\n                fromIcao: \"KBWI\",\n                toIcao: \"KEAR\",\n                fromCity: \"Baltimore/Washington Intl Thurgood Marshall\",\n                toCity: \"Kearney Regional\",\n                fromName: \"Baltimore/Washington Intl Thurgood Marshall\",\n                toName: \"Kearney Regional\",\n                departAt: \"2026-03-12T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 5000,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"12-03-2026 00:00 → 12-03-2026 03:36\"\n              },\n              create: {\n                id: \"c22b942e7f74b393\",\n                operator: \"aviapages\",\n                fromIata: \"BWI\",\n                toIata: \"EAR\",\n                fromIcao: \"KBWI\",\n                toIcao: \"KEAR\",\n                fromCity: \"Baltimore/Washington Intl Thurgood Marshall\",\n                toCity: \"Kearney Regional\",\n                fromName: \"Baltimore/Washington Intl Thurgood Marshall\",\n                toName: \"Kearney Regional\",\n                departAt: \"2026-03-12T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 5000,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"12-03-2026 00:00 → 12-03-2026 03:36\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "c22b942e7f74b393",
+    "operator": "aviapages",
+    "fromIata": "BWI",
+    "toIata": "EAR",
+    "fromIcao": "KBWI",
+    "toIcao": "KEAR",
+    "fromCity": "Baltimore/Washington Intl Thurgood Marshall",
+    "toCity": "Kearney Regional",
+    "fromName": "Baltimore/Washington Intl Thurgood Marshall",
+    "toName": "Kearney Regional",
+    "departAt": "2026-03-12T00:00:00.000Z",
+    "acType": "Cessna Citation Ultra",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 5000,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "12-03-2026 00:00 → 12-03-2026 03:36"
+  }
+}

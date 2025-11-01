@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"99448f7167475675\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"STP\",\n                toIata: \"HZL\",\n                fromIcao: \"KSTP\",\n                toIcao: \"KHZL\",\n                fromCity: \"St Paul Downtown Holman\",\n                toCity: \"Hazleton Mun\",\n                fromName: \"St Paul Downtown Holman\",\n                toName: \"Hazleton Mun\",\n                departAt: \"2025-11-06T00:00:00.000Z\",\n                acType: \"Gulfstream G550\",\n                acClass: \"Heavy Jet\",\n                seats: null,\n                priceUSD: 16995,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"06-11-2025 00:00 → 09-11-2025 00:00\"\n              },\n              create: {\n                id: \"99448f7167475675\",\n                operator: \"aviapages\",\n                fromIata: \"STP\",\n                toIata: \"HZL\",\n                fromIcao: \"KSTP\",\n                toIcao: \"KHZL\",\n                fromCity: \"St Paul Downtown Holman\",\n                toCity: \"Hazleton Mun\",\n                fromName: \"St Paul Downtown Holman\",\n                toName: \"Hazleton Mun\",\n                departAt: \"2025-11-06T00:00:00.000Z\",\n                acType: \"Gulfstream G550\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 16995,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"06-11-2025 00:00 → 09-11-2025 00:00\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "99448f7167475675",
+    "operator": "aviapages",
+    "fromIata": "STP",
+    "toIata": "HZL",
+    "fromIcao": "KSTP",
+    "toIcao": "KHZL",
+    "fromCity": "St Paul Downtown Holman",
+    "toCity": "Hazleton Mun",
+    "fromName": "St Paul Downtown Holman",
+    "toName": "Hazleton Mun",
+    "departAt": "2025-11-06T00:00:00.000Z",
+    "acType": "Gulfstream G550",
+    "acClass": "Heavy Jet",
+    "seats": null,
+    "priceUSD": 16995,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "06-11-2025 00:00 → 09-11-2025 00:00"
+  }
+}

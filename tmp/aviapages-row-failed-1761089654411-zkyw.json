@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"bf687dec7bd26cf4\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"LIS\",\n                toIata: \"LTN\",\n                fromIcao: \"LPPT\",\n                toIcao: \"EGGW\",\n                fromCity: \"Lisbon\",\n                toCity: \"London Luton Airport\",\n                fromName: \"Lisbon\",\n                toName: \"London Luton Airport\",\n                departAt: \"2025-10-23T00:00:00.000Z\",\n                acType: \"Embraer Praetor 600\",\n                acClass: \"Unknown\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-10-2025 00:00 → 23-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"bf687dec7bd26cf4\",\n                operator: \"aviapages\",\n                fromIata: \"LIS\",\n                toIata: \"LTN\",\n                fromIcao: \"LPPT\",\n                toIcao: \"EGGW\",\n                fromCity: \"Lisbon\",\n                toCity: \"London Luton Airport\",\n                fromName: \"Lisbon\",\n                toName: \"London Luton Airport\",\n                departAt: \"2025-10-23T00:00:00.000Z\",\n                acType: \"Embraer Praetor 600\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-10-2025 00:00 → 23-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "bf687dec7bd26cf4",
+    "operator": "aviapages",
+    "fromIata": "LIS",
+    "toIata": "LTN",
+    "fromIcao": "LPPT",
+    "toIcao": "EGGW",
+    "fromCity": "Lisbon",
+    "toCity": "London Luton Airport",
+    "fromName": "Lisbon",
+    "toName": "London Luton Airport",
+    "departAt": "2025-10-23T00:00:00.000Z",
+    "acType": "Embraer Praetor 600",
+    "acClass": "Unknown",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "23-10-2025 00:00 → 23-10-2025 00:00 | Price on Request"
+  }
+}

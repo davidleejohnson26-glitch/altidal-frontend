@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"aca8a33575d18f15\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"BDA\",\n                toIata: \"YYZ\",\n                fromIcao: \"TXKF\",\n                toIcao: \"CYYZ\",\n                fromCity: \"L F Wade Intl\",\n                toCity: \"Lester B.Pearson Intl\",\n                fromName: \"L F Wade Intl\",\n                toName: \"Lester B.Pearson Intl\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Challenger 300\",\n                acClass: \"Super Midsize Jet\",\n                seats: null,\n                priceUSD: 23700,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 21-10-2025 00:00\"\n              },\n              create: {\n                id: \"aca8a33575d18f15\",\n                operator: \"aviapages\",\n                fromIata: \"BDA\",\n                toIata: \"YYZ\",\n                fromIcao: \"TXKF\",\n                toIcao: \"CYYZ\",\n                fromCity: \"L F Wade Intl\",\n                toCity: \"Lester B.Pearson Intl\",\n                fromName: \"L F Wade Intl\",\n                toName: \"Lester B.Pearson Intl\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Challenger 300\",\n                acClass: \"Super Midsize Jet\",\n                priceUSD: 23700,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 21-10-2025 00:00\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "aca8a33575d18f15",
+    "operator": "aviapages",
+    "fromIata": "BDA",
+    "toIata": "YYZ",
+    "fromIcao": "TXKF",
+    "toIcao": "CYYZ",
+    "fromCity": "L F Wade Intl",
+    "toCity": "Lester B.Pearson Intl",
+    "fromName": "L F Wade Intl",
+    "toName": "Lester B.Pearson Intl",
+    "departAt": "2025-10-21T00:00:00.000Z",
+    "acType": "Challenger 300",
+    "acClass": "Super Midsize Jet",
+    "seats": null,
+    "priceUSD": 23700,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "21-10-2025 00:00 → 21-10-2025 00:00"
+  }
+}

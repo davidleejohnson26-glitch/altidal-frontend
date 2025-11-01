@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"7b8096b7b17af616\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"HBV\",\n                toIata: \"SGR\",\n                fromIcao: \"KHBV\",\n                toIcao: \"KSGR\",\n                fromCity: \"Jim Hogg County\",\n                toCity: \"Sugar Land Regional\",\n                fromName: \"Jim Hogg County\",\n                toName: \"Sugar Land Regional\",\n                departAt: \"2025-10-24T00:00:00.000Z\",\n                acType: \"Beechcraft King Air 350\",\n                acClass: \"Turboprop\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"24-10-2025 00:00 → 26-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"7b8096b7b17af616\",\n                operator: \"aviapages\",\n                fromIata: \"HBV\",\n                toIata: \"SGR\",\n                fromIcao: \"KHBV\",\n                toIcao: \"KSGR\",\n                fromCity: \"Jim Hogg County\",\n                toCity: \"Sugar Land Regional\",\n                fromName: \"Jim Hogg County\",\n                toName: \"Sugar Land Regional\",\n                departAt: \"2025-10-24T00:00:00.000Z\",\n                acType: \"Beechcraft King Air 350\",\n                acClass: \"Turboprop\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"24-10-2025 00:00 → 26-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "7b8096b7b17af616",
+    "operator": "aviapages",
+    "fromIata": "HBV",
+    "toIata": "SGR",
+    "fromIcao": "KHBV",
+    "toIcao": "KSGR",
+    "fromCity": "Jim Hogg County",
+    "toCity": "Sugar Land Regional",
+    "fromName": "Jim Hogg County",
+    "toName": "Sugar Land Regional",
+    "departAt": "2025-10-24T00:00:00.000Z",
+    "acType": "Beechcraft King Air 350",
+    "acClass": "Turboprop",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "24-10-2025 00:00 → 26-10-2025 00:00 | Price on Request"
+  }
+}

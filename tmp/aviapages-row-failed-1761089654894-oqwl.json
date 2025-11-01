@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"bb05ed6f8f786f31\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"ABQ\",\n                toIata: \"LAS\",\n                fromIcao: \"KABQ\",\n                toIcao: \"KLAS\",\n                fromCity: \"Albuquerque Intl Sunport\",\n                toCity: \"McCarran Int'l Airport\",\n                fromName: \"Albuquerque Intl Sunport\",\n                toName: \"McCarran Int'l Airport\",\n                departAt: \"2025-11-26T00:00:00.000Z\",\n                acType: \"Learjet 60XR\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-11-2025 00:00 → 26-11-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"bb05ed6f8f786f31\",\n                operator: \"aviapages\",\n                fromIata: \"ABQ\",\n                toIata: \"LAS\",\n                fromIcao: \"KABQ\",\n                toIcao: \"KLAS\",\n                fromCity: \"Albuquerque Intl Sunport\",\n                toCity: \"McCarran Int'l Airport\",\n                fromName: \"Albuquerque Intl Sunport\",\n                toName: \"McCarran Int'l Airport\",\n                departAt: \"2025-11-26T00:00:00.000Z\",\n                acType: \"Learjet 60XR\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-11-2025 00:00 → 26-11-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "bb05ed6f8f786f31",
+    "operator": "aviapages",
+    "fromIata": "ABQ",
+    "toIata": "LAS",
+    "fromIcao": "KABQ",
+    "toIcao": "KLAS",
+    "fromCity": "Albuquerque Intl Sunport",
+    "toCity": "McCarran Int'l Airport",
+    "fromName": "Albuquerque Intl Sunport",
+    "toName": "McCarran Int'l Airport",
+    "departAt": "2025-11-26T00:00:00.000Z",
+    "acType": "Learjet 60XR",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "26-11-2025 00:00 → 26-11-2025 00:00 | Price on Request"
+  }
+}

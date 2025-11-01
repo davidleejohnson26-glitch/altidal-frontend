@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"b0c3e3eab13dad9a\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"MBJ\",\n                toIata: \"YYZ\",\n                fromIcao: \"MKJS\",\n                toIcao: \"CYYZ\",\n                fromCity: \"Sangster Intl\",\n                toCity: \"Lester B.Pearson Intl\",\n                fromName: \"Sangster Intl\",\n                toName: \"Lester B.Pearson Intl\",\n                departAt: \"2025-12-27T00:00:00.000Z\",\n                acType: \"Challenger 605\",\n                acClass: \"Heavy Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"27-12-2025 00:00 → 27-12-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"b0c3e3eab13dad9a\",\n                operator: \"aviapages\",\n                fromIata: \"MBJ\",\n                toIata: \"YYZ\",\n                fromIcao: \"MKJS\",\n                toIcao: \"CYYZ\",\n                fromCity: \"Sangster Intl\",\n                toCity: \"Lester B.Pearson Intl\",\n                fromName: \"Sangster Intl\",\n                toName: \"Lester B.Pearson Intl\",\n                departAt: \"2025-12-27T00:00:00.000Z\",\n                acType: \"Challenger 605\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"27-12-2025 00:00 → 27-12-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "b0c3e3eab13dad9a",
+    "operator": "aviapages",
+    "fromIata": "MBJ",
+    "toIata": "YYZ",
+    "fromIcao": "MKJS",
+    "toIcao": "CYYZ",
+    "fromCity": "Sangster Intl",
+    "toCity": "Lester B.Pearson Intl",
+    "fromName": "Sangster Intl",
+    "toName": "Lester B.Pearson Intl",
+    "departAt": "2025-12-27T00:00:00.000Z",
+    "acType": "Challenger 605",
+    "acClass": "Heavy Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "27-12-2025 00:00 → 27-12-2025 00:00 | Price on Request"
+  }
+}

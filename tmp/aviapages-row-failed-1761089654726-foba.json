@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"89a37960cbc14b51\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"LXT\",\n                toIata: \"LNK\",\n                fromIcao: \"KLXT\",\n                toIcao: \"KLNK\",\n                fromCity: \"Lee's Summit Municipal Airport\",\n                toCity: \"Lincoln\",\n                fromName: \"Lee's Summit Municipal Airport\",\n                toName: \"Lincoln\",\n                departAt: \"2026-01-02T00:00:00.000Z\",\n                acType: \"Cessna Citation Excel\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 2500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"02-01-2026 00:00 → 02-01-2026 00:54\"\n              },\n              create: {\n                id: \"89a37960cbc14b51\",\n                operator: \"aviapages\",\n                fromIata: \"LXT\",\n                toIata: \"LNK\",\n                fromIcao: \"KLXT\",\n                toIcao: \"KLNK\",\n                fromCity: \"Lee's Summit Municipal Airport\",\n                toCity: \"Lincoln\",\n                fromName: \"Lee's Summit Municipal Airport\",\n                toName: \"Lincoln\",\n                departAt: \"2026-01-02T00:00:00.000Z\",\n                acType: \"Cessna Citation Excel\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 2500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"02-01-2026 00:00 → 02-01-2026 00:54\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "89a37960cbc14b51",
+    "operator": "aviapages",
+    "fromIata": "LXT",
+    "toIata": "LNK",
+    "fromIcao": "KLXT",
+    "toIcao": "KLNK",
+    "fromCity": "Lee's Summit Municipal Airport",
+    "toCity": "Lincoln",
+    "fromName": "Lee's Summit Municipal Airport",
+    "toName": "Lincoln",
+    "departAt": "2026-01-02T00:00:00.000Z",
+    "acType": "Cessna Citation Excel",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 2500,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "02-01-2026 00:00 → 02-01-2026 00:54"
+  }
+}

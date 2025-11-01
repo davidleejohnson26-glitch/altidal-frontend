@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"506eabc6af7862dd\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"YYC\",\n                toIata: \"YLW\",\n                fromIcao: \"CYYC\",\n                toIcao: \"CYLW\",\n                fromCity: \"Calgary International Airport\",\n                toCity: \"Kelowna\",\n                fromName: \"Calgary International Airport\",\n                toName: \"Kelowna\",\n                departAt: \"2025-11-16T00:00:00.000Z\",\n                acType: \"Challenger 604\",\n                acClass: \"Heavy Jet\",\n                seats: null,\n                priceUSD: 8100,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"16-11-2025 00:00 → 16-11-2025 23:59\"\n              },\n              create: {\n                id: \"506eabc6af7862dd\",\n                operator: \"aviapages\",\n                fromIata: \"YYC\",\n                toIata: \"YLW\",\n                fromIcao: \"CYYC\",\n                toIcao: \"CYLW\",\n                fromCity: \"Calgary International Airport\",\n                toCity: \"Kelowna\",\n                fromName: \"Calgary International Airport\",\n                toName: \"Kelowna\",\n                departAt: \"2025-11-16T00:00:00.000Z\",\n                acType: \"Challenger 604\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 8100,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"16-11-2025 00:00 → 16-11-2025 23:59\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "506eabc6af7862dd",
+    "operator": "aviapages",
+    "fromIata": "YYC",
+    "toIata": "YLW",
+    "fromIcao": "CYYC",
+    "toIcao": "CYLW",
+    "fromCity": "Calgary International Airport",
+    "toCity": "Kelowna",
+    "fromName": "Calgary International Airport",
+    "toName": "Kelowna",
+    "departAt": "2025-11-16T00:00:00.000Z",
+    "acType": "Challenger 604",
+    "acClass": "Heavy Jet",
+    "seats": null,
+    "priceUSD": 8100,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "16-11-2025 00:00 → 16-11-2025 23:59"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"91fa2d7839e252ec\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"MAD\",\n                toIata: \"AGP\",\n                fromIcao: \"LEMD\",\n                toIcao: \"LEMG\",\n                fromCity: \"Adolfo Suarez Madrid Barajas\",\n                toCity: \"Costa Del Sol\",\n                fromName: \"Adolfo Suarez Madrid Barajas\",\n                toName: \"Costa Del Sol\",\n                departAt: \"2025-10-25T08:13:00.000Z\",\n                acType: \"Learjet 60XR\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"25-10-2025 08:13 → 25-10-2025 09:00 | Price on Request\"\n              },\n              create: {\n                id: \"91fa2d7839e252ec\",\n                operator: \"aviapages\",\n                fromIata: \"MAD\",\n                toIata: \"AGP\",\n                fromIcao: \"LEMD\",\n                toIcao: \"LEMG\",\n                fromCity: \"Adolfo Suarez Madrid Barajas\",\n                toCity: \"Costa Del Sol\",\n                fromName: \"Adolfo Suarez Madrid Barajas\",\n                toName: \"Costa Del Sol\",\n                departAt: \"2025-10-25T08:13:00.000Z\",\n                acType: \"Learjet 60XR\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"25-10-2025 08:13 → 25-10-2025 09:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "91fa2d7839e252ec",
+    "operator": "aviapages",
+    "fromIata": "MAD",
+    "toIata": "AGP",
+    "fromIcao": "LEMD",
+    "toIcao": "LEMG",
+    "fromCity": "Adolfo Suarez Madrid Barajas",
+    "toCity": "Costa Del Sol",
+    "fromName": "Adolfo Suarez Madrid Barajas",
+    "toName": "Costa Del Sol",
+    "departAt": "2025-10-25T08:13:00.000Z",
+    "acType": "Learjet 60XR",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "25-10-2025 08:13 → 25-10-2025 09:00 | Price on Request"
+  }
+}

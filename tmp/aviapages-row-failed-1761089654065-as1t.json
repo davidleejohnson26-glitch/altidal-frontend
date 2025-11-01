@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"4866b8b7c69b887a\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"HAM\",\n                toIata: \"VIE\",\n                fromIcao: \"EDDH\",\n                toIcao: \"LOWW\",\n                fromCity: \"Hamburg\",\n                toCity: \"Schwechat\",\n                fromName: \"Hamburg\",\n                toName: \"Schwechat\",\n                departAt: \"2025-10-21T10:00:00.000Z\",\n                acType: \"Falcon 2000LX\",\n                acClass: \"Super Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 10:00 → 21-10-2025 11:15 | Price on Request\"\n              },\n              create: {\n                id: \"4866b8b7c69b887a\",\n                operator: \"aviapages\",\n                fromIata: \"HAM\",\n                toIata: \"VIE\",\n                fromIcao: \"EDDH\",\n                toIcao: \"LOWW\",\n                fromCity: \"Hamburg\",\n                toCity: \"Schwechat\",\n                fromName: \"Hamburg\",\n                toName: \"Schwechat\",\n                departAt: \"2025-10-21T10:00:00.000Z\",\n                acType: \"Falcon 2000LX\",\n                acClass: \"Super Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 10:00 → 21-10-2025 11:15 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "4866b8b7c69b887a",
+    "operator": "aviapages",
+    "fromIata": "HAM",
+    "toIata": "VIE",
+    "fromIcao": "EDDH",
+    "toIcao": "LOWW",
+    "fromCity": "Hamburg",
+    "toCity": "Schwechat",
+    "fromName": "Hamburg",
+    "toName": "Schwechat",
+    "departAt": "2025-10-21T10:00:00.000Z",
+    "acType": "Falcon 2000LX",
+    "acClass": "Super Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "21-10-2025 10:00 → 21-10-2025 11:15 | Price on Request"
+  }
+}

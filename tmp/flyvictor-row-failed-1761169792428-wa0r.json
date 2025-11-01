@@ -1,0 +1,20 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\flyvictor.ts:378:28\n\n  375 try {\n  376   await withConcurrency(batch, 6, async (r) => {\n  377     try {\n→ 378       await prisma.leg.upsert({\n              where: {\n                id: \"55abba569b9a1476\"\n              },\n              update: {\n                operator: \"flyvictor\",\n                fromIata: \"OPF\",\n                toIata: \"TEB\",\n                fromName: \"OPF\",\n                toName: \"TEB\",\n                fromCity: \"OPF\",\n                toCity: \"TEB\",\n                departAt: \"2025-10-22T00:00:00.000Z\",\n                priceUSD: 15522,\n                url: \"https://www.flyvictor.com/en-us/flights/\"\n              },\n              create: {\n                id: \"55abba569b9a1476\",\n                operator: \"flyvictor\",\n                fromIata: \"OPF\",\n                toIata: \"TEB\",\n                fromName: \"OPF\",\n                toName: \"TEB\",\n                fromCity: \"OPF\",\n                toCity: \"TEB\",\n                departAt: \"2025-10-22T00:00:00.000Z\",\n                priceUSD: 15522,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n            +   acType: String\n              }\n            })\n\nArgument `acType` is missing.",
+    "meta": null
+  },
+  "row": {
+    "id": "55abba569b9a1476",
+    "operator": "flyvictor",
+    "fromIata": "OPF",
+    "toIata": "TEB",
+    "fromName": "OPF",
+    "toName": "TEB",
+    "fromCity": "OPF",
+    "toCity": "TEB",
+    "departAt": "2025-10-22T00:00:00.000Z",
+    "priceUSD": 15522,
+    "url": "https://www.flyvictor.com/en-us/flights/"
+  }
+}

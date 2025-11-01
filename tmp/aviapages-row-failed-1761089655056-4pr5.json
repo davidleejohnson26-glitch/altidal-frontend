@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"90632a733fcad431\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"MLE\",\n                toIata: \"VIE\",\n                fromIcao: \"VRMM\",\n                toIcao: \"LOWW\",\n                fromCity: \"Velana International Airport\",\n                toCity: \"Schwechat\",\n                fromName: \"Velana International Airport\",\n                toName: \"Schwechat\",\n                departAt: \"2025-11-05T07:10:00.000Z\",\n                acType: \"Gulfstream G650ER\",\n                acClass: \"Heavy Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"05-11-2025 07:10 → 05-11-2025 23:59 | Price on Request\"\n              },\n              create: {\n                id: \"90632a733fcad431\",\n                operator: \"aviapages\",\n                fromIata: \"MLE\",\n                toIata: \"VIE\",\n                fromIcao: \"VRMM\",\n                toIcao: \"LOWW\",\n                fromCity: \"Velana International Airport\",\n                toCity: \"Schwechat\",\n                fromName: \"Velana International Airport\",\n                toName: \"Schwechat\",\n                departAt: \"2025-11-05T07:10:00.000Z\",\n                acType: \"Gulfstream G650ER\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"05-11-2025 07:10 → 05-11-2025 23:59 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "90632a733fcad431",
+    "operator": "aviapages",
+    "fromIata": "MLE",
+    "toIata": "VIE",
+    "fromIcao": "VRMM",
+    "toIcao": "LOWW",
+    "fromCity": "Velana International Airport",
+    "toCity": "Schwechat",
+    "fromName": "Velana International Airport",
+    "toName": "Schwechat",
+    "departAt": "2025-11-05T07:10:00.000Z",
+    "acType": "Gulfstream G650ER",
+    "acClass": "Heavy Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "05-11-2025 07:10 → 05-11-2025 23:59 | Price on Request"
+  }
+}

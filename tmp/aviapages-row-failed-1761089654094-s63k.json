@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"0d5ae679d3c60cd3\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"SAT\",\n                toIata: \"OKC\",\n                fromIcao: \"KSAT\",\n                toIcao: \"KOKC\",\n                fromCity: \"San Antonio Intl\",\n                toCity: \"Will Rogers World\",\n                fromName: \"San Antonio Intl\",\n                toName: \"Will Rogers World\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Hawker 400XP\",\n                acClass: \"Unknown\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 21-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"0d5ae679d3c60cd3\",\n                operator: \"aviapages\",\n                fromIata: \"SAT\",\n                toIata: \"OKC\",\n                fromIcao: \"KSAT\",\n                toIcao: \"KOKC\",\n                fromCity: \"San Antonio Intl\",\n                toCity: \"Will Rogers World\",\n                fromName: \"San Antonio Intl\",\n                toName: \"Will Rogers World\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Hawker 400XP\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 21-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "0d5ae679d3c60cd3",
+    "operator": "aviapages",
+    "fromIata": "SAT",
+    "toIata": "OKC",
+    "fromIcao": "KSAT",
+    "toIcao": "KOKC",
+    "fromCity": "San Antonio Intl",
+    "toCity": "Will Rogers World",
+    "fromName": "San Antonio Intl",
+    "toName": "Will Rogers World",
+    "departAt": "2025-10-21T00:00:00.000Z",
+    "acType": "Hawker 400XP",
+    "acClass": "Unknown",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "21-10-2025 00:00 → 21-10-2025 00:00 | Price on Request"
+  }
+}

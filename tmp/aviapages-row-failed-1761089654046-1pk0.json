@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"95ca59e42821afce\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"CAI\",\n                toIata: \"ALY\",\n                fromIcao: \"HECA\",\n                toIcao: \"HEAX\",\n                fromCity: \"Cairo Intl\",\n                toCity: \"Alexandria Intl\",\n                fromName: \"Cairo Intl\",\n                toName: \"Alexandria Intl\",\n                departAt: \"2025-10-30T14:00:00.000Z\",\n                acType: \"Cessna Citation CJ4\",\n                acClass: \"Light Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"30-10-2025 14:00 → 30-10-2025 14:39 | Price on Request\"\n              },\n              create: {\n                id: \"95ca59e42821afce\",\n                operator: \"aviapages\",\n                fromIata: \"CAI\",\n                toIata: \"ALY\",\n                fromIcao: \"HECA\",\n                toIcao: \"HEAX\",\n                fromCity: \"Cairo Intl\",\n                toCity: \"Alexandria Intl\",\n                fromName: \"Cairo Intl\",\n                toName: \"Alexandria Intl\",\n                departAt: \"2025-10-30T14:00:00.000Z\",\n                acType: \"Cessna Citation CJ4\",\n                acClass: \"Light Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"30-10-2025 14:00 → 30-10-2025 14:39 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "95ca59e42821afce",
+    "operator": "aviapages",
+    "fromIata": "CAI",
+    "toIata": "ALY",
+    "fromIcao": "HECA",
+    "toIcao": "HEAX",
+    "fromCity": "Cairo Intl",
+    "toCity": "Alexandria Intl",
+    "fromName": "Cairo Intl",
+    "toName": "Alexandria Intl",
+    "departAt": "2025-10-30T14:00:00.000Z",
+    "acType": "Cessna Citation CJ4",
+    "acClass": "Light Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "30-10-2025 14:00 → 30-10-2025 14:39 | Price on Request"
+  }
+}

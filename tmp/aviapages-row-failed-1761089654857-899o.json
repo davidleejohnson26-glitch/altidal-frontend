@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"c47305eeace1d723\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"YVR\",\n                toIata: \"YYC\",\n                fromIcao: \"CYVR\",\n                toIcao: \"CYYC\",\n                fromCity: \"Vancouver Intl\",\n                toCity: \"Calgary International Airport\",\n                fromName: \"Vancouver Intl\",\n                toName: \"Calgary International Airport\",\n                departAt: \"2025-11-04T00:00:00.000Z\",\n                acType: \"Challenger 300\",\n                acClass: \"Super Midsize Jet\",\n                seats: null,\n                priceUSD: 8500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"04-11-2025 00:00 → 04-11-2025 00:00\"\n              },\n              create: {\n                id: \"c47305eeace1d723\",\n                operator: \"aviapages\",\n                fromIata: \"YVR\",\n                toIata: \"YYC\",\n                fromIcao: \"CYVR\",\n                toIcao: \"CYYC\",\n                fromCity: \"Vancouver Intl\",\n                toCity: \"Calgary International Airport\",\n                fromName: \"Vancouver Intl\",\n                toName: \"Calgary International Airport\",\n                departAt: \"2025-11-04T00:00:00.000Z\",\n                acType: \"Challenger 300\",\n                acClass: \"Super Midsize Jet\",\n                priceUSD: 8500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"04-11-2025 00:00 → 04-11-2025 00:00\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "c47305eeace1d723",
+    "operator": "aviapages",
+    "fromIata": "YVR",
+    "toIata": "YYC",
+    "fromIcao": "CYVR",
+    "toIcao": "CYYC",
+    "fromCity": "Vancouver Intl",
+    "toCity": "Calgary International Airport",
+    "fromName": "Vancouver Intl",
+    "toName": "Calgary International Airport",
+    "departAt": "2025-11-04T00:00:00.000Z",
+    "acType": "Challenger 300",
+    "acClass": "Super Midsize Jet",
+    "seats": null,
+    "priceUSD": 8500,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "04-11-2025 00:00 → 04-11-2025 00:00"
+  }
+}

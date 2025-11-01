@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"ab6026b43027231f\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"GVA\",\n                toIata: \"LTN\",\n                fromIcao: \"LSGG\",\n                toIcao: \"EGGW\",\n                fromCity: \"Geneva\",\n                toCity: \"London Luton Airport\",\n                fromName: \"Geneva\",\n                toName: \"London Luton Airport\",\n                departAt: \"2026-05-28T00:00:00.000Z\",\n                acType: \"Gulfstream IV-SP\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"28-05-2026 00:00 → 29-05-2026 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"ab6026b43027231f\",\n                operator: \"aviapages\",\n                fromIata: \"GVA\",\n                toIata: \"LTN\",\n                fromIcao: \"LSGG\",\n                toIcao: \"EGGW\",\n                fromCity: \"Geneva\",\n                toCity: \"London Luton Airport\",\n                fromName: \"Geneva\",\n                toName: \"London Luton Airport\",\n                departAt: \"2026-05-28T00:00:00.000Z\",\n                acType: \"Gulfstream IV-SP\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"28-05-2026 00:00 → 29-05-2026 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "ab6026b43027231f",
+    "operator": "aviapages",
+    "fromIata": "GVA",
+    "toIata": "LTN",
+    "fromIcao": "LSGG",
+    "toIcao": "EGGW",
+    "fromCity": "Geneva",
+    "toCity": "London Luton Airport",
+    "fromName": "Geneva",
+    "toName": "London Luton Airport",
+    "departAt": "2026-05-28T00:00:00.000Z",
+    "acType": "Gulfstream IV-SP",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "28-05-2026 00:00 → 29-05-2026 00:00 | Price on Request"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"e7c89496ba9af83d\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"LNK\",\n                toIata: \"LBF\",\n                fromIcao: \"KLNK\",\n                toIcao: \"KLBF\",\n                fromCity: \"Lincoln\",\n                toCity: \"North Platte Regional Airport\",\n                fromName: \"Lincoln\",\n                toName: \"North Platte Regional Airport\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Beechcraft King Air E90\",\n                acClass: \"Turboprop\",\n                seats: null,\n                priceUSD: 750,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 29-10-2025 01:17\"\n              },\n              create: {\n                id: \"e7c89496ba9af83d\",\n                operator: \"aviapages\",\n                fromIata: \"LNK\",\n                toIata: \"LBF\",\n                fromIcao: \"KLNK\",\n                toIcao: \"KLBF\",\n                fromCity: \"Lincoln\",\n                toCity: \"North Platte Regional Airport\",\n                fromName: \"Lincoln\",\n                toName: \"North Platte Regional Airport\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Beechcraft King Air E90\",\n                acClass: \"Turboprop\",\n                priceUSD: 750,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 29-10-2025 01:17\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "e7c89496ba9af83d",
+    "operator": "aviapages",
+    "fromIata": "LNK",
+    "toIata": "LBF",
+    "fromIcao": "KLNK",
+    "toIcao": "KLBF",
+    "fromCity": "Lincoln",
+    "toCity": "North Platte Regional Airport",
+    "fromName": "Lincoln",
+    "toName": "North Platte Regional Airport",
+    "departAt": "2025-10-21T00:00:00.000Z",
+    "acType": "Beechcraft King Air E90",
+    "acClass": "Turboprop",
+    "seats": null,
+    "priceUSD": 750,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "21-10-2025 00:00 → 29-10-2025 01:17"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"e250dcf0fd61570d\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"EAR\",\n                toIata: \"VTN\",\n                fromIcao: \"KEAR\",\n                toIcao: \"KVTN\",\n                fromCity: \"Kearney Regional\",\n                toCity: \"Miller\",\n                fromName: \"Kearney Regional\",\n                toName: \"Miller\",\n                departAt: \"2026-03-13T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 1500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"13-03-2026 00:00 → 13-03-2026 00:48\"\n              },\n              create: {\n                id: \"e250dcf0fd61570d\",\n                operator: \"aviapages\",\n                fromIata: \"EAR\",\n                toIata: \"VTN\",\n                fromIcao: \"KEAR\",\n                toIcao: \"KVTN\",\n                fromCity: \"Kearney Regional\",\n                toCity: \"Miller\",\n                fromName: \"Kearney Regional\",\n                toName: \"Miller\",\n                departAt: \"2026-03-13T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 1500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"13-03-2026 00:00 → 13-03-2026 00:48\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "e250dcf0fd61570d",
+    "operator": "aviapages",
+    "fromIata": "EAR",
+    "toIata": "VTN",
+    "fromIcao": "KEAR",
+    "toIcao": "KVTN",
+    "fromCity": "Kearney Regional",
+    "toCity": "Miller",
+    "fromName": "Kearney Regional",
+    "toName": "Miller",
+    "departAt": "2026-03-13T00:00:00.000Z",
+    "acType": "Cessna Citation Ultra",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 1500,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "13-03-2026 00:00 → 13-03-2026 00:48"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"7311aa62794a09d5\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"PDX\",\n                toIata: \"APC\",\n                fromIcao: \"KPDX\",\n                toIcao: \"KAPC\",\n                fromCity: \"Portland International Airport\",\n                toCity: \"Napa County\",\n                fromName: \"Portland International Airport\",\n                toName: \"Napa County\",\n                departAt: \"2025-11-01T00:00:00.000Z\",\n                acType: \"Cessna Citation M2\",\n                acClass: \"Light Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"01-11-2025 00:00 → 01-11-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"7311aa62794a09d5\",\n                operator: \"aviapages\",\n                fromIata: \"PDX\",\n                toIata: \"APC\",\n                fromIcao: \"KPDX\",\n                toIcao: \"KAPC\",\n                fromCity: \"Portland International Airport\",\n                toCity: \"Napa County\",\n                fromName: \"Portland International Airport\",\n                toName: \"Napa County\",\n                departAt: \"2025-11-01T00:00:00.000Z\",\n                acType: \"Cessna Citation M2\",\n                acClass: \"Light Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"01-11-2025 00:00 → 01-11-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "7311aa62794a09d5",
+    "operator": "aviapages",
+    "fromIata": "PDX",
+    "toIata": "APC",
+    "fromIcao": "KPDX",
+    "toIcao": "KAPC",
+    "fromCity": "Portland International Airport",
+    "toCity": "Napa County",
+    "fromName": "Portland International Airport",
+    "toName": "Napa County",
+    "departAt": "2025-11-01T00:00:00.000Z",
+    "acType": "Cessna Citation M2",
+    "acClass": "Light Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "01-11-2025 00:00 → 01-11-2025 00:00 | Price on Request"
+  }
+}

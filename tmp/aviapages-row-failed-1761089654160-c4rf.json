@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"1e39576903a52f30\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"BNE\",\n                toIata: \"VNY\",\n                fromIcao: \"YBBN\",\n                toIcao: \"KVNY\",\n                fromCity: \"Brisbane Intl\",\n                toCity: \"Van Nuys\",\n                fromName: \"Brisbane Intl\",\n                toName: \"Van Nuys\",\n                departAt: \"2025-10-25T00:00:00.000Z\",\n                acType: \"Gulfstream V\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"25-10-2025 00:00 → 29-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"1e39576903a52f30\",\n                operator: \"aviapages\",\n                fromIata: \"BNE\",\n                toIata: \"VNY\",\n                fromIcao: \"YBBN\",\n                toIcao: \"KVNY\",\n                fromCity: \"Brisbane Intl\",\n                toCity: \"Van Nuys\",\n                fromName: \"Brisbane Intl\",\n                toName: \"Van Nuys\",\n                departAt: \"2025-10-25T00:00:00.000Z\",\n                acType: \"Gulfstream V\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"25-10-2025 00:00 → 29-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "1e39576903a52f30",
+    "operator": "aviapages",
+    "fromIata": "BNE",
+    "toIata": "VNY",
+    "fromIcao": "YBBN",
+    "toIcao": "KVNY",
+    "fromCity": "Brisbane Intl",
+    "toCity": "Van Nuys",
+    "fromName": "Brisbane Intl",
+    "toName": "Van Nuys",
+    "departAt": "2025-10-25T00:00:00.000Z",
+    "acType": "Gulfstream V",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "25-10-2025 00:00 → 29-10-2025 00:00 | Price on Request"
+  }
+}

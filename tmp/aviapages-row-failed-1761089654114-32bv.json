@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"0bcc232217249dc6\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"BNA\",\n                toIata: \"PIT\",\n                fromIcao: \"KBNA\",\n                toIcao: \"KPIT\",\n                fromCity: \"Nashville Intl\",\n                toCity: \"Pittsburgh Intl\",\n                fromName: \"Nashville Intl\",\n                toName: \"Pittsburgh Intl\",\n                departAt: \"2025-10-20T00:00:00.000Z\",\n                acType: \"Cessna Citation XLS+\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"20-10-2025 00:00 → 23-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"0bcc232217249dc6\",\n                operator: \"aviapages\",\n                fromIata: \"BNA\",\n                toIata: \"PIT\",\n                fromIcao: \"KBNA\",\n                toIcao: \"KPIT\",\n                fromCity: \"Nashville Intl\",\n                toCity: \"Pittsburgh Intl\",\n                fromName: \"Nashville Intl\",\n                toName: \"Pittsburgh Intl\",\n                departAt: \"2025-10-20T00:00:00.000Z\",\n                acType: \"Cessna Citation XLS+\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"20-10-2025 00:00 → 23-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "0bcc232217249dc6",
+    "operator": "aviapages",
+    "fromIata": "BNA",
+    "toIata": "PIT",
+    "fromIcao": "KBNA",
+    "toIcao": "KPIT",
+    "fromCity": "Nashville Intl",
+    "toCity": "Pittsburgh Intl",
+    "fromName": "Nashville Intl",
+    "toName": "Pittsburgh Intl",
+    "departAt": "2025-10-20T00:00:00.000Z",
+    "acType": "Cessna Citation XLS+",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "20-10-2025 00:00 → 23-10-2025 00:00 | Price on Request"
+  }
+}

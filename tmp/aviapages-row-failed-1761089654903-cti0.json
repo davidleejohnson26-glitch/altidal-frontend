@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"7d14ac3be6953f26\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"DUB\",\n                toIata: \"LTN\",\n                fromIcao: \"EIDW\",\n                toIcao: \"EGGW\",\n                fromCity: \"Dublin Intl\",\n                toCity: \"London Luton Airport\",\n                fromName: \"Dublin Intl\",\n                toName: \"London Luton Airport\",\n                departAt: \"2026-08-08T00:00:00.000Z\",\n                acType: \"Gulfstream IV-SP\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"08-08-2026 00:00 → 14-08-2026 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"7d14ac3be6953f26\",\n                operator: \"aviapages\",\n                fromIata: \"DUB\",\n                toIata: \"LTN\",\n                fromIcao: \"EIDW\",\n                toIcao: \"EGGW\",\n                fromCity: \"Dublin Intl\",\n                toCity: \"London Luton Airport\",\n                fromName: \"Dublin Intl\",\n                toName: \"London Luton Airport\",\n                departAt: \"2026-08-08T00:00:00.000Z\",\n                acType: \"Gulfstream IV-SP\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"08-08-2026 00:00 → 14-08-2026 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "7d14ac3be6953f26",
+    "operator": "aviapages",
+    "fromIata": "DUB",
+    "toIata": "LTN",
+    "fromIcao": "EIDW",
+    "toIcao": "EGGW",
+    "fromCity": "Dublin Intl",
+    "toCity": "London Luton Airport",
+    "fromName": "Dublin Intl",
+    "toName": "London Luton Airport",
+    "departAt": "2026-08-08T00:00:00.000Z",
+    "acType": "Gulfstream IV-SP",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "08-08-2026 00:00 → 14-08-2026 00:00 | Price on Request"
+  }
+}

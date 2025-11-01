@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"045096e381fe7652\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"DWH\",\n                toIata: \"SAT\",\n                fromIcao: \"KDWH\",\n                toIcao: \"KSAT\",\n                fromCity: \"David Wayne Hooks Memorial\",\n                toCity: \"San Antonio Intl\",\n                fromName: \"David Wayne Hooks Memorial\",\n                toName: \"San Antonio Intl\",\n                departAt: \"2025-10-19T00:00:00.000Z\",\n                acType: \"Beechjet 400A\",\n                acClass: \"Unknown\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"19-10-2025 00:00 → 21-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"045096e381fe7652\",\n                operator: \"aviapages\",\n                fromIata: \"DWH\",\n                toIata: \"SAT\",\n                fromIcao: \"KDWH\",\n                toIcao: \"KSAT\",\n                fromCity: \"David Wayne Hooks Memorial\",\n                toCity: \"San Antonio Intl\",\n                fromName: \"David Wayne Hooks Memorial\",\n                toName: \"San Antonio Intl\",\n                departAt: \"2025-10-19T00:00:00.000Z\",\n                acType: \"Beechjet 400A\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"19-10-2025 00:00 → 21-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "045096e381fe7652",
+    "operator": "aviapages",
+    "fromIata": "DWH",
+    "toIata": "SAT",
+    "fromIcao": "KDWH",
+    "toIcao": "KSAT",
+    "fromCity": "David Wayne Hooks Memorial",
+    "toCity": "San Antonio Intl",
+    "fromName": "David Wayne Hooks Memorial",
+    "toName": "San Antonio Intl",
+    "departAt": "2025-10-19T00:00:00.000Z",
+    "acType": "Beechjet 400A",
+    "acClass": "Unknown",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "19-10-2025 00:00 → 21-10-2025 00:00 | Price on Request"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"fb3de9e704c82f8c\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"AUH\",\n                toIata: \"DWC\",\n                fromIcao: \"OMAA\",\n                toIcao: \"OMDW\",\n                fromCity: \"Abu Dhabi Intl\",\n                toCity: \"Al Maktoum Intl / Dubai World Central Intl\",\n                fromName: \"Abu Dhabi Intl\",\n                toName: \"Al Maktoum Intl / Dubai World Central Intl\",\n                departAt: \"2025-10-26T08:00:00.000Z\",\n                acType: \"Global 6000\",\n                acClass: \"Heavy Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-10-2025 08:00 → 26-10-2025 08:35 | Price on Request\"\n              },\n              create: {\n                id: \"fb3de9e704c82f8c\",\n                operator: \"aviapages\",\n                fromIata: \"AUH\",\n                toIata: \"DWC\",\n                fromIcao: \"OMAA\",\n                toIcao: \"OMDW\",\n                fromCity: \"Abu Dhabi Intl\",\n                toCity: \"Al Maktoum Intl / Dubai World Central Intl\",\n                fromName: \"Abu Dhabi Intl\",\n                toName: \"Al Maktoum Intl / Dubai World Central Intl\",\n                departAt: \"2025-10-26T08:00:00.000Z\",\n                acType: \"Global 6000\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-10-2025 08:00 → 26-10-2025 08:35 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "fb3de9e704c82f8c",
+    "operator": "aviapages",
+    "fromIata": "AUH",
+    "toIata": "DWC",
+    "fromIcao": "OMAA",
+    "toIcao": "OMDW",
+    "fromCity": "Abu Dhabi Intl",
+    "toCity": "Al Maktoum Intl / Dubai World Central Intl",
+    "fromName": "Abu Dhabi Intl",
+    "toName": "Al Maktoum Intl / Dubai World Central Intl",
+    "departAt": "2025-10-26T08:00:00.000Z",
+    "acType": "Global 6000",
+    "acClass": "Heavy Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "26-10-2025 08:00 → 26-10-2025 08:35 | Price on Request"
+  }
+}

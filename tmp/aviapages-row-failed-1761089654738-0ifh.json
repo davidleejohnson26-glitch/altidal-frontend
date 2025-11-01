@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"84eae7eba1ef435d\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"JCI\",\n                toIata: \"LNK\",\n                fromIcao: \"KIXD\",\n                toIcao: \"KLNK\",\n                fromCity: \"New Century Aircenter\",\n                toCity: \"Lincoln\",\n                fromName: \"New Century Aircenter\",\n                toName: \"Lincoln\",\n                departAt: \"2025-11-30T00:00:00.000Z\",\n                acType: \"Cessna Citation Excel\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 2500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"30-11-2025 00:00 → 30-11-2025 00:48\"\n              },\n              create: {\n                id: \"84eae7eba1ef435d\",\n                operator: \"aviapages\",\n                fromIata: \"JCI\",\n                toIata: \"LNK\",\n                fromIcao: \"KIXD\",\n                toIcao: \"KLNK\",\n                fromCity: \"New Century Aircenter\",\n                toCity: \"Lincoln\",\n                fromName: \"New Century Aircenter\",\n                toName: \"Lincoln\",\n                departAt: \"2025-11-30T00:00:00.000Z\",\n                acType: \"Cessna Citation Excel\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 2500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"30-11-2025 00:00 → 30-11-2025 00:48\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "84eae7eba1ef435d",
+    "operator": "aviapages",
+    "fromIata": "JCI",
+    "toIata": "LNK",
+    "fromIcao": "KIXD",
+    "toIcao": "KLNK",
+    "fromCity": "New Century Aircenter",
+    "toCity": "Lincoln",
+    "fromName": "New Century Aircenter",
+    "toName": "Lincoln",
+    "departAt": "2025-11-30T00:00:00.000Z",
+    "acType": "Cessna Citation Excel",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 2500,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "30-11-2025 00:00 → 30-11-2025 00:48"
+  }
+}

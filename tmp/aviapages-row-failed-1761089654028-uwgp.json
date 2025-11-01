@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"7e3f74bf599c358f\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"PIR\",\n                toIata: \"IML\",\n                fromIcao: \"KPIR\",\n                toIcao: \"KIML\",\n                fromCity: \"Pierre Rgnl\",\n                toCity: \"Imperial Mun\",\n                fromName: \"Pierre Rgnl\",\n                toName: \"Imperial Mun\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Cessna Citation CJ1\",\n                acClass: \"Light Jet\",\n                seats: null,\n                priceUSD: 1500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 21-10-2025 01:06\"\n              },\n              create: {\n                id: \"7e3f74bf599c358f\",\n                operator: \"aviapages\",\n                fromIata: \"PIR\",\n                toIata: \"IML\",\n                fromIcao: \"KPIR\",\n                toIcao: \"KIML\",\n                fromCity: \"Pierre Rgnl\",\n                toCity: \"Imperial Mun\",\n                fromName: \"Pierre Rgnl\",\n                toName: \"Imperial Mun\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Cessna Citation CJ1\",\n                acClass: \"Light Jet\",\n                priceUSD: 1500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 21-10-2025 01:06\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "7e3f74bf599c358f",
+    "operator": "aviapages",
+    "fromIata": "PIR",
+    "toIata": "IML",
+    "fromIcao": "KPIR",
+    "toIcao": "KIML",
+    "fromCity": "Pierre Rgnl",
+    "toCity": "Imperial Mun",
+    "fromName": "Pierre Rgnl",
+    "toName": "Imperial Mun",
+    "departAt": "2025-10-21T00:00:00.000Z",
+    "acType": "Cessna Citation CJ1",
+    "acClass": "Light Jet",
+    "seats": null,
+    "priceUSD": 1500,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "21-10-2025 00:00 → 21-10-2025 01:06"
+  }
+}

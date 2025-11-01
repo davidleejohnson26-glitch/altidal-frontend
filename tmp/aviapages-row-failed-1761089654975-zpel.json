@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"b1d53486f06518d6\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"LIN\",\n                toIata: \"FAB\",\n                fromIcao: \"LIML\",\n                toIcao: \"EGLF\",\n                fromCity: \"Linate\",\n                toCity: \"Farnborough\",\n                fromName: \"Linate\",\n                toName: \"Farnborough\",\n                departAt: \"2025-12-21T00:00:00.000Z\",\n                acType: \"Gulfstream IV-SP\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-12-2025 00:00 → 22-12-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"b1d53486f06518d6\",\n                operator: \"aviapages\",\n                fromIata: \"LIN\",\n                toIata: \"FAB\",\n                fromIcao: \"LIML\",\n                toIcao: \"EGLF\",\n                fromCity: \"Linate\",\n                toCity: \"Farnborough\",\n                fromName: \"Linate\",\n                toName: \"Farnborough\",\n                departAt: \"2025-12-21T00:00:00.000Z\",\n                acType: \"Gulfstream IV-SP\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-12-2025 00:00 → 22-12-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "b1d53486f06518d6",
+    "operator": "aviapages",
+    "fromIata": "LIN",
+    "toIata": "FAB",
+    "fromIcao": "LIML",
+    "toIcao": "EGLF",
+    "fromCity": "Linate",
+    "toCity": "Farnborough",
+    "fromName": "Linate",
+    "toName": "Farnborough",
+    "departAt": "2025-12-21T00:00:00.000Z",
+    "acType": "Gulfstream IV-SP",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "21-12-2025 00:00 → 22-12-2025 00:00 | Price on Request"
+  }
+}

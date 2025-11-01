@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"33d3942b75d90edb\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"PSP\",\n                toIata: \"VNY\",\n                fromIcao: \"KPSP\",\n                toIcao: \"KVNY\",\n                fromCity: \"Palm Springs Intl\",\n                toCity: \"Van Nuys\",\n                fromName: \"Palm Springs Intl\",\n                toName: \"Van Nuys\",\n                departAt: \"2025-11-01T00:00:00.000Z\",\n                acType: \"Challenger 300\",\n                acClass: \"Super Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"01-11-2025 00:00 → 06-11-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"33d3942b75d90edb\",\n                operator: \"aviapages\",\n                fromIata: \"PSP\",\n                toIata: \"VNY\",\n                fromIcao: \"KPSP\",\n                toIcao: \"KVNY\",\n                fromCity: \"Palm Springs Intl\",\n                toCity: \"Van Nuys\",\n                fromName: \"Palm Springs Intl\",\n                toName: \"Van Nuys\",\n                departAt: \"2025-11-01T00:00:00.000Z\",\n                acType: \"Challenger 300\",\n                acClass: \"Super Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"01-11-2025 00:00 → 06-11-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "33d3942b75d90edb",
+    "operator": "aviapages",
+    "fromIata": "PSP",
+    "toIata": "VNY",
+    "fromIcao": "KPSP",
+    "toIcao": "KVNY",
+    "fromCity": "Palm Springs Intl",
+    "toCity": "Van Nuys",
+    "fromName": "Palm Springs Intl",
+    "toName": "Van Nuys",
+    "departAt": "2025-11-01T00:00:00.000Z",
+    "acType": "Challenger 300",
+    "acClass": "Super Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "01-11-2025 00:00 → 06-11-2025 00:00 | Price on Request"
+  }
+}

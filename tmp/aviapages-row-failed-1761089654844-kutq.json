@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"c8767f76f28139a3\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"YYC\",\n                toIata: \"PVR\",\n                fromIcao: \"CYYC\",\n                toIcao: \"MMPR\",\n                fromCity: \"Calgary International Airport\",\n                toCity: \"Lic Gustavo Diaz Ordaz Intl\",\n                fromName: \"Calgary International Airport\",\n                toName: \"Lic Gustavo Diaz Ordaz Intl\",\n                departAt: \"2025-10-31T00:00:00.000Z\",\n                acType: \"Cessna Citation Sovereign\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 28900,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"31-10-2025 00:00 → 31-10-2025 23:59\"\n              },\n              create: {\n                id: \"c8767f76f28139a3\",\n                operator: \"aviapages\",\n                fromIata: \"YYC\",\n                toIata: \"PVR\",\n                fromIcao: \"CYYC\",\n                toIcao: \"MMPR\",\n                fromCity: \"Calgary International Airport\",\n                toCity: \"Lic Gustavo Diaz Ordaz Intl\",\n                fromName: \"Calgary International Airport\",\n                toName: \"Lic Gustavo Diaz Ordaz Intl\",\n                departAt: \"2025-10-31T00:00:00.000Z\",\n                acType: \"Cessna Citation Sovereign\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 28900,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"31-10-2025 00:00 → 31-10-2025 23:59\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "c8767f76f28139a3",
+    "operator": "aviapages",
+    "fromIata": "YYC",
+    "toIata": "PVR",
+    "fromIcao": "CYYC",
+    "toIcao": "MMPR",
+    "fromCity": "Calgary International Airport",
+    "toCity": "Lic Gustavo Diaz Ordaz Intl",
+    "fromName": "Calgary International Airport",
+    "toName": "Lic Gustavo Diaz Ordaz Intl",
+    "departAt": "2025-10-31T00:00:00.000Z",
+    "acType": "Cessna Citation Sovereign",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 28900,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "31-10-2025 00:00 → 31-10-2025 23:59"
+  }
+}

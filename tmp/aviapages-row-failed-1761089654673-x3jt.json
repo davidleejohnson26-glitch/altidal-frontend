@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"6a8fc2c67692153e\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"LNK\",\n                toIata: \"MHK\",\n                fromIcao: \"KLNK\",\n                toIcao: \"KMHK\",\n                fromCity: \"Lincoln\",\n                toCity: \"Manhattan Regl\",\n                fromName: \"Lincoln\",\n                toName: \"Manhattan Regl\",\n                departAt: \"2025-11-25T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 1500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"25-11-2025 00:00 → 25-11-2025 00:42\"\n              },\n              create: {\n                id: \"6a8fc2c67692153e\",\n                operator: \"aviapages\",\n                fromIata: \"LNK\",\n                toIata: \"MHK\",\n                fromIcao: \"KLNK\",\n                toIcao: \"KMHK\",\n                fromCity: \"Lincoln\",\n                toCity: \"Manhattan Regl\",\n                fromName: \"Lincoln\",\n                toName: \"Manhattan Regl\",\n                departAt: \"2025-11-25T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 1500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"25-11-2025 00:00 → 25-11-2025 00:42\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "6a8fc2c67692153e",
+    "operator": "aviapages",
+    "fromIata": "LNK",
+    "toIata": "MHK",
+    "fromIcao": "KLNK",
+    "toIcao": "KMHK",
+    "fromCity": "Lincoln",
+    "toCity": "Manhattan Regl",
+    "fromName": "Lincoln",
+    "toName": "Manhattan Regl",
+    "departAt": "2025-11-25T00:00:00.000Z",
+    "acType": "Cessna Citation Ultra",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 1500,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "25-11-2025 00:00 → 25-11-2025 00:42"
+  }
+}

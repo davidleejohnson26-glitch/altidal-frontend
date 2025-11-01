@@ -1,0 +1,22 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\flyvictor.ts:384:28\n\n  381 try {\n  382   await withConcurrency(batch, 6, async (r) => {\n  383     try {\n→ 384       await prisma.leg.upsert({\n              where: {\n                id: \"b9db33599c461703\"\n              },\n              update: {\n                operator: \"flyvictor\",\n                fromIata: \"AGP\",\n                toIata: \"NCE\",\n                fromName: \"AGP\",\n                toName: \"NCE\",\n                fromCity: \"AGP\",\n                toCity: \"NCE\",\n                departAt: \"2025-10-23T00:00:00.000Z\",\n                acType: \"Phenom 300\",\n                acClass: \"Light Jet\",\n                priceUSD: 6669,\n                url: \"https://www.flyvictor.com/en-us/flights/\"\n              },\n              create: {\n                id: \"b9db33599c461703\",\n                operator: \"flyvictor\",\n                fromIata: \"AGP\",\n                toIata: \"NCE\",\n                fromName: \"AGP\",\n                toName: \"NCE\",\n                fromCity: \"AGP\",\n                toCity: \"NCE\",\n                departAt: \"2025-10-23T00:00:00.000Z\",\n                acType: \"Phenom 300\",\n                acClass: \"Light Jet\",\n                priceUSD: 6669,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` is missing.",
+    "meta": null
+  },
+  "row": {
+    "id": "b9db33599c461703",
+    "operator": "flyvictor",
+    "fromIata": "AGP",
+    "toIata": "NCE",
+    "fromName": "AGP",
+    "toName": "NCE",
+    "fromCity": "AGP",
+    "toCity": "NCE",
+    "departAt": "2025-10-23T00:00:00.000Z",
+    "acType": "Phenom 300",
+    "acClass": "Light Jet",
+    "priceUSD": 6669,
+    "url": "https://www.flyvictor.com/en-us/flights/"
+  }
+}

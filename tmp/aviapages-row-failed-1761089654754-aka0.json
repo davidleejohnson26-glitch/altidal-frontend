@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"6adae249b8fbd29e\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"WAW\",\n                toIata: \"KTW\",\n                fromIcao: \"EPWA\",\n                toIcao: \"EPKT\",\n                fromCity: \"Chopin\",\n                toCity: \"Katowice-Pyrzowice\",\n                fromName: \"Chopin\",\n                toName: \"Katowice-Pyrzowice\",\n                departAt: \"2026-01-31T19:55:00.000Z\",\n                acType: \"Gulfstream G650ER\",\n                acClass: \"Heavy Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"31-01-2026 19:55 → 05-02-2026 19:55 | Price on Request\"\n              },\n              create: {\n                id: \"6adae249b8fbd29e\",\n                operator: \"aviapages\",\n                fromIata: \"WAW\",\n                toIata: \"KTW\",\n                fromIcao: \"EPWA\",\n                toIcao: \"EPKT\",\n                fromCity: \"Chopin\",\n                toCity: \"Katowice-Pyrzowice\",\n                fromName: \"Chopin\",\n                toName: \"Katowice-Pyrzowice\",\n                departAt: \"2026-01-31T19:55:00.000Z\",\n                acType: \"Gulfstream G650ER\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"31-01-2026 19:55 → 05-02-2026 19:55 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "6adae249b8fbd29e",
+    "operator": "aviapages",
+    "fromIata": "WAW",
+    "toIata": "KTW",
+    "fromIcao": "EPWA",
+    "toIcao": "EPKT",
+    "fromCity": "Chopin",
+    "toCity": "Katowice-Pyrzowice",
+    "fromName": "Chopin",
+    "toName": "Katowice-Pyrzowice",
+    "departAt": "2026-01-31T19:55:00.000Z",
+    "acType": "Gulfstream G650ER",
+    "acClass": "Heavy Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "31-01-2026 19:55 → 05-02-2026 19:55 | Price on Request"
+  }
+}

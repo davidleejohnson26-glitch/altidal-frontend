@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"9825d835c9ef46d5\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"LAF\",\n                toIata: \"TTN\",\n                fromIcao: \"KLAF\",\n                toIcao: \"KTTN\",\n                fromCity: \"Purdue University\",\n                toCity: \"Trenton Mercer\",\n                fromName: \"Purdue University\",\n                toName: \"Trenton Mercer\",\n                departAt: \"2025-10-23T00:00:00.000Z\",\n                acType: \"Challenger 300\",\n                acClass: \"Super Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-10-2025 00:00 → 24-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"9825d835c9ef46d5\",\n                operator: \"aviapages\",\n                fromIata: \"LAF\",\n                toIata: \"TTN\",\n                fromIcao: \"KLAF\",\n                toIcao: \"KTTN\",\n                fromCity: \"Purdue University\",\n                toCity: \"Trenton Mercer\",\n                fromName: \"Purdue University\",\n                toName: \"Trenton Mercer\",\n                departAt: \"2025-10-23T00:00:00.000Z\",\n                acType: \"Challenger 300\",\n                acClass: \"Super Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-10-2025 00:00 → 24-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "9825d835c9ef46d5",
+    "operator": "aviapages",
+    "fromIata": "LAF",
+    "toIata": "TTN",
+    "fromIcao": "KLAF",
+    "toIcao": "KTTN",
+    "fromCity": "Purdue University",
+    "toCity": "Trenton Mercer",
+    "fromName": "Purdue University",
+    "toName": "Trenton Mercer",
+    "departAt": "2025-10-23T00:00:00.000Z",
+    "acType": "Challenger 300",
+    "acClass": "Super Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "23-10-2025 00:00 → 24-10-2025 00:00 | Price on Request"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"c76311447c0ac8c6\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"MTH\",\n                toIata: \"LAS\",\n                fromIcao: \"KMTH\",\n                toIcao: \"KLAS\",\n                fromCity: \"Florida Keys Marathon\",\n                toCity: \"McCarran Int'l Airport\",\n                fromName: \"Florida Keys Marathon\",\n                toName: \"McCarran Int'l Airport\",\n                departAt: \"2025-11-07T00:00:00.000Z\",\n                acType: \"Gulfstream IV\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"07-11-2025 00:00 → 08-11-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"c76311447c0ac8c6\",\n                operator: \"aviapages\",\n                fromIata: \"MTH\",\n                toIata: \"LAS\",\n                fromIcao: \"KMTH\",\n                toIcao: \"KLAS\",\n                fromCity: \"Florida Keys Marathon\",\n                toCity: \"McCarran Int'l Airport\",\n                fromName: \"Florida Keys Marathon\",\n                toName: \"McCarran Int'l Airport\",\n                departAt: \"2025-11-07T00:00:00.000Z\",\n                acType: \"Gulfstream IV\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"07-11-2025 00:00 → 08-11-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "c76311447c0ac8c6",
+    "operator": "aviapages",
+    "fromIata": "MTH",
+    "toIata": "LAS",
+    "fromIcao": "KMTH",
+    "toIcao": "KLAS",
+    "fromCity": "Florida Keys Marathon",
+    "toCity": "McCarran Int'l Airport",
+    "fromName": "Florida Keys Marathon",
+    "toName": "McCarran Int'l Airport",
+    "departAt": "2025-11-07T00:00:00.000Z",
+    "acType": "Gulfstream IV",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "07-11-2025 00:00 → 08-11-2025 00:00 | Price on Request"
+  }
+}

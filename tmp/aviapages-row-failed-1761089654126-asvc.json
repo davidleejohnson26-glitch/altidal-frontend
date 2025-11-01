@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"98c3649ce5afe60b\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"VNY\",\n                toIata: \"OPF\",\n                fromIcao: \"KVNY\",\n                toIcao: \"KOPF\",\n                fromCity: \"Van Nuys\",\n                toCity: \"Miami-Opa Locka Executive\",\n                fromName: \"Van Nuys\",\n                toName: \"Miami-Opa Locka Executive\",\n                departAt: \"2025-10-20T00:00:00.000Z\",\n                acType: \"Gulfstream IV\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 41300,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"20-10-2025 00:00 → 21-10-2025 23:59\"\n              },\n              create: {\n                id: \"98c3649ce5afe60b\",\n                operator: \"aviapages\",\n                fromIata: \"VNY\",\n                toIata: \"OPF\",\n                fromIcao: \"KVNY\",\n                toIcao: \"KOPF\",\n                fromCity: \"Van Nuys\",\n                toCity: \"Miami-Opa Locka Executive\",\n                fromName: \"Van Nuys\",\n                toName: \"Miami-Opa Locka Executive\",\n                departAt: \"2025-10-20T00:00:00.000Z\",\n                acType: \"Gulfstream IV\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 41300,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"20-10-2025 00:00 → 21-10-2025 23:59\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "98c3649ce5afe60b",
+    "operator": "aviapages",
+    "fromIata": "VNY",
+    "toIata": "OPF",
+    "fromIcao": "KVNY",
+    "toIcao": "KOPF",
+    "fromCity": "Van Nuys",
+    "toCity": "Miami-Opa Locka Executive",
+    "fromName": "Van Nuys",
+    "toName": "Miami-Opa Locka Executive",
+    "departAt": "2025-10-20T00:00:00.000Z",
+    "acType": "Gulfstream IV",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 41300,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "20-10-2025 00:00 → 21-10-2025 23:59"
+  }
+}

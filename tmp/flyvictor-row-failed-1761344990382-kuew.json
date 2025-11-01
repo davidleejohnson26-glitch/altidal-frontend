@@ -1,0 +1,18 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\flyvictor.ts:527:28\n\n  524 try {\n  525   await withConcurrency(batch, 6, async (r) => {\n  526     try {\n→ 527       await prisma.leg.upsert({\n              where: {\n                id: \"41c761863ade9d62\"\n              },\n              update: {\n                operator: \"flyvictor\",\n                fromIata: \"ESB\",\n                toIata: \"CND\",\n                fromName: \"ESB\",\n                toName: \"CND\",\n                departAt: null,\n                priceUSD: 0,\n                url: \"https://www.flyvictor.com/en-us/flights/\"\n              },\n              create: {\n                id: \"41c761863ade9d62\",\n                operator: \"flyvictor\",\n                fromIata: \"ESB\",\n                toIata: \"CND\",\n                fromName: \"ESB\",\n                toName: \"CND\",\n                departAt: null,\n                priceUSD: 0,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n            +   fromCity: String\n              }\n            })\n\nArgument `fromCity` is missing.",
+    "meta": null
+  },
+  "row": {
+    "id": "41c761863ade9d62",
+    "operator": "flyvictor",
+    "fromIata": "ESB",
+    "toIata": "CND",
+    "fromName": "ESB",
+    "toName": "CND",
+    "departAt": null,
+    "priceUSD": 0,
+    "url": "https://www.flyvictor.com/en-us/flights/"
+  }
+}

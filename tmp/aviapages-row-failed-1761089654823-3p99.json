@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"f5781e1968fe446d\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"LNK\",\n                toIata: \"FLL\",\n                fromIcao: \"KLNK\",\n                toIcao: \"KFLL\",\n                fromCity: \"Lincoln\",\n                toCity: \"Ft Lauderdale Hollywood Intl\",\n                fromName: \"Lincoln\",\n                toName: \"Ft Lauderdale Hollywood Intl\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 5000,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 22-10-2025 03:30\"\n              },\n              create: {\n                id: \"f5781e1968fe446d\",\n                operator: \"aviapages\",\n                fromIata: \"LNK\",\n                toIata: \"FLL\",\n                fromIcao: \"KLNK\",\n                toIcao: \"KFLL\",\n                fromCity: \"Lincoln\",\n                toCity: \"Ft Lauderdale Hollywood Intl\",\n                fromName: \"Lincoln\",\n                toName: \"Ft Lauderdale Hollywood Intl\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 5000,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 22-10-2025 03:30\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "f5781e1968fe446d",
+    "operator": "aviapages",
+    "fromIata": "LNK",
+    "toIata": "FLL",
+    "fromIcao": "KLNK",
+    "toIcao": "KFLL",
+    "fromCity": "Lincoln",
+    "toCity": "Ft Lauderdale Hollywood Intl",
+    "fromName": "Lincoln",
+    "toName": "Ft Lauderdale Hollywood Intl",
+    "departAt": "2025-10-21T00:00:00.000Z",
+    "acType": "Cessna Citation Ultra",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 5000,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "21-10-2025 00:00 → 22-10-2025 03:30"
+  }
+}

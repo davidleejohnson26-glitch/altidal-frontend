@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"6c5eb56d2d605ab0\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"FLL\",\n                toIata: \"YYZ\",\n                fromIcao: \"KFLL\",\n                toIcao: \"CYYZ\",\n                fromCity: \"Ft Lauderdale Hollywood Intl\",\n                toCity: \"Lester B.Pearson Intl\",\n                fromName: \"Ft Lauderdale Hollywood Intl\",\n                toName: \"Lester B.Pearson Intl\",\n                departAt: \"2025-11-06T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 14600,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"06-11-2025 00:00 → 06-11-2025 23:59\"\n              },\n              create: {\n                id: \"6c5eb56d2d605ab0\",\n                operator: \"aviapages\",\n                fromIata: \"FLL\",\n                toIata: \"YYZ\",\n                fromIcao: \"KFLL\",\n                toIcao: \"CYYZ\",\n                fromCity: \"Ft Lauderdale Hollywood Intl\",\n                toCity: \"Lester B.Pearson Intl\",\n                fromName: \"Ft Lauderdale Hollywood Intl\",\n                toName: \"Lester B.Pearson Intl\",\n                departAt: \"2025-11-06T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 14600,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"06-11-2025 00:00 → 06-11-2025 23:59\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "6c5eb56d2d605ab0",
+    "operator": "aviapages",
+    "fromIata": "FLL",
+    "toIata": "YYZ",
+    "fromIcao": "KFLL",
+    "toIcao": "CYYZ",
+    "fromCity": "Ft Lauderdale Hollywood Intl",
+    "toCity": "Lester B.Pearson Intl",
+    "fromName": "Ft Lauderdale Hollywood Intl",
+    "toName": "Lester B.Pearson Intl",
+    "departAt": "2025-11-06T00:00:00.000Z",
+    "acType": "Cessna Citation Ultra",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 14600,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "06-11-2025 00:00 → 06-11-2025 23:59"
+  }
+}

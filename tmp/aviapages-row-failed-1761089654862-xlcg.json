@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"b31a110c557edef0\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"LWC\",\n                toIata: \"LNK\",\n                fromIcao: \"KLWC\",\n                toIcao: \"KLNK\",\n                fromCity: \"Lawrence Mun\",\n                toCity: \"Lincoln\",\n                fromName: \"Lawrence Mun\",\n                toName: \"Lincoln\",\n                departAt: \"2025-11-04T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 1500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"04-11-2025 00:00 → 04-11-2025 00:48\"\n              },\n              create: {\n                id: \"b31a110c557edef0\",\n                operator: \"aviapages\",\n                fromIata: \"LWC\",\n                toIata: \"LNK\",\n                fromIcao: \"KLWC\",\n                toIcao: \"KLNK\",\n                fromCity: \"Lawrence Mun\",\n                toCity: \"Lincoln\",\n                fromName: \"Lawrence Mun\",\n                toName: \"Lincoln\",\n                departAt: \"2025-11-04T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 1500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"04-11-2025 00:00 → 04-11-2025 00:48\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "b31a110c557edef0",
+    "operator": "aviapages",
+    "fromIata": "LWC",
+    "toIata": "LNK",
+    "fromIcao": "KLWC",
+    "toIcao": "KLNK",
+    "fromCity": "Lawrence Mun",
+    "toCity": "Lincoln",
+    "fromName": "Lawrence Mun",
+    "toName": "Lincoln",
+    "departAt": "2025-11-04T00:00:00.000Z",
+    "acType": "Cessna Citation Ultra",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 1500,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "04-11-2025 00:00 → 04-11-2025 00:48"
+  }
+}

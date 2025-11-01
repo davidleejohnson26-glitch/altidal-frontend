@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"8269f47d53c25404\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"YYZ\",\n                toIata: \"YOW\",\n                fromIcao: \"CYYZ\",\n                toIcao: \"CYOW\",\n                fromCity: \"Lester B.Pearson Intl\",\n                toCity: \"Ottawa Macdonald-Cartier Intl\",\n                fromName: \"Lester B.Pearson Intl\",\n                toName: \"Ottawa Macdonald-Cartier Intl\",\n                departAt: \"2025-11-14T00:00:00.000Z\",\n                acType: \"Pilatus PC-12/47 NG\",\n                acClass: \"Turboprop\",\n                seats: null,\n                priceUSD: 3100,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"14-11-2025 00:00 → 14-11-2025 00:00\"\n              },\n              create: {\n                id: \"8269f47d53c25404\",\n                operator: \"aviapages\",\n                fromIata: \"YYZ\",\n                toIata: \"YOW\",\n                fromIcao: \"CYYZ\",\n                toIcao: \"CYOW\",\n                fromCity: \"Lester B.Pearson Intl\",\n                toCity: \"Ottawa Macdonald-Cartier Intl\",\n                fromName: \"Lester B.Pearson Intl\",\n                toName: \"Ottawa Macdonald-Cartier Intl\",\n                departAt: \"2025-11-14T00:00:00.000Z\",\n                acType: \"Pilatus PC-12/47 NG\",\n                acClass: \"Turboprop\",\n                priceUSD: 3100,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"14-11-2025 00:00 → 14-11-2025 00:00\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "8269f47d53c25404",
+    "operator": "aviapages",
+    "fromIata": "YYZ",
+    "toIata": "YOW",
+    "fromIcao": "CYYZ",
+    "toIcao": "CYOW",
+    "fromCity": "Lester B.Pearson Intl",
+    "toCity": "Ottawa Macdonald-Cartier Intl",
+    "fromName": "Lester B.Pearson Intl",
+    "toName": "Ottawa Macdonald-Cartier Intl",
+    "departAt": "2025-11-14T00:00:00.000Z",
+    "acType": "Pilatus PC-12/47 NG",
+    "acClass": "Turboprop",
+    "seats": null,
+    "priceUSD": 3100,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "14-11-2025 00:00 → 14-11-2025 00:00"
+  }
+}

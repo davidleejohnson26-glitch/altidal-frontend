@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"28124eda9cf6ec91\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"SFO\",\n                toIata: \"VNY\",\n                fromIcao: \"KSFO\",\n                toIcao: \"KVNY\",\n                fromCity: \"San Francisco Intl\",\n                toCity: \"Van Nuys\",\n                fromName: \"San Francisco Intl\",\n                toName: \"Van Nuys\",\n                departAt: \"2025-10-24T00:00:00.000Z\",\n                acType: \"Falcon 900C\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"24-10-2025 00:00 → 26-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"28124eda9cf6ec91\",\n                operator: \"aviapages\",\n                fromIata: \"SFO\",\n                toIata: \"VNY\",\n                fromIcao: \"KSFO\",\n                toIcao: \"KVNY\",\n                fromCity: \"San Francisco Intl\",\n                toCity: \"Van Nuys\",\n                fromName: \"San Francisco Intl\",\n                toName: \"Van Nuys\",\n                departAt: \"2025-10-24T00:00:00.000Z\",\n                acType: \"Falcon 900C\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"24-10-2025 00:00 → 26-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "28124eda9cf6ec91",
+    "operator": "aviapages",
+    "fromIata": "SFO",
+    "toIata": "VNY",
+    "fromIcao": "KSFO",
+    "toIcao": "KVNY",
+    "fromCity": "San Francisco Intl",
+    "toCity": "Van Nuys",
+    "fromName": "San Francisco Intl",
+    "toName": "Van Nuys",
+    "departAt": "2025-10-24T00:00:00.000Z",
+    "acType": "Falcon 900C",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "24-10-2025 00:00 → 26-10-2025 00:00 | Price on Request"
+  }
+}

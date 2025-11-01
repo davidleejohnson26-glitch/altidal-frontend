@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"e53c6110de298ebd\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"LBG\",\n                toIata: \"ANR\",\n                fromIcao: \"LFPB\",\n                toIcao: \"EBAW\",\n                fromCity: \"Le Bourget\",\n                toCity: \"Deurne\",\n                fromName: \"Le Bourget\",\n                toName: \"Deurne\",\n                departAt: \"2025-10-30T00:00:00.000Z\",\n                acType: \"Cessna Citation XLS+\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"30-10-2025 00:00 → 30-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"e53c6110de298ebd\",\n                operator: \"aviapages\",\n                fromIata: \"LBG\",\n                toIata: \"ANR\",\n                fromIcao: \"LFPB\",\n                toIcao: \"EBAW\",\n                fromCity: \"Le Bourget\",\n                toCity: \"Deurne\",\n                fromName: \"Le Bourget\",\n                toName: \"Deurne\",\n                departAt: \"2025-10-30T00:00:00.000Z\",\n                acType: \"Cessna Citation XLS+\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"30-10-2025 00:00 → 30-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "e53c6110de298ebd",
+    "operator": "aviapages",
+    "fromIata": "LBG",
+    "toIata": "ANR",
+    "fromIcao": "LFPB",
+    "toIcao": "EBAW",
+    "fromCity": "Le Bourget",
+    "toCity": "Deurne",
+    "fromName": "Le Bourget",
+    "toName": "Deurne",
+    "departAt": "2025-10-30T00:00:00.000Z",
+    "acType": "Cessna Citation XLS+",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "30-10-2025 00:00 → 30-10-2025 00:00 | Price on Request"
+  }
+}

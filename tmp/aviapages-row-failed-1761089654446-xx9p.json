@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"47bd8a85fcd8a9bb\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"KSO\",\n                toIata: \"IOA\",\n                fromIcao: \"LGKA\",\n                toIcao: \"LGIO\",\n                fromCity: \"Aristotelis\",\n                toCity: \"King Pyrros\",\n                fromName: \"Aristotelis\",\n                toName: \"King Pyrros\",\n                departAt: \"2025-10-24T08:30:00.000Z\",\n                acType: \"Cessna Citation CJ2+\",\n                acClass: \"Light Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"24-10-2025 08:30 → 24-10-2025 08:54 | Price on Request\"\n              },\n              create: {\n                id: \"47bd8a85fcd8a9bb\",\n                operator: \"aviapages\",\n                fromIata: \"KSO\",\n                toIata: \"IOA\",\n                fromIcao: \"LGKA\",\n                toIcao: \"LGIO\",\n                fromCity: \"Aristotelis\",\n                toCity: \"King Pyrros\",\n                fromName: \"Aristotelis\",\n                toName: \"King Pyrros\",\n                departAt: \"2025-10-24T08:30:00.000Z\",\n                acType: \"Cessna Citation CJ2+\",\n                acClass: \"Light Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"24-10-2025 08:30 → 24-10-2025 08:54 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "47bd8a85fcd8a9bb",
+    "operator": "aviapages",
+    "fromIata": "KSO",
+    "toIata": "IOA",
+    "fromIcao": "LGKA",
+    "toIcao": "LGIO",
+    "fromCity": "Aristotelis",
+    "toCity": "King Pyrros",
+    "fromName": "Aristotelis",
+    "toName": "King Pyrros",
+    "departAt": "2025-10-24T08:30:00.000Z",
+    "acType": "Cessna Citation CJ2+",
+    "acClass": "Light Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "24-10-2025 08:30 → 24-10-2025 08:54 | Price on Request"
+  }
+}

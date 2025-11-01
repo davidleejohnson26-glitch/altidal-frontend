@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"cc65a018aabda9f3\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"AUS\",\n                toIata: \"HOU\",\n                fromIcao: \"KAUS\",\n                toIcao: \"KHOU\",\n                fromCity: \"Austin-Bergstrom Intl\",\n                toCity: \"William P Hobby\",\n                fromName: \"Austin-Bergstrom Intl\",\n                toName: \"William P Hobby\",\n                departAt: \"2025-10-22T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 2000,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-10-2025 00:00 → 22-10-2025 00:00\"\n              },\n              create: {\n                id: \"cc65a018aabda9f3\",\n                operator: \"aviapages\",\n                fromIata: \"AUS\",\n                toIata: \"HOU\",\n                fromIcao: \"KAUS\",\n                toIcao: \"KHOU\",\n                fromCity: \"Austin-Bergstrom Intl\",\n                toCity: \"William P Hobby\",\n                fromName: \"Austin-Bergstrom Intl\",\n                toName: \"William P Hobby\",\n                departAt: \"2025-10-22T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 2000,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-10-2025 00:00 → 22-10-2025 00:00\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "cc65a018aabda9f3",
+    "operator": "aviapages",
+    "fromIata": "AUS",
+    "toIata": "HOU",
+    "fromIcao": "KAUS",
+    "toIcao": "KHOU",
+    "fromCity": "Austin-Bergstrom Intl",
+    "toCity": "William P Hobby",
+    "fromName": "Austin-Bergstrom Intl",
+    "toName": "William P Hobby",
+    "departAt": "2025-10-22T00:00:00.000Z",
+    "acType": "Cessna Citation Ultra",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 2000,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "22-10-2025 00:00 → 22-10-2025 00:00"
+  }
+}

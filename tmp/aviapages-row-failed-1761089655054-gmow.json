@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"73183c20fa0eb1bd\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"KTW\",\n                toIata: \"BRQ\",\n                fromIcao: \"EPKT\",\n                toIcao: \"LKTB\",\n                fromCity: \"Katowice-Pyrzowice\",\n                toCity: \"Turany\",\n                fromName: \"Katowice-Pyrzowice\",\n                toName: \"Turany\",\n                departAt: \"2025-12-15T15:30:00.000Z\",\n                acType: \"Gulfstream G650ER\",\n                acClass: \"Heavy Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"15-12-2025 15:30 → 16-12-2025 09:29 | Price on Request\"\n              },\n              create: {\n                id: \"73183c20fa0eb1bd\",\n                operator: \"aviapages\",\n                fromIata: \"KTW\",\n                toIata: \"BRQ\",\n                fromIcao: \"EPKT\",\n                toIcao: \"LKTB\",\n                fromCity: \"Katowice-Pyrzowice\",\n                toCity: \"Turany\",\n                fromName: \"Katowice-Pyrzowice\",\n                toName: \"Turany\",\n                departAt: \"2025-12-15T15:30:00.000Z\",\n                acType: \"Gulfstream G650ER\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"15-12-2025 15:30 → 16-12-2025 09:29 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "73183c20fa0eb1bd",
+    "operator": "aviapages",
+    "fromIata": "KTW",
+    "toIata": "BRQ",
+    "fromIcao": "EPKT",
+    "toIcao": "LKTB",
+    "fromCity": "Katowice-Pyrzowice",
+    "toCity": "Turany",
+    "fromName": "Katowice-Pyrzowice",
+    "toName": "Turany",
+    "departAt": "2025-12-15T15:30:00.000Z",
+    "acType": "Gulfstream G650ER",
+    "acClass": "Heavy Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "15-12-2025 15:30 → 16-12-2025 09:29 | Price on Request"
+  }
+}

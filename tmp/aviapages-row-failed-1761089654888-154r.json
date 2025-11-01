@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"7faa7c1382e8d62e\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"FLL\",\n                toIata: \"LNK\",\n                fromIcao: \"KFLL\",\n                toIcao: \"KLNK\",\n                fromCity: \"Ft Lauderdale Hollywood Intl\",\n                toCity: \"Lincoln\",\n                fromName: \"Ft Lauderdale Hollywood Intl\",\n                toName: \"Lincoln\",\n                departAt: \"2025-12-15T00:00:00.000Z\",\n                acType: \"Cessna Citation Encore\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 5000,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"15-12-2025 00:00 → 15-12-2025 04:23\"\n              },\n              create: {\n                id: \"7faa7c1382e8d62e\",\n                operator: \"aviapages\",\n                fromIata: \"FLL\",\n                toIata: \"LNK\",\n                fromIcao: \"KFLL\",\n                toIcao: \"KLNK\",\n                fromCity: \"Ft Lauderdale Hollywood Intl\",\n                toCity: \"Lincoln\",\n                fromName: \"Ft Lauderdale Hollywood Intl\",\n                toName: \"Lincoln\",\n                departAt: \"2025-12-15T00:00:00.000Z\",\n                acType: \"Cessna Citation Encore\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 5000,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"15-12-2025 00:00 → 15-12-2025 04:23\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "7faa7c1382e8d62e",
+    "operator": "aviapages",
+    "fromIata": "FLL",
+    "toIata": "LNK",
+    "fromIcao": "KFLL",
+    "toIcao": "KLNK",
+    "fromCity": "Ft Lauderdale Hollywood Intl",
+    "toCity": "Lincoln",
+    "fromName": "Ft Lauderdale Hollywood Intl",
+    "toName": "Lincoln",
+    "departAt": "2025-12-15T00:00:00.000Z",
+    "acType": "Cessna Citation Encore",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 5000,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "15-12-2025 00:00 → 15-12-2025 04:23"
+  }
+}

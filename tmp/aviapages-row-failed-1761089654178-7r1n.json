@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"88af20160e1af100\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"DWH\",\n                toIata: \"MDD\",\n                fromIcao: \"KDWH\",\n                toIcao: \"KMDD\",\n                fromCity: \"David Wayne Hooks Memorial\",\n                toCity: \"Midland\",\n                fromName: \"David Wayne Hooks Memorial\",\n                toName: \"Midland\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Cessna Citation V\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 4500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 21-10-2025 00:00\"\n              },\n              create: {\n                id: \"88af20160e1af100\",\n                operator: \"aviapages\",\n                fromIata: \"DWH\",\n                toIata: \"MDD\",\n                fromIcao: \"KDWH\",\n                toIcao: \"KMDD\",\n                fromCity: \"David Wayne Hooks Memorial\",\n                toCity: \"Midland\",\n                fromName: \"David Wayne Hooks Memorial\",\n                toName: \"Midland\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Cessna Citation V\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 4500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 21-10-2025 00:00\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "88af20160e1af100",
+    "operator": "aviapages",
+    "fromIata": "DWH",
+    "toIata": "MDD",
+    "fromIcao": "KDWH",
+    "toIcao": "KMDD",
+    "fromCity": "David Wayne Hooks Memorial",
+    "toCity": "Midland",
+    "fromName": "David Wayne Hooks Memorial",
+    "toName": "Midland",
+    "departAt": "2025-10-21T00:00:00.000Z",
+    "acType": "Cessna Citation V",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 4500,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "21-10-2025 00:00 → 21-10-2025 00:00"
+  }
+}

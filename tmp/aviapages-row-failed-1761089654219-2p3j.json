@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"5c79569844d0c3f1\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"YYZ\",\n                toIata: \"ELH\",\n                fromIcao: \"CYYZ\",\n                toIcao: \"MYEH\",\n                fromCity: \"Lester B.Pearson Intl\",\n                toCity: \"North Eleuthera\",\n                fromName: \"Lester B.Pearson Intl\",\n                toName: \"North Eleuthera\",\n                departAt: \"2026-01-02T00:00:00.000Z\",\n                acType: \"Challenger 604\",\n                acClass: \"Heavy Jet\",\n                seats: null,\n                priceUSD: 24600,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"02-01-2026 00:00 → 02-01-2026 00:00\"\n              },\n              create: {\n                id: \"5c79569844d0c3f1\",\n                operator: \"aviapages\",\n                fromIata: \"YYZ\",\n                toIata: \"ELH\",\n                fromIcao: \"CYYZ\",\n                toIcao: \"MYEH\",\n                fromCity: \"Lester B.Pearson Intl\",\n                toCity: \"North Eleuthera\",\n                fromName: \"Lester B.Pearson Intl\",\n                toName: \"North Eleuthera\",\n                departAt: \"2026-01-02T00:00:00.000Z\",\n                acType: \"Challenger 604\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 24600,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"02-01-2026 00:00 → 02-01-2026 00:00\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "5c79569844d0c3f1",
+    "operator": "aviapages",
+    "fromIata": "YYZ",
+    "toIata": "ELH",
+    "fromIcao": "CYYZ",
+    "toIcao": "MYEH",
+    "fromCity": "Lester B.Pearson Intl",
+    "toCity": "North Eleuthera",
+    "fromName": "Lester B.Pearson Intl",
+    "toName": "North Eleuthera",
+    "departAt": "2026-01-02T00:00:00.000Z",
+    "acType": "Challenger 604",
+    "acClass": "Heavy Jet",
+    "seats": null,
+    "priceUSD": 24600,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "02-01-2026 00:00 → 02-01-2026 00:00"
+  }
+}

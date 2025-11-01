@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"593c0b022326eb0f\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"BOI\",\n                toIata: \"NUQ\",\n                fromIcao: \"KBOI\",\n                toIcao: \"KNUQ\",\n                fromCity: \"Boise Air Terminal Gowen\",\n                toCity: \"Mountain View Moffett Federal\",\n                fromName: \"Boise Air Terminal Gowen\",\n                toName: \"Mountain View Moffett Federal\",\n                departAt: \"2025-10-28T00:00:00.000Z\",\n                acType: \"Pilatus PC-12/47 NG\",\n                acClass: \"Turboprop\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"28-10-2025 00:00 → 28-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"593c0b022326eb0f\",\n                operator: \"aviapages\",\n                fromIata: \"BOI\",\n                toIata: \"NUQ\",\n                fromIcao: \"KBOI\",\n                toIcao: \"KNUQ\",\n                fromCity: \"Boise Air Terminal Gowen\",\n                toCity: \"Mountain View Moffett Federal\",\n                fromName: \"Boise Air Terminal Gowen\",\n                toName: \"Mountain View Moffett Federal\",\n                departAt: \"2025-10-28T00:00:00.000Z\",\n                acType: \"Pilatus PC-12/47 NG\",\n                acClass: \"Turboprop\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"28-10-2025 00:00 → 28-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "593c0b022326eb0f",
+    "operator": "aviapages",
+    "fromIata": "BOI",
+    "toIata": "NUQ",
+    "fromIcao": "KBOI",
+    "toIcao": "KNUQ",
+    "fromCity": "Boise Air Terminal Gowen",
+    "toCity": "Mountain View Moffett Federal",
+    "fromName": "Boise Air Terminal Gowen",
+    "toName": "Mountain View Moffett Federal",
+    "departAt": "2025-10-28T00:00:00.000Z",
+    "acType": "Pilatus PC-12/47 NG",
+    "acClass": "Turboprop",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "28-10-2025 00:00 → 28-10-2025 00:00 | Price on Request"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"7a9d7a0bcb9461ce\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"RSW\",\n                toIata: \"YYZ\",\n                fromIcao: \"KRSW\",\n                toIcao: \"CYYZ\",\n                fromCity: \"Southwest Florida Intl\",\n                toCity: \"Lester B.Pearson Intl\",\n                fromName: \"Southwest Florida Intl\",\n                toName: \"Lester B.Pearson Intl\",\n                departAt: \"2025-12-27T00:00:00.000Z\",\n                acType: \"Challenger 605\",\n                acClass: \"Heavy Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"27-12-2025 00:00 → 27-12-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"7a9d7a0bcb9461ce\",\n                operator: \"aviapages\",\n                fromIata: \"RSW\",\n                toIata: \"YYZ\",\n                fromIcao: \"KRSW\",\n                toIcao: \"CYYZ\",\n                fromCity: \"Southwest Florida Intl\",\n                toCity: \"Lester B.Pearson Intl\",\n                fromName: \"Southwest Florida Intl\",\n                toName: \"Lester B.Pearson Intl\",\n                departAt: \"2025-12-27T00:00:00.000Z\",\n                acType: \"Challenger 605\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"27-12-2025 00:00 → 27-12-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "7a9d7a0bcb9461ce",
+    "operator": "aviapages",
+    "fromIata": "RSW",
+    "toIata": "YYZ",
+    "fromIcao": "KRSW",
+    "toIcao": "CYYZ",
+    "fromCity": "Southwest Florida Intl",
+    "toCity": "Lester B.Pearson Intl",
+    "fromName": "Southwest Florida Intl",
+    "toName": "Lester B.Pearson Intl",
+    "departAt": "2025-12-27T00:00:00.000Z",
+    "acType": "Challenger 605",
+    "acClass": "Heavy Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "27-12-2025 00:00 → 27-12-2025 00:00 | Price on Request"
+  }
+}

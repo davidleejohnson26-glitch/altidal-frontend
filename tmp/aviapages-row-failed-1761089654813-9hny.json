@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"40d3fa115b9bc469\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"ARV\",\n                toIata: \"OMA\",\n                fromIcao: \"KARV\",\n                toIcao: \"KOMA\",\n                fromCity: \"Lakeland Lee Meml\",\n                toCity: \"Eppley Airfield\",\n                fromName: \"Lakeland Lee Meml\",\n                toName: \"Eppley Airfield\",\n                departAt: \"2025-12-20T00:00:00.000Z\",\n                acType: \"Cessna Citation CJ1\",\n                acClass: \"Light Jet\",\n                seats: null,\n                priceUSD: 3500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"20-12-2025 00:00 → 20-12-2025 01:36\"\n              },\n              create: {\n                id: \"40d3fa115b9bc469\",\n                operator: \"aviapages\",\n                fromIata: \"ARV\",\n                toIata: \"OMA\",\n                fromIcao: \"KARV\",\n                toIcao: \"KOMA\",\n                fromCity: \"Lakeland Lee Meml\",\n                toCity: \"Eppley Airfield\",\n                fromName: \"Lakeland Lee Meml\",\n                toName: \"Eppley Airfield\",\n                departAt: \"2025-12-20T00:00:00.000Z\",\n                acType: \"Cessna Citation CJ1\",\n                acClass: \"Light Jet\",\n                priceUSD: 3500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"20-12-2025 00:00 → 20-12-2025 01:36\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "40d3fa115b9bc469",
+    "operator": "aviapages",
+    "fromIata": "ARV",
+    "toIata": "OMA",
+    "fromIcao": "KARV",
+    "toIcao": "KOMA",
+    "fromCity": "Lakeland Lee Meml",
+    "toCity": "Eppley Airfield",
+    "fromName": "Lakeland Lee Meml",
+    "toName": "Eppley Airfield",
+    "departAt": "2025-12-20T00:00:00.000Z",
+    "acType": "Cessna Citation CJ1",
+    "acClass": "Light Jet",
+    "seats": null,
+    "priceUSD": 3500,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "20-12-2025 00:00 → 20-12-2025 01:36"
+  }
+}

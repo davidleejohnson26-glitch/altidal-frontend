@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"e27e2b059e82075d\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"BNA\",\n                toIata: \"CPP\",\n                fromIcao: \"KBNA\",\n                toIcao: \"KCPP\",\n                fromCity: \"Nashville Intl\",\n                toCity: \"Greene Co Regl\",\n                fromName: \"Nashville Intl\",\n                toName: \"Greene Co Regl\",\n                departAt: \"2025-10-19T00:00:00.000Z\",\n                acType: \"Cessna Citation Excel\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 4680,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"19-10-2025 00:00 → 21-10-2025 23:59\"\n              },\n              create: {\n                id: \"e27e2b059e82075d\",\n                operator: \"aviapages\",\n                fromIata: \"BNA\",\n                toIata: \"CPP\",\n                fromIcao: \"KBNA\",\n                toIcao: \"KCPP\",\n                fromCity: \"Nashville Intl\",\n                toCity: \"Greene Co Regl\",\n                fromName: \"Nashville Intl\",\n                toName: \"Greene Co Regl\",\n                departAt: \"2025-10-19T00:00:00.000Z\",\n                acType: \"Cessna Citation Excel\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 4680,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"19-10-2025 00:00 → 21-10-2025 23:59\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "e27e2b059e82075d",
+    "operator": "aviapages",
+    "fromIata": "BNA",
+    "toIata": "CPP",
+    "fromIcao": "KBNA",
+    "toIcao": "KCPP",
+    "fromCity": "Nashville Intl",
+    "toCity": "Greene Co Regl",
+    "fromName": "Nashville Intl",
+    "toName": "Greene Co Regl",
+    "departAt": "2025-10-19T00:00:00.000Z",
+    "acType": "Cessna Citation Excel",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 4680,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "19-10-2025 00:00 → 21-10-2025 23:59"
+  }
+}

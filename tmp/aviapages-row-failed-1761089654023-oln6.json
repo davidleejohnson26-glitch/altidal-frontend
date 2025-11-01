@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"d5b95515f17ec8e4\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"EGE\",\n                toIata: \"LNK\",\n                fromIcao: \"KEGE\",\n                toIcao: \"KLNK\",\n                fromCity: \"Eagle County Rgnl\",\n                toCity: \"Lincoln\",\n                fromName: \"Eagle County Rgnl\",\n                toName: \"Lincoln\",\n                departAt: \"2025-11-23T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 3500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-11-2025 00:00 → 23-11-2025 01:36\"\n              },\n              create: {\n                id: \"d5b95515f17ec8e4\",\n                operator: \"aviapages\",\n                fromIata: \"EGE\",\n                toIata: \"LNK\",\n                fromIcao: \"KEGE\",\n                toIcao: \"KLNK\",\n                fromCity: \"Eagle County Rgnl\",\n                toCity: \"Lincoln\",\n                fromName: \"Eagle County Rgnl\",\n                toName: \"Lincoln\",\n                departAt: \"2025-11-23T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 3500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-11-2025 00:00 → 23-11-2025 01:36\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "d5b95515f17ec8e4",
+    "operator": "aviapages",
+    "fromIata": "EGE",
+    "toIata": "LNK",
+    "fromIcao": "KEGE",
+    "toIcao": "KLNK",
+    "fromCity": "Eagle County Rgnl",
+    "toCity": "Lincoln",
+    "fromName": "Eagle County Rgnl",
+    "toName": "Lincoln",
+    "departAt": "2025-11-23T00:00:00.000Z",
+    "acType": "Cessna Citation Ultra",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 3500,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "23-11-2025 00:00 → 23-11-2025 01:36"
+  }
+}

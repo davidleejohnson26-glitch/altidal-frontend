@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"80c0916b2cebc424\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"BOS\",\n                toIata: \"CLE\",\n                fromIcao: \"KBOS\",\n                toIcao: \"KCLE\",\n                fromCity: \"General Edward Lawrence Logan\",\n                toCity: \"Cleveland-Hopkins Intl\",\n                fromName: \"General Edward Lawrence Logan\",\n                toName: \"Cleveland-Hopkins Intl\",\n                departAt: \"2025-10-22T00:00:00.000Z\",\n                acType: \"Hawker 850XP\",\n                acClass: \"Unknown\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-10-2025 00:00 → 22-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"80c0916b2cebc424\",\n                operator: \"aviapages\",\n                fromIata: \"BOS\",\n                toIata: \"CLE\",\n                fromIcao: \"KBOS\",\n                toIcao: \"KCLE\",\n                fromCity: \"General Edward Lawrence Logan\",\n                toCity: \"Cleveland-Hopkins Intl\",\n                fromName: \"General Edward Lawrence Logan\",\n                toName: \"Cleveland-Hopkins Intl\",\n                departAt: \"2025-10-22T00:00:00.000Z\",\n                acType: \"Hawker 850XP\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-10-2025 00:00 → 22-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "80c0916b2cebc424",
+    "operator": "aviapages",
+    "fromIata": "BOS",
+    "toIata": "CLE",
+    "fromIcao": "KBOS",
+    "toIcao": "KCLE",
+    "fromCity": "General Edward Lawrence Logan",
+    "toCity": "Cleveland-Hopkins Intl",
+    "fromName": "General Edward Lawrence Logan",
+    "toName": "Cleveland-Hopkins Intl",
+    "departAt": "2025-10-22T00:00:00.000Z",
+    "acType": "Hawker 850XP",
+    "acClass": "Unknown",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "22-10-2025 00:00 → 22-10-2025 00:00 | Price on Request"
+  }
+}

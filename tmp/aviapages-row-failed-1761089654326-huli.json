@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"337760b0cac564f0\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"SBA\",\n                toIata: \"VNY\",\n                fromIcao: \"KSBA\",\n                toIcao: \"KVNY\",\n                fromCity: \"Santa Barbara Mun\",\n                toCity: \"Van Nuys\",\n                fromName: \"Santa Barbara Mun\",\n                toName: \"Van Nuys\",\n                departAt: \"2025-10-24T00:00:00.000Z\",\n                acType: \"Cessna Citation CJ3\",\n                acClass: \"Light Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"24-10-2025 00:00 → 24-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"337760b0cac564f0\",\n                operator: \"aviapages\",\n                fromIata: \"SBA\",\n                toIata: \"VNY\",\n                fromIcao: \"KSBA\",\n                toIcao: \"KVNY\",\n                fromCity: \"Santa Barbara Mun\",\n                toCity: \"Van Nuys\",\n                fromName: \"Santa Barbara Mun\",\n                toName: \"Van Nuys\",\n                departAt: \"2025-10-24T00:00:00.000Z\",\n                acType: \"Cessna Citation CJ3\",\n                acClass: \"Light Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"24-10-2025 00:00 → 24-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "337760b0cac564f0",
+    "operator": "aviapages",
+    "fromIata": "SBA",
+    "toIata": "VNY",
+    "fromIcao": "KSBA",
+    "toIcao": "KVNY",
+    "fromCity": "Santa Barbara Mun",
+    "toCity": "Van Nuys",
+    "fromName": "Santa Barbara Mun",
+    "toName": "Van Nuys",
+    "departAt": "2025-10-24T00:00:00.000Z",
+    "acType": "Cessna Citation CJ3",
+    "acClass": "Light Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "24-10-2025 00:00 → 24-10-2025 00:00 | Price on Request"
+  }
+}

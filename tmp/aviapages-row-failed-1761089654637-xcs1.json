@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"862225694c675f01\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"NAS\",\n                toIata: \"FXE\",\n                fromIcao: \"MYNN\",\n                toIcao: \"KFXE\",\n                fromCity: \"Lynden Pindling Intl\",\n                toCity: \"Fort Lauderdale Executive\",\n                fromName: \"Lynden Pindling Intl\",\n                toName: \"Fort Lauderdale Executive\",\n                departAt: \"2025-10-23T22:48:00.000Z\",\n                acType: \"Learjet 60XR\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-10-2025 22:48 → 23-10-2025 23:36 | Price on Request\"\n              },\n              create: {\n                id: \"862225694c675f01\",\n                operator: \"aviapages\",\n                fromIata: \"NAS\",\n                toIata: \"FXE\",\n                fromIcao: \"MYNN\",\n                toIcao: \"KFXE\",\n                fromCity: \"Lynden Pindling Intl\",\n                toCity: \"Fort Lauderdale Executive\",\n                fromName: \"Lynden Pindling Intl\",\n                toName: \"Fort Lauderdale Executive\",\n                departAt: \"2025-10-23T22:48:00.000Z\",\n                acType: \"Learjet 60XR\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-10-2025 22:48 → 23-10-2025 23:36 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "862225694c675f01",
+    "operator": "aviapages",
+    "fromIata": "NAS",
+    "toIata": "FXE",
+    "fromIcao": "MYNN",
+    "toIcao": "KFXE",
+    "fromCity": "Lynden Pindling Intl",
+    "toCity": "Fort Lauderdale Executive",
+    "fromName": "Lynden Pindling Intl",
+    "toName": "Fort Lauderdale Executive",
+    "departAt": "2025-10-23T22:48:00.000Z",
+    "acType": "Learjet 60XR",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "23-10-2025 22:48 → 23-10-2025 23:36 | Price on Request"
+  }
+}

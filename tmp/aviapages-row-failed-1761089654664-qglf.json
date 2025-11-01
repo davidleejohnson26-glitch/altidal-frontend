@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"dd5f9060f182c7cd\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"BOI\",\n                toIata: \"JVL\",\n                fromIcao: \"KBOI\",\n                toIcao: \"KJVL\",\n                fromCity: \"Boise Air Terminal Gowen\",\n                toCity: \"Southern Wisconsin Regl\",\n                fromName: \"Boise Air Terminal Gowen\",\n                toName: \"Southern Wisconsin Regl\",\n                departAt: \"2025-12-02T00:00:00.000Z\",\n                acType: \"Hawker 800XP\",\n                acClass: \"Unknown\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"02-12-2025 00:00 → 02-12-2025 23:59 | Price on Request\"\n              },\n              create: {\n                id: \"dd5f9060f182c7cd\",\n                operator: \"aviapages\",\n                fromIata: \"BOI\",\n                toIata: \"JVL\",\n                fromIcao: \"KBOI\",\n                toIcao: \"KJVL\",\n                fromCity: \"Boise Air Terminal Gowen\",\n                toCity: \"Southern Wisconsin Regl\",\n                fromName: \"Boise Air Terminal Gowen\",\n                toName: \"Southern Wisconsin Regl\",\n                departAt: \"2025-12-02T00:00:00.000Z\",\n                acType: \"Hawker 800XP\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"02-12-2025 00:00 → 02-12-2025 23:59 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "dd5f9060f182c7cd",
+    "operator": "aviapages",
+    "fromIata": "BOI",
+    "toIata": "JVL",
+    "fromIcao": "KBOI",
+    "toIcao": "KJVL",
+    "fromCity": "Boise Air Terminal Gowen",
+    "toCity": "Southern Wisconsin Regl",
+    "fromName": "Boise Air Terminal Gowen",
+    "toName": "Southern Wisconsin Regl",
+    "departAt": "2025-12-02T00:00:00.000Z",
+    "acType": "Hawker 800XP",
+    "acClass": "Unknown",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "02-12-2025 00:00 → 02-12-2025 23:59 | Price on Request"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"c7b1a1b697005e0a\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"ZQC\",\n                toIata: \"CGN\",\n                fromIcao: \"EDRY\",\n                toIcao: \"EDDK\",\n                fromCity: \"Speyer\",\n                toCity: \"Cologne Bonn\",\n                fromName: \"Speyer\",\n                toName: \"Cologne Bonn\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Cessna Citation XLS+\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 21-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"c7b1a1b697005e0a\",\n                operator: \"aviapages\",\n                fromIata: \"ZQC\",\n                toIata: \"CGN\",\n                fromIcao: \"EDRY\",\n                toIcao: \"EDDK\",\n                fromCity: \"Speyer\",\n                toCity: \"Cologne Bonn\",\n                fromName: \"Speyer\",\n                toName: \"Cologne Bonn\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Cessna Citation XLS+\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 21-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "c7b1a1b697005e0a",
+    "operator": "aviapages",
+    "fromIata": "ZQC",
+    "toIata": "CGN",
+    "fromIcao": "EDRY",
+    "toIcao": "EDDK",
+    "fromCity": "Speyer",
+    "toCity": "Cologne Bonn",
+    "fromName": "Speyer",
+    "toName": "Cologne Bonn",
+    "departAt": "2025-10-21T00:00:00.000Z",
+    "acType": "Cessna Citation XLS+",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "21-10-2025 00:00 → 21-10-2025 00:00 | Price on Request"
+  }
+}

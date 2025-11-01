@@ -8,14 +8,11 @@
     "start": "next start",
     "lint": "next lint",
     "postinstall": "prisma generate",
-
     "db:migrate": "prisma migrate dev",
     "db:deploy": "prisma migrate deploy",
     "db:studio": "prisma studio",
-
     "scrape": "tsx scripts/run.ts",
     "scrape:magellan": "tsx scripts/run.ts",
-
     "build:airports": "tsx scripts/build-airports.ts",
     "prepare:data": "npm run build:airports && echo 'Airports data ready.'"
   },
@@ -24,9 +21,9 @@
     "@prisma/client": "^6.16.2",
     "@supabase/supabase-js": "^2.58.0",
     "axios": "^1.12.2",
-    "cheerio": "^1.1.2",
     "framer-motion": "11.2.6",
     "lucide-react": "0.446.0",
+    "luxon": "^3.7.2",
     "maplibre-gl": "^5.8.0",
     "next": "^14.2.33",
     "puppeteer": "^24.22.3",
@@ -41,15 +38,16 @@
     "@types/node": "^24.5.2",
     "@types/react": "19.1.13",
     "autoprefixer": "10.4.19",
+    "cheerio": "^1.1.2",
     "csv-parse": "^6.1.0",
     "eslint": "8.57.0",
     "eslint-config-next": "14.2.5",
-    "playwright": "^1.55.1",
+    "playwright": "^1.56.0",
     "postcss": "8.4.39",
     "prisma": "^6.16.2",
     "tailwindcss": "3.4.6",
     "ts-node": "^10.9.2",
-    "tsx": "^4.20.5",
+    "tsx": "^4.20.6",
     "typescript": "5.5.3"
   },
   "engines": {

@@ -1,0 +1,18 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\flyvictor.ts:370:28\n\n  367 try {\n  368   await withConcurrency(batch, 6, async (r) => {\n  369     try {\n→ 370       await prisma.leg.upsert({\n              where: {\n                id: \"425957e034835200\"\n              },\n              update: {\n                operator: \"flyvictor\",\n                fromIata: \"JAX\",\n                toIata: \"XNA\",\n                fromName: \"JAX\",\n                toName: \"XNA\",\n                departAt: \"2025-10-22T00:00:00.000Z\",\n                priceUSD: 9589,\n                url: \"https://www.flyvictor.com/en-us/flights/\"\n              },\n              create: {\n                id: \"425957e034835200\",\n                operator: \"flyvictor\",\n                fromIata: \"JAX\",\n                toIata: \"XNA\",\n                fromName: \"JAX\",\n                toName: \"XNA\",\n                departAt: \"2025-10-22T00:00:00.000Z\",\n                priceUSD: 9589,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n            +   fromCity: String\n              }\n            })\n\nArgument `fromCity` is missing.",
+    "meta": null
+  },
+  "row": {
+    "id": "425957e034835200",
+    "operator": "flyvictor",
+    "fromIata": "JAX",
+    "toIata": "XNA",
+    "fromName": "JAX",
+    "toName": "XNA",
+    "departAt": "2025-10-22T00:00:00.000Z",
+    "priceUSD": 9589,
+    "url": "https://www.flyvictor.com/en-us/flights/"
+  }
+}

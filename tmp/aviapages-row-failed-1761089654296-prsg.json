@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"f0d36882b7e6f61a\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"GRZ\",\n                toIata: \"CEQ\",\n                fromIcao: \"LOWG\",\n                toIcao: \"LFMD\",\n                fromCity: \"Graz\",\n                toCity: \"Mandelieu\",\n                fromName: \"Graz\",\n                toName: \"Mandelieu\",\n                departAt: \"2025-10-16T00:00:00.000Z\",\n                acType: \"Cessna Citation XLS+\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"16-10-2025 00:00 → 21-10-2025 23:59 | Price on Request\"\n              },\n              create: {\n                id: \"f0d36882b7e6f61a\",\n                operator: \"aviapages\",\n                fromIata: \"GRZ\",\n                toIata: \"CEQ\",\n                fromIcao: \"LOWG\",\n                toIcao: \"LFMD\",\n                fromCity: \"Graz\",\n                toCity: \"Mandelieu\",\n                fromName: \"Graz\",\n                toName: \"Mandelieu\",\n                departAt: \"2025-10-16T00:00:00.000Z\",\n                acType: \"Cessna Citation XLS+\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"16-10-2025 00:00 → 21-10-2025 23:59 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "f0d36882b7e6f61a",
+    "operator": "aviapages",
+    "fromIata": "GRZ",
+    "toIata": "CEQ",
+    "fromIcao": "LOWG",
+    "toIcao": "LFMD",
+    "fromCity": "Graz",
+    "toCity": "Mandelieu",
+    "fromName": "Graz",
+    "toName": "Mandelieu",
+    "departAt": "2025-10-16T00:00:00.000Z",
+    "acType": "Cessna Citation XLS+",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "16-10-2025 00:00 → 21-10-2025 23:59 | Price on Request"
+  }
+}

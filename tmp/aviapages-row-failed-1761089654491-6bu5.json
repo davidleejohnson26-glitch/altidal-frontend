@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"59820718322925c9\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"AGB\",\n                toIata: \"SGE\",\n                fromIcao: \"EDMA\",\n                toIcao: \"EDGS\",\n                fromCity: \"Augsburg\",\n                toCity: \"Siegerland\",\n                fromName: \"Augsburg\",\n                toName: \"Siegerland\",\n                departAt: \"2025-11-04T08:26:00.000Z\",\n                acType: \"Beechcraft Premier 1\",\n                acClass: \"Unknown\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"04-11-2025 08:26 → 04-11-2025 09:15 | Price on Request\"\n              },\n              create: {\n                id: \"59820718322925c9\",\n                operator: \"aviapages\",\n                fromIata: \"AGB\",\n                toIata: \"SGE\",\n                fromIcao: \"EDMA\",\n                toIcao: \"EDGS\",\n                fromCity: \"Augsburg\",\n                toCity: \"Siegerland\",\n                fromName: \"Augsburg\",\n                toName: \"Siegerland\",\n                departAt: \"2025-11-04T08:26:00.000Z\",\n                acType: \"Beechcraft Premier 1\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"04-11-2025 08:26 → 04-11-2025 09:15 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "59820718322925c9",
+    "operator": "aviapages",
+    "fromIata": "AGB",
+    "toIata": "SGE",
+    "fromIcao": "EDMA",
+    "toIcao": "EDGS",
+    "fromCity": "Augsburg",
+    "toCity": "Siegerland",
+    "fromName": "Augsburg",
+    "toName": "Siegerland",
+    "departAt": "2025-11-04T08:26:00.000Z",
+    "acType": "Beechcraft Premier 1",
+    "acClass": "Unknown",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "04-11-2025 08:26 → 04-11-2025 09:15 | Price on Request"
+  }
+}

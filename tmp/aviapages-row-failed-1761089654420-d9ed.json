@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"78b6c76f3cee7be2\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"EWR\",\n                toIata: \"PWK\",\n                fromIcao: \"KEWR\",\n                toIcao: \"KPWK\",\n                fromCity: \"Newark Liberty Intl\",\n                toCity: \"Chicago Executive\",\n                fromName: \"Newark Liberty Intl\",\n                toName: \"Chicago Executive\",\n                departAt: \"2025-10-24T00:00:00.000Z\",\n                acType: \"Pilatus PC-24\",\n                acClass: \"Unknown\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"24-10-2025 00:00 → 24-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"78b6c76f3cee7be2\",\n                operator: \"aviapages\",\n                fromIata: \"EWR\",\n                toIata: \"PWK\",\n                fromIcao: \"KEWR\",\n                toIcao: \"KPWK\",\n                fromCity: \"Newark Liberty Intl\",\n                toCity: \"Chicago Executive\",\n                fromName: \"Newark Liberty Intl\",\n                toName: \"Chicago Executive\",\n                departAt: \"2025-10-24T00:00:00.000Z\",\n                acType: \"Pilatus PC-24\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"24-10-2025 00:00 → 24-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "78b6c76f3cee7be2",
+    "operator": "aviapages",
+    "fromIata": "EWR",
+    "toIata": "PWK",
+    "fromIcao": "KEWR",
+    "toIcao": "KPWK",
+    "fromCity": "Newark Liberty Intl",
+    "toCity": "Chicago Executive",
+    "fromName": "Newark Liberty Intl",
+    "toName": "Chicago Executive",
+    "departAt": "2025-10-24T00:00:00.000Z",
+    "acType": "Pilatus PC-24",
+    "acClass": "Unknown",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "24-10-2025 00:00 → 24-10-2025 00:00 | Price on Request"
+  }
+}

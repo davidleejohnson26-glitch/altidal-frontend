@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"5b3911c540ad43b6\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"VNY\",\n                toIata: \"CSL\",\n                fromIcao: \"KVNY\",\n                toIcao: \"MMSL\",\n                fromCity: \"Van Nuys\",\n                toCity: \"Cabo San Lucas Intl\",\n                fromName: \"Van Nuys\",\n                toName: \"Cabo San Lucas Intl\",\n                departAt: \"2025-12-09T00:00:00.000Z\",\n                acType: \"Learjet 60XR\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"09-12-2025 00:00 → 09-12-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"5b3911c540ad43b6\",\n                operator: \"aviapages\",\n                fromIata: \"VNY\",\n                toIata: \"CSL\",\n                fromIcao: \"KVNY\",\n                toIcao: \"MMSL\",\n                fromCity: \"Van Nuys\",\n                toCity: \"Cabo San Lucas Intl\",\n                fromName: \"Van Nuys\",\n                toName: \"Cabo San Lucas Intl\",\n                departAt: \"2025-12-09T00:00:00.000Z\",\n                acType: \"Learjet 60XR\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"09-12-2025 00:00 → 09-12-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "5b3911c540ad43b6",
+    "operator": "aviapages",
+    "fromIata": "VNY",
+    "toIata": "CSL",
+    "fromIcao": "KVNY",
+    "toIcao": "MMSL",
+    "fromCity": "Van Nuys",
+    "toCity": "Cabo San Lucas Intl",
+    "fromName": "Van Nuys",
+    "toName": "Cabo San Lucas Intl",
+    "departAt": "2025-12-09T00:00:00.000Z",
+    "acType": "Learjet 60XR",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "09-12-2025 00:00 → 09-12-2025 00:00 | Price on Request"
+  }
+}

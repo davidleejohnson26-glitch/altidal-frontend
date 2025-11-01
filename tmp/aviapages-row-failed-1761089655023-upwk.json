@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"16b5a4cf4f8a4f6f\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"GVA\",\n                toIata: \"TEB\",\n                fromIcao: \"LSGG\",\n                toIcao: \"KTEB\",\n                fromCity: \"Geneva\",\n                toCity: \"Teterboro\",\n                fromName: \"Geneva\",\n                toName: \"Teterboro\",\n                departAt: \"2025-11-29T00:00:00.000Z\",\n                acType: \"Gulfstream IV-SP\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"29-11-2025 00:00 → 06-08-2026 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"16b5a4cf4f8a4f6f\",\n                operator: \"aviapages\",\n                fromIata: \"GVA\",\n                toIata: \"TEB\",\n                fromIcao: \"LSGG\",\n                toIcao: \"KTEB\",\n                fromCity: \"Geneva\",\n                toCity: \"Teterboro\",\n                fromName: \"Geneva\",\n                toName: \"Teterboro\",\n                departAt: \"2025-11-29T00:00:00.000Z\",\n                acType: \"Gulfstream IV-SP\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"29-11-2025 00:00 → 06-08-2026 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "16b5a4cf4f8a4f6f",
+    "operator": "aviapages",
+    "fromIata": "GVA",
+    "toIata": "TEB",
+    "fromIcao": "LSGG",
+    "toIcao": "KTEB",
+    "fromCity": "Geneva",
+    "toCity": "Teterboro",
+    "fromName": "Geneva",
+    "toName": "Teterboro",
+    "departAt": "2025-11-29T00:00:00.000Z",
+    "acType": "Gulfstream IV-SP",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "29-11-2025 00:00 → 06-08-2026 00:00 | Price on Request"
+  }
+}

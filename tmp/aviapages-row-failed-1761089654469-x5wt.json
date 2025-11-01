@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"0faad9aa3a0b8804\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"IST\",\n                toIata: \"BEG\",\n                fromIcao: \"LTFM\",\n                toIcao: \"LYBE\",\n                fromCity: \"Istanbul\",\n                toCity: \"Nikola Tesla\",\n                fromName: \"Istanbul\",\n                toName: \"Nikola Tesla\",\n                departAt: \"2025-10-23T12:00:00.000Z\",\n                acType: \"Embraer Legacy 650\",\n                acClass: \"Unknown\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-10-2025 12:00 → 23-10-2025 13:45 | Price on Request\"\n              },\n              create: {\n                id: \"0faad9aa3a0b8804\",\n                operator: \"aviapages\",\n                fromIata: \"IST\",\n                toIata: \"BEG\",\n                fromIcao: \"LTFM\",\n                toIcao: \"LYBE\",\n                fromCity: \"Istanbul\",\n                toCity: \"Nikola Tesla\",\n                fromName: \"Istanbul\",\n                toName: \"Nikola Tesla\",\n                departAt: \"2025-10-23T12:00:00.000Z\",\n                acType: \"Embraer Legacy 650\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-10-2025 12:00 → 23-10-2025 13:45 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "0faad9aa3a0b8804",
+    "operator": "aviapages",
+    "fromIata": "IST",
+    "toIata": "BEG",
+    "fromIcao": "LTFM",
+    "toIcao": "LYBE",
+    "fromCity": "Istanbul",
+    "toCity": "Nikola Tesla",
+    "fromName": "Istanbul",
+    "toName": "Nikola Tesla",
+    "departAt": "2025-10-23T12:00:00.000Z",
+    "acType": "Embraer Legacy 650",
+    "acClass": "Unknown",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "23-10-2025 12:00 → 23-10-2025 13:45 | Price on Request"
+  }
+}

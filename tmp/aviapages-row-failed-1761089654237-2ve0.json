@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"f86d72c945c8c06e\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"CBK\",\n                toIata: \"LNK\",\n                fromIcao: \"KCBK\",\n                toIcao: \"KLNK\",\n                fromCity: \"Shalz Field\",\n                toCity: \"Lincoln\",\n                fromName: \"Shalz Field\",\n                toName: \"Lincoln\",\n                departAt: \"2025-10-22T00:00:00.000Z\",\n                acType: \"Cessna Citation CJ1\",\n                acClass: \"Light Jet\",\n                seats: null,\n                priceUSD: 1500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-10-2025 00:00 → 22-10-2025 01:00\"\n              },\n              create: {\n                id: \"f86d72c945c8c06e\",\n                operator: \"aviapages\",\n                fromIata: \"CBK\",\n                toIata: \"LNK\",\n                fromIcao: \"KCBK\",\n                toIcao: \"KLNK\",\n                fromCity: \"Shalz Field\",\n                toCity: \"Lincoln\",\n                fromName: \"Shalz Field\",\n                toName: \"Lincoln\",\n                departAt: \"2025-10-22T00:00:00.000Z\",\n                acType: \"Cessna Citation CJ1\",\n                acClass: \"Light Jet\",\n                priceUSD: 1500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-10-2025 00:00 → 22-10-2025 01:00\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "f86d72c945c8c06e",
+    "operator": "aviapages",
+    "fromIata": "CBK",
+    "toIata": "LNK",
+    "fromIcao": "KCBK",
+    "toIcao": "KLNK",
+    "fromCity": "Shalz Field",
+    "toCity": "Lincoln",
+    "fromName": "Shalz Field",
+    "toName": "Lincoln",
+    "departAt": "2025-10-22T00:00:00.000Z",
+    "acType": "Cessna Citation CJ1",
+    "acClass": "Light Jet",
+    "seats": null,
+    "priceUSD": 1500,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "22-10-2025 00:00 → 22-10-2025 01:00"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"c2cd6e38dd2ba475\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"LXN\",\n                toIata: \"LNK\",\n                fromIcao: \"KLXN\",\n                toIcao: \"KLNK\",\n                fromCity: \"Jim Kelly Field\",\n                toCity: \"Lincoln\",\n                fromName: \"Jim Kelly Field\",\n                toName: \"Lincoln\",\n                departAt: \"2025-10-22T00:00:00.000Z\",\n                acType: \"Cessna Citation Excel\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 2500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-10-2025 00:00 → 22-10-2025 00:42\"\n              },\n              create: {\n                id: \"c2cd6e38dd2ba475\",\n                operator: \"aviapages\",\n                fromIata: \"LXN\",\n                toIata: \"LNK\",\n                fromIcao: \"KLXN\",\n                toIcao: \"KLNK\",\n                fromCity: \"Jim Kelly Field\",\n                toCity: \"Lincoln\",\n                fromName: \"Jim Kelly Field\",\n                toName: \"Lincoln\",\n                departAt: \"2025-10-22T00:00:00.000Z\",\n                acType: \"Cessna Citation Excel\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 2500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-10-2025 00:00 → 22-10-2025 00:42\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "c2cd6e38dd2ba475",
+    "operator": "aviapages",
+    "fromIata": "LXN",
+    "toIata": "LNK",
+    "fromIcao": "KLXN",
+    "toIcao": "KLNK",
+    "fromCity": "Jim Kelly Field",
+    "toCity": "Lincoln",
+    "fromName": "Jim Kelly Field",
+    "toName": "Lincoln",
+    "departAt": "2025-10-22T00:00:00.000Z",
+    "acType": "Cessna Citation Excel",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 2500,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "22-10-2025 00:00 → 22-10-2025 00:42"
+  }
+}

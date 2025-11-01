@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"1f9745a9d53f5cad\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"FXE\",\n                toIata: \"GRU\",\n                fromIcao: \"KFXE\",\n                toIcao: \"SBGR\",\n                fromCity: \"Fort Lauderdale Executive\",\n                toCity: \"Guarulhos Gov Andre Franco Mo\",\n                fromName: \"Fort Lauderdale Executive\",\n                toName: \"Guarulhos Gov Andre Franco Mo\",\n                departAt: \"2025-10-18T00:00:00.000Z\",\n                acType: \"Gulfstream G400\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 86250,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"18-10-2025 00:00 → 21-10-2025 00:00\"\n              },\n              create: {\n                id: \"1f9745a9d53f5cad\",\n                operator: \"aviapages\",\n                fromIata: \"FXE\",\n                toIata: \"GRU\",\n                fromIcao: \"KFXE\",\n                toIcao: \"SBGR\",\n                fromCity: \"Fort Lauderdale Executive\",\n                toCity: \"Guarulhos Gov Andre Franco Mo\",\n                fromName: \"Fort Lauderdale Executive\",\n                toName: \"Guarulhos Gov Andre Franco Mo\",\n                departAt: \"2025-10-18T00:00:00.000Z\",\n                acType: \"Gulfstream G400\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 86250,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"18-10-2025 00:00 → 21-10-2025 00:00\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "1f9745a9d53f5cad",
+    "operator": "aviapages",
+    "fromIata": "FXE",
+    "toIata": "GRU",
+    "fromIcao": "KFXE",
+    "toIcao": "SBGR",
+    "fromCity": "Fort Lauderdale Executive",
+    "toCity": "Guarulhos Gov Andre Franco Mo",
+    "fromName": "Fort Lauderdale Executive",
+    "toName": "Guarulhos Gov Andre Franco Mo",
+    "departAt": "2025-10-18T00:00:00.000Z",
+    "acType": "Gulfstream G400",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 86250,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "18-10-2025 00:00 → 21-10-2025 00:00"
+  }
+}

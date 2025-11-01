@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"8ce4f976b86c9efc\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"EYW\",\n                toIata: \"FMY\",\n                fromIcao: \"KEYW\",\n                toIcao: \"KFMY\",\n                fromCity: \"Key West Intl\",\n                toCity: \"Page Field\",\n                fromName: \"Key West Intl\",\n                toName: \"Page Field\",\n                departAt: \"2025-10-29T00:00:00.000Z\",\n                acType: \"Hawker 400XP\",\n                acClass: \"Unknown\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"29-10-2025 00:00 → 31-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"8ce4f976b86c9efc\",\n                operator: \"aviapages\",\n                fromIata: \"EYW\",\n                toIata: \"FMY\",\n                fromIcao: \"KEYW\",\n                toIcao: \"KFMY\",\n                fromCity: \"Key West Intl\",\n                toCity: \"Page Field\",\n                fromName: \"Key West Intl\",\n                toName: \"Page Field\",\n                departAt: \"2025-10-29T00:00:00.000Z\",\n                acType: \"Hawker 400XP\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"29-10-2025 00:00 → 31-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "8ce4f976b86c9efc",
+    "operator": "aviapages",
+    "fromIata": "EYW",
+    "toIata": "FMY",
+    "fromIcao": "KEYW",
+    "toIcao": "KFMY",
+    "fromCity": "Key West Intl",
+    "toCity": "Page Field",
+    "fromName": "Key West Intl",
+    "toName": "Page Field",
+    "departAt": "2025-10-29T00:00:00.000Z",
+    "acType": "Hawker 400XP",
+    "acClass": "Unknown",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "29-10-2025 00:00 → 31-10-2025 00:00 | Price on Request"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"40b4ffcf977177d7\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"YYT\",\n                toIata: \"YHZ\",\n                fromIcao: \"CYYT\",\n                toIcao: \"CYHZ\",\n                fromCity: \"St Johns Intl\",\n                toCity: \"Stanfield Intl\",\n                fromName: \"St Johns Intl\",\n                toName: \"Stanfield Intl\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Falcon 900DX\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 21-10-2025 23:59 | Price on Request\"\n              },\n              create: {\n                id: \"40b4ffcf977177d7\",\n                operator: \"aviapages\",\n                fromIata: \"YYT\",\n                toIata: \"YHZ\",\n                fromIcao: \"CYYT\",\n                toIcao: \"CYHZ\",\n                fromCity: \"St Johns Intl\",\n                toCity: \"Stanfield Intl\",\n                fromName: \"St Johns Intl\",\n                toName: \"Stanfield Intl\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Falcon 900DX\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 21-10-2025 23:59 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "40b4ffcf977177d7",
+    "operator": "aviapages",
+    "fromIata": "YYT",
+    "toIata": "YHZ",
+    "fromIcao": "CYYT",
+    "toIcao": "CYHZ",
+    "fromCity": "St Johns Intl",
+    "toCity": "Stanfield Intl",
+    "fromName": "St Johns Intl",
+    "toName": "Stanfield Intl",
+    "departAt": "2025-10-21T00:00:00.000Z",
+    "acType": "Falcon 900DX",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "21-10-2025 00:00 → 21-10-2025 23:59 | Price on Request"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"0dbbba5342e15a47\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"BCT\",\n                toIata: \"APA\",\n                fromIcao: \"KBCT\",\n                toIcao: \"KAPA\",\n                fromCity: \"Boca Raton\",\n                toCity: \"Centennial\",\n                fromName: \"Boca Raton\",\n                toName: \"Centennial\",\n                departAt: \"2025-10-25T00:00:00.000Z\",\n                acType: \"Challenger 350\",\n                acClass: \"Super Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"25-10-2025 00:00 → 30-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"0dbbba5342e15a47\",\n                operator: \"aviapages\",\n                fromIata: \"BCT\",\n                toIata: \"APA\",\n                fromIcao: \"KBCT\",\n                toIcao: \"KAPA\",\n                fromCity: \"Boca Raton\",\n                toCity: \"Centennial\",\n                fromName: \"Boca Raton\",\n                toName: \"Centennial\",\n                departAt: \"2025-10-25T00:00:00.000Z\",\n                acType: \"Challenger 350\",\n                acClass: \"Super Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"25-10-2025 00:00 → 30-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "0dbbba5342e15a47",
+    "operator": "aviapages",
+    "fromIata": "BCT",
+    "toIata": "APA",
+    "fromIcao": "KBCT",
+    "toIcao": "KAPA",
+    "fromCity": "Boca Raton",
+    "toCity": "Centennial",
+    "fromName": "Boca Raton",
+    "toName": "Centennial",
+    "departAt": "2025-10-25T00:00:00.000Z",
+    "acType": "Challenger 350",
+    "acClass": "Super Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "25-10-2025 00:00 → 30-10-2025 00:00 | Price on Request"
+  }
+}

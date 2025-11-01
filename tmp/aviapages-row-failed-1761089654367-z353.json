@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"eae9e31d0b52cf64\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"CGN\",\n                toIata: \"MLH\",\n                fromIcao: \"EDDK\",\n                toIcao: \"LFSB\",\n                fromCity: \"Cologne Bonn\",\n                toCity: \"EuroAirport Basel Mulhouse Freiburg\",\n                fromName: \"Cologne Bonn\",\n                toName: \"EuroAirport Basel Mulhouse Freiburg\",\n                departAt: \"2025-10-29T13:10:00.000Z\",\n                acType: \"Challenger 300\",\n                acClass: \"Super Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"29-10-2025 13:10 → 02-11-2025 13:10 | Price on Request\"\n              },\n              create: {\n                id: \"eae9e31d0b52cf64\",\n                operator: \"aviapages\",\n                fromIata: \"CGN\",\n                toIata: \"MLH\",\n                fromIcao: \"EDDK\",\n                toIcao: \"LFSB\",\n                fromCity: \"Cologne Bonn\",\n                toCity: \"EuroAirport Basel Mulhouse Freiburg\",\n                fromName: \"Cologne Bonn\",\n                toName: \"EuroAirport Basel Mulhouse Freiburg\",\n                departAt: \"2025-10-29T13:10:00.000Z\",\n                acType: \"Challenger 300\",\n                acClass: \"Super Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"29-10-2025 13:10 → 02-11-2025 13:10 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "eae9e31d0b52cf64",
+    "operator": "aviapages",
+    "fromIata": "CGN",
+    "toIata": "MLH",
+    "fromIcao": "EDDK",
+    "toIcao": "LFSB",
+    "fromCity": "Cologne Bonn",
+    "toCity": "EuroAirport Basel Mulhouse Freiburg",
+    "fromName": "Cologne Bonn",
+    "toName": "EuroAirport Basel Mulhouse Freiburg",
+    "departAt": "2025-10-29T13:10:00.000Z",
+    "acType": "Challenger 300",
+    "acClass": "Super Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "29-10-2025 13:10 → 02-11-2025 13:10 | Price on Request"
+  }
+}

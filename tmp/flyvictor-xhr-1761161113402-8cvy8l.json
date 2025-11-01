@@ -1,0 +1,67 @@
+{
+  "url": "https://api.flyvictor.com/airports/action/find?searchText=LAX",
+  "body": {
+    "destinations": [
+      {
+        "id": "Los Angeles, United States",
+        "country": "United States",
+        "displayText": "Los Angeles, Any airport (LAXALL), US",
+        "displayInfo": "Los Angeles, Any airport (LAXALL), US",
+        "type": "City",
+        "code": "LAXALL",
+        "timeZone": "America/Los_Angeles",
+        "city": "Los Angeles",
+        "airportName": "Any airport (LAXALL)",
+        "children": [
+          {
+            "code": "VNY",
+            "displayText": "Van Nuys, Van Nuys Airport (VNY), CA, US",
+            "displayInfo": "Van Nuys, Van Nuys Airport (VNY), CA, US",
+            "timeZone": "America/Los_Angeles",
+            "type": "Airport",
+            "country": "United States",
+            "latitude": 34.20980555,
+            "longitude": -118.48997222,
+            "city": "Van Nuys",
+            "airportName": "Van Nuys Airport",
+            "icao": "KVNY",
+            "translations": {
+              "ar": {
+                "airportName": "مطار فان نويس",
+                "displayInfo": "CA (VNY) فان نويس، مطار فان نويس، الولايات المتحدة",
+                "city": "فان نويس"
+              }
+            }
+          },
+          {
+            "code": "LAX",
+            "displayText": "Los Angeles, Los Angeles International Airport (LAX), CA, US",
+            "displayInfo": "Los Angeles, Los Angeles International Airport (LAX), CA, US",
+            "timeZone": "America/Los_Angeles",
+            "type": "Airport",
+            "country": "United States",
+            "latitude": 33.94252222,
+            "longitude": -118.40716111,
+            "city": "Los Angeles",
+            "airportName": "Los Angeles International Airport",
+            "icao": "KLAX",
+            "translations": {
+              "ar": {
+                "airportName": "مطار لوس أنجلوس الدولي",
+                "displayInfo": "CA (LAX) لوس أنجلوس، مطار لوس أنجلوس الدولي، الولايات المتحدة",
+                "city": "لوس أنجلوس"
+              }
+            }
+          }
+        ],
+        "translations": {
+          "ar": {
+            "airportName": "مطار لوس أنجلوس الدولي",
+            "displayInfo": "CA (LAX) لوس أنجلوس، مطار لوس أنجلوس الدولي، الولايات المتحدة",
+            "city": "لوس أنجلوس"
+          }
+        }
+      }
+    ]
+  }
+}

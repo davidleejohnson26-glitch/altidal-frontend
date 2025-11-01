@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"915c76a265dc6af8\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"IAD\",\n                toIata: \"LAX\",\n                fromIcao: \"KIAD\",\n                toIcao: \"KLAX\",\n                fromCity: \"Washington Dulles Intl\",\n                toCity: \"Los Angeles Intl\",\n                fromName: \"Washington Dulles Intl\",\n                toName: \"Los Angeles Intl\",\n                departAt: \"2025-11-18T00:00:00.000Z\",\n                acType: \"Gulfstream G550\",\n                acClass: \"Heavy Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"18-11-2025 00:00 → 21-11-2025 23:59 | Price on Request\"\n              },\n              create: {\n                id: \"915c76a265dc6af8\",\n                operator: \"aviapages\",\n                fromIata: \"IAD\",\n                toIata: \"LAX\",\n                fromIcao: \"KIAD\",\n                toIcao: \"KLAX\",\n                fromCity: \"Washington Dulles Intl\",\n                toCity: \"Los Angeles Intl\",\n                fromName: \"Washington Dulles Intl\",\n                toName: \"Los Angeles Intl\",\n                departAt: \"2025-11-18T00:00:00.000Z\",\n                acType: \"Gulfstream G550\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"18-11-2025 00:00 → 21-11-2025 23:59 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "915c76a265dc6af8",
+    "operator": "aviapages",
+    "fromIata": "IAD",
+    "toIata": "LAX",
+    "fromIcao": "KIAD",
+    "toIcao": "KLAX",
+    "fromCity": "Washington Dulles Intl",
+    "toCity": "Los Angeles Intl",
+    "fromName": "Washington Dulles Intl",
+    "toName": "Los Angeles Intl",
+    "departAt": "2025-11-18T00:00:00.000Z",
+    "acType": "Gulfstream G550",
+    "acClass": "Heavy Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "18-11-2025 00:00 → 21-11-2025 23:59 | Price on Request"
+  }
+}

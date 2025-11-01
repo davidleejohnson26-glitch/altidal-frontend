@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"ecdd7ea5c1cc6434\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"FAB\",\n                toIata: \"TEB\",\n                fromIcao: \"EGLF\",\n                toIcao: \"KTEB\",\n                fromCity: \"Farnborough\",\n                toCity: \"Teterboro\",\n                fromName: \"Farnborough\",\n                toName: \"Teterboro\",\n                departAt: \"2025-11-08T00:00:00.000Z\",\n                acType: \"Gulfstream IV-SP\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"08-11-2025 00:00 → 07-12-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"ecdd7ea5c1cc6434\",\n                operator: \"aviapages\",\n                fromIata: \"FAB\",\n                toIata: \"TEB\",\n                fromIcao: \"EGLF\",\n                toIcao: \"KTEB\",\n                fromCity: \"Farnborough\",\n                toCity: \"Teterboro\",\n                fromName: \"Farnborough\",\n                toName: \"Teterboro\",\n                departAt: \"2025-11-08T00:00:00.000Z\",\n                acType: \"Gulfstream IV-SP\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"08-11-2025 00:00 → 07-12-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "ecdd7ea5c1cc6434",
+    "operator": "aviapages",
+    "fromIata": "FAB",
+    "toIata": "TEB",
+    "fromIcao": "EGLF",
+    "toIcao": "KTEB",
+    "fromCity": "Farnborough",
+    "toCity": "Teterboro",
+    "fromName": "Farnborough",
+    "toName": "Teterboro",
+    "departAt": "2025-11-08T00:00:00.000Z",
+    "acType": "Gulfstream IV-SP",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "08-11-2025 00:00 → 07-12-2025 00:00 | Price on Request"
+  }
+}

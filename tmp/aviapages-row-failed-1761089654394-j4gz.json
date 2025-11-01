@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"7ce7f8de4d5365ec\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"DAL\",\n                toIata: \"HOU\",\n                fromIcao: \"KDAL\",\n                toIcao: \"KHOU\",\n                fromCity: \"Dallas Love\",\n                toCity: \"William P Hobby\",\n                fromName: \"Dallas Love\",\n                toName: \"William P Hobby\",\n                departAt: \"2025-10-26T00:00:00.000Z\",\n                acType: \"Cessna Citation V\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 2600,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-10-2025 00:00 → 26-10-2025 00:00\"\n              },\n              create: {\n                id: \"7ce7f8de4d5365ec\",\n                operator: \"aviapages\",\n                fromIata: \"DAL\",\n                toIata: \"HOU\",\n                fromIcao: \"KDAL\",\n                toIcao: \"KHOU\",\n                fromCity: \"Dallas Love\",\n                toCity: \"William P Hobby\",\n                fromName: \"Dallas Love\",\n                toName: \"William P Hobby\",\n                departAt: \"2025-10-26T00:00:00.000Z\",\n                acType: \"Cessna Citation V\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 2600,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-10-2025 00:00 → 26-10-2025 00:00\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "7ce7f8de4d5365ec",
+    "operator": "aviapages",
+    "fromIata": "DAL",
+    "toIata": "HOU",
+    "fromIcao": "KDAL",
+    "toIcao": "KHOU",
+    "fromCity": "Dallas Love",
+    "toCity": "William P Hobby",
+    "fromName": "Dallas Love",
+    "toName": "William P Hobby",
+    "departAt": "2025-10-26T00:00:00.000Z",
+    "acType": "Cessna Citation V",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 2600,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "26-10-2025 00:00 → 26-10-2025 00:00"
+  }
+}

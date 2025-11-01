@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"ebd23269bab28542\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"LTN\",\n                toIata: \"TEB\",\n                fromIcao: \"EGGW\",\n                toIcao: \"KTEB\",\n                fromCity: \"London Luton Airport\",\n                toCity: \"Teterboro\",\n                fromName: \"London Luton Airport\",\n                toName: \"Teterboro\",\n                departAt: \"2026-04-04T00:00:00.000Z\",\n                acType: \"Gulfstream IV-SP\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"04-04-2026 00:00 → 23-07-2026 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"ebd23269bab28542\",\n                operator: \"aviapages\",\n                fromIata: \"LTN\",\n                toIata: \"TEB\",\n                fromIcao: \"EGGW\",\n                toIcao: \"KTEB\",\n                fromCity: \"London Luton Airport\",\n                toCity: \"Teterboro\",\n                fromName: \"London Luton Airport\",\n                toName: \"Teterboro\",\n                departAt: \"2026-04-04T00:00:00.000Z\",\n                acType: \"Gulfstream IV-SP\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"04-04-2026 00:00 → 23-07-2026 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "ebd23269bab28542",
+    "operator": "aviapages",
+    "fromIata": "LTN",
+    "toIata": "TEB",
+    "fromIcao": "EGGW",
+    "toIcao": "KTEB",
+    "fromCity": "London Luton Airport",
+    "toCity": "Teterboro",
+    "fromName": "London Luton Airport",
+    "toName": "Teterboro",
+    "departAt": "2026-04-04T00:00:00.000Z",
+    "acType": "Gulfstream IV-SP",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "04-04-2026 00:00 → 23-07-2026 00:00 | Price on Request"
+  }
+}

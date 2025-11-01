@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"96d524938ac08096\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"MAD\",\n                toIata: \"GVA\",\n                fromIcao: \"LEMD\",\n                toIcao: \"LSGG\",\n                fromCity: \"Adolfo Suarez Madrid Barajas\",\n                toCity: \"Geneva\",\n                fromName: \"Adolfo Suarez Madrid Barajas\",\n                toName: \"Geneva\",\n                departAt: \"2026-04-23T00:00:00.000Z\",\n                acType: \"Gulfstream IV-SP\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-04-2026 00:00 → 24-04-2026 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"96d524938ac08096\",\n                operator: \"aviapages\",\n                fromIata: \"MAD\",\n                toIata: \"GVA\",\n                fromIcao: \"LEMD\",\n                toIcao: \"LSGG\",\n                fromCity: \"Adolfo Suarez Madrid Barajas\",\n                toCity: \"Geneva\",\n                fromName: \"Adolfo Suarez Madrid Barajas\",\n                toName: \"Geneva\",\n                departAt: \"2026-04-23T00:00:00.000Z\",\n                acType: \"Gulfstream IV-SP\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-04-2026 00:00 → 24-04-2026 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "96d524938ac08096",
+    "operator": "aviapages",
+    "fromIata": "MAD",
+    "toIata": "GVA",
+    "fromIcao": "LEMD",
+    "toIcao": "LSGG",
+    "fromCity": "Adolfo Suarez Madrid Barajas",
+    "toCity": "Geneva",
+    "fromName": "Adolfo Suarez Madrid Barajas",
+    "toName": "Geneva",
+    "departAt": "2026-04-23T00:00:00.000Z",
+    "acType": "Gulfstream IV-SP",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "23-04-2026 00:00 → 24-04-2026 00:00 | Price on Request"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"c8d9705e7802012c\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"PDX\",\n                toIata: \"OAK\",\n                fromIcao: \"KPDX\",\n                toIcao: \"KOAK\",\n                fromCity: \"Portland International Airport\",\n                toCity: \"Metropolitan Oakland Intl\",\n                fromName: \"Portland International Airport\",\n                toName: \"Metropolitan Oakland Intl\",\n                departAt: \"2025-10-27T00:00:00.000Z\",\n                acType: \"Cessna Citation CJ3\",\n                acClass: \"Light Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"27-10-2025 00:00 → 27-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"c8d9705e7802012c\",\n                operator: \"aviapages\",\n                fromIata: \"PDX\",\n                toIata: \"OAK\",\n                fromIcao: \"KPDX\",\n                toIcao: \"KOAK\",\n                fromCity: \"Portland International Airport\",\n                toCity: \"Metropolitan Oakland Intl\",\n                fromName: \"Portland International Airport\",\n                toName: \"Metropolitan Oakland Intl\",\n                departAt: \"2025-10-27T00:00:00.000Z\",\n                acType: \"Cessna Citation CJ3\",\n                acClass: \"Light Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"27-10-2025 00:00 → 27-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "c8d9705e7802012c",
+    "operator": "aviapages",
+    "fromIata": "PDX",
+    "toIata": "OAK",
+    "fromIcao": "KPDX",
+    "toIcao": "KOAK",
+    "fromCity": "Portland International Airport",
+    "toCity": "Metropolitan Oakland Intl",
+    "fromName": "Portland International Airport",
+    "toName": "Metropolitan Oakland Intl",
+    "departAt": "2025-10-27T00:00:00.000Z",
+    "acType": "Cessna Citation CJ3",
+    "acClass": "Light Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "27-10-2025 00:00 → 27-10-2025 00:00 | Price on Request"
+  }
+}

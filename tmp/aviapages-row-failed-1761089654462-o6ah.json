@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"99eebc8575f12bea\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"SLN\",\n                toIata: \"OMA\",\n                fromIcao: \"KSLN\",\n                toIcao: \"KOMA\",\n                fromCity: \"Salina Regl\",\n                toCity: \"Eppley Airfield\",\n                fromName: \"Salina Regl\",\n                toName: \"Eppley Airfield\",\n                departAt: \"2025-10-31T00:00:00.000Z\",\n                acType: \"Cessna Citation CJ1\",\n                acClass: \"Light Jet\",\n                seats: null,\n                priceUSD: 1500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"31-10-2025 00:00 → 31-10-2025 00:54\"\n              },\n              create: {\n                id: \"99eebc8575f12bea\",\n                operator: \"aviapages\",\n                fromIata: \"SLN\",\n                toIata: \"OMA\",\n                fromIcao: \"KSLN\",\n                toIcao: \"KOMA\",\n                fromCity: \"Salina Regl\",\n                toCity: \"Eppley Airfield\",\n                fromName: \"Salina Regl\",\n                toName: \"Eppley Airfield\",\n                departAt: \"2025-10-31T00:00:00.000Z\",\n                acType: \"Cessna Citation CJ1\",\n                acClass: \"Light Jet\",\n                priceUSD: 1500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"31-10-2025 00:00 → 31-10-2025 00:54\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "99eebc8575f12bea",
+    "operator": "aviapages",
+    "fromIata": "SLN",
+    "toIata": "OMA",
+    "fromIcao": "KSLN",
+    "toIcao": "KOMA",
+    "fromCity": "Salina Regl",
+    "toCity": "Eppley Airfield",
+    "fromName": "Salina Regl",
+    "toName": "Eppley Airfield",
+    "departAt": "2025-10-31T00:00:00.000Z",
+    "acType": "Cessna Citation CJ1",
+    "acClass": "Light Jet",
+    "seats": null,
+    "priceUSD": 1500,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "31-10-2025 00:00 → 31-10-2025 00:54"
+  }
+}

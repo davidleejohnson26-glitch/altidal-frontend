@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"b79b3e1c19feb894\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"OAK\",\n                toIata: \"SAN\",\n                fromIcao: \"KOAK\",\n                toIcao: \"KSAN\",\n                fromCity: \"Metropolitan Oakland Intl\",\n                toCity: \"San Diego Intl\",\n                fromName: \"Metropolitan Oakland Intl\",\n                toName: \"San Diego Intl\",\n                departAt: \"2025-10-23T00:00:00.000Z\",\n                acType: \"Cessna Citation X\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-10-2025 00:00 → 23-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"b79b3e1c19feb894\",\n                operator: \"aviapages\",\n                fromIata: \"OAK\",\n                toIata: \"SAN\",\n                fromIcao: \"KOAK\",\n                toIcao: \"KSAN\",\n                fromCity: \"Metropolitan Oakland Intl\",\n                toCity: \"San Diego Intl\",\n                fromName: \"Metropolitan Oakland Intl\",\n                toName: \"San Diego Intl\",\n                departAt: \"2025-10-23T00:00:00.000Z\",\n                acType: \"Cessna Citation X\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-10-2025 00:00 → 23-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "b79b3e1c19feb894",
+    "operator": "aviapages",
+    "fromIata": "OAK",
+    "toIata": "SAN",
+    "fromIcao": "KOAK",
+    "toIcao": "KSAN",
+    "fromCity": "Metropolitan Oakland Intl",
+    "toCity": "San Diego Intl",
+    "fromName": "Metropolitan Oakland Intl",
+    "toName": "San Diego Intl",
+    "departAt": "2025-10-23T00:00:00.000Z",
+    "acType": "Cessna Citation X",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "23-10-2025 00:00 → 23-10-2025 00:00 | Price on Request"
+  }
+}

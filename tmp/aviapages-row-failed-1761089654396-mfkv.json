@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"ffb195c113415a6f\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"CLT\",\n                toIata: \"ROA\",\n                fromIcao: \"KCLT\",\n                toIcao: \"KROA\",\n                fromCity: \"Charlotte Douglas Intl\",\n                toCity: \"Roanoke Regl Woodrum\",\n                fromName: \"Charlotte Douglas Intl\",\n                toName: \"Roanoke Regl Woodrum\",\n                departAt: \"2025-10-26T00:00:00.000Z\",\n                acType: \"Cessna Citation V\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 2000,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-10-2025 00:00 → 26-10-2025 00:00\"\n              },\n              create: {\n                id: \"ffb195c113415a6f\",\n                operator: \"aviapages\",\n                fromIata: \"CLT\",\n                toIata: \"ROA\",\n                fromIcao: \"KCLT\",\n                toIcao: \"KROA\",\n                fromCity: \"Charlotte Douglas Intl\",\n                toCity: \"Roanoke Regl Woodrum\",\n                fromName: \"Charlotte Douglas Intl\",\n                toName: \"Roanoke Regl Woodrum\",\n                departAt: \"2025-10-26T00:00:00.000Z\",\n                acType: \"Cessna Citation V\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 2000,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-10-2025 00:00 → 26-10-2025 00:00\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "ffb195c113415a6f",
+    "operator": "aviapages",
+    "fromIata": "CLT",
+    "toIata": "ROA",
+    "fromIcao": "KCLT",
+    "toIcao": "KROA",
+    "fromCity": "Charlotte Douglas Intl",
+    "toCity": "Roanoke Regl Woodrum",
+    "fromName": "Charlotte Douglas Intl",
+    "toName": "Roanoke Regl Woodrum",
+    "departAt": "2025-10-26T00:00:00.000Z",
+    "acType": "Cessna Citation V",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 2000,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "26-10-2025 00:00 → 26-10-2025 00:00"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"b7edd269b8e31726\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"OUN\",\n                toIata: \"LNK\",\n                fromIcao: \"KOUN\",\n                toIcao: \"KLNK\",\n                fromCity: \"University Of Oklahoma Westheimer\",\n                toCity: \"Lincoln\",\n                fromName: \"University Of Oklahoma Westheimer\",\n                toName: \"Lincoln\",\n                departAt: \"2025-10-24T00:00:00.000Z\",\n                acType: \"Cessna Citation Excel\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 5000,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"24-10-2025 00:00 → 24-10-2025 01:18\"\n              },\n              create: {\n                id: \"b7edd269b8e31726\",\n                operator: \"aviapages\",\n                fromIata: \"OUN\",\n                toIata: \"LNK\",\n                fromIcao: \"KOUN\",\n                toIcao: \"KLNK\",\n                fromCity: \"University Of Oklahoma Westheimer\",\n                toCity: \"Lincoln\",\n                fromName: \"University Of Oklahoma Westheimer\",\n                toName: \"Lincoln\",\n                departAt: \"2025-10-24T00:00:00.000Z\",\n                acType: \"Cessna Citation Excel\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 5000,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"24-10-2025 00:00 → 24-10-2025 01:18\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "b7edd269b8e31726",
+    "operator": "aviapages",
+    "fromIata": "OUN",
+    "toIata": "LNK",
+    "fromIcao": "KOUN",
+    "toIcao": "KLNK",
+    "fromCity": "University Of Oklahoma Westheimer",
+    "toCity": "Lincoln",
+    "fromName": "University Of Oklahoma Westheimer",
+    "toName": "Lincoln",
+    "departAt": "2025-10-24T00:00:00.000Z",
+    "acType": "Cessna Citation Excel",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 5000,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "24-10-2025 00:00 → 24-10-2025 01:18"
+  }
+}

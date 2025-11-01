@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"b60455fda1ee4565\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"PIE\",\n                toIata: \"PCW\",\n                fromIcao: \"KPIE\",\n                toIcao: \"KPCW\",\n                fromCity: \"St Pete-Clearwater Intl\",\n                toCity: \"Erie-Ottawa Intl\",\n                fromName: \"St Pete-Clearwater Intl\",\n                toName: \"Erie-Ottawa Intl\",\n                departAt: \"2025-10-26T00:00:00.000Z\",\n                acType: \"Hawker 850XP\",\n                acClass: \"Unknown\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-10-2025 00:00 → 31-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"b60455fda1ee4565\",\n                operator: \"aviapages\",\n                fromIata: \"PIE\",\n                toIata: \"PCW\",\n                fromIcao: \"KPIE\",\n                toIcao: \"KPCW\",\n                fromCity: \"St Pete-Clearwater Intl\",\n                toCity: \"Erie-Ottawa Intl\",\n                fromName: \"St Pete-Clearwater Intl\",\n                toName: \"Erie-Ottawa Intl\",\n                departAt: \"2025-10-26T00:00:00.000Z\",\n                acType: \"Hawker 850XP\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-10-2025 00:00 → 31-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "b60455fda1ee4565",
+    "operator": "aviapages",
+    "fromIata": "PIE",
+    "toIata": "PCW",
+    "fromIcao": "KPIE",
+    "toIcao": "KPCW",
+    "fromCity": "St Pete-Clearwater Intl",
+    "toCity": "Erie-Ottawa Intl",
+    "fromName": "St Pete-Clearwater Intl",
+    "toName": "Erie-Ottawa Intl",
+    "departAt": "2025-10-26T00:00:00.000Z",
+    "acType": "Hawker 850XP",
+    "acClass": "Unknown",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "26-10-2025 00:00 → 31-10-2025 00:00 | Price on Request"
+  }
+}

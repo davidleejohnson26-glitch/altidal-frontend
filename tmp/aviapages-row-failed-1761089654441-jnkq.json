@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"725fa1b585679a09\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"BLQ\",\n                toIata: \"BRU\",\n                fromIcao: \"LIPE\",\n                toIcao: \"EBBR\",\n                fromCity: \"Borgo Panigale\",\n                toCity: \"Brussels National\",\n                fromName: \"Borgo Panigale\",\n                toName: \"Brussels National\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Cessna Citation Mustang\",\n                acClass: \"Light Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 21-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"725fa1b585679a09\",\n                operator: \"aviapages\",\n                fromIata: \"BLQ\",\n                toIata: \"BRU\",\n                fromIcao: \"LIPE\",\n                toIcao: \"EBBR\",\n                fromCity: \"Borgo Panigale\",\n                toCity: \"Brussels National\",\n                fromName: \"Borgo Panigale\",\n                toName: \"Brussels National\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Cessna Citation Mustang\",\n                acClass: \"Light Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 21-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "725fa1b585679a09",
+    "operator": "aviapages",
+    "fromIata": "BLQ",
+    "toIata": "BRU",
+    "fromIcao": "LIPE",
+    "toIcao": "EBBR",
+    "fromCity": "Borgo Panigale",
+    "toCity": "Brussels National",
+    "fromName": "Borgo Panigale",
+    "toName": "Brussels National",
+    "departAt": "2025-10-21T00:00:00.000Z",
+    "acType": "Cessna Citation Mustang",
+    "acClass": "Light Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "21-10-2025 00:00 → 21-10-2025 00:00 | Price on Request"
+  }
+}

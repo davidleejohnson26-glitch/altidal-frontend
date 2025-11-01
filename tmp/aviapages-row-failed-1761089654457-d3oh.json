@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"649afd0af73f5a82\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"EAR\",\n                toIata: \"LNK\",\n                fromIcao: \"KEAR\",\n                toIcao: \"KLNK\",\n                fromCity: \"Kearney Regional\",\n                toCity: \"Lincoln\",\n                fromName: \"Kearney Regional\",\n                toName: \"Lincoln\",\n                departAt: \"2025-12-17T00:00:00.000Z\",\n                acType: \"Beechcraft King Air C90\",\n                acClass: \"Turboprop\",\n                seats: null,\n                priceUSD: 750,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"17-12-2025 00:00 → 17-12-2025 00:54\"\n              },\n              create: {\n                id: \"649afd0af73f5a82\",\n                operator: \"aviapages\",\n                fromIata: \"EAR\",\n                toIata: \"LNK\",\n                fromIcao: \"KEAR\",\n                toIcao: \"KLNK\",\n                fromCity: \"Kearney Regional\",\n                toCity: \"Lincoln\",\n                fromName: \"Kearney Regional\",\n                toName: \"Lincoln\",\n                departAt: \"2025-12-17T00:00:00.000Z\",\n                acType: \"Beechcraft King Air C90\",\n                acClass: \"Turboprop\",\n                priceUSD: 750,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"17-12-2025 00:00 → 17-12-2025 00:54\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "649afd0af73f5a82",
+    "operator": "aviapages",
+    "fromIata": "EAR",
+    "toIata": "LNK",
+    "fromIcao": "KEAR",
+    "toIcao": "KLNK",
+    "fromCity": "Kearney Regional",
+    "toCity": "Lincoln",
+    "fromName": "Kearney Regional",
+    "toName": "Lincoln",
+    "departAt": "2025-12-17T00:00:00.000Z",
+    "acType": "Beechcraft King Air C90",
+    "acClass": "Turboprop",
+    "seats": null,
+    "priceUSD": 750,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "17-12-2025 00:00 → 17-12-2025 00:54"
+  }
+}

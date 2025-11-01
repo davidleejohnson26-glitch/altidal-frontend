@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"5f08d2e8206c2492\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"PHX\",\n                toIata: \"OAK\",\n                fromIcao: \"KPHX\",\n                toIcao: \"KOAK\",\n                fromCity: \"Phoenix Sky Harbor Intl\",\n                toCity: \"Metropolitan Oakland Intl\",\n                fromName: \"Phoenix Sky Harbor Intl\",\n                toName: \"Metropolitan Oakland Intl\",\n                departAt: \"2025-10-25T00:00:00.000Z\",\n                acType: \"Cessna Citation Sovereign\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"25-10-2025 00:00 → 25-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"5f08d2e8206c2492\",\n                operator: \"aviapages\",\n                fromIata: \"PHX\",\n                toIata: \"OAK\",\n                fromIcao: \"KPHX\",\n                toIcao: \"KOAK\",\n                fromCity: \"Phoenix Sky Harbor Intl\",\n                toCity: \"Metropolitan Oakland Intl\",\n                fromName: \"Phoenix Sky Harbor Intl\",\n                toName: \"Metropolitan Oakland Intl\",\n                departAt: \"2025-10-25T00:00:00.000Z\",\n                acType: \"Cessna Citation Sovereign\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"25-10-2025 00:00 → 25-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "5f08d2e8206c2492",
+    "operator": "aviapages",
+    "fromIata": "PHX",
+    "toIata": "OAK",
+    "fromIcao": "KPHX",
+    "toIcao": "KOAK",
+    "fromCity": "Phoenix Sky Harbor Intl",
+    "toCity": "Metropolitan Oakland Intl",
+    "fromName": "Phoenix Sky Harbor Intl",
+    "toName": "Metropolitan Oakland Intl",
+    "departAt": "2025-10-25T00:00:00.000Z",
+    "acType": "Cessna Citation Sovereign",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "25-10-2025 00:00 → 25-10-2025 00:00 | Price on Request"
+  }
+}

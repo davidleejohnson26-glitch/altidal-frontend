@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"1afa053253ba6b44\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"MST\",\n                toIata: \"ACE\",\n                fromIcao: \"EHBK\",\n                toIcao: \"GCRR\",\n                fromCity: \"Maastricht Aachen\",\n                toCity: \"Cesar Manrique Lanzarote\",\n                fromName: \"Maastricht Aachen\",\n                toName: \"Cesar Manrique Lanzarote\",\n                departAt: \"2025-10-29T00:00:00.000Z\",\n                acType: \"Cessna Citation Sovereign\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"29-10-2025 00:00 → 29-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"1afa053253ba6b44\",\n                operator: \"aviapages\",\n                fromIata: \"MST\",\n                toIata: \"ACE\",\n                fromIcao: \"EHBK\",\n                toIcao: \"GCRR\",\n                fromCity: \"Maastricht Aachen\",\n                toCity: \"Cesar Manrique Lanzarote\",\n                fromName: \"Maastricht Aachen\",\n                toName: \"Cesar Manrique Lanzarote\",\n                departAt: \"2025-10-29T00:00:00.000Z\",\n                acType: \"Cessna Citation Sovereign\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"29-10-2025 00:00 → 29-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "1afa053253ba6b44",
+    "operator": "aviapages",
+    "fromIata": "MST",
+    "toIata": "ACE",
+    "fromIcao": "EHBK",
+    "toIcao": "GCRR",
+    "fromCity": "Maastricht Aachen",
+    "toCity": "Cesar Manrique Lanzarote",
+    "fromName": "Maastricht Aachen",
+    "toName": "Cesar Manrique Lanzarote",
+    "departAt": "2025-10-29T00:00:00.000Z",
+    "acType": "Cessna Citation Sovereign",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "29-10-2025 00:00 → 29-10-2025 00:00 | Price on Request"
+  }
+}

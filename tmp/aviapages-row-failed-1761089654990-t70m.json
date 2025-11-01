@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"899cc2d879836687\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"FRA\",\n                toIata: \"LBG\",\n                fromIcao: \"EDDF\",\n                toIcao: \"LFPB\",\n                fromCity: \"Frankfurt Main\",\n                toCity: \"Le Bourget\",\n                fromName: \"Frankfurt Main\",\n                toName: \"Le Bourget\",\n                departAt: \"2026-01-15T00:00:00.000Z\",\n                acType: \"Gulfstream IV-SP\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"15-01-2026 00:00 → 21-08-2026 23:59 | Price on Request\"\n              },\n              create: {\n                id: \"899cc2d879836687\",\n                operator: \"aviapages\",\n                fromIata: \"FRA\",\n                toIata: \"LBG\",\n                fromIcao: \"EDDF\",\n                toIcao: \"LFPB\",\n                fromCity: \"Frankfurt Main\",\n                toCity: \"Le Bourget\",\n                fromName: \"Frankfurt Main\",\n                toName: \"Le Bourget\",\n                departAt: \"2026-01-15T00:00:00.000Z\",\n                acType: \"Gulfstream IV-SP\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"15-01-2026 00:00 → 21-08-2026 23:59 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "899cc2d879836687",
+    "operator": "aviapages",
+    "fromIata": "FRA",
+    "toIata": "LBG",
+    "fromIcao": "EDDF",
+    "toIcao": "LFPB",
+    "fromCity": "Frankfurt Main",
+    "toCity": "Le Bourget",
+    "fromName": "Frankfurt Main",
+    "toName": "Le Bourget",
+    "departAt": "2026-01-15T00:00:00.000Z",
+    "acType": "Gulfstream IV-SP",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "15-01-2026 00:00 → 21-08-2026 23:59 | Price on Request"
+  }
+}

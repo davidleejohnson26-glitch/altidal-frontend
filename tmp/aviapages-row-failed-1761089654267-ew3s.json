@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"936b54c72e6fbf5f\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"TUS\",\n                toIata: \"YYC\",\n                fromIcao: \"KTUS\",\n                toIcao: \"CYYC\",\n                fromCity: \"Tucson Intl\",\n                toCity: \"Calgary International Airport\",\n                fromName: \"Tucson Intl\",\n                toName: \"Calgary International Airport\",\n                departAt: \"2025-10-27T00:00:00.000Z\",\n                acType: \"Challenger 300\",\n                acClass: \"Super Midsize Jet\",\n                seats: null,\n                priceUSD: 18000,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"27-10-2025 00:00 → 27-10-2025 23:59\"\n              },\n              create: {\n                id: \"936b54c72e6fbf5f\",\n                operator: \"aviapages\",\n                fromIata: \"TUS\",\n                toIata: \"YYC\",\n                fromIcao: \"KTUS\",\n                toIcao: \"CYYC\",\n                fromCity: \"Tucson Intl\",\n                toCity: \"Calgary International Airport\",\n                fromName: \"Tucson Intl\",\n                toName: \"Calgary International Airport\",\n                departAt: \"2025-10-27T00:00:00.000Z\",\n                acType: \"Challenger 300\",\n                acClass: \"Super Midsize Jet\",\n                priceUSD: 18000,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"27-10-2025 00:00 → 27-10-2025 23:59\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "936b54c72e6fbf5f",
+    "operator": "aviapages",
+    "fromIata": "TUS",
+    "toIata": "YYC",
+    "fromIcao": "KTUS",
+    "toIcao": "CYYC",
+    "fromCity": "Tucson Intl",
+    "toCity": "Calgary International Airport",
+    "fromName": "Tucson Intl",
+    "toName": "Calgary International Airport",
+    "departAt": "2025-10-27T00:00:00.000Z",
+    "acType": "Challenger 300",
+    "acClass": "Super Midsize Jet",
+    "seats": null,
+    "priceUSD": 18000,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "27-10-2025 00:00 → 27-10-2025 23:59"
+  }
+}

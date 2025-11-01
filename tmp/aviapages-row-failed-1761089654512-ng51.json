@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"cc6f65ec18fb073d\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"MGL\",\n                toIata: \"NCE\",\n                fromIcao: \"EDLN\",\n                toIcao: \"LFMN\",\n                fromCity: \"Moenchengladbach\",\n                toCity: \"Nice Cote D Azur\",\n                fromName: \"Moenchengladbach\",\n                toName: \"Nice Cote D Azur\",\n                departAt: \"2025-10-24T12:00:00.000Z\",\n                acType: \"Piaggio Avanti II\",\n                acClass: \"Unknown\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"24-10-2025 12:00 → 24-10-2025 13:50 | Price on Request\"\n              },\n              create: {\n                id: \"cc6f65ec18fb073d\",\n                operator: \"aviapages\",\n                fromIata: \"MGL\",\n                toIata: \"NCE\",\n                fromIcao: \"EDLN\",\n                toIcao: \"LFMN\",\n                fromCity: \"Moenchengladbach\",\n                toCity: \"Nice Cote D Azur\",\n                fromName: \"Moenchengladbach\",\n                toName: \"Nice Cote D Azur\",\n                departAt: \"2025-10-24T12:00:00.000Z\",\n                acType: \"Piaggio Avanti II\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"24-10-2025 12:00 → 24-10-2025 13:50 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "cc6f65ec18fb073d",
+    "operator": "aviapages",
+    "fromIata": "MGL",
+    "toIata": "NCE",
+    "fromIcao": "EDLN",
+    "toIcao": "LFMN",
+    "fromCity": "Moenchengladbach",
+    "toCity": "Nice Cote D Azur",
+    "fromName": "Moenchengladbach",
+    "toName": "Nice Cote D Azur",
+    "departAt": "2025-10-24T12:00:00.000Z",
+    "acType": "Piaggio Avanti II",
+    "acClass": "Unknown",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "24-10-2025 12:00 → 24-10-2025 13:50 | Price on Request"
+  }
+}

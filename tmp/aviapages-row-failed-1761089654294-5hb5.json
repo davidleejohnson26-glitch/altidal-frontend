@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"cae03a1aeac53c54\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"GCM\",\n                toIata: \"FXE\",\n                fromIcao: \"MWCR\",\n                toIcao: \"KFXE\",\n                fromCity: \"Owen Roberts Intl\",\n                toCity: \"Fort Lauderdale Executive\",\n                fromName: \"Owen Roberts Intl\",\n                toName: \"Fort Lauderdale Executive\",\n                departAt: \"2025-10-22T21:24:00.000Z\",\n                acType: \"Challenger 605\",\n                acClass: \"Heavy Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-10-2025 21:24 → 22-10-2025 22:54 | Price on Request\"\n              },\n              create: {\n                id: \"cae03a1aeac53c54\",\n                operator: \"aviapages\",\n                fromIata: \"GCM\",\n                toIata: \"FXE\",\n                fromIcao: \"MWCR\",\n                toIcao: \"KFXE\",\n                fromCity: \"Owen Roberts Intl\",\n                toCity: \"Fort Lauderdale Executive\",\n                fromName: \"Owen Roberts Intl\",\n                toName: \"Fort Lauderdale Executive\",\n                departAt: \"2025-10-22T21:24:00.000Z\",\n                acType: \"Challenger 605\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-10-2025 21:24 → 22-10-2025 22:54 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "cae03a1aeac53c54",
+    "operator": "aviapages",
+    "fromIata": "GCM",
+    "toIata": "FXE",
+    "fromIcao": "MWCR",
+    "toIcao": "KFXE",
+    "fromCity": "Owen Roberts Intl",
+    "toCity": "Fort Lauderdale Executive",
+    "fromName": "Owen Roberts Intl",
+    "toName": "Fort Lauderdale Executive",
+    "departAt": "2025-10-22T21:24:00.000Z",
+    "acType": "Challenger 605",
+    "acClass": "Heavy Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "22-10-2025 21:24 → 22-10-2025 22:54 | Price on Request"
+  }
+}

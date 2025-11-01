@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"c91cb3e1461c18bc\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"KJK\",\n                toIata: \"CPH\",\n                fromIcao: \"EBKT\",\n                toIcao: \"EKCH\",\n                fromCity: \"Kortrijk-Wevelgem\",\n                toCity: \"Kastrup\",\n                fromName: \"Kortrijk-Wevelgem\",\n                toName: \"Kastrup\",\n                departAt: \"2025-10-23T00:00:00.000Z\",\n                acType: \"Cessna Citation CJ4\",\n                acClass: \"Light Jet\",\n                seats: null,\n                priceUSD: 4800,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-10-2025 00:00 → 23-10-2025 00:00\"\n              },\n              create: {\n                id: \"c91cb3e1461c18bc\",\n                operator: \"aviapages\",\n                fromIata: \"KJK\",\n                toIata: \"CPH\",\n                fromIcao: \"EBKT\",\n                toIcao: \"EKCH\",\n                fromCity: \"Kortrijk-Wevelgem\",\n                toCity: \"Kastrup\",\n                fromName: \"Kortrijk-Wevelgem\",\n                toName: \"Kastrup\",\n                departAt: \"2025-10-23T00:00:00.000Z\",\n                acType: \"Cessna Citation CJ4\",\n                acClass: \"Light Jet\",\n                priceUSD: 4800,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-10-2025 00:00 → 23-10-2025 00:00\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "c91cb3e1461c18bc",
+    "operator": "aviapages",
+    "fromIata": "KJK",
+    "toIata": "CPH",
+    "fromIcao": "EBKT",
+    "toIcao": "EKCH",
+    "fromCity": "Kortrijk-Wevelgem",
+    "toCity": "Kastrup",
+    "fromName": "Kortrijk-Wevelgem",
+    "toName": "Kastrup",
+    "departAt": "2025-10-23T00:00:00.000Z",
+    "acType": "Cessna Citation CJ4",
+    "acClass": "Light Jet",
+    "seats": null,
+    "priceUSD": 4800,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "23-10-2025 00:00 → 23-10-2025 00:00"
+  }
+}

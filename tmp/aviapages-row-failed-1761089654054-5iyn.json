@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"6ffcad0f90ee7239\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"LIR\",\n                toIata: \"NAS\",\n                fromIcao: \"MRLB\",\n                toIcao: \"MYNN\",\n                fromCity: \"Daniel Oduber Quiros Intl\",\n                toCity: \"Lynden Pindling Intl\",\n                fromName: \"Daniel Oduber Quiros Intl\",\n                toName: \"Lynden Pindling Intl\",\n                departAt: \"2025-10-26T19:00:00.000Z\",\n                acType: \"Gulfstream V\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-10-2025 19:00 → 26-10-2025 21:20 | Price on Request\"\n              },\n              create: {\n                id: \"6ffcad0f90ee7239\",\n                operator: \"aviapages\",\n                fromIata: \"LIR\",\n                toIata: \"NAS\",\n                fromIcao: \"MRLB\",\n                toIcao: \"MYNN\",\n                fromCity: \"Daniel Oduber Quiros Intl\",\n                toCity: \"Lynden Pindling Intl\",\n                fromName: \"Daniel Oduber Quiros Intl\",\n                toName: \"Lynden Pindling Intl\",\n                departAt: \"2025-10-26T19:00:00.000Z\",\n                acType: \"Gulfstream V\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-10-2025 19:00 → 26-10-2025 21:20 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "6ffcad0f90ee7239",
+    "operator": "aviapages",
+    "fromIata": "LIR",
+    "toIata": "NAS",
+    "fromIcao": "MRLB",
+    "toIcao": "MYNN",
+    "fromCity": "Daniel Oduber Quiros Intl",
+    "toCity": "Lynden Pindling Intl",
+    "fromName": "Daniel Oduber Quiros Intl",
+    "toName": "Lynden Pindling Intl",
+    "departAt": "2025-10-26T19:00:00.000Z",
+    "acType": "Gulfstream V",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "26-10-2025 19:00 → 26-10-2025 21:20 | Price on Request"
+  }
+}

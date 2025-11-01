@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"3e591604e90842ff\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"PIT\",\n                toIata: \"FRG\",\n                fromIcao: \"KPIT\",\n                toIcao: \"KFRG\",\n                fromCity: \"Pittsburgh Intl\",\n                toCity: \"Republic\",\n                fromName: \"Pittsburgh Intl\",\n                toName: \"Republic\",\n                departAt: \"2025-10-20T00:00:00.000Z\",\n                acType: \"Hawker 400XP\",\n                acClass: \"Unknown\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"20-10-2025 00:00 → 24-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"3e591604e90842ff\",\n                operator: \"aviapages\",\n                fromIata: \"PIT\",\n                toIata: \"FRG\",\n                fromIcao: \"KPIT\",\n                toIcao: \"KFRG\",\n                fromCity: \"Pittsburgh Intl\",\n                toCity: \"Republic\",\n                fromName: \"Pittsburgh Intl\",\n                toName: \"Republic\",\n                departAt: \"2025-10-20T00:00:00.000Z\",\n                acType: \"Hawker 400XP\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"20-10-2025 00:00 → 24-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "3e591604e90842ff",
+    "operator": "aviapages",
+    "fromIata": "PIT",
+    "toIata": "FRG",
+    "fromIcao": "KPIT",
+    "toIcao": "KFRG",
+    "fromCity": "Pittsburgh Intl",
+    "toCity": "Republic",
+    "fromName": "Pittsburgh Intl",
+    "toName": "Republic",
+    "departAt": "2025-10-20T00:00:00.000Z",
+    "acType": "Hawker 400XP",
+    "acClass": "Unknown",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "20-10-2025 00:00 → 24-10-2025 00:00 | Price on Request"
+  }
+}

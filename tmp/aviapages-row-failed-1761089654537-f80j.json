@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"da47e20130516af3\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"TEB\",\n                toIata: \"RKD\",\n                fromIcao: \"KTEB\",\n                toIcao: \"KRKD\",\n                fromCity: \"Teterboro\",\n                toCity: \"Knox County Rgnl\",\n                fromName: \"Teterboro\",\n                toName: \"Knox County Rgnl\",\n                departAt: \"2025-10-24T19:00:00.000Z\",\n                acType: \"Challenger 350\",\n                acClass: \"Super Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"24-10-2025 19:00 → 24-10-2025 19:54 | Price on Request\"\n              },\n              create: {\n                id: \"da47e20130516af3\",\n                operator: \"aviapages\",\n                fromIata: \"TEB\",\n                toIata: \"RKD\",\n                fromIcao: \"KTEB\",\n                toIcao: \"KRKD\",\n                fromCity: \"Teterboro\",\n                toCity: \"Knox County Rgnl\",\n                fromName: \"Teterboro\",\n                toName: \"Knox County Rgnl\",\n                departAt: \"2025-10-24T19:00:00.000Z\",\n                acType: \"Challenger 350\",\n                acClass: \"Super Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"24-10-2025 19:00 → 24-10-2025 19:54 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "da47e20130516af3",
+    "operator": "aviapages",
+    "fromIata": "TEB",
+    "toIata": "RKD",
+    "fromIcao": "KTEB",
+    "toIcao": "KRKD",
+    "fromCity": "Teterboro",
+    "toCity": "Knox County Rgnl",
+    "fromName": "Teterboro",
+    "toName": "Knox County Rgnl",
+    "departAt": "2025-10-24T19:00:00.000Z",
+    "acType": "Challenger 350",
+    "acClass": "Super Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "24-10-2025 19:00 → 24-10-2025 19:54 | Price on Request"
+  }
+}

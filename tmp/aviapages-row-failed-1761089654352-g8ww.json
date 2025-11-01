@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"75c90cd35e6611fa\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"VNY\",\n                toIata: \"WVI\",\n                fromIcao: \"KVNY\",\n                toIcao: \"KWVI\",\n                fromCity: \"Van Nuys\",\n                toCity: \"Watsonville Mun\",\n                fromName: \"Van Nuys\",\n                toName: \"Watsonville Mun\",\n                departAt: \"2025-10-22T00:00:00.000Z\",\n                acType: \"Beechcraft King Air 200\",\n                acClass: \"Turboprop\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-10-2025 00:00 → 24-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"75c90cd35e6611fa\",\n                operator: \"aviapages\",\n                fromIata: \"VNY\",\n                toIata: \"WVI\",\n                fromIcao: \"KVNY\",\n                toIcao: \"KWVI\",\n                fromCity: \"Van Nuys\",\n                toCity: \"Watsonville Mun\",\n                fromName: \"Van Nuys\",\n                toName: \"Watsonville Mun\",\n                departAt: \"2025-10-22T00:00:00.000Z\",\n                acType: \"Beechcraft King Air 200\",\n                acClass: \"Turboprop\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-10-2025 00:00 → 24-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "75c90cd35e6611fa",
+    "operator": "aviapages",
+    "fromIata": "VNY",
+    "toIata": "WVI",
+    "fromIcao": "KVNY",
+    "toIcao": "KWVI",
+    "fromCity": "Van Nuys",
+    "toCity": "Watsonville Mun",
+    "fromName": "Van Nuys",
+    "toName": "Watsonville Mun",
+    "departAt": "2025-10-22T00:00:00.000Z",
+    "acType": "Beechcraft King Air 200",
+    "acClass": "Turboprop",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "22-10-2025 00:00 → 24-10-2025 00:00 | Price on Request"
+  }
+}

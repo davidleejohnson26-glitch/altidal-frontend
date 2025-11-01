@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"3da2040fe3dcf77e\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"YUL\",\n                toIata: \"YYZ\",\n                fromIcao: \"CYUL\",\n                toIcao: \"CYYZ\",\n                fromCity: \"Pierre E Trudeau Intl\",\n                toCity: \"Lester B.Pearson Intl\",\n                fromName: \"Pierre E Trudeau Intl\",\n                toName: \"Lester B.Pearson Intl\",\n                departAt: \"2025-10-23T00:00:00.000Z\",\n                acType: \"Challenger 300\",\n                acClass: \"Super Midsize Jet\",\n                seats: null,\n                priceUSD: 9800,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-10-2025 00:00 → 23-10-2025 23:59\"\n              },\n              create: {\n                id: \"3da2040fe3dcf77e\",\n                operator: \"aviapages\",\n                fromIata: \"YUL\",\n                toIata: \"YYZ\",\n                fromIcao: \"CYUL\",\n                toIcao: \"CYYZ\",\n                fromCity: \"Pierre E Trudeau Intl\",\n                toCity: \"Lester B.Pearson Intl\",\n                fromName: \"Pierre E Trudeau Intl\",\n                toName: \"Lester B.Pearson Intl\",\n                departAt: \"2025-10-23T00:00:00.000Z\",\n                acType: \"Challenger 300\",\n                acClass: \"Super Midsize Jet\",\n                priceUSD: 9800,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-10-2025 00:00 → 23-10-2025 23:59\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "3da2040fe3dcf77e",
+    "operator": "aviapages",
+    "fromIata": "YUL",
+    "toIata": "YYZ",
+    "fromIcao": "CYUL",
+    "toIcao": "CYYZ",
+    "fromCity": "Pierre E Trudeau Intl",
+    "toCity": "Lester B.Pearson Intl",
+    "fromName": "Pierre E Trudeau Intl",
+    "toName": "Lester B.Pearson Intl",
+    "departAt": "2025-10-23T00:00:00.000Z",
+    "acType": "Challenger 300",
+    "acClass": "Super Midsize Jet",
+    "seats": null,
+    "priceUSD": 9800,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "23-10-2025 00:00 → 23-10-2025 23:59"
+  }
+}

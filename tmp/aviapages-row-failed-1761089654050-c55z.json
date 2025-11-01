@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"7dba6655705b8f98\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"ZRH\",\n                toIata: \"ACH\",\n                fromIcao: \"LSZH\",\n                toIcao: \"LSZR\",\n                fromCity: \"Zurich\",\n                toCity: \"Altenrhein\",\n                fromName: \"Zurich\",\n                toName: \"Altenrhein\",\n                departAt: \"2025-10-22T12:45:00.000Z\",\n                acType: \"Gulfstream G200\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-10-2025 12:45 → 22-10-2025 13:08 | Price on Request\"\n              },\n              create: {\n                id: \"7dba6655705b8f98\",\n                operator: \"aviapages\",\n                fromIata: \"ZRH\",\n                toIata: \"ACH\",\n                fromIcao: \"LSZH\",\n                toIcao: \"LSZR\",\n                fromCity: \"Zurich\",\n                toCity: \"Altenrhein\",\n                fromName: \"Zurich\",\n                toName: \"Altenrhein\",\n                departAt: \"2025-10-22T12:45:00.000Z\",\n                acType: \"Gulfstream G200\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-10-2025 12:45 → 22-10-2025 13:08 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "7dba6655705b8f98",
+    "operator": "aviapages",
+    "fromIata": "ZRH",
+    "toIata": "ACH",
+    "fromIcao": "LSZH",
+    "toIcao": "LSZR",
+    "fromCity": "Zurich",
+    "toCity": "Altenrhein",
+    "fromName": "Zurich",
+    "toName": "Altenrhein",
+    "departAt": "2025-10-22T12:45:00.000Z",
+    "acType": "Gulfstream G200",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "22-10-2025 12:45 → 22-10-2025 13:08 | Price on Request"
+  }
+}

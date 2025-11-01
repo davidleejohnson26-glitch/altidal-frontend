@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\flyvictor.ts:370:28\n\n  367 try {\n  368   await withConcurrency(batch, 6, async (r) => {\n  369     try {\n→ 370       await prisma.leg.upsert({\n              where: {\n                id: \"b67a9a82011a23cd\"\n              },\n              update: {\n                operator: \"flyvictor\",\n                fromIata: \"JAX\",\n                toIata: \"TEB\",\n                fromIcao: \"KJAX\",\n                toIcao: \"KTEB\",\n                fromCity: null,\n                toCity: null,\n                fromName: \"JAX\",\n                toName: \"TEB\",\n                departAt: null,\n                acType: \"Gulfstream\",\n                acClass: \"Midsize Jet\",\n                seats: 0,\n                priceUSD: 19178,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n                notes: null\n              },\n              create: {\n                id: \"b67a9a82011a23cd\",\n                operator: \"flyvictor\",\n                fromIata: \"JAX\",\n                toIata: \"TEB\",\n                fromIcao: \"KJAX\",\n                toIcao: \"KTEB\",\n                toCity: null,\n                fromName: \"JAX\",\n                toName: \"TEB\",\n                departAt: null,\n                acType: \"Gulfstream\",\n                acClass: \"Midsize Jet\",\n                seats: 0,\n                priceUSD: 19178,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n                notes: null,\n            +   fromCity: String\n              }\n            })\n\nArgument `fromCity` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "b67a9a82011a23cd",
+    "operator": "flyvictor",
+    "fromIata": "JAX",
+    "toIata": "TEB",
+    "fromIcao": "KJAX",
+    "toIcao": "KTEB",
+    "fromCity": null,
+    "toCity": null,
+    "fromName": "JAX",
+    "toName": "TEB",
+    "departAt": null,
+    "acType": "Gulfstream",
+    "acClass": "Midsize Jet",
+    "seats": 0,
+    "priceUSD": 19178,
+    "url": "https://www.flyvictor.com/en-us/flights/",
+    "notes": null
+  }
+}

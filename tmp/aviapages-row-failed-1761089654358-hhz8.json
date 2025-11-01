@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"ce395db5479d0384\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"ORL\",\n                toIata: \"TCL\",\n                fromIcao: \"KORL\",\n                toIcao: \"KTCL\",\n                fromCity: \"Executive\",\n                toCity: \"Tuscaloosa Regl\",\n                fromName: \"Executive\",\n                toName: \"Tuscaloosa Regl\",\n                departAt: \"2025-10-25T00:00:00.000Z\",\n                acType: \"Challenger 350\",\n                acClass: \"Super Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"25-10-2025 00:00 → 30-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"ce395db5479d0384\",\n                operator: \"aviapages\",\n                fromIata: \"ORL\",\n                toIata: \"TCL\",\n                fromIcao: \"KORL\",\n                toIcao: \"KTCL\",\n                fromCity: \"Executive\",\n                toCity: \"Tuscaloosa Regl\",\n                fromName: \"Executive\",\n                toName: \"Tuscaloosa Regl\",\n                departAt: \"2025-10-25T00:00:00.000Z\",\n                acType: \"Challenger 350\",\n                acClass: \"Super Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"25-10-2025 00:00 → 30-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "ce395db5479d0384",
+    "operator": "aviapages",
+    "fromIata": "ORL",
+    "toIata": "TCL",
+    "fromIcao": "KORL",
+    "toIcao": "KTCL",
+    "fromCity": "Executive",
+    "toCity": "Tuscaloosa Regl",
+    "fromName": "Executive",
+    "toName": "Tuscaloosa Regl",
+    "departAt": "2025-10-25T00:00:00.000Z",
+    "acType": "Challenger 350",
+    "acClass": "Super Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "25-10-2025 00:00 → 30-10-2025 00:00 | Price on Request"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"7a9214d219182aa0\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"FYV\",\n                toIata: \"HOU\",\n                fromIcao: \"KFYV\",\n                toIcao: \"KHOU\",\n                fromCity: \"Drake Field\",\n                toCity: \"William P Hobby\",\n                fromName: \"Drake Field\",\n                toName: \"William P Hobby\",\n                departAt: \"2025-10-25T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 4500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"25-10-2025 00:00 → 25-10-2025 00:00\"\n              },\n              create: {\n                id: \"7a9214d219182aa0\",\n                operator: \"aviapages\",\n                fromIata: \"FYV\",\n                toIata: \"HOU\",\n                fromIcao: \"KFYV\",\n                toIcao: \"KHOU\",\n                fromCity: \"Drake Field\",\n                toCity: \"William P Hobby\",\n                fromName: \"Drake Field\",\n                toName: \"William P Hobby\",\n                departAt: \"2025-10-25T00:00:00.000Z\",\n                acType: \"Cessna Citation Ultra\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 4500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"25-10-2025 00:00 → 25-10-2025 00:00\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "7a9214d219182aa0",
+    "operator": "aviapages",
+    "fromIata": "FYV",
+    "toIata": "HOU",
+    "fromIcao": "KFYV",
+    "toIcao": "KHOU",
+    "fromCity": "Drake Field",
+    "toCity": "William P Hobby",
+    "fromName": "Drake Field",
+    "toName": "William P Hobby",
+    "departAt": "2025-10-25T00:00:00.000Z",
+    "acType": "Cessna Citation Ultra",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 4500,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "25-10-2025 00:00 → 25-10-2025 00:00"
+  }
+}

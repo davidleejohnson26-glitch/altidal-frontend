@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"41e0cfa7f359700d\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"YYC\",\n                toIata: \"YHM\",\n                fromIcao: \"CYYC\",\n                toIcao: \"CYHM\",\n                fromCity: \"Calgary International Airport\",\n                toCity: \"Hamilton\",\n                fromName: \"Calgary International Airport\",\n                toName: \"Hamilton\",\n                departAt: \"2025-11-03T00:00:00.000Z\",\n                acType: \"Challenger 604\",\n                acClass: \"Heavy Jet\",\n                seats: null,\n                priceUSD: 22500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"03-11-2025 00:00 → 03-11-2025 23:59\"\n              },\n              create: {\n                id: \"41e0cfa7f359700d\",\n                operator: \"aviapages\",\n                fromIata: \"YYC\",\n                toIata: \"YHM\",\n                fromIcao: \"CYYC\",\n                toIcao: \"CYHM\",\n                fromCity: \"Calgary International Airport\",\n                toCity: \"Hamilton\",\n                fromName: \"Calgary International Airport\",\n                toName: \"Hamilton\",\n                departAt: \"2025-11-03T00:00:00.000Z\",\n                acType: \"Challenger 604\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 22500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"03-11-2025 00:00 → 03-11-2025 23:59\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "41e0cfa7f359700d",
+    "operator": "aviapages",
+    "fromIata": "YYC",
+    "toIata": "YHM",
+    "fromIcao": "CYYC",
+    "toIcao": "CYHM",
+    "fromCity": "Calgary International Airport",
+    "toCity": "Hamilton",
+    "fromName": "Calgary International Airport",
+    "toName": "Hamilton",
+    "departAt": "2025-11-03T00:00:00.000Z",
+    "acType": "Challenger 604",
+    "acClass": "Heavy Jet",
+    "seats": null,
+    "priceUSD": 22500,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "03-11-2025 00:00 → 03-11-2025 23:59"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"550aa445278c9bcf\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"VNY\",\n                toIata: \"TEB\",\n                fromIcao: \"KVNY\",\n                toIcao: \"KTEB\",\n                fromCity: \"Van Nuys\",\n                toCity: \"Teterboro\",\n                fromName: \"Van Nuys\",\n                toName: \"Teterboro\",\n                departAt: \"2025-10-17T00:00:00.000Z\",\n                acType: \"Challenger 601-3A\",\n                acClass: \"Heavy Jet\",\n                seats: null,\n                priceUSD: 37701,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"17-10-2025 00:00 → 23-10-2025 23:59\"\n              },\n              create: {\n                id: \"550aa445278c9bcf\",\n                operator: \"aviapages\",\n                fromIata: \"VNY\",\n                toIata: \"TEB\",\n                fromIcao: \"KVNY\",\n                toIcao: \"KTEB\",\n                fromCity: \"Van Nuys\",\n                toCity: \"Teterboro\",\n                fromName: \"Van Nuys\",\n                toName: \"Teterboro\",\n                departAt: \"2025-10-17T00:00:00.000Z\",\n                acType: \"Challenger 601-3A\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 37701,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"17-10-2025 00:00 → 23-10-2025 23:59\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "550aa445278c9bcf",
+    "operator": "aviapages",
+    "fromIata": "VNY",
+    "toIata": "TEB",
+    "fromIcao": "KVNY",
+    "toIcao": "KTEB",
+    "fromCity": "Van Nuys",
+    "toCity": "Teterboro",
+    "fromName": "Van Nuys",
+    "toName": "Teterboro",
+    "departAt": "2025-10-17T00:00:00.000Z",
+    "acType": "Challenger 601-3A",
+    "acClass": "Heavy Jet",
+    "seats": null,
+    "priceUSD": 37701,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "17-10-2025 00:00 → 23-10-2025 23:59"
+  }
+}

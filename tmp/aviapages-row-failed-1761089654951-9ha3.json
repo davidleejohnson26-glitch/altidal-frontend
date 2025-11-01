@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"ad7a731b97aad265\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"LBG\",\n                toIata: \"LTN\",\n                fromIcao: \"LFPB\",\n                toIcao: \"EGGW\",\n                fromCity: \"Le Bourget\",\n                toCity: \"London Luton Airport\",\n                fromName: \"Le Bourget\",\n                toName: \"London Luton Airport\",\n                departAt: \"2026-06-18T00:00:00.000Z\",\n                acType: \"Gulfstream IV-SP\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"18-06-2026 00:00 → 21-08-2026 23:59 | Price on Request\"\n              },\n              create: {\n                id: \"ad7a731b97aad265\",\n                operator: \"aviapages\",\n                fromIata: \"LBG\",\n                toIata: \"LTN\",\n                fromIcao: \"LFPB\",\n                toIcao: \"EGGW\",\n                fromCity: \"Le Bourget\",\n                toCity: \"London Luton Airport\",\n                fromName: \"Le Bourget\",\n                toName: \"London Luton Airport\",\n                departAt: \"2026-06-18T00:00:00.000Z\",\n                acType: \"Gulfstream IV-SP\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"18-06-2026 00:00 → 21-08-2026 23:59 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "ad7a731b97aad265",
+    "operator": "aviapages",
+    "fromIata": "LBG",
+    "toIata": "LTN",
+    "fromIcao": "LFPB",
+    "toIcao": "EGGW",
+    "fromCity": "Le Bourget",
+    "toCity": "London Luton Airport",
+    "fromName": "Le Bourget",
+    "toName": "London Luton Airport",
+    "departAt": "2026-06-18T00:00:00.000Z",
+    "acType": "Gulfstream IV-SP",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "18-06-2026 00:00 → 21-08-2026 23:59 | Price on Request"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"06c047a99353581e\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"AMS\",\n                toIata: \"PSA\",\n                fromIcao: \"EHAM\",\n                toIcao: \"LIRP\",\n                fromCity: \"Schiphol\",\n                toCity: \"San Giusto\",\n                fromName: \"Schiphol\",\n                toName: \"San Giusto\",\n                departAt: \"2025-11-13T04:00:00.000Z\",\n                acType: \"Falcon 8X\",\n                acClass: \"Heavy Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"13-11-2025 04:00 → 16-11-2025 10:59 | Price on Request\"\n              },\n              create: {\n                id: \"06c047a99353581e\",\n                operator: \"aviapages\",\n                fromIata: \"AMS\",\n                toIata: \"PSA\",\n                fromIcao: \"EHAM\",\n                toIcao: \"LIRP\",\n                fromCity: \"Schiphol\",\n                toCity: \"San Giusto\",\n                fromName: \"Schiphol\",\n                toName: \"San Giusto\",\n                departAt: \"2025-11-13T04:00:00.000Z\",\n                acType: \"Falcon 8X\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"13-11-2025 04:00 → 16-11-2025 10:59 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "06c047a99353581e",
+    "operator": "aviapages",
+    "fromIata": "AMS",
+    "toIata": "PSA",
+    "fromIcao": "EHAM",
+    "toIcao": "LIRP",
+    "fromCity": "Schiphol",
+    "toCity": "San Giusto",
+    "fromName": "Schiphol",
+    "toName": "San Giusto",
+    "departAt": "2025-11-13T04:00:00.000Z",
+    "acType": "Falcon 8X",
+    "acClass": "Heavy Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "13-11-2025 04:00 → 16-11-2025 10:59 | Price on Request"
+  }
+}

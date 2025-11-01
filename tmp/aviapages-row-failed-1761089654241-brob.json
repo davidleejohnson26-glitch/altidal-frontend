@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"ded57575580ba576\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"PRG\",\n                toIata: \"POZ\",\n                fromIcao: \"LKPR\",\n                toIcao: \"EPPO\",\n                fromCity: \"Ruzyne\",\n                toCity: \"Lawica\",\n                fromName: \"Ruzyne\",\n                toName: \"Lawica\",\n                departAt: \"2025-11-01T19:32:00.000Z\",\n                acType: \"Falcon 7X\",\n                acClass: \"Heavy Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"01-11-2025 19:32 → 01-11-2025 20:12 | Price on Request\"\n              },\n              create: {\n                id: \"ded57575580ba576\",\n                operator: \"aviapages\",\n                fromIata: \"PRG\",\n                toIata: \"POZ\",\n                fromIcao: \"LKPR\",\n                toIcao: \"EPPO\",\n                fromCity: \"Ruzyne\",\n                toCity: \"Lawica\",\n                fromName: \"Ruzyne\",\n                toName: \"Lawica\",\n                departAt: \"2025-11-01T19:32:00.000Z\",\n                acType: \"Falcon 7X\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"01-11-2025 19:32 → 01-11-2025 20:12 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "ded57575580ba576",
+    "operator": "aviapages",
+    "fromIata": "PRG",
+    "toIata": "POZ",
+    "fromIcao": "LKPR",
+    "toIcao": "EPPO",
+    "fromCity": "Ruzyne",
+    "toCity": "Lawica",
+    "fromName": "Ruzyne",
+    "toName": "Lawica",
+    "departAt": "2025-11-01T19:32:00.000Z",
+    "acType": "Falcon 7X",
+    "acClass": "Heavy Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "01-11-2025 19:32 → 01-11-2025 20:12 | Price on Request"
+  }
+}

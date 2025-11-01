@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"774cc489fe1f3fe9\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"YYZ\",\n                toIata: \"APF\",\n                fromIcao: \"CYYZ\",\n                toIcao: \"KAPF\",\n                fromCity: \"Lester B.Pearson Intl\",\n                toCity: \"Naples Mun\",\n                fromName: \"Lester B.Pearson Intl\",\n                toName: \"Naples Mun\",\n                departAt: \"2026-01-04T00:00:00.000Z\",\n                acType: \"Challenger 300\",\n                acClass: \"Super Midsize Jet\",\n                seats: null,\n                priceUSD: 23700,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"04-01-2026 00:00 → 04-01-2026 00:00\"\n              },\n              create: {\n                id: \"774cc489fe1f3fe9\",\n                operator: \"aviapages\",\n                fromIata: \"YYZ\",\n                toIata: \"APF\",\n                fromIcao: \"CYYZ\",\n                toIcao: \"KAPF\",\n                fromCity: \"Lester B.Pearson Intl\",\n                toCity: \"Naples Mun\",\n                fromName: \"Lester B.Pearson Intl\",\n                toName: \"Naples Mun\",\n                departAt: \"2026-01-04T00:00:00.000Z\",\n                acType: \"Challenger 300\",\n                acClass: \"Super Midsize Jet\",\n                priceUSD: 23700,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"04-01-2026 00:00 → 04-01-2026 00:00\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "774cc489fe1f3fe9",
+    "operator": "aviapages",
+    "fromIata": "YYZ",
+    "toIata": "APF",
+    "fromIcao": "CYYZ",
+    "toIcao": "KAPF",
+    "fromCity": "Lester B.Pearson Intl",
+    "toCity": "Naples Mun",
+    "fromName": "Lester B.Pearson Intl",
+    "toName": "Naples Mun",
+    "departAt": "2026-01-04T00:00:00.000Z",
+    "acType": "Challenger 300",
+    "acClass": "Super Midsize Jet",
+    "seats": null,
+    "priceUSD": 23700,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "04-01-2026 00:00 → 04-01-2026 00:00"
+  }
+}

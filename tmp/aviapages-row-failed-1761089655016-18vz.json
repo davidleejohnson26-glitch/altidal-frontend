@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"d1e39b25f23555b3\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"BOI\",\n                toIata: \"VNY\",\n                fromIcao: \"KBOI\",\n                toIcao: \"KVNY\",\n                fromCity: \"Boise Air Terminal Gowen\",\n                toCity: \"Van Nuys\",\n                fromName: \"Boise Air Terminal Gowen\",\n                toName: \"Van Nuys\",\n                departAt: \"2025-11-29T00:00:00.000Z\",\n                acType: \"Gulfstream IV\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"29-11-2025 00:00 → 29-11-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"d1e39b25f23555b3\",\n                operator: \"aviapages\",\n                fromIata: \"BOI\",\n                toIata: \"VNY\",\n                fromIcao: \"KBOI\",\n                toIcao: \"KVNY\",\n                fromCity: \"Boise Air Terminal Gowen\",\n                toCity: \"Van Nuys\",\n                fromName: \"Boise Air Terminal Gowen\",\n                toName: \"Van Nuys\",\n                departAt: \"2025-11-29T00:00:00.000Z\",\n                acType: \"Gulfstream IV\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"29-11-2025 00:00 → 29-11-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "d1e39b25f23555b3",
+    "operator": "aviapages",
+    "fromIata": "BOI",
+    "toIata": "VNY",
+    "fromIcao": "KBOI",
+    "toIcao": "KVNY",
+    "fromCity": "Boise Air Terminal Gowen",
+    "toCity": "Van Nuys",
+    "fromName": "Boise Air Terminal Gowen",
+    "toName": "Van Nuys",
+    "departAt": "2025-11-29T00:00:00.000Z",
+    "acType": "Gulfstream IV",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "29-11-2025 00:00 → 29-11-2025 00:00 | Price on Request"
+  }
+}

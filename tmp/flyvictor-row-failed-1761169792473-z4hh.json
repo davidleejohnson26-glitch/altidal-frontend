@@ -1,0 +1,20 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\flyvictor.ts:378:28\n\n  375 try {\n  376   await withConcurrency(batch, 6, async (r) => {\n  377     try {\n→ 378       await prisma.leg.upsert({\n              where: {\n                id: \"b366a3cb1823576c\"\n              },\n              update: {\n                operator: \"flyvictor\",\n                fromIata: \"DAL\",\n                toIata: \"TEB\",\n                fromName: \"DAL\",\n                toName: \"TEB\",\n                fromCity: \"DAL\",\n                toCity: \"TEB\",\n                departAt: null,\n                priceUSD: 0,\n                url: \"https://www.flyvictor.com/en-us/flights/\"\n              },\n              create: {\n                id: \"b366a3cb1823576c\",\n                operator: \"flyvictor\",\n                fromIata: \"DAL\",\n                toIata: \"TEB\",\n                fromName: \"DAL\",\n                toName: \"TEB\",\n                fromCity: \"DAL\",\n                toCity: \"TEB\",\n                departAt: null,\n                priceUSD: 0,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n            +   acType: String\n              }\n            })\n\nArgument `acType` is missing.",
+    "meta": null
+  },
+  "row": {
+    "id": "b366a3cb1823576c",
+    "operator": "flyvictor",
+    "fromIata": "DAL",
+    "toIata": "TEB",
+    "fromName": "DAL",
+    "toName": "TEB",
+    "fromCity": "DAL",
+    "toCity": "TEB",
+    "departAt": null,
+    "priceUSD": 0,
+    "url": "https://www.flyvictor.com/en-us/flights/"
+  }
+}

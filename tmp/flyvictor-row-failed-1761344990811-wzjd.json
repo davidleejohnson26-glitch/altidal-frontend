@@ -1,0 +1,18 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\flyvictor.ts:527:28\n\n  524 try {\n  525   await withConcurrency(batch, 6, async (r) => {\n  526     try {\n→ 527       await prisma.leg.upsert({\n              where: {\n                id: \"089fa2a0d7bbdcba\"\n              },\n              update: {\n                operator: \"flyvictor\",\n                fromIata: \"TCL\",\n                toIata: \"PIE\",\n                fromName: \"TCL\",\n                toName: \"PIE\",\n                departAt: \"2025-11-07T00:00:00.000Z\",\n                priceUSD: 9889,\n                url: \"https://www.flyvictor.com/en-us/flights/\"\n              },\n              create: {\n                id: \"089fa2a0d7bbdcba\",\n                operator: \"flyvictor\",\n                fromIata: \"TCL\",\n                toIata: \"PIE\",\n                fromName: \"TCL\",\n                toName: \"PIE\",\n                departAt: \"2025-11-07T00:00:00.000Z\",\n                priceUSD: 9889,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n            +   fromCity: String\n              }\n            })\n\nArgument `fromCity` is missing.",
+    "meta": null
+  },
+  "row": {
+    "id": "089fa2a0d7bbdcba",
+    "operator": "flyvictor",
+    "fromIata": "TCL",
+    "toIata": "PIE",
+    "fromName": "TCL",
+    "toName": "PIE",
+    "departAt": "2025-11-07T00:00:00.000Z",
+    "priceUSD": 9889,
+    "url": "https://www.flyvictor.com/en-us/flights/"
+  }
+}

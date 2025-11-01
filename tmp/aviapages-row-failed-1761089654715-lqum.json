@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"98834bf82dc5cebf\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"CLE\",\n                toIata: \"PTK\",\n                fromIcao: \"KCLE\",\n                toIcao: \"KPTK\",\n                fromCity: \"Cleveland-Hopkins Intl\",\n                toCity: \"Oakland County Intl\",\n                fromName: \"Cleveland-Hopkins Intl\",\n                toName: \"Oakland County Intl\",\n                departAt: \"2025-10-22T00:00:00.000Z\",\n                acType: \"Challenger 604\",\n                acClass: \"Heavy Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-10-2025 00:00 → 22-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"98834bf82dc5cebf\",\n                operator: \"aviapages\",\n                fromIata: \"CLE\",\n                toIata: \"PTK\",\n                fromIcao: \"KCLE\",\n                toIcao: \"KPTK\",\n                fromCity: \"Cleveland-Hopkins Intl\",\n                toCity: \"Oakland County Intl\",\n                fromName: \"Cleveland-Hopkins Intl\",\n                toName: \"Oakland County Intl\",\n                departAt: \"2025-10-22T00:00:00.000Z\",\n                acType: \"Challenger 604\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-10-2025 00:00 → 22-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "98834bf82dc5cebf",
+    "operator": "aviapages",
+    "fromIata": "CLE",
+    "toIata": "PTK",
+    "fromIcao": "KCLE",
+    "toIcao": "KPTK",
+    "fromCity": "Cleveland-Hopkins Intl",
+    "toCity": "Oakland County Intl",
+    "fromName": "Cleveland-Hopkins Intl",
+    "toName": "Oakland County Intl",
+    "departAt": "2025-10-22T00:00:00.000Z",
+    "acType": "Challenger 604",
+    "acClass": "Heavy Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "22-10-2025 00:00 → 22-10-2025 00:00 | Price on Request"
+  }
+}

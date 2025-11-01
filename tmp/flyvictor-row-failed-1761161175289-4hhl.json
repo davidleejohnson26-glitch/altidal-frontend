@@ -1,0 +1,16 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\flyvictor.ts:367:28\n\n  364 try {\n  365   await withConcurrency(batch, 6, async (r) => {\n  366     try {\n→ 367       await prisma.leg.upsert({\n              where: {\n                id: \"56940a533404d4c5\"\n              },\n              update: {\n                operator: \"flyvictor\",\n                fromIata: \"JAX\",\n                toIata: \"XNA\",\n                departAt: null,\n                priceUSD: 0,\n                url: \"https://www.flyvictor.com/en-us/flights/\"\n              },\n              create: {\n                id: \"56940a533404d4c5\",\n                operator: \"flyvictor\",\n                fromIata: \"JAX\",\n                toIata: \"XNA\",\n                departAt: null,\n                priceUSD: 0,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n            +   fromName: String\n              }\n            })\n\nArgument `fromName` is missing.",
+    "meta": null
+  },
+  "row": {
+    "id": "56940a533404d4c5",
+    "operator": "flyvictor",
+    "fromIata": "JAX",
+    "toIata": "XNA",
+    "departAt": null,
+    "priceUSD": 0,
+    "url": "https://www.flyvictor.com/en-us/flights/"
+  }
+}

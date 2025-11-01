@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"e955958b785a140d\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"LBA\",\n                toIata: \"BQH\",\n                fromIcao: \"EGNM\",\n                toIcao: \"EGKB\",\n                fromCity: \"Leeds Bradford\",\n                toCity: \"London Biggin Hill Airport\",\n                fromName: \"Leeds Bradford\",\n                toName: \"London Biggin Hill Airport\",\n                departAt: \"2025-10-23T00:00:00.000Z\",\n                acType: \"Embraer Legacy 500\",\n                acClass: \"Unknown\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-10-2025 00:00 → 23-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"e955958b785a140d\",\n                operator: \"aviapages\",\n                fromIata: \"LBA\",\n                toIata: \"BQH\",\n                fromIcao: \"EGNM\",\n                toIcao: \"EGKB\",\n                fromCity: \"Leeds Bradford\",\n                toCity: \"London Biggin Hill Airport\",\n                fromName: \"Leeds Bradford\",\n                toName: \"London Biggin Hill Airport\",\n                departAt: \"2025-10-23T00:00:00.000Z\",\n                acType: \"Embraer Legacy 500\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-10-2025 00:00 → 23-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "e955958b785a140d",
+    "operator": "aviapages",
+    "fromIata": "LBA",
+    "toIata": "BQH",
+    "fromIcao": "EGNM",
+    "toIcao": "EGKB",
+    "fromCity": "Leeds Bradford",
+    "toCity": "London Biggin Hill Airport",
+    "fromName": "Leeds Bradford",
+    "toName": "London Biggin Hill Airport",
+    "departAt": "2025-10-23T00:00:00.000Z",
+    "acType": "Embraer Legacy 500",
+    "acClass": "Unknown",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "23-10-2025 00:00 → 23-10-2025 00:00 | Price on Request"
+  }
+}

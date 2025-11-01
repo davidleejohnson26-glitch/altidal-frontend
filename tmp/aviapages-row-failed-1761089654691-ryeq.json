@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"b78b334692f656d3\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"YYC\",\n                toIata: \"SJD\",\n                fromIcao: \"CYYC\",\n                toIcao: \"MMSD\",\n                fromCity: \"Calgary International Airport\",\n                toCity: \"Los Cabos Intl\",\n                fromName: \"Calgary International Airport\",\n                toName: \"Los Cabos Intl\",\n                departAt: \"2026-01-03T00:00:00.000Z\",\n                acType: \"Challenger 604\",\n                acClass: \"Heavy Jet\",\n                seats: null,\n                priceUSD: 32700,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"03-01-2026 00:00 → 03-01-2026 00:00\"\n              },\n              create: {\n                id: \"b78b334692f656d3\",\n                operator: \"aviapages\",\n                fromIata: \"YYC\",\n                toIata: \"SJD\",\n                fromIcao: \"CYYC\",\n                toIcao: \"MMSD\",\n                fromCity: \"Calgary International Airport\",\n                toCity: \"Los Cabos Intl\",\n                fromName: \"Calgary International Airport\",\n                toName: \"Los Cabos Intl\",\n                departAt: \"2026-01-03T00:00:00.000Z\",\n                acType: \"Challenger 604\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 32700,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"03-01-2026 00:00 → 03-01-2026 00:00\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "b78b334692f656d3",
+    "operator": "aviapages",
+    "fromIata": "YYC",
+    "toIata": "SJD",
+    "fromIcao": "CYYC",
+    "toIcao": "MMSD",
+    "fromCity": "Calgary International Airport",
+    "toCity": "Los Cabos Intl",
+    "fromName": "Calgary International Airport",
+    "toName": "Los Cabos Intl",
+    "departAt": "2026-01-03T00:00:00.000Z",
+    "acType": "Challenger 604",
+    "acClass": "Heavy Jet",
+    "seats": null,
+    "priceUSD": 32700,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "03-01-2026 00:00 → 03-01-2026 00:00"
+  }
+}

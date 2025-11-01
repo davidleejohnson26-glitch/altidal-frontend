@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"f38824f50cc3b638\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"IML\",\n                toIata: \"LNK\",\n                fromIcao: \"KIML\",\n                toIcao: \"KLNK\",\n                fromCity: \"Imperial Mun\",\n                toCity: \"Lincoln\",\n                fromName: \"Imperial Mun\",\n                toName: \"Lincoln\",\n                departAt: \"2025-11-02T00:00:00.000Z\",\n                acType: \"Cessna Citation CJ1\",\n                acClass: \"Light Jet\",\n                seats: null,\n                priceUSD: 1500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"02-11-2025 00:00 → 02-11-2025 01:00\"\n              },\n              create: {\n                id: \"f38824f50cc3b638\",\n                operator: \"aviapages\",\n                fromIata: \"IML\",\n                toIata: \"LNK\",\n                fromIcao: \"KIML\",\n                toIcao: \"KLNK\",\n                fromCity: \"Imperial Mun\",\n                toCity: \"Lincoln\",\n                fromName: \"Imperial Mun\",\n                toName: \"Lincoln\",\n                departAt: \"2025-11-02T00:00:00.000Z\",\n                acType: \"Cessna Citation CJ1\",\n                acClass: \"Light Jet\",\n                priceUSD: 1500,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"02-11-2025 00:00 → 02-11-2025 01:00\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "f38824f50cc3b638",
+    "operator": "aviapages",
+    "fromIata": "IML",
+    "toIata": "LNK",
+    "fromIcao": "KIML",
+    "toIcao": "KLNK",
+    "fromCity": "Imperial Mun",
+    "toCity": "Lincoln",
+    "fromName": "Imperial Mun",
+    "toName": "Lincoln",
+    "departAt": "2025-11-02T00:00:00.000Z",
+    "acType": "Cessna Citation CJ1",
+    "acClass": "Light Jet",
+    "seats": null,
+    "priceUSD": 1500,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "02-11-2025 00:00 → 02-11-2025 01:00"
+  }
+}

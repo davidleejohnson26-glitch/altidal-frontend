@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"7972a0149121004e\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"HAM\",\n                toIata: \"ZQC\",\n                fromIcao: \"EDDH\",\n                toIcao: \"EDRY\",\n                fromCity: \"Hamburg\",\n                toCity: \"Speyer\",\n                fromName: \"Hamburg\",\n                toName: \"Speyer\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Cessna Citation XLS+\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 21-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"7972a0149121004e\",\n                operator: \"aviapages\",\n                fromIata: \"HAM\",\n                toIata: \"ZQC\",\n                fromIcao: \"EDDH\",\n                toIcao: \"EDRY\",\n                fromCity: \"Hamburg\",\n                toCity: \"Speyer\",\n                fromName: \"Hamburg\",\n                toName: \"Speyer\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Cessna Citation XLS+\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 21-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "7972a0149121004e",
+    "operator": "aviapages",
+    "fromIata": "HAM",
+    "toIata": "ZQC",
+    "fromIcao": "EDDH",
+    "toIcao": "EDRY",
+    "fromCity": "Hamburg",
+    "toCity": "Speyer",
+    "fromName": "Hamburg",
+    "toName": "Speyer",
+    "departAt": "2025-10-21T00:00:00.000Z",
+    "acType": "Cessna Citation XLS+",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "21-10-2025 00:00 → 21-10-2025 00:00 | Price on Request"
+  }
+}

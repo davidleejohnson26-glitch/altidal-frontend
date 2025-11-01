@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"aac7c0b1aabc9a58\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"AVL\",\n                toIata: \"PGD\",\n                fromIcao: \"KAVL\",\n                toIcao: \"KPGD\",\n                fromCity: \"Asheville Regl\",\n                toCity: \"Punta Gorda\",\n                fromName: \"Asheville Regl\",\n                toName: \"Punta Gorda\",\n                departAt: \"2025-11-26T00:00:00.000Z\",\n                acType: \"Cessna Citation III\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-11-2025 00:00 → 27-11-2025 23:59 | Price on Request\"\n              },\n              create: {\n                id: \"aac7c0b1aabc9a58\",\n                operator: \"aviapages\",\n                fromIata: \"AVL\",\n                toIata: \"PGD\",\n                fromIcao: \"KAVL\",\n                toIcao: \"KPGD\",\n                fromCity: \"Asheville Regl\",\n                toCity: \"Punta Gorda\",\n                fromName: \"Asheville Regl\",\n                toName: \"Punta Gorda\",\n                departAt: \"2025-11-26T00:00:00.000Z\",\n                acType: \"Cessna Citation III\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-11-2025 00:00 → 27-11-2025 23:59 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "aac7c0b1aabc9a58",
+    "operator": "aviapages",
+    "fromIata": "AVL",
+    "toIata": "PGD",
+    "fromIcao": "KAVL",
+    "toIcao": "KPGD",
+    "fromCity": "Asheville Regl",
+    "toCity": "Punta Gorda",
+    "fromName": "Asheville Regl",
+    "toName": "Punta Gorda",
+    "departAt": "2025-11-26T00:00:00.000Z",
+    "acType": "Cessna Citation III",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "26-11-2025 00:00 → 27-11-2025 23:59 | Price on Request"
+  }
+}

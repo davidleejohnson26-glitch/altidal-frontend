@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"19ea7fd6d2506e4b\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"JMK\",\n                toIata: \"VIE\",\n                fromIcao: \"LGMK\",\n                toIcao: \"LOWW\",\n                fromCity: \"Mikonos\",\n                toCity: \"Schwechat\",\n                fromName: \"Mikonos\",\n                toName: \"Schwechat\",\n                departAt: \"2025-10-25T11:00:00.000Z\",\n                acType: \"Challenger 605\",\n                acClass: \"Heavy Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"25-10-2025 11:00 → 29-10-2025 12:54 | Price on Request\"\n              },\n              create: {\n                id: \"19ea7fd6d2506e4b\",\n                operator: \"aviapages\",\n                fromIata: \"JMK\",\n                toIata: \"VIE\",\n                fromIcao: \"LGMK\",\n                toIcao: \"LOWW\",\n                fromCity: \"Mikonos\",\n                toCity: \"Schwechat\",\n                fromName: \"Mikonos\",\n                toName: \"Schwechat\",\n                departAt: \"2025-10-25T11:00:00.000Z\",\n                acType: \"Challenger 605\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"25-10-2025 11:00 → 29-10-2025 12:54 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "19ea7fd6d2506e4b",
+    "operator": "aviapages",
+    "fromIata": "JMK",
+    "toIata": "VIE",
+    "fromIcao": "LGMK",
+    "toIcao": "LOWW",
+    "fromCity": "Mikonos",
+    "toCity": "Schwechat",
+    "fromName": "Mikonos",
+    "toName": "Schwechat",
+    "departAt": "2025-10-25T11:00:00.000Z",
+    "acType": "Challenger 605",
+    "acClass": "Heavy Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "25-10-2025 11:00 → 29-10-2025 12:54 | Price on Request"
+  }
+}

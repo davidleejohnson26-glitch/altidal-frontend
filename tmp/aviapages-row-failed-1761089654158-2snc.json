@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"28576837e4f9749e\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"PBI\",\n                toIata: \"VNY\",\n                fromIcao: \"KPBI\",\n                toIcao: \"KVNY\",\n                fromCity: \"Palm Beach Intl\",\n                toCity: \"Van Nuys\",\n                fromName: \"Palm Beach Intl\",\n                toName: \"Van Nuys\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Gulfstream IV-SP\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 22-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"28576837e4f9749e\",\n                operator: \"aviapages\",\n                fromIata: \"PBI\",\n                toIata: \"VNY\",\n                fromIcao: \"KPBI\",\n                toIcao: \"KVNY\",\n                fromCity: \"Palm Beach Intl\",\n                toCity: \"Van Nuys\",\n                fromName: \"Palm Beach Intl\",\n                toName: \"Van Nuys\",\n                departAt: \"2025-10-21T00:00:00.000Z\",\n                acType: \"Gulfstream IV-SP\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"21-10-2025 00:00 → 22-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "28576837e4f9749e",
+    "operator": "aviapages",
+    "fromIata": "PBI",
+    "toIata": "VNY",
+    "fromIcao": "KPBI",
+    "toIcao": "KVNY",
+    "fromCity": "Palm Beach Intl",
+    "toCity": "Van Nuys",
+    "fromName": "Palm Beach Intl",
+    "toName": "Van Nuys",
+    "departAt": "2025-10-21T00:00:00.000Z",
+    "acType": "Gulfstream IV-SP",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "21-10-2025 00:00 → 22-10-2025 00:00 | Price on Request"
+  }
+}

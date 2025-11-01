@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"8a26484a6e1d68a5\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"MUC\",\n                toIata: \"PRG\",\n                fromIcao: \"EDDM\",\n                toIcao: \"LKPR\",\n                fromCity: \"Munich\",\n                toCity: \"Ruzyne\",\n                fromName: \"Munich\",\n                toName: \"Ruzyne\",\n                departAt: \"2025-10-31T13:00:00.000Z\",\n                acType: \"Gulfstream G280\",\n                acClass: \"Super Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"31-10-2025 13:00 → 31-10-2025 13:40 | Price on Request\"\n              },\n              create: {\n                id: \"8a26484a6e1d68a5\",\n                operator: \"aviapages\",\n                fromIata: \"MUC\",\n                toIata: \"PRG\",\n                fromIcao: \"EDDM\",\n                toIcao: \"LKPR\",\n                fromCity: \"Munich\",\n                toCity: \"Ruzyne\",\n                fromName: \"Munich\",\n                toName: \"Ruzyne\",\n                departAt: \"2025-10-31T13:00:00.000Z\",\n                acType: \"Gulfstream G280\",\n                acClass: \"Super Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"31-10-2025 13:00 → 31-10-2025 13:40 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "8a26484a6e1d68a5",
+    "operator": "aviapages",
+    "fromIata": "MUC",
+    "toIata": "PRG",
+    "fromIcao": "EDDM",
+    "toIcao": "LKPR",
+    "fromCity": "Munich",
+    "toCity": "Ruzyne",
+    "fromName": "Munich",
+    "toName": "Ruzyne",
+    "departAt": "2025-10-31T13:00:00.000Z",
+    "acType": "Gulfstream G280",
+    "acClass": "Super Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "31-10-2025 13:00 → 31-10-2025 13:40 | Price on Request"
+  }
+}

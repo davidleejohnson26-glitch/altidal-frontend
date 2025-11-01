@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"526b30df63c37a67\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"DWC\",\n                toIata: \"DWC\",\n                fromIcao: \"OMDW\",\n                toIcao: \"OMDW\",\n                fromCity: \"Al Maktoum Intl / Dubai World Central Intl\",\n                toCity: \"Al Maktoum Intl / Dubai World Central Intl\",\n                fromName: \"Al Maktoum Intl / Dubai World Central Intl\",\n                toName: \"Al Maktoum Intl / Dubai World Central Intl\",\n                departAt: \"2026-07-02T00:00:00.000Z\",\n                acType: \"Gulfstream IV-SP\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"02-07-2026 00:00 → 08-08-2026 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"526b30df63c37a67\",\n                operator: \"aviapages\",\n                fromIata: \"DWC\",\n                toIata: \"DWC\",\n                fromIcao: \"OMDW\",\n                toIcao: \"OMDW\",\n                fromCity: \"Al Maktoum Intl / Dubai World Central Intl\",\n                toCity: \"Al Maktoum Intl / Dubai World Central Intl\",\n                fromName: \"Al Maktoum Intl / Dubai World Central Intl\",\n                toName: \"Al Maktoum Intl / Dubai World Central Intl\",\n                departAt: \"2026-07-02T00:00:00.000Z\",\n                acType: \"Gulfstream IV-SP\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"02-07-2026 00:00 → 08-08-2026 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "526b30df63c37a67",
+    "operator": "aviapages",
+    "fromIata": "DWC",
+    "toIata": "DWC",
+    "fromIcao": "OMDW",
+    "toIcao": "OMDW",
+    "fromCity": "Al Maktoum Intl / Dubai World Central Intl",
+    "toCity": "Al Maktoum Intl / Dubai World Central Intl",
+    "fromName": "Al Maktoum Intl / Dubai World Central Intl",
+    "toName": "Al Maktoum Intl / Dubai World Central Intl",
+    "departAt": "2026-07-02T00:00:00.000Z",
+    "acType": "Gulfstream IV-SP",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "02-07-2026 00:00 → 08-08-2026 00:00 | Price on Request"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\flyvictor.ts:384:28\n\n  381 try {\n  382   await withConcurrency(batch, 6, async (r) => {\n  383     try {\n→ 384       await prisma.leg.upsert({\n              where: {\n                id: \"6b831b72c1de74a9\"\n              },\n              update: {\n                operator: \"flyvictor\",\n                fromIata: \"FLL\",\n                toIata: \"MKE\",\n                fromName: \"FLL\",\n                toName: \"MKE\",\n                fromCity: \"FLL\",\n                toCity: \"MKE\",\n                departAt: null,\n                acType: \"Unknown\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://www.flyvictor.com/en-us/flights/\"\n              },\n              create: {\n                id: \"6b831b72c1de74a9\",\n                operator: \"flyvictor\",\n                fromIata: \"FLL\",\n                toIata: \"MKE\",\n                fromName: \"FLL\",\n                toName: \"MKE\",\n                fromCity: \"FLL\",\n                toCity: \"MKE\",\n                departAt: null,\n                acType: \"Unknown\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` is missing.",
+    "meta": null
+  },
+  "row": {
+    "id": "6b831b72c1de74a9",
+    "operator": "flyvictor",
+    "fromIata": "FLL",
+    "toIata": "MKE",
+    "fromName": "FLL",
+    "toName": "MKE",
+    "fromCity": "FLL",
+    "toCity": "MKE",
+    "departAt": null,
+    "acType": "Unknown",
+    "acClass": "Unknown",
+    "priceUSD": 0,
+    "url": "https://www.flyvictor.com/en-us/flights/"
+  }
+}

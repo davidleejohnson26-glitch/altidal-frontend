@@ -1,0 +1,18 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\flyvictor.ts:527:28\n\n  524 try {\n  525   await withConcurrency(batch, 6, async (r) => {\n  526     try {\n→ 527       await prisma.leg.upsert({\n              where: {\n                id: \"86d963891248efb6\"\n              },\n              update: {\n                operator: \"flyvictor\",\n                fromIata: \"MSN\",\n                toIata: \"FLL\",\n                fromName: \"MSN\",\n                toName: \"FLL\",\n                departAt: \"2025-10-31T00:00:00.000Z\",\n                priceUSD: 17979,\n                url: \"https://www.flyvictor.com/en-us/flights/\"\n              },\n              create: {\n                id: \"86d963891248efb6\",\n                operator: \"flyvictor\",\n                fromIata: \"MSN\",\n                toIata: \"FLL\",\n                fromName: \"MSN\",\n                toName: \"FLL\",\n                departAt: \"2025-10-31T00:00:00.000Z\",\n                priceUSD: 17979,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n            +   fromCity: String\n              }\n            })\n\nArgument `fromCity` is missing.",
+    "meta": null
+  },
+  "row": {
+    "id": "86d963891248efb6",
+    "operator": "flyvictor",
+    "fromIata": "MSN",
+    "toIata": "FLL",
+    "fromName": "MSN",
+    "toName": "FLL",
+    "departAt": "2025-10-31T00:00:00.000Z",
+    "priceUSD": 17979,
+    "url": "https://www.flyvictor.com/en-us/flights/"
+  }
+}

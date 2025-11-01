@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"009d86d9e179c4b5\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"SRQ\",\n                toIata: \"UVF\",\n                fromIcao: \"KSRQ\",\n                toIcao: \"TLPL\",\n                fromCity: \"Sarasota Bradenton Intl\",\n                toCity: \"Hewanorra Intl\",\n                fromName: \"Sarasota Bradenton Intl\",\n                toName: \"Hewanorra Intl\",\n                departAt: \"2025-12-26T00:00:00.000Z\",\n                acType: \"Challenger 605\",\n                acClass: \"Heavy Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-12-2025 00:00 → 29-12-2025 23:59 | Price on Request\"\n              },\n              create: {\n                id: \"009d86d9e179c4b5\",\n                operator: \"aviapages\",\n                fromIata: \"SRQ\",\n                toIata: \"UVF\",\n                fromIcao: \"KSRQ\",\n                toIcao: \"TLPL\",\n                fromCity: \"Sarasota Bradenton Intl\",\n                toCity: \"Hewanorra Intl\",\n                fromName: \"Sarasota Bradenton Intl\",\n                toName: \"Hewanorra Intl\",\n                departAt: \"2025-12-26T00:00:00.000Z\",\n                acType: \"Challenger 605\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-12-2025 00:00 → 29-12-2025 23:59 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "009d86d9e179c4b5",
+    "operator": "aviapages",
+    "fromIata": "SRQ",
+    "toIata": "UVF",
+    "fromIcao": "KSRQ",
+    "toIcao": "TLPL",
+    "fromCity": "Sarasota Bradenton Intl",
+    "toCity": "Hewanorra Intl",
+    "fromName": "Sarasota Bradenton Intl",
+    "toName": "Hewanorra Intl",
+    "departAt": "2025-12-26T00:00:00.000Z",
+    "acType": "Challenger 605",
+    "acClass": "Heavy Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "26-12-2025 00:00 → 29-12-2025 23:59 | Price on Request"
+  }
+}

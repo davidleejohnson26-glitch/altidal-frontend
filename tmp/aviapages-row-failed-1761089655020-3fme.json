@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"1b08ee585ba4166f\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"DUB\",\n                toIata: \"TEB\",\n                fromIcao: \"EIDW\",\n                toIcao: \"KTEB\",\n                fromCity: \"Dublin Intl\",\n                toCity: \"Teterboro\",\n                fromName: \"Dublin Intl\",\n                toName: \"Teterboro\",\n                departAt: \"2025-11-13T00:00:00.000Z\",\n                acType: \"Gulfstream IV-SP\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"13-11-2025 00:00 → 12-12-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"1b08ee585ba4166f\",\n                operator: \"aviapages\",\n                fromIata: \"DUB\",\n                toIata: \"TEB\",\n                fromIcao: \"EIDW\",\n                toIcao: \"KTEB\",\n                fromCity: \"Dublin Intl\",\n                toCity: \"Teterboro\",\n                fromName: \"Dublin Intl\",\n                toName: \"Teterboro\",\n                departAt: \"2025-11-13T00:00:00.000Z\",\n                acType: \"Gulfstream IV-SP\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"13-11-2025 00:00 → 12-12-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "1b08ee585ba4166f",
+    "operator": "aviapages",
+    "fromIata": "DUB",
+    "toIata": "TEB",
+    "fromIcao": "EIDW",
+    "toIcao": "KTEB",
+    "fromCity": "Dublin Intl",
+    "toCity": "Teterboro",
+    "fromName": "Dublin Intl",
+    "toName": "Teterboro",
+    "departAt": "2025-11-13T00:00:00.000Z",
+    "acType": "Gulfstream IV-SP",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "13-11-2025 00:00 → 12-12-2025 00:00 | Price on Request"
+  }
+}

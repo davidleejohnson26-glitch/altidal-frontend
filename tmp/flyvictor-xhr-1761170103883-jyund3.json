@@ -1,0 +1,25 @@
+{
+  "url": "https://api.flyvictor.com/users/action/locale-preferences?",
+  "body": {
+    "locale": {
+      "ln": "en",
+      "ct": "US",
+      "dateFormat": "MM/DD/YYYY",
+      "altDateFormat": "ddd, MMM DD, YYYY",
+      "timeFormat": "hh:mm A",
+      "thousandsDelimeter": ",",
+      "decimalsDelimeter": ".",
+      "airportCodeType": "icao",
+      "roundFunction": null
+    },
+    "location": {
+      "ip": "2a09:bac5:bd0b:2628::3cd:2",
+      "countryCode": "US"
+    },
+    "currencies": {
+      "preferred": "GBP",
+      "sign": "£"
+    },
+    "locationCode": "GB"
+  }
+}

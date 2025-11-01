@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"0d91741b38b3167e\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"BZN\",\n                toIata: \"STP\",\n                fromIcao: \"KBZN\",\n                toIcao: \"KSTP\",\n                fromCity: \"Bozeman Yellowstone Intl\",\n                toCity: \"St Paul Downtown Holman\",\n                fromName: \"Bozeman Yellowstone Intl\",\n                toName: \"St Paul Downtown Holman\",\n                departAt: \"2025-12-26T00:00:00.000Z\",\n                acType: \"Gulfstream V\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-12-2025 00:00 → 26-12-2025 23:59 | Price on Request\"\n              },\n              create: {\n                id: \"0d91741b38b3167e\",\n                operator: \"aviapages\",\n                fromIata: \"BZN\",\n                toIata: \"STP\",\n                fromIcao: \"KBZN\",\n                toIcao: \"KSTP\",\n                fromCity: \"Bozeman Yellowstone Intl\",\n                toCity: \"St Paul Downtown Holman\",\n                fromName: \"Bozeman Yellowstone Intl\",\n                toName: \"St Paul Downtown Holman\",\n                departAt: \"2025-12-26T00:00:00.000Z\",\n                acType: \"Gulfstream V\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"26-12-2025 00:00 → 26-12-2025 23:59 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "0d91741b38b3167e",
+    "operator": "aviapages",
+    "fromIata": "BZN",
+    "toIata": "STP",
+    "fromIcao": "KBZN",
+    "toIcao": "KSTP",
+    "fromCity": "Bozeman Yellowstone Intl",
+    "toCity": "St Paul Downtown Holman",
+    "fromName": "Bozeman Yellowstone Intl",
+    "toName": "St Paul Downtown Holman",
+    "departAt": "2025-12-26T00:00:00.000Z",
+    "acType": "Gulfstream V",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "26-12-2025 00:00 → 26-12-2025 23:59 | Price on Request"
+  }
+}

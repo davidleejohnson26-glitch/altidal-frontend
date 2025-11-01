@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"04babafb09315dc0\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"SCK\",\n                toIata: \"OAK\",\n                fromIcao: \"KSCK\",\n                toIcao: \"KOAK\",\n                fromCity: \"Stockton Metropolitan\",\n                toCity: \"Metropolitan Oakland Intl\",\n                fromName: \"Stockton Metropolitan\",\n                toName: \"Metropolitan Oakland Intl\",\n                departAt: \"2025-10-31T00:00:00.000Z\",\n                acType: \"Cessna Citation X\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"31-10-2025 00:00 → 31-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"04babafb09315dc0\",\n                operator: \"aviapages\",\n                fromIata: \"SCK\",\n                toIata: \"OAK\",\n                fromIcao: \"KSCK\",\n                toIcao: \"KOAK\",\n                fromCity: \"Stockton Metropolitan\",\n                toCity: \"Metropolitan Oakland Intl\",\n                fromName: \"Stockton Metropolitan\",\n                toName: \"Metropolitan Oakland Intl\",\n                departAt: \"2025-10-31T00:00:00.000Z\",\n                acType: \"Cessna Citation X\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"31-10-2025 00:00 → 31-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "04babafb09315dc0",
+    "operator": "aviapages",
+    "fromIata": "SCK",
+    "toIata": "OAK",
+    "fromIcao": "KSCK",
+    "toIcao": "KOAK",
+    "fromCity": "Stockton Metropolitan",
+    "toCity": "Metropolitan Oakland Intl",
+    "fromName": "Stockton Metropolitan",
+    "toName": "Metropolitan Oakland Intl",
+    "departAt": "2025-10-31T00:00:00.000Z",
+    "acType": "Cessna Citation X",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "31-10-2025 00:00 → 31-10-2025 00:00 | Price on Request"
+  }
+}

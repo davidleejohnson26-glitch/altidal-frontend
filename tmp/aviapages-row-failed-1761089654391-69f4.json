@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"cf825d1a53b40851\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"SCF\",\n                toIata: \"HOU\",\n                fromIcao: \"KSDL\",\n                toIcao: \"KHOU\",\n                fromCity: \"Scottsdale\",\n                toCity: \"William P Hobby\",\n                fromName: \"Scottsdale\",\n                toName: \"William P Hobby\",\n                departAt: \"2025-10-28T00:00:00.000Z\",\n                acType: \"Cessna Citation Excel\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 10400,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"28-10-2025 00:00 → 28-10-2025 00:00\"\n              },\n              create: {\n                id: \"cf825d1a53b40851\",\n                operator: \"aviapages\",\n                fromIata: \"SCF\",\n                toIata: \"HOU\",\n                fromIcao: \"KSDL\",\n                toIcao: \"KHOU\",\n                fromCity: \"Scottsdale\",\n                toCity: \"William P Hobby\",\n                fromName: \"Scottsdale\",\n                toName: \"William P Hobby\",\n                departAt: \"2025-10-28T00:00:00.000Z\",\n                acType: \"Cessna Citation Excel\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 10400,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"28-10-2025 00:00 → 28-10-2025 00:00\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "cf825d1a53b40851",
+    "operator": "aviapages",
+    "fromIata": "SCF",
+    "toIata": "HOU",
+    "fromIcao": "KSDL",
+    "toIcao": "KHOU",
+    "fromCity": "Scottsdale",
+    "toCity": "William P Hobby",
+    "fromName": "Scottsdale",
+    "toName": "William P Hobby",
+    "departAt": "2025-10-28T00:00:00.000Z",
+    "acType": "Cessna Citation Excel",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 10400,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "28-10-2025 00:00 → 28-10-2025 00:00"
+  }
+}

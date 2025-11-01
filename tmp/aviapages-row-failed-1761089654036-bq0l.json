@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"91c9e0d55b5735f0\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"SCF\",\n                toIata: \"YYC\",\n                fromIcao: \"KSDL\",\n                toIcao: \"CYYC\",\n                fromCity: \"Scottsdale\",\n                toCity: \"Calgary International Airport\",\n                fromName: \"Scottsdale\",\n                toName: \"Calgary International Airport\",\n                departAt: \"2025-11-04T00:00:00.000Z\",\n                acType: \"Cessna Citation Excel\",\n                acClass: \"Midsize Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"04-11-2025 00:00 → 04-11-2025 23:59 | Price on Request\"\n              },\n              create: {\n                id: \"91c9e0d55b5735f0\",\n                operator: \"aviapages\",\n                fromIata: \"SCF\",\n                toIata: \"YYC\",\n                fromIcao: \"KSDL\",\n                toIcao: \"CYYC\",\n                fromCity: \"Scottsdale\",\n                toCity: \"Calgary International Airport\",\n                fromName: \"Scottsdale\",\n                toName: \"Calgary International Airport\",\n                departAt: \"2025-11-04T00:00:00.000Z\",\n                acType: \"Cessna Citation Excel\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"04-11-2025 00:00 → 04-11-2025 23:59 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "91c9e0d55b5735f0",
+    "operator": "aviapages",
+    "fromIata": "SCF",
+    "toIata": "YYC",
+    "fromIcao": "KSDL",
+    "toIcao": "CYYC",
+    "fromCity": "Scottsdale",
+    "toCity": "Calgary International Airport",
+    "fromName": "Scottsdale",
+    "toName": "Calgary International Airport",
+    "departAt": "2025-11-04T00:00:00.000Z",
+    "acType": "Cessna Citation Excel",
+    "acClass": "Midsize Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "04-11-2025 00:00 → 04-11-2025 23:59 | Price on Request"
+  }
+}

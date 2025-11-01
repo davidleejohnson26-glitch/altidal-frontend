@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"9bde3af6fccc4a4b\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"BED\",\n                toIata: \"NMC\",\n                fromIcao: \"KBED\",\n                toIcao: \"MYEN\",\n                fromCity: \"Laurence G Hanscom Fld\",\n                toCity: \"Normans Cay\",\n                fromName: \"Laurence G Hanscom Fld\",\n                toName: \"Normans Cay\",\n                departAt: \"2025-12-09T00:00:00.000Z\",\n                acType: \"Challenger 604\",\n                acClass: \"Heavy Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"09-12-2025 00:00 → 09-12-2025 23:59 | Price on Request\"\n              },\n              create: {\n                id: \"9bde3af6fccc4a4b\",\n                operator: \"aviapages\",\n                fromIata: \"BED\",\n                toIata: \"NMC\",\n                fromIcao: \"KBED\",\n                toIcao: \"MYEN\",\n                fromCity: \"Laurence G Hanscom Fld\",\n                toCity: \"Normans Cay\",\n                fromName: \"Laurence G Hanscom Fld\",\n                toName: \"Normans Cay\",\n                departAt: \"2025-12-09T00:00:00.000Z\",\n                acType: \"Challenger 604\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"09-12-2025 00:00 → 09-12-2025 23:59 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "9bde3af6fccc4a4b",
+    "operator": "aviapages",
+    "fromIata": "BED",
+    "toIata": "NMC",
+    "fromIcao": "KBED",
+    "toIcao": "MYEN",
+    "fromCity": "Laurence G Hanscom Fld",
+    "toCity": "Normans Cay",
+    "fromName": "Laurence G Hanscom Fld",
+    "toName": "Normans Cay",
+    "departAt": "2025-12-09T00:00:00.000Z",
+    "acType": "Challenger 604",
+    "acClass": "Heavy Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "09-12-2025 00:00 → 09-12-2025 23:59 | Price on Request"
+  }
+}

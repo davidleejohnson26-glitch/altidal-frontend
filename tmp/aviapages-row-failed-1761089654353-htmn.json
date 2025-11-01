@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"c60793012407a9e0\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"SEE\",\n                toIata: \"VNY\",\n                fromIcao: \"KSEE\",\n                toIcao: \"KVNY\",\n                fromCity: \"Gillespie Field\",\n                toCity: \"Van Nuys\",\n                fromName: \"Gillespie Field\",\n                toName: \"Van Nuys\",\n                departAt: \"2025-10-22T00:00:00.000Z\",\n                acType: \"Beechcraft King Air 200\",\n                acClass: \"Turboprop\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-10-2025 00:00 → 24-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"c60793012407a9e0\",\n                operator: \"aviapages\",\n                fromIata: \"SEE\",\n                toIata: \"VNY\",\n                fromIcao: \"KSEE\",\n                toIcao: \"KVNY\",\n                fromCity: \"Gillespie Field\",\n                toCity: \"Van Nuys\",\n                fromName: \"Gillespie Field\",\n                toName: \"Van Nuys\",\n                departAt: \"2025-10-22T00:00:00.000Z\",\n                acType: \"Beechcraft King Air 200\",\n                acClass: \"Turboprop\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"22-10-2025 00:00 → 24-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "c60793012407a9e0",
+    "operator": "aviapages",
+    "fromIata": "SEE",
+    "toIata": "VNY",
+    "fromIcao": "KSEE",
+    "toIcao": "KVNY",
+    "fromCity": "Gillespie Field",
+    "toCity": "Van Nuys",
+    "fromName": "Gillespie Field",
+    "toName": "Van Nuys",
+    "departAt": "2025-10-22T00:00:00.000Z",
+    "acType": "Beechcraft King Air 200",
+    "acClass": "Turboprop",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "22-10-2025 00:00 → 24-10-2025 00:00 | Price on Request"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\flyvictor.ts:384:28\n\n  381 try {\n  382   await withConcurrency(batch, 6, async (r) => {\n  383     try {\n→ 384       await prisma.leg.upsert({\n              where: {\n                id: \"c74c36d72e5eddd0\"\n              },\n              update: {\n                operator: \"flyvictor\",\n                fromIata: \"OPF\",\n                toIata: \"TEB\",\n                fromName: \"OPF\",\n                toName: \"TEB\",\n                fromCity: \"OPF\",\n                toCity: \"TEB\",\n                departAt: \"2025-10-23T00:00:00.000Z\",\n                acType: \"Citation X\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 23973,\n                url: \"https://www.flyvictor.com/en-us/flights/\"\n              },\n              create: {\n                id: \"c74c36d72e5eddd0\",\n                operator: \"flyvictor\",\n                fromIata: \"OPF\",\n                toIata: \"TEB\",\n                fromName: \"OPF\",\n                toName: \"TEB\",\n                fromCity: \"OPF\",\n                toCity: \"TEB\",\n                departAt: \"2025-10-23T00:00:00.000Z\",\n                acType: \"Citation X\",\n                acClass: \"Midsize Jet\",\n                priceUSD: 23973,\n                url: \"https://www.flyvictor.com/en-us/flights/\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` is missing.",
+    "meta": null
+  },
+  "row": {
+    "id": "c74c36d72e5eddd0",
+    "operator": "flyvictor",
+    "fromIata": "OPF",
+    "toIata": "TEB",
+    "fromName": "OPF",
+    "toName": "TEB",
+    "fromCity": "OPF",
+    "toCity": "TEB",
+    "departAt": "2025-10-23T00:00:00.000Z",
+    "acType": "Citation X",
+    "acClass": "Midsize Jet",
+    "priceUSD": 23973,
+    "url": "https://www.flyvictor.com/en-us/flights/"
+  }
+}

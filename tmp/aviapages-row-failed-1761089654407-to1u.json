@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"851b5517b2902d13\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"MAN\",\n                toIata: \"NCL\",\n                fromIcao: \"EGCC\",\n                toIcao: \"EGNT\",\n                fromCity: \"Manchester\",\n                toCity: \"Newcastle\",\n                fromName: \"Manchester\",\n                toName: \"Newcastle\",\n                departAt: \"2025-10-29T00:00:00.000Z\",\n                acType: \"Embraer Praetor 600\",\n                acClass: \"Unknown\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"29-10-2025 00:00 → 29-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"851b5517b2902d13\",\n                operator: \"aviapages\",\n                fromIata: \"MAN\",\n                toIata: \"NCL\",\n                fromIcao: \"EGCC\",\n                toIcao: \"EGNT\",\n                fromCity: \"Manchester\",\n                toCity: \"Newcastle\",\n                fromName: \"Manchester\",\n                toName: \"Newcastle\",\n                departAt: \"2025-10-29T00:00:00.000Z\",\n                acType: \"Embraer Praetor 600\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"29-10-2025 00:00 → 29-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "851b5517b2902d13",
+    "operator": "aviapages",
+    "fromIata": "MAN",
+    "toIata": "NCL",
+    "fromIcao": "EGCC",
+    "toIcao": "EGNT",
+    "fromCity": "Manchester",
+    "toCity": "Newcastle",
+    "fromName": "Manchester",
+    "toName": "Newcastle",
+    "departAt": "2025-10-29T00:00:00.000Z",
+    "acType": "Embraer Praetor 600",
+    "acClass": "Unknown",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "29-10-2025 00:00 → 29-10-2025 00:00 | Price on Request"
+  }
+}

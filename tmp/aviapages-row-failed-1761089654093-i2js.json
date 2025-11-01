@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"7ca32e4755addd24\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"AUS\",\n                toIata: \"DAL\",\n                fromIcao: \"KAUS\",\n                toIcao: \"KDAL\",\n                fromCity: \"Austin-Bergstrom Intl\",\n                toCity: \"Dallas Love\",\n                fromName: \"Austin-Bergstrom Intl\",\n                toName: \"Dallas Love\",\n                departAt: \"2025-10-23T00:00:00.000Z\",\n                acType: \"Hawker 400XP\",\n                acClass: \"Unknown\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-10-2025 00:00 → 24-10-2025 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"7ca32e4755addd24\",\n                operator: \"aviapages\",\n                fromIata: \"AUS\",\n                toIata: \"DAL\",\n                fromIcao: \"KAUS\",\n                toIcao: \"KDAL\",\n                fromCity: \"Austin-Bergstrom Intl\",\n                toCity: \"Dallas Love\",\n                fromName: \"Austin-Bergstrom Intl\",\n                toName: \"Dallas Love\",\n                departAt: \"2025-10-23T00:00:00.000Z\",\n                acType: \"Hawker 400XP\",\n                acClass: \"Unknown\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"23-10-2025 00:00 → 24-10-2025 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "7ca32e4755addd24",
+    "operator": "aviapages",
+    "fromIata": "AUS",
+    "toIata": "DAL",
+    "fromIcao": "KAUS",
+    "toIcao": "KDAL",
+    "fromCity": "Austin-Bergstrom Intl",
+    "toCity": "Dallas Love",
+    "fromName": "Austin-Bergstrom Intl",
+    "toName": "Dallas Love",
+    "departAt": "2025-10-23T00:00:00.000Z",
+    "acType": "Hawker 400XP",
+    "acClass": "Unknown",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "23-10-2025 00:00 → 24-10-2025 00:00 | Price on Request"
+  }
+}

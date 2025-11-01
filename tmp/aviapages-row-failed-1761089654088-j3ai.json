@@ -1,0 +1,26 @@
+{
+  "error": {
+    "name": "PrismaClientValidationError",
+    "message": "\nInvalid `prisma.leg.upsert()` invocation in\nC:\\Users\\djorn\\Downloads\\altidal-frontend\\scripts\\sources\\aviapages.ts:427:28\n\n  424 try {\n  425   await withConcurrency(batch, 6, async (r) => {\n  426     try {\n→ 427       await prisma.leg.upsert({\n              where: {\n                id: \"7670dd5c9eac4e41\"\n              },\n              update: {\n                operator: \"aviapages\",\n                fromIata: \"VNY\",\n                toIata: \"ELH\",\n                fromIcao: \"KVNY\",\n                toIcao: \"MYEH\",\n                fromCity: \"Van Nuys\",\n                toCity: \"North Eleuthera\",\n                fromName: \"Van Nuys\",\n                toName: \"North Eleuthera\",\n                departAt: \"2026-01-02T00:00:00.000Z\",\n                acType: \"Gulfstream G650ER\",\n                acClass: \"Heavy Jet\",\n                seats: null,\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"02-01-2026 00:00 → 02-01-2026 00:00 | Price on Request\"\n              },\n              create: {\n                id: \"7670dd5c9eac4e41\",\n                operator: \"aviapages\",\n                fromIata: \"VNY\",\n                toIata: \"ELH\",\n                fromIcao: \"KVNY\",\n                toIcao: \"MYEH\",\n                fromCity: \"Van Nuys\",\n                toCity: \"North Eleuthera\",\n                fromName: \"Van Nuys\",\n                toName: \"North Eleuthera\",\n                departAt: \"2026-01-02T00:00:00.000Z\",\n                acType: \"Gulfstream G650ER\",\n                acClass: \"Heavy Jet\",\n                priceUSD: 0,\n                url: \"https://aviapages.com/charter_at_hand/\",\n                notes: \"02-01-2026 00:00 → 02-01-2026 00:00 | Price on Request\",\n            +   seats: Int\n              }\n            })\n\nArgument `seats` must not be null.",
+    "meta": null
+  },
+  "row": {
+    "id": "7670dd5c9eac4e41",
+    "operator": "aviapages",
+    "fromIata": "VNY",
+    "toIata": "ELH",
+    "fromIcao": "KVNY",
+    "toIcao": "MYEH",
+    "fromCity": "Van Nuys",
+    "toCity": "North Eleuthera",
+    "fromName": "Van Nuys",
+    "toName": "North Eleuthera",
+    "departAt": "2026-01-02T00:00:00.000Z",
+    "acType": "Gulfstream G650ER",
+    "acClass": "Heavy Jet",
+    "seats": null,
+    "priceUSD": 0,
+    "url": "https://aviapages.com/charter_at_hand/",
+    "notes": "02-01-2026 00:00 → 02-01-2026 00:00 | Price on Request"
+  }
+}
