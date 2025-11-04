@@ -43,39 +43,20 @@ function hashId(parts: (string | null | undefined)[]) {
   return h.digest('hex').slice(0, 16)
 }
 
-// ICAO→IATA map for common non-United States/Canada cases (Caribbean, Mexico, Europe, etc.)
+// ICAO→IATA quick map (extras beyond K*/C* heuristic)
 const ICAO_TO_IATA_MAP: Record<string, string> = {
-  MMSL: 'CSL', // Cabo San Lucas (GA field)
-  MMSD: 'SJD', // San José del Cabo (intl)
-  MBPV: 'PLS', // Providenciales, Turks & Caicos
-  EHAM: 'AMS', // Amsterdam
-  TUPJ: 'EIS', // Tortola/Beef Island
-  TAPB: 'BBQ', // Barbuda
-  TNCA: 'AUA', // Aruba
-  MDPC: 'PUJ', // Punta Cana
-  TAPA: 'ANU', // Antigua
-  TNCM: 'SXM', // St Maarten
-  MYNN: 'NAS', // Nassau
-  TQPF: 'AXA', // Anguilla
-  MMSP: 'SLP',
-  MMMX: 'MEX',
-  MMUN: 'CUN',
-  MMTJ: 'TIJ',
-  CYYZ: 'YYZ', // also covered by C+IATA heuristic
-  EGLL: 'LHR',
-  EGGW: 'LTN',
-  EGNX: 'EMA',
-  LFPG: 'CDG',
-  LEMD: 'MAD',
-  LIRF: 'FCO',
+  MMSL:'CSL', MMSD:'SJD', MBPV:'PLS', EHAM:'AMS', TUPJ:'EIS', TAPB:'BBQ',
+  TNCA:'AUA', MDPC:'PUJ', TAPA:'ANU', TNCM:'SXM', MYNN:'NAS', TQPF:'AXA',
+  MMSP:'SLP', MMMX:'MEX', MMUN:'CUN', MMTJ:'TIJ',
+  CYYZ:'YYZ', EGLL:'LHR', EGGW:'LTN', EGNX:'EMA', LFPG:'CDG', LEMD:'MAD', LIRF:'FCO',
 }
 
 function icaoToIata(icao?: string | null): string | null {
   if (!icao) return null
   const s = icao.trim().toUpperCase()
   if (ICAO_TO_IATA_MAP[s]) return ICAO_TO_IATA_MAP[s]
-  if (/^K[A-Z]{3}$/.test(s)) return s.slice(1) // US: K + IATA
-  if (/^C[A-Z]{3}$/.test(s)) return s.slice(1) // Canada: C + IATA
+  if (/^K[A-Z]{3}$/.test(s)) return s.slice(1) // US
+  if (/^C[A-Z]{3}$/.test(s)) return s.slice(1) // CA
   return null
 }
 
@@ -83,7 +64,7 @@ function iataIcaoFromCell(text?: string | null): { iata: string | null, icao: st
   if (!text) return { iata: null, icao: null }
   const t = text.replace(/\s+/g, ' ').trim().toUpperCase()
 
-  // Prefer ICAO if present (e.g., KTEB, TNCM, EHAM)
+  // Prefer ICAO if present
   const icaoMatch = t.match(/\b([A-Z]{4})\b/)
   if (icaoMatch) {
     const icao = icaoMatch[1]
@@ -95,7 +76,7 @@ function iataIcaoFromCell(text?: string | null): { iata: string | null, icao: st
   const parenIata = t.match(/\(([A-Z]{3})\)/)
   if (parenIata) return { iata: parenIata[1], icao: null }
 
-  // Fallback 3-letter token (avoid ONE/WAY from “one-way” text)
+  // Fallback (avoid ONE/WAY)
   const bad = new Set(['ONE', 'WAY'])
   const three = (t.match(/\b([A-Z]{3})\b/g) || []).find(code => !bad.has(code)) || null
   return { iata: three, icao: null }
@@ -151,7 +132,7 @@ async function waitForTable(page: Page) {
 async function setPageLengthMax(page: Page) {
   const sel = await page.$('select[name$="_length"], .dataTables_length select, .nt_rows_per_page select')
   if (sel) {
-    const options: string[] = await sel.evaluate((s: any) => Array.from(s.options).map((o: any) => o.value))
+    const options: string[] = await sel.evaluate((s: HTMLSelectElement) => Array.from(s.options).map(o => o.value))
     const pick = options.includes('100') ? '100' : (options.includes('50') ? '50' : null)
     if (pick) {
       await sel.selectOption(pick)
@@ -168,7 +149,7 @@ async function getTableHandle(page: Page) {
 async function getTbodySignature(page: Page): Promise<string> {
   const table = await getTableHandle(page)
   if (!table) return ''
-  return table.evaluate((t: any) => {
+  return table.evaluate((t: HTMLTableElement) => {
     const first = t.querySelector('tbody tr')
     return (first?.textContent || '').trim().slice(0, 200)
   })
@@ -224,20 +205,25 @@ async function extractRows(page: Page): Promise<ScrapedLeg[]> {
   const tableHandle = await getTableHandle(page)
   if (!tableHandle) return []
 
-  const headers: string[] = await tableHandle.$$eval('thead th, thead td', (ths: any[]) =>
-    ths.map(th => (th.textContent || '').trim())
+  const headers: string[] = await tableHandle.$$eval(
+    'thead th, thead td',
+    (ths: Element[]) => ths.map(th => (th.textContent ?? '').trim())
   )
+
   const hm = mapHeaders(headers)
 
-  const rawRows = await tableHandle.$$eval('tbody tr', (trs: any[]) =>
-    trs
-      .filter(tr => String(tr.className || '').toLowerCase().indexOf('footable-detail-row') === -1)
-      .map(tr => {
-        const cells = Array.from(tr.querySelectorAll('td,th')).map(td => (td.textContent || '').trim())
-        const a = tr.querySelector('a[href]')
-        const link = a ? (a as HTMLAnchorElement).href : ''
-        return { cells, link }
-      })
+  const rawRows = await tableHandle.$$eval(
+    'tbody tr',
+    (trs: Element[]) =>
+      trs
+        .filter(tr => String((tr as HTMLElement).className || '').toLowerCase().indexOf('footable-detail-row') === -1)
+        .map(tr => {
+          const row = tr as HTMLTableRowElement
+          const cells = Array.from(row.querySelectorAll('td,th')).map(cell => (cell.textContent ?? '').trim())
+          const a = row.querySelector('a[href]') as HTMLAnchorElement | null
+          const link = a?.href ?? ''
+          return { cells, link }
+        })
   )
 
   const legs: ScrapedLeg[] = []
@@ -269,7 +255,6 @@ async function extractRows(page: Page): Promise<ScrapedLeg[]> {
     const departIso = start.iso
     const departText = [start.raw, end.raw].filter(Boolean).join(' → ') || null
 
-    // Require IATA codes (schema requires non-null)
     if (!fromIata || !toIata) {
       console.warn('[skip] missing IATA after dictionary/heuristics:', { fromCell, toCell, fromIcao, toIcao, fromIata, toIata })
       continue
@@ -353,11 +338,11 @@ async function clickNextLike(page: Page): Promise<boolean> {
 async function clickNumericPages(page: Page, visited = new Set<string>()): Promise<boolean> {
   const numbers: number[] = await page.$$eval(
     '.footable-pagination li a, .pagination li a, .nt-pagination li a, .dataTables_paginate a',
-    (els: any[]) =>
+    (els: Element[]) =>
       els
         .map(e => (e.textContent || '').trim())
-        .filter((t: string) => /^\d+$/.test(t))
-        .map((t: string) => Number(t))
+        .filter(t => /^\d+$/.test(t))
+        .map(t => Number(t))
   ).catch(() => [])
 
   if (!numbers.length) return false
@@ -442,19 +427,21 @@ async function saveToDb(rows: ScrapedLeg[]) {
           .filter(Boolean)
           .join(' | ') || null
 
+      const departDate = l.departAt ? new Date(l.departAt) : null
+
       return prisma.leg.upsert({
         where: { id: l.id },
         update: {
           operator: 'globalaircharters',
-          fromIata: l.fromIata!, // guaranteed by filter
-          toIata: l.toIata!,     // guaranteed by filter
+          fromIata: l.fromIata!,
+          toIata: l.toIata!,
           fromIcao: l.fromIcao ?? null,
           toIcao: l.toIcao ?? null,
           fromCity: l.fromCity ?? null,
           toCity: l.toCity ?? null,
           fromName: l.fromName ?? l.fromCity ?? l.fromIata ?? l.fromIcao ?? 'Unknown',
           toName:   l.toName   ?? l.toCity   ?? l.toIata   ?? l.toIcao   ?? 'Unknown',
-          departAt: l.departAt,
+          departAt: departDate,
           acType: l.acType ?? null,
           acClass: l.acClass ?? null,
           seats: l.seats ?? null,
@@ -473,7 +460,7 @@ async function saveToDb(rows: ScrapedLeg[]) {
           toCity: l.toCity ?? null,
           fromName: l.fromName ?? l.fromCity ?? l.fromIata ?? l.fromIcao ?? 'Unknown',
           toName:   l.toName   ?? l.toCity   ?? l.toIata   ?? l.toIcao   ?? 'Unknown',
-          departAt: l.departAt,
+          departAt: departDate,
           acType: l.acType ?? null,
           acClass: l.acClass ?? null,
           seats: l.seats ?? null,

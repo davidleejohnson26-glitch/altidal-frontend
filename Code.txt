@@ -1,0 +1,7 @@
+npx prisma studio
+npx tsx scripts/sources/flyvictor.ts
+
+npm run build
+
+$env:DATABASE_URL = "postgresql://postgres:Cityzen111%21%21%21@db.uhccbwwtrafibkwuzcus.supabase.co:5432/postgres?sslmode=require"
+npx prisma db pull

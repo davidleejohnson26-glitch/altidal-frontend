@@ -7,7 +7,7 @@ import fs from 'fs/promises'
 import path from 'path'
 import crypto from 'crypto'
 import { DateTime } from 'luxon'
-import { PrismaClient, Prisma } from '@prisma/client'
+import { PrismaClient } from '@prisma/client'
 
 const prisma = new PrismaClient()
 
@@ -75,7 +75,8 @@ function iataToIcao(iata?: string | null): string | null {
 // ---------- parsing helpers ----------
 function parseUSD(text?: string | null): number | null {
   if (!text) return null
-  const m = text.replace(/[, ]+/g, '').match(/\$?(\d+(\.\d+)?)/)
+  const cleaned = text.replace(/[, ]+/g, '')
+  const m = cleaned.match(/\$?(\d+(?:\.\d+)?)/)
   return m ? Number(m[1]) : null
 }
 
@@ -204,7 +205,7 @@ function parseJsonPayloads(payloads: Captured[]): ScrapedLeg[] {
           acType: acType ?? null,
           acClass,
           seats: null,
-          priceUSD: typeof price === 'number' ? price : parseUSD(String(price ?? '')),
+          priceUSD: typeof price === 'number' ? price : parseUSD(String(price ?? ''))!,
           url: String(link),
           sourceMeta: { source: 'xhr', url: p.url }
         })
@@ -379,22 +380,31 @@ function normalizeForDb(l: ScrapedLeg): LegRow {
   }
 }
 
-/** Lightweight promise pool */
-async function withConcurrency<T>(items: T[], limit: number, worker: (item: T, idx: number) => Promise<void>) {
+/** Lightweight promise pool (TS-friendly) */
+async function withConcurrency<T>(
+  items: T[],
+  limit: number,
+  worker: (item: T, idx: number) => Promise<void>
+) {
   let i = 0
   const running: Promise<void>[] = []
-  const runNext = () => {
+
+  const runNext = (): Promise<void> => {
     if (i >= items.length) return Promise.resolve()
+
     const idx = i++
     const p = worker(items[idx], idx).finally(() => {
-      running.splice(running.indexOf(p), 1)
+      const pos = running.indexOf(p)
+      if (pos >= 0) running.splice(pos, 1)
     })
     running.push(p)
+
     if (running.length >= limit) {
-      return Promise.race(running).then(runNext)
+      return Promise.race(running).then(() => runNext())
     }
-    return runNext()
+    return Promise.resolve().then(() => runNext())
   }
+
   await runNext()
   await Promise.all(running)
 }
@@ -410,10 +420,16 @@ async function saveToDb(rows: ScrapedLeg[], batchSize = 200) {
   // Normalize once
   const prepared = rows.map(normalizeForDb)
 
+  // Convert departAt to Date | null for Prisma
+  const preparedForCreate = prepared.map((r) => ({
+    ...r,
+    departAt: r.departAt ? new Date(r.departAt) : null,
+  }))
+
   // First attempt: createMany for speed
   try {
     const created = await prisma.leg.createMany({
-      data: prepared,
+      data: preparedForCreate as any,
       skipDuplicates: true,
     })
     console.log(`[db] createMany inserted=${created.count}, attempted=${prepared.length} (duplicates skipped)`)
@@ -437,16 +453,30 @@ async function saveToDb(rows: ScrapedLeg[], batchSize = 200) {
               fromIcao: r.fromIcao, toIcao: r.toIcao,
               fromCity: r.fromCity, toCity: r.toCity,
               fromName: r.fromName, toName: r.toName,
-              departAt: r.departAt,
+              departAt: r.departAt ? new Date(r.departAt) : null,
               acType: r.acType,
               acClass: r.acClass,
-              seats: r.seats,          // <- always a number
-              priceUSD: r.priceUSD,    // <- 0 when POR
+              seats: r.seats,
+              priceUSD: r.priceUSD,
               url: r.url,
               notes: r.notes,
             },
-            create: r, // r already normalized
-          })
+            create: {
+              id: r.id,
+              operator: r.operator,
+              fromIata: r.fromIata, toIata: r.toIata,
+              fromIcao: r.fromIcao, toIcao: r.toIcao,
+              fromCity: r.fromCity, toCity: r.toCity,
+              fromName: r.fromName, toName: r.toName,
+              departAt: r.departAt ? new Date(r.departAt) : null,
+              acType: r.acType,
+              acClass: r.acClass,
+              seats: r.seats,
+              priceUSD: r.priceUSD,
+              url: r.url,
+              notes: r.notes,
+            },
+          } as any)
           total++
         } catch (err: any) {
           fail++

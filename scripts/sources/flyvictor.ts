@@ -50,7 +50,7 @@ function hashId(parts: (string | null | undefined)[]) {
   return h.digest('hex').slice(0, 16)
 }
 
-// ---------- Airport indexes ----------
+// ---------- Airport & City indexes ----------
 type AirportIndex = { icaoToIata: Record<string, string>; iataToIcao: Record<string, string> }
 type CityIndex = Record<string, { city: string; name: string; country: string }>
 
@@ -140,8 +140,8 @@ function parseDateToISO(text?: string | null, formatGuess?: string): { iso: stri
   return { iso: null, raw }
 }
 
-function acClassFromType(t?: string | null): string | null {
-  if (!t) return null
+function acClassFromType(t?: string | null): string {
+  if (!t) return 'Unknown'
   const s = t.toUpperCase()
   if (/G650|G650ER|G600|G550|G500|GV\b/.test(s)) return 'Heavy Jet'
   if (/G[- ]?IV|GIV\b|G4\b/.test(s)) return 'Heavy Jet'
@@ -540,20 +540,31 @@ async function normalizeForDb(l: ScrapedLeg): Promise<LegRow> {
   }
 }
 
-async function withConcurrency<T>(items: T[], limit: number, worker: (item: T, idx: number) => Promise<void>) {
+// TS-safe lightweight promise pool (fixes implicit 'any' on runNext)
+async function withConcurrency<T>(
+  items: T[],
+  limit: number,
+  worker: (item: T, idx: number) => Promise<void>
+): Promise<void> {
   let i = 0
   const running: Promise<void>[] = []
-  const runNext = () => {
+
+  const runNext = (): Promise<void> => {
     if (i >= items.length) return Promise.resolve()
+
     const idx = i++
     const p = worker(items[idx], idx).finally(() => {
       const pos = running.indexOf(p)
       if (pos >= 0) running.splice(pos, 1)
     })
     running.push(p)
-    if (running.length >= limit) return Promise.race(running).then(runNext)
-    return runNext()
+
+    if (running.length >= limit) {
+      return Promise.race(running).then(() => runNext())
+    }
+    return Promise.resolve().then(() => runNext())
   }
+
   await runNext()
   await Promise.all(running)
 }
@@ -661,8 +672,8 @@ async function maybeLogin(context: BrowserContext) {
   }
 }
 
-// ---------- main ----------
-async function main() {
+// ---------- exportable scraper ----------
+export async function scrapeFlyVictor(): Promise<ScrapedLeg[]> {
   await ensureTmp()
   await loadAirportIndex()
   await loadCityIndex()
@@ -700,17 +711,25 @@ async function main() {
       }).filter(l => !!l.fromIata && !!l.toIata)
     )
 
-    // Save a final html snapshot for page 1
-    const page1 = await context.newPage()
-    await page1.goto(BASE_URL, { waitUntil: 'domcontentloaded', timeout: 60000 })
-    await fs.writeFile(HTML_PATH, await page1.content(), 'utf8')
-    await page1.close().catch(()=>{})
+    // Save a final html snapshot for page 1 (optional)
+    try {
+      const page1 = await context.newPage()
+      await page1.goto(BASE_URL, { waitUntil: 'domcontentloaded', timeout: 60000 })
+      await fs.writeFile(HTML_PATH, await page1.content(), 'utf8')
+      await page1.close().catch(()=>{})
+    } catch {}
 
     await context.close()
   } finally {
     await browser.close()
   }
 
+  return rows
+}
+
+// ---------- CLI entry (only when run directly) ----------
+async function main() {
+  const rows = await scrapeFlyVictor()
   console.log(`Parsed ${rows.length} leg(s) from Fly Victor`)
   for (const l of rows.slice(0, 40)) console.log(JSON.stringify(l, null, 2))
   if (rows.length > 40) console.log(`...and ${rows.length - 40} more.`)
@@ -718,8 +737,9 @@ async function main() {
   try {
     await saveToDb(rows, 200)
     console.log('Upserted rows into Prisma.Leg ✅')
-  } catch {
+  } catch (e: any) {
     console.error('Upsert failed during connection. Any per-row errors were dumped to tmp/.')
+    console.error('[saveToDb error]', e?.name || '', e?.code || '', e?.message || e)
   } finally {
     try { await prisma.$disconnect() } catch {}
   }
@@ -728,8 +748,10 @@ async function main() {
   console.log(`XHR dumps (if any): ${XHR_DIR}`)
 }
 
-main().catch(async (e) => {
-  console.error(e)
-  try { await prisma.$disconnect() } catch {}
-  process.exit(1)
-})
+if (process.argv[1]?.replace(/\\/g, '/').endsWith('/scripts/sources/flyvictor.ts')) {
+  main().catch(async (e) => {
+    console.error(e)
+    try { await prisma.$disconnect() } catch {}
+    process.exit(1)
+  })
+}

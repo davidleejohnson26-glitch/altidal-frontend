@@ -1,10 +1,12 @@
 // scripts/run/globalaircharters.ts
 // Usage: npx tsx scripts/run/globalaircharters.ts
-const start = Date.now()
-console.log(`[globalaircharters] start`)
+export {}; // make this file a module so top-level await works
+
+const start = Date.now();
+console.log(`[globalaircharters] start`);
 
 // Importing the source file executes it (it has its own main())
-await import('./sources/globalaircharters')
+await import('../scripts/sources/globalaircharters');
 
-const ms = Date.now() - start
-console.log(`[globalaircharters] done in ${ms}ms`)
+const ms = Date.now() - start;
+console.log(`[globalaircharters] done in ${ms}ms`);

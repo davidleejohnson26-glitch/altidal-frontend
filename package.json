@@ -35,6 +35,7 @@
   },
   "devDependencies": {
     "@types/cheerio": "^0.22.35",
+    "@types/luxon": "^3.7.1",
     "@types/node": "^24.5.2",
     "@types/react": "19.1.13",
     "autoprefixer": "10.4.19",
